@@ -3,7 +3,7 @@ from django.db import models
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    mobile_number = models.CharField(max_length=15)
+    mobile = models.CharField(max_length=15)
     city = models.CharField(max_length=100)
 
     def __str__(self):

@@ -76,10 +76,16 @@ WSGI_APPLICATION = 'transaction_category_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+       'ENGINE': 'mysql.connector.django',
+
+        'NAME': 'transaction_category',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',  # or your DB host
+        'PORT': '3306',       # Default MySQL port
     }
 }
+
 
 
 # Password validation

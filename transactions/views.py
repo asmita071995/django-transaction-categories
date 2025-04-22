@@ -36,7 +36,7 @@ def signup(request):
             )
             UserProfile.objects.create(
                 user=user,
-                mobile_number=form.cleaned_data['mobile_number'],
+                mobile=form.cleaned_data['mobile'],
                 city=form.cleaned_data['city']
             )
             return redirect('login')  # or whatever your login URL name is
