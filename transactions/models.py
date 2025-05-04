@@ -8,3 +8,9 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.user.username
+
+class RawTransaction(models.Model):
+    raw_data = models.TextField()
+
+    def __str__(self):
+        return f"RawTransaction {self.id}"
