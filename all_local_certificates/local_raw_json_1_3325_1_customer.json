@@ -1,0 +1,394 @@
+{
+  "bank": {
+    "bank_krn": "krn:openbanking:global:bank:14f88afe-00a1-49e0-b58c-7009847e121e",
+    "bank_code": "00000",
+    "bank_name": "Testbank",
+    "connection": "PSD2",
+    "country_code": "SE",
+    "integration_krn": "krn:openbanking:global:integration:5b25c1e6-7357-465d-ad14-3527a0a9f8a5",
+    "sub_integration_krn": "krn:openbanking:global:sub-integration:c95309d3-a0c5-40c7-a971-2d6aff33b4ef"
+  },
+  "accounts": [
+    {
+      "id": "NzRiOWMzOWItNDQxYi00ZGYzLWIyZjItODA5Y2Y1MWFjNzQ0",
+      "bic": "TESTSE10XXX",
+      "iban": "SE5500000000056867510168",
+      "alias": "Privatkonto",
+      "balance": 148815,
+      "balances": null,
+      "currency": "SEK",
+      "bank_code": "5686",
+      "holder_name": "Anders Andersson",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "SE"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "7510168"
+    },
+    {
+      "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+      "iban": "SE5700000006636951810175",
+      "alias": "Lönekonto",
+      "balance": 2159176,
+      "balances": null,
+      "currency": "SEK",
+      "bank_code": "6636",
+      "holder_name": "Karl Karlsson",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "SE"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "951810175",
+      "holder_address": {
+        "city": "Hästveda",
+        "country": "SE",
+        "postalcode": "28023",
+        "street_address": "Överhogdal 50"
+      }
+    },
+    {
+      "id": "YzQ1MzZlMDQtOGZjNy00YWFlLWEyOTEtNjcyZjYzMTJhM2Q3",
+      "bic": "TESTSE10XXX",
+      "iban": "SE1300000000048966411038",
+      "alias": "Checkräkningskonto",
+      "balance": -79480,
+      "balances": null,
+      "currency": "SEK",
+      "bank_code": "4896",
+      "holder_name": "Anders Andersson",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "SE"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "6411038"
+    },
+    {
+      "id": "YTM5ODI4ZWItNjk5NC00NTdhLTkxZjItYzI5ZmExMzU5Y2Nm",
+      "bic": "TESTSE10XXX",
+      "iban": "SE0900000087464418131059",
+      "alias": "Sparkonto",
+      "balance": 27054800,
+      "balances": null,
+      "currency": "SEK",
+      "bank_code": "8746",
+      "holder_name": "Anders Andersson",
+      "account_type": "SAVING",
+      "bank_address": {
+        "country": "SE"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": false
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "REFERENCE",
+      "account_number": "4418131059"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2024-04-12",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 103289,
+        "currency": "SEK"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "eBay",
+      "value_date": "2024-04-13",
+      "booking_date": "2024-04-12",
+      "counter_party": {
+        "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+        "iban": "SE5700000006636951810175",
+        "alias": "Lönekonto",
+        "bank_code": "6636",
+        "holder_name": "Karl Karlsson",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "951810175",
+        "holder_address": {
+          "city": "Hästveda",
+          "country": "SE",
+          "postalcode": "28023",
+          "street_address": "Överhogdal 50"
+        }
+      },
+      "account_number": "7510168",
+      "transaction_id": "accf33c65c041a2997832937b3944fc3",
+      "bank_references": {
+        "unstructured": "eBay"
+      },
+      "bank_transaction_id": "ZGU4ZWQyYWQtMWM1YS00ZTQxLWFiZmEtZDU1YWNkMWM2YTY5"
+    },
+    {
+      "date": "2024-04-11",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 139900,
+        "currency": "SEK"
+      },
+      "method": "TRANSFER",
+      "reference": "zalando plus fashion-service 5812871289",
+      "value_date": "2024-04-12",
+      "booking_date": "2024-04-11",
+      "counter_party": {
+        "id": "ODE5NGNlMzAtZGY2OS00N2JiLTgzNjQtYmI5ZTc4NDljM2Ux",
+        "iban": "SE3400000000081166411059",
+        "holder_name": "Zalando",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "00000000081166411059"
+      },
+      "account_number": "7510168",
+      "transaction_id": "2472f155aa8a629940f3976d55eee6c2",
+      "bank_references": {
+        "unstructured": "zalando plus fashion-service 5812871289"
+      },
+      "bank_transaction_id": "MzY5N2Y1OGItNTJkOS00MDkxLTllMTktNTQ5YjljNzVhYzZi"
+    },
+    {
+      "date": "2024-04-11",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 65000,
+        "currency": "SEK"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "DIREKTBETALNING AMAZON PRIME VIDEO END-TO-END-REF.: / MANDATSREF.: GLÄUBIGER-ID: Ref. AMAZON MEDIA EU S.A R.L.",
+      "value_date": "2024-04-12",
+      "booking_date": "2024-04-11",
+      "counter_party": {
+        "id": "OWFjYmRmOWItZDY3Ny00MGU2LTg2MjktZWZlYzU5NGI0ZDgw",
+        "iban": "SE5200000000017164481059",
+        "holder_name": "AMAZON MEDIA EU S.A R.L.",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "00000000017164481059"
+      },
+      "account_number": "7510168",
+      "transaction_id": "c9b4273cf01ba9c11b8280b5700e9339",
+      "bank_references": {
+        "unstructured": "DIREKTBETALNING AMAZON PRIME VIDEO END-TO-END-REF.: / MANDATSREF.: GLÄUBIGER-ID: Ref. AMAZON MEDIA EU S.A R.L."
+      },
+      "bank_transaction_id": "YjgwZWMzMDgtYTg4Yy00MzA3LTgwMmQtMTY3NWZjY2YzMTU5"
+    },
+    {
+      "date": "2024-04-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 500000,
+        "currency": "SEK"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "transfer",
+      "value_date": "2024-04-09",
+      "counter_party": {
+        "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+        "iban": "SE5700000006636951810175",
+        "alias": "Lönekonto",
+        "bank_code": "6636",
+        "holder_name": "Karl Karlsson",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "951810175",
+        "holder_address": {
+          "city": "Hästveda",
+          "country": "SE",
+          "postalcode": "28023",
+          "street_address": "Överhogdal 50"
+        }
+      },
+      "account_number": "7510168",
+      "transaction_id": "aa664889d90ee440cc95cd9c70e227b3",
+      "bank_references": {
+        "unstructured": "transfer"
+      },
+      "bank_transaction_id": "YTY4MjY2ZmItZTdmMy00NGYzLWFhZmMtYjI0NmM3Yjk0Zjcx"
+    },
+    {
+      "date": "2024-04-08",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 11199,
+        "currency": "SEK"
+      },
+      "method": "TRANSFER",
+      "reference": "Netflix 2388191",
+      "value_date": "2024-04-09",
+      "booking_date": "2024-04-08",
+      "counter_party": {
+        "id": "ODI4ODRjZjAtODU0MS00MjY1LThhN2UtYTk5NjYwMGMxNGZj",
+        "holder_name": "Netflix",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL"
+      },
+      "account_number": "7510168",
+      "transaction_id": "8220385e3865d14f324a9b6bb0e2006e",
+      "bank_references": {
+        "unstructured": "Netflix 2388191"
+      },
+      "bank_transaction_id": "NjQ2NGY5YWYtYzE4Yi00OWNkLTlhOWEtMjRiZWNmNmY1ZTc2"
+    },
+    {
+      "date": "2024-04-08",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 5800,
+        "currency": "SEK"
+      },
+      "method": "TRANSFER",
+      "reference": "Thanks for the coffee",
+      "value_date": "2024-04-09",
+      "booking_date": "2024-04-08",
+      "counter_party": {
+        "id": "ZDFiYzc1YzEtNmRiOS00ODY1LTk1NTYtMjg5YjdkMGNkYzQ4",
+        "iban": "SE9000000000027164421059",
+        "holder_name": "Angela Murkel",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "00000000027164421059"
+      },
+      "account_number": "7510168",
+      "transaction_id": "02f2eb2fa3b315aff5562c537b14c942",
+      "bank_references": {
+        "unstructured": "Thanks for the coffee"
+      },
+      "bank_transaction_id": "NjQ2NGY5YWYtYzE4Yi00OWNkLTlhOWEtMjRiZWNmNmY1ZTc2"
+    },
+    {
+      "date": "2024-04-08",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 77916,
+        "currency": "SEK"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "523628918",
+      "value_date": "2024-04-09",
+      "booking_date": "2024-04-08",
+      "counter_party": {
+        "id": "YjYyODYzMzgtNTExZi00MDQyLThmY2MtMzkyNjU5NGI1MGI3",
+        "holder_name": "Spotify",
+        "account_type": "DEFAULT"
+      },
+      "account_number": "7510168",
+      "transaction_id": "d03d0c237d9f4223aa62e82ea15c0b29",
+      "bank_references": {
+        "unstructured": "523628918"
+      },
+      "bank_transaction_id": "MjE3YjEyZDAtNjJlYi00MGQxLTg2MmItNjc4NjBhOTc0YWEx"
+    },
+    {
+      "date": "2024-04-04",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 49999,
+        "currency": "SEK"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "302-123123-1900368 AMZN Mktp SE HEWEHASQE",
+      "value_date": "2024-04-05",
+      "booking_date": "2024-04-04",
+      "counter_party": {
+        "id": "NWI4NzVjMDktZDQ0OC00NzY4LWJjM2QtOTc4NTM2YzY3YjIw",
+        "holder_name": "AMAZON PAYMENTS SEKOPE S.C.A.",
+        "account_type": "DEFAULT"
+      },
+      "account_number": "7510168",
+      "transaction_id": "0fd010c8cbf33e5e3e73e068fe9f65b6",
+      "bank_references": {
+        "unstructured": "302-123123-1900368 AMZN Mktp SE HEWEHASQE"
+      },
+      "bank_transaction_id": "ZGFlY2Y5OGEtMTdlZi00ZTliLWIyNzktN2ZiZDYwMTBjNDdh"
+    },
+    {
+      "date": "2024-04-01",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 750000,
+        "currency": "SEK"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "Rent",
+      "value_date": "2024-04-02",
+      "booking_date": "2024-04-01",
+      "counter_party": {
+        "id": "NDc1MjZiOGYtMjhmZi00OWRjLWI0NDQtZWRkYTFiMTM1Mzcz",
+        "iban": "SE7700000000037165410159",
+        "holder_name": "Franz Maier",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "00000000037165410159"
+      },
+      "account_number": "7510168",
+      "transaction_id": "d0092f9acd25becc49fa891b9c67ede6",
+      "bank_references": {
+        "unstructured": "Rent"
+      },
+      "bank_transaction_id": "NjMxODkzZjktZTY4Ni00YzlhLWEwZWMtMzk3ODJhNWE5MWY0"
+    }
+  ]
+}

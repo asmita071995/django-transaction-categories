@@ -1,0 +1,4650 @@
+{
+  "bank": {
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/DE/Solarisbank/",
+    "name": "Solarisbank",
+    "country": "DE",
+    "psu_types": [
+      "business"
+    ],
+    "auth_methods": [
+      {
+        "approach": "REDIRECT",
+        "psu_type": "business",
+        "hidden_method": false
+      }
+    ],
+    "maximum_consent_validity": 7776000
+  },
+  "accounts": [
+    {
+      "uid": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "name": "",
+      "usage": null,
+      "details": null,
+      "product": null,
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Interim available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "45966.58",
+                "currency": "EUR"
+              },
+              "reference_date": "2024-01-24",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "EUR",
+      "account_id": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "DE20110101015645980387"
+        }
+      ],
+      "account_servicer": null,
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.iPKEu9N5f83j3LOZCnxtHjVlDwm1dOraZxajeU88ofg=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.lqRH4vixXCjKI50Qu2qiKmR2F6vhukeIXh29IK9c/XE=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.iPKEu9N5f83j3LOZCnxtHjVlDwm1dOraZxajeU88ofg=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.2mOnl12sTkv94V6HuCPYNSqKOI1z5eL/NRMIIyiUCnk="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-24",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "0.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "VERIFICATION_CODE",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Ihr Verifizierungscode: 409005. Geben Sie Ihren Code im my.Solarisbank Portal ein, um Ihr Bankkonto zu verifizieren."
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Vistaprint",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-19",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "552.06",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vistaprint,Venlo"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA04UG2015",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "866.32",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 13760"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA02HD0015",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "66.64",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 13784"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Katharina Nacke",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-16",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE15200100200507311209",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "16766.63",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Auftrag AF 0159 Kd 10046"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Peter Schmidt",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-16",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE26500105175429099815",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "SXI000001495863399240116",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "13197.3",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Auftrag AF0166, Kd.-Nr. 10059, 75 Prozent Anzahlung"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Eturnity AG",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-12",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "f6019f795147524f0cfa2e23aa22e7a6ctx",
+      "creditor_account": {
+        "iban": "CH9300700130009521038",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "870.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE-2023121116"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Zentrale zur Bekampfung unlauteren Wettbewerbs Frankfurt am Main e.V.",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "26655e4596caf837d1a46730256bc7e3ctx",
+      "creditor_account": {
+        "iban": "DE79500100600059419601",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "374.5",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "F 11 0268/23"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "STEUERVERWALTUNG NRW",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE95300500000004051413",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "634.27",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "StNr 351/5706/3224 Umsatzsteuer Dez. 23 634,27"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Haufe Service Center GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "CB20240105IF224005D1950557000020800",
+      "creditor_account": {
+        "iban": "DE11672400390191115511",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "35.58",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "5683.3799.5640 Haufe Service Center GmbH lx2023120240902 WCGH-SLYB lexoffice XL 658f3fcdc47fa00264ee3e43"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "All Solutions",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "90cb1a994604bf2101edae5bd10af1a9ctx",
+      "creditor_account": {
+        "iban": "DE57600700240935645200",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "238.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0007"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "All Solutions",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "0cc49fd43ededfa8788be4369846a5cfctx",
+      "creditor_account": {
+        "iban": "DE57600700240935645200",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "476.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0006"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Klytta, Markus und Joanna",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-05",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE30400605600001512170",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "401055464300000622",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2835.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Auftrag Nr.AF0160Kn.Nr.10120 Klytta Markus"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "STEUERVERWALTUNG NRW",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-05",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE95300500000004051413",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "961.76",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "StNr 351/5706/3224 Umsatzsteuer Dez. 23 961,76"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Kevin-Silvan Keuters",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "852dbbbf7a2eb024c7fb1c1f896c93c6ctx",
+      "creditor_account": {
+        "iban": "DE63100101235911517261",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2380.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE-2023-003 Beratung"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Kevin-Silvan Keuters",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "694e4f21614680508d7396408f2fbcebctx",
+      "creditor_account": {
+        "iban": "DE63100101235911517261",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1559.2",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE-2023-002 Beitz"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "AXA Versicherung Aktiengesellschaft",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "02-725024862080",
+      "creditor_account": {
+        "iban": "DE04300500000000444166",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "538.4",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Profi-Schutz Haftpflicht-Versicherung 40240482074 BTR. 01/24 538,40. EUR"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "AXA Versicherung Aktiengesellschaft",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "02-725024862081",
+      "creditor_account": {
+        "iban": "DE04300500000000444166",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "194.15",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Profi-Schutz Sach-Versicherung 40550055548 BTR. 01/24 194,15. EUR"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "PNL Fintech B.V.",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2024-01-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "12444efb7ab88cff052e1c441b1e6087dtx",
+      "creditor_account": {
+        "iban": "DE39110101015542352035",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "33.32",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Monthly fee for Premium plan (incl. VAT). Subscription period: 28 Dec, 2023 - 27 Jan, 2024"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "All Solutions",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "5345840a4b07b6955402088750fe6a9actx",
+      "creditor_account": {
+        "iban": "DE57600700240935645200",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "119.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0004"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Bensolar GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "357.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPAInstantCreditTransfer",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0003"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "HEYFLOW.COM",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-24",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "152.32",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "HEYFLOW.COM,HAMBURG"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "STEUERVERWALTUNG NRW",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-19",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE95300500000004051413",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "5.32",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "StNr 351/5706/3224 Umsatzsteuer Nov. 23 5,32"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "KARL-HEINZ LANGEHEGERMANN ELKE LANGEHEGERMANN",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE27424512200009503376",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "WELADED1BOTA2734663322693x1",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "3000.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Auft.Nr.AF0154 Kundennr.10054"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA033DM345",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "533.12",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 13323"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA02YYS345",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "399.84",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 13334"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "STEUERVERWALTUNG NRW",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-11",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE95300500000004051413",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "4897.24",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "StNr 351/5706/3224 Umsatzsteuer Nov. 23 4.897,24"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "RA Holger Jurna",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "465834aec2fddc09a31c469f06e124e4ctx",
+      "creditor_account": {
+        "iban": "DE60370700240227529500",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "119.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00387-23"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Haufe Service Center GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "CB20231205IE223339D2255646000004420",
+      "creditor_account": {
+        "iban": "DE11672400390191115511",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "17.79",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "5656.5003.8956 Haufe Service Center GmbH lx2023110234150 WCGH-SLYB lexoffice XL 6567a4147f15cdbd17b0ec91"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-06",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA036C9338",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "666.4",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 13235"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-06",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA04QN6338",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "666.4",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 13185"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Sparkasse",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-05",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "5c80bca23b34c5dea48f6a826619c203ctx",
+      "creditor_account": {
+        "iban": "DE13478500650088017407",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "38.21",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Kontofuehrung"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Kevin-Silvan Keuters",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-05",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "506f80a69922fe459837fe5a758fc10ectx",
+      "creditor_account": {
+        "iban": "DE63100101235911517261",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2975.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE-2023-001"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE *ADS2860896495",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-12-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "131.25",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "GOOGLE *ADS2860896495,cc§google.com"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "STEUERVERWALTUNG NRW",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE95300500000004051413",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "4313.96",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "StNr 351/5706/3224 Umsatzsteuer Okt. 23 4.313,96"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "PNL Fintech B.V.",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "da69b3ddf9a9f0128a5b79bbaa5cb0a7dtx",
+      "creditor_account": {
+        "iban": "DE39110101015542352035",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "33.32",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Monthly fee for Premium plan (incl. VAT). Subscription period: 28 Nov - 27 Dec, 2023"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA031ST331",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1066.24",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 12979"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA02T6L331",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1066.24",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 12950"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Fix  Fertig Bau GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "6d74deb5a902a9b866a8712108393458ctx",
+      "creditor_account": {
+        "iban": "DE89291623940085685100",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2355.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "1093 Fam. Beitz DC-Montage"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Green TC GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "6fe5d3676ffa2a57e782603d1bae0611ctx",
+      "creditor_account": {
+        "iban": "DE48478500650088009793",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "10303.02",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "2023-7119"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "MICHAEL BEITZ",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE07291517001011842588",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "BRLADE21SYKB1C32957527562w5",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "10000.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0400 lxoQR / Anteilig 1 von 2"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "MICHAEL BEITZ",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE07291517001011842588",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "BRLADE21SYKB1C33052060734x6",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "7008.2",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0400 lxoQR / Anteilig 2 von 2"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Herbert und Elke Kohler",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE63403500050002805315",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "WELADED1RHNA0432853152968s1",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "3637.5",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "AB AF 0001 v.15.11.23 Kd. 10015 1 Anzahlung 15. bei AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE*ADS2860896495",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-26",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "300.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "GOOGLE*ADS2860896495,CC GOOGLE.COM"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "HEYFLOW.COM",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-24",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "152.32",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "HEYFLOW.COM,HAMBURG"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-22",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA04KDR324",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1266.16",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 12895"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-22",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA04K7Y324",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2265.76",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH - Leads: Solaranlage - Rnr: 12854"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE*ADS2860896495",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-20",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "GOOGLE*ADS2860896495,CC GOOGLE.COM"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "STEUERVERWALTUNG NRW",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-20",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE95300500000004051413",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2.84",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "StNr 351/5706/3224 Umsatzsteuer Sept.23 2,84"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Fix  Fertig Bau GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-14",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "40f75a47e5f60109c6d089dd30221cd6ctx",
+      "creditor_account": {
+        "iban": "DE89291623940085685100",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "3665.2",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Rechnung Nr. 1085"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "CODEDESIGN",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-14",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "92.63",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "CODEDESIGN,HTTPSCODEDESI"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Keuters  Pekrul GbR",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-14",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "4da3af8cfd10b50ba97ea43a7d970771ctx",
+      "creditor_account": {
+        "iban": "DE87100101237911751986",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "3516.45",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE-2023-0003"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "GOTTFRIED UND BRIGITTE KOPP",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE11401545300091507426",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "WELADE3WXXXA0E31539283059w1",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1919.8",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Schlussrechnung Nr. RE0399 vom 10.11.23 Kd-Nr. 10003"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "AXA Versicherung Aktiengesellschaft",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "02-550030203767",
+      "creditor_account": {
+        "iban": "DE04300500000000444166",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "35.59",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Profi-Schutz Sach-Versicherung 40550055548 ERSTBTR 11/23 35,59. EUR"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "AXA Versicherung Aktiengesellschaft",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "02-550030203766",
+      "creditor_account": {
+        "iban": "DE04300500000000444166",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "98.71",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Profi-Schutz Haftpflicht-Versicherung 40240482074 ERSTBTR 11/23 98,71. EUR"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Vistaprint",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-11",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "186.82",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vistaprint,Venlo"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Butt Elektrotechnik GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "18f34661e5141225e1c05edeccc3022fctx",
+      "creditor_account": {
+        "iban": "DE94280662140109930200",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "3510.5",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE-1286"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA0AGR8312",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1592.22",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH Leads : Re: 12673"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA0AG8G312",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1466.08",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH Leads : Solaranlage Re 12737"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GoCardless",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "DEDA0AESM312",
+      "creditor_account": {
+        "iban": "DE81503104000437760000",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "133.28",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Einfach zum Angebot GmbH Leads : Solaranlage Re: 12731"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Green TC GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "c6dbd1820cafecacedd03ba4af23d144ctx",
+      "creditor_account": {
+        "iban": "DE48478500650088009793",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "464.1",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "2023-6882"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Green TC GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "a51b9be5c67ad4814a5816b26572a6abctx",
+      "creditor_account": {
+        "iban": "DE48478500650088009793",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "8875.02",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "2023-6762"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "GOTTFRIED UND BRIGITTE KOPP",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE11401545300091507426",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "WELADE3WXXXA0E31159992889w0",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "14398.5",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RE0398 vom 6.11.23 Kd-Nr. 10003"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Haufe Service Center GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-06",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "CB20231102IC223306D2201327000013847",
+      "creditor_account": {
+        "iban": "DE11672400390191115511",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "17.79",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "5627.9956.3634 Haufe Service Center GmbH lx2023100229808 WCGH-SLYB lexoffice XL 653ec5c7c73ca2fafb2c75ba"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE *ADS2860896495",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "110.71",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "GOOGLE *ADS2860896495,cc§google.com"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Keuters  Pekrul GbR",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "fe0a11f80d0656b051d20bdb90128500ctx",
+      "creditor_account": {
+        "iban": "DE87100101237911751986",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1899.03",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "AF-2023-001"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "MEINERS, HEDWIG",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE59280501000071221337",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "133006903004",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2656.35",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "10023 RNV. RE.397"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "OTTO Payments GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "ac86cd80b9d4d6984ec2226e10b86865ctx",
+      "creditor_account": {
+        "iban": "DE12201207003100990333",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "739.74",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "AXN-FTW-WTY-QKX"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Vistaprint",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-25",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "385.07",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vistaprint,Venlo"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Vistaprint",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-25",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "124.81",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vistaprint,Venlo"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Daniel Christian Kowollik",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-23",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "d3b8aa0a78ed115b59ac41c0c91db46dctx",
+      "creditor_account": {
+        "iban": "DE60100110012620399220",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1190.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "2023-3814"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Flyeralarm GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-20",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "6c6d37043799be4d6b28bd6ae5ad5ffectx",
+      "creditor_account": {
+        "iban": "DE40100400000202926200",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "81.11",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "KA3751580S4"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Brandhorst GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-19",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "f1b6d3c6d875a4ca3b673b2b93f61f7actx",
+      "creditor_account": {
+        "iban": "DE54290501010008009326",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "4336.76",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Projekt Andreas Meiners"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Zentrale Zahlstelle Justiz Dt. Bundesbank Fil. Dortmund",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-19",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "670770b5506d7d076f8a9de2a96be661ctx",
+      "creditor_account": {
+        "iban": "DE84440000000041001509",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "X703009463343X"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE*ADS2860896495",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-18",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "50.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "GOOGLE*ADS2860896495,CC GOOGLE.COM"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE*ADS2860896495",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-18",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE28110101010000310001",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "10.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "CARD_TRANSACTION",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "GOOGLE*ADS2860896495,CC GOOGLE.COM"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Fix  Fertig Bau GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-18",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "e40476a3e96650c2a74374b7245ed537ctx",
+      "creditor_account": {
+        "iban": "DE89291623940085685100",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2437.42",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Rechnung Nr. 1080 Meiners"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "CHRISTIAN BRAUN",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-18",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE65200505501125760007",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "132901052088",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2700.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "ANZAHLUNG KD-NR10010 FUER ANGEROT AB0398"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Green TC GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-18",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "34922455514f4a924419822d90b741dfctx",
+      "creditor_account": {
+        "iban": "DE48478500650088009793",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "6743.73",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Rechnung Nr. 2023-6333"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Hedwig Meiners",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE59280501000071221337",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "SLZODE22XXXB1129038316647s0",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "15052.65",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "10023 Re. Nr. 395 1.Abschlag"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Thomas Keuters",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE55200907004411706001",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2100.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPAInstantCreditTransfer",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "AngebotsNr: A402    Thomas Keuters / 15. Anzahlung"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "GOTTFRIED UND BRIGITTE KOPP",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-12",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE11401545300091507426",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "WELADE3WXXXA0E28459740248x1",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2879.7",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Anzahlung A20231005 Kd-Nr. 189"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Haufe Service Center GmbH",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "CB20231005J3223278D2156424000003582",
+      "creditor_account": {
+        "iban": "DE11672400390191115511",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "17.79",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "DIRECT_DEBIT",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "5603.5496.3942 Haufe Service Center GmbH lexoffice XL 6516d43eef43e60d8a3e43b1"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "JONAS BENJAMIN",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "6b883acdca610900f9a156c55396fc51ctx",
+      "creditor_account": {
+        "iban": "DE25478500650000841545",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "0.01",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "test"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Benjamin Ventures UG (haftungsbeschränkt) i.G.",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE65110101015646398908",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": "637efdb7cc8b848565fb52836da6d190ctx",
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "12500.0",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPA_CREDIT_TRANSFER",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Stammkapital"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "JONAS BENJAMIN",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-10-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "DE25478500650000841545",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "DE20110101015645980387",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "0.01",
+        "currency": "EUR"
+      },
+      "bank_transaction_code": {
+        "code": "SEPAInstantCreditTransfer",
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "test"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "Solarisbank",
+      "country": "DE"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2024-01-31T09:08:12.747000Z",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2024-01-24T09:08:13.826236Z",
+    "accounts": [
+      "b968a297-e95a-4ed0-8a62-c32e43ea43ef"
+    ],
+    "psu_type": "business",
+    "authorized": "2024-01-24T09:08:54.894853Z",
+    "psu_id_hash": "1f023c40d2f305405e02777e75c0940a252168a84c714dd211b4f45d1dae01ca",
+    "accounts_data": [
+      {
+        "uid": "b968a297-e95a-4ed0-8a62-c32e43ea43ef",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.iPKEu9N5f83j3LOZCnxtHjVlDwm1dOraZxajeU88ofg=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.lqRH4vixXCjKI50Qu2qiKmR2F6vhukeIXh29IK9c/XE=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.iPKEu9N5f83j3LOZCnxtHjVlDwm1dOraZxajeU88ofg=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.2mOnl12sTkv94V6HuCPYNSqKOI1z5eL/NRMIIyiUCnk="
+        ]
+      }
+    ]
+  }
+}

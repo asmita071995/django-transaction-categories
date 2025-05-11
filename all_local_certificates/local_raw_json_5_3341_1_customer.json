@@ -1,0 +1,3548 @@
+{
+  "bank": {
+    "bic": "NDEASESS",
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/SE/Nordea/",
+    "name": "Nordea",
+    "country": "SE",
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "name": "MTA",
+        "title": "Nordea website",
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "hidden_method": false
+      },
+      {
+        "name": "BANKID_SE",
+        "title": "Bank ID",
+        "approach": "DECOUPLED",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "Social security number (Personnummer)",
+            "required": true,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ],
+        "hidden_method": true
+      }
+    ],
+    "maximum_consent_validity": 15552000
+  },
+  "accounts": [
+    {
+      "uid": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "name": "Margit Alros",
+      "usage": null,
+      "details": null,
+      "product": "PERSONKONTO",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "79735.78",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Booked balance",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "79735.78",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Value dated balance",
+              "balance_type": "VALU",
+              "balance_amount": {
+                "amount": "57356.18",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "legal_age": null,
+      "account_id": {
+        "iban": "SE8030000000041351300039",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "41351300039"
+        }
+      },
+      "psu_status": "OPEN",
+      "credit_limit": {
+        "amount": "1000.00",
+        "currency": "SEK"
+      },
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "41351300039"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE8030000000041351300039"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "NDEASESS",
+        "clearing_system_member_id": {
+          "member_id": "4135",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.I+R4lUA/cah+JX+zwU9UcP1n3k6T1OEuycVitkiTMyw=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.xJ7ODB1HOiVczBzgo9D+fuCgRe2NOsr0+IauCwMIiaY=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.I+R4lUA/cah+JX+zwU9UcP1n3k6T1OEuycVitkiTMyw=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.rsDazqxEtNkfeHcjR1sB0AZMnhAtRsiWkinSQTobkGw=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SyQzsAFsxvQu5PGo++nS9SrhcwICiBpr+X+KeBFuXT8=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.pqfGy7U2TzUqDOPPdyb1hWOx5WemWP9tWai0QTLx4F0=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./woqtZlyOCqkF5G9HRS9poEZNt/CGfORpK0TvH/0z+o=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.8XHnA7EIm+4P7zVfOTbzl198Yi2wmBh9aTizQ7ISIUM=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.Jed8puVeyaQTFikUp4shw5snQbqy3eV9ebyzyp3Ctjs="
+      ]
+    },
+    {
+      "uid": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "name": "Margit Alros",
+      "usage": null,
+      "details": null,
+      "product": "PERSONKONTO",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "83786.65",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Booked balance",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "83786.65",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Value dated balance",
+              "balance_type": "VALU",
+              "balance_amount": {
+                "amount": "61407.05",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "legal_age": null,
+      "account_id": {
+        "iban": "SE2730000000032704620555",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "32704620016"
+        }
+      },
+      "psu_status": "OPEN",
+      "credit_limit": {
+        "amount": "1000.00",
+        "currency": "SEK"
+      },
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "32704620016"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE2730000000032704620555"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "NDEASESS",
+        "clearing_system_member_id": {
+          "member_id": "3270",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.mEMOUqwHyWS8X1n9GI7xo9X/oPK6AeReOY5mG3blaLc=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.T7PbFhJSIspAgxkuM9eOwq8kLNUE+NWWFGWbb2K5Jfo=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.mEMOUqwHyWS8X1n9GI7xo9X/oPK6AeReOY5mG3blaLc=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.kaLkDNw6EE1/6qjQwHlweI4vTp4NQ+tpeo7lxZyhTZs=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.0iZpT5dy+uDbIjoLG5c+ELfOneyxDk5cAvH9YgBRC+M=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.O+/6/E05hmTX4PkztpjdX3vmQmwPMvX/GUwwnLTMfrs=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.FDurXg4wzGbJ27Xuv+5XhAO8VFABJsM2lc4bApaeCzQ=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.P/JZWiaJJ/+lj2PSWGnzKU2oKOf8MpEwdmmB6WMHy+c=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.Jed8puVeyaQTFikUp4shw5snQbqy3eV9ebyzyp3Ctjs="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-04",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "4b078628-7a13-4cd6-b795-9bb47c2270ad",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-04",
+      "transaction_amount": {
+        "amount": "689.15",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Pocket money",
+        "Pocket money 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "William Morris",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-05",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": {
+        "rate_type": null,
+        "exchange_rate": "12.03612",
+        "unit_currency": "GBP",
+        "instructed_amount": {
+          "amount": "31.00",
+          "currency": "GBP"
+        },
+        "contract_identification": null
+      },
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "5c644a19-38a6-4b77-ac17-32f1c308ee6a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "332.08",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180702 William Morris"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "KIK Sports Club",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-03",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "4004eb41-0da6-427c-88d3-c292dd764440",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "74.25",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "License for 2018",
+        "Swish payment KIK Sports Club"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Happy Times AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-03",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "4badf4e0-85ac-452d-9b5f-f74c9eefc9a4",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "39.44",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180825 Happy Times AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-11-03",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "d5451098-09a0-41f7-a197-72ad83262e86",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "10.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund for July",
+        "Swish inbetalning Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-03",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "04cedb03-d20d-484c-8171-95ba533f4639",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "17.16",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Books",
+        "Books 014567-6631"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "d91f7aa5-feaa-409c-87db-53d7d5d05e8b",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "102.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Söder Insurance",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "b1eaeefb-f10d-44e3-a8f1-dff43e5b3d35",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "11.04",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit Söder Insurance"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "83e117f5-95b0-45ef-b438-7664412bffbc",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "1fc02ee4-7f89-46b0-bb9d-15a86e3e3779",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "21.35",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Sandbox SE test data",
+        "Sandbox SE test data 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "f185e54b-0701-4385-b324-a7ef24a0e793",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "34.30",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Sandbox SE test data",
+        "Sandbox SE test data 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Top Magazines & Brands AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "883badab-dcaf-4d0f-9ec1-9055d438a477",
+      "creditor_account": null,
+      "reference_number": "9000000898147369",
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "2808.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9000000898147369",
+        "Betalning BG 555-4444 Top Magazines"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "96eaf2a5-e945-4c51-83ed-fbabb7959f2f",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "96.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Top Magazines & Brands AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "7f5c8c89-55ca-4e64-ba6a-ee1ae95596aa",
+      "creditor_account": null,
+      "reference_number": "9000000898147369",
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "945.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9000000898147369",
+        "Betalning BG 555-4444 Top Magazines"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "SMM Homes",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "13edd4b6-9656-4e3b-bccc-58db9dbca602",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "364.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit SMM Homes"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "The D Carrot  Society Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-31",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "68f5ea18-a559-425d-98c2-82a986297e0a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-31",
+      "transaction_amount": {
+        "amount": "189.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Member fee for 2018. In total 300 Sek for Anders and Anna Andersson",
+        "Betalning BG 1234-4567 The D Carrot  Society"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-31",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "e6824e24-0b3f-4360-bdec-e45edab57bf1",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-10-31",
+      "transaction_amount": {
+        "amount": "38.50",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Storyread Sweden AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-31",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "2093927d-2a37-48b1-8303-ef88a26a0e60",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-31",
+      "transaction_amount": {
+        "amount": "18.59",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180526 Storyread Sweden AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "e9dfab32-3632-40d3-99d6-e3819e487932",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "24.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "0fb6344a-99ec-4bd2-ac79-54bd452b9645",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "10.20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund for July",
+        "Swish inbetalning Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "fefdde9e-aa34-4d5b-8f0a-11fc1cae65f8",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "89.50",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Pocket money",
+        "Pocket money 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "12a2dee3-1a40-4ca6-bb3e-23ddb061674a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "4118.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vespa",
+        "Vespa 014567-6631"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "6e8ae818-c90e-41fb-b6a2-7a7e56755319",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "37.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Flowers"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "d616181d-661f-4393-8552-3b16d390a2b0",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "56.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Flowers"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Home Bakery Company",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "4bd71b77-0017-4a4c-b5bc-de2aa86570f4",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "341.04",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Payment for birthday cake delivered to door",
+        "Payment PG 225577-4 Home Bakery"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "William Morris",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": {
+        "rate_type": null,
+        "exchange_rate": "12.03612",
+        "unit_currency": "GBP",
+        "instructed_amount": {
+          "amount": "31.00",
+          "currency": "GBP"
+        },
+        "contract_identification": null
+      },
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "35d8d7a2-754c-4ca6-bb2b-b108adc72d75",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "182.83",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180702 William Morris"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "87c7ca64-0e29-4aad-8a55-1c1e58c4a9f9",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "14.20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund for July",
+        "Swish inbetalning Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "bfc1de1e-907b-45dd-b7d2-a8cd9d0202df",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "680.20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Pocket money",
+        "Pocket money 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "William Morris",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": {
+        "rate_type": null,
+        "exchange_rate": "12.03612",
+        "unit_currency": "GBP",
+        "instructed_amount": {
+          "amount": "31.00",
+          "currency": "GBP"
+        },
+        "contract_identification": null
+      },
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "939172c2-3253-4859-bb17-76df9aeea6c7",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "138.05",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180702 William Morris"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "1bfbb35d-7d42-438f-8ee4-3ef235810ebb",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "12.60",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Sandbox SE test data",
+        "Sandbox SE test data 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "e975931c-a78a-4695-b24a-90425dc3e6b4",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "570.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Garden party",
+        "Garden party 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Home Bakery Company",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "fe8c30e3-c28b-4fca-a9de-3ea4d553b29f",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "1207.85",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Payment for birthday cake delivered to door",
+        "Payment PG 225577-4 Home Bakery"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "William Morris",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": {
+        "rate_type": null,
+        "exchange_rate": "12.03612",
+        "unit_currency": "GBP",
+        "instructed_amount": {
+          "amount": "31.00",
+          "currency": "GBP"
+        },
+        "contract_identification": null
+      },
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "6ea8a147-d6a1-4817-800f-f2307444f234",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "376.85",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180702 William Morris"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "692161af-d090-431a-9c0f-0ce2d59492c3",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "1470.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Garden party",
+        "Garden party 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "2a7860ac-28a3-4796-bc80-e00bfa37816c",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "390.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Garden party",
+        "Garden party 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "0aab2920-fb6d-418e-8125-45c98ee2910b",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "675.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Garden party",
+        "Garden party 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "78367c43-c081-46c9-9ab4-1b49a4432b39",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "11.44",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Books",
+        "Books 014567-6631"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "William Morris",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": {
+        "rate_type": null,
+        "exchange_rate": "12.03612",
+        "unit_currency": "GBP",
+        "instructed_amount": {
+          "amount": "31.00",
+          "currency": "GBP"
+        },
+        "contract_identification": null
+      },
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "79c99b81-7f25-495b-b75d-ad8487f16740",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "182.83",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180702 William Morris"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "df55066e-40e7-4301-9405-22b5e3ac1d61",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "2035.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vacation",
+        "Vacation 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "KIK Sports Club",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "entry_reference": "ccb01cfe-75c4-488a-b1c4-9902f5f2b026",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "72.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "License for 2018",
+        "Swish payment KIK Sports Club"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "SMM Homes",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-11-04",
+      "booking_date": "2024-11-04",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "fb16c05d-e718-408a-9db1-ccafbd5d5b6b",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-04",
+      "transaction_amount": {
+        "amount": "122.85",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit SMM Homes"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-04",
+      "booking_date": "2024-11-04",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "fc6534b1-65a1-4b17-aeb2-48d2f89ee936",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-11-04",
+      "transaction_amount": {
+        "amount": "132.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-11-04",
+      "booking_date": "2024-11-04",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "826a58ca-0194-4f1a-9afa-6b30e370d1f5",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-04",
+      "transaction_amount": {
+        "amount": "18.80",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund for July",
+        "Swish inbetalning Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "The D Carrot  Society Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-04",
+      "booking_date": "2024-11-04",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "9756b5d3-bbe7-4c88-818e-36da08477324",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-04",
+      "transaction_amount": {
+        "amount": "57.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Member fee for 2018. In total 300 Sek for Anders and Anna Andersson",
+        "Betalning BG 1234-4567 The D Carrot  Society"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-03",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "6148021a-332e-487d-bb69-8ab4af0df471",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "261.80",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-03",
+      "booking_date": "2024-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "b61c8e35-b0d8-46d1-8a40-cc4b7e00beb6",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-03",
+      "transaction_amount": {
+        "amount": "101.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "b4f8c589-a972-46a4-805b-e04a4f437710",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "100.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Flowers"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "45163988-c5ce-444f-9caa-9c7553fdbfe1",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "27.72",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "The D Carrot  Society Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "cd2634d2-ff74-4fe3-9d9b-cf6c74f54862",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "120.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Member fee for 2018. In total 300 Sek for Anders and Anna Andersson",
+        "Betalning BG 1234-4567 The D Carrot  Society"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-02",
+      "booking_date": "2024-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "4cff1ec5-70d5-4f55-9dae-e1300bc40d25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-02",
+      "transaction_amount": {
+        "amount": "65.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Happy Times AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "325ea699-701e-44cd-bd8d-6fd05337aad9",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "87.04",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180825 Happy Times AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Top Magazines & Brands AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "3b51c172-0cb9-4fc1-9fb7-0649fa5b859f",
+      "creditor_account": null,
+      "reference_number": "9000000898147369",
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "405.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9000000898147369",
+        "Betalning BG 555-4444 Top Magazines"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "d189af89-2ef2-4125-b444-3c5e56899e08",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "30.15",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Two bags of vegetables",
+        "Swish payment Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-11-01",
+      "booking_date": "2024-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "35be715f-acf3-4960-97f8-eebd51487819",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-11-01",
+      "transaction_amount": {
+        "amount": "23.10",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Books",
+        "Books 014567-6631"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-31",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "574a1927-d562-4878-a669-76c611660a4e",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-31",
+      "transaction_amount": {
+        "amount": "21.70",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Sandbox SE test data",
+        "Sandbox SE test data 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Söder Insurance",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-31",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "b20a2a20-f8b5-4637-8c5e-a3adcf84cef0",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-31",
+      "transaction_amount": {
+        "amount": "29.44",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit Söder Insurance"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-31",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "e6f80509-c7ea-45da-8395-77ac7a2b3f0b",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-31",
+      "transaction_amount": {
+        "amount": "42.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Flowers"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "William Morris",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-31",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": {
+        "rate_type": null,
+        "exchange_rate": "12.03612",
+        "unit_currency": "GBP",
+        "instructed_amount": {
+          "amount": "31.00",
+          "currency": "GBP"
+        },
+        "contract_identification": null
+      },
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "978c8b1e-2cce-4bf6-8c9e-788d8b2ce671",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "93.28",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180702 William Morris"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "4ebb3f8e-df64-4303-bd51-56b080f55515",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "138.60",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "1e6ad222-397c-4935-8420-f626347e077f",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "19.95",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Sandbox SE test data",
+        "Sandbox SE test data 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Happy Times AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "1505674e-479f-4ecd-820a-8f70079c29b0",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "84.32",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180825 Happy Times AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "6cc94987-21b8-4397-9aa4-1aa3cbccd086",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "46.80",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Two bags of vegetables",
+        "Swish payment Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Top Magazines & Brands AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-30",
+      "booking_date": "2024-10-30",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "89509c91-1f6d-4e0f-90e7-fd74e410f49f",
+      "creditor_account": null,
+      "reference_number": "9000000898147369",
+      "transaction_date": "2024-10-30",
+      "transaction_amount": {
+        "amount": "2106.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9000000898147369",
+        "Betalning BG 555-4444 Top Magazines"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "a878c940-aa9e-45fc-8cd4-592312e0cb30",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "121.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "5bbfe126-1cb0-48be-957d-7d0c7f4f7e09",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "237.16",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "498fc392-a35a-4e79-897d-ff7bfa436b14",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "72.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Flowers"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Luna Sol",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-29",
+      "booking_date": "2024-10-29",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "8633dddb-2118-40a1-a07c-0706e0e24de9",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-29",
+      "transaction_amount": {
+        "amount": "14.20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Swish"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Refund for July",
+        "Swish inbetalning Luna Sol"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Storyread Sweden AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "93ce797e-f4f1-492a-b856-820c50d07317",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "167.31",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180526 Storyread Sweden AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "The D Carrot  Society Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "ff93d03a-9d25-4da5-9cb2-b4ba440f4cd8",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "60.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "BankGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Member fee for 2018. In total 300 Sek for Anders and Anna Andersson",
+        "Betalning BG 1234-4567 The D Carrot  Society"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Söder Insurance",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "6d989fa0-cb10-42b5-9e6f-437107d1f60a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "90.16",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit Söder Insurance"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Green Energy Sweden",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "4df7a1d8-1ffb-4e26-89f7-5bc28276944e",
+      "creditor_account": null,
+      "reference_number": "489091283320",
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "90.75",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "PlusGiro"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "489091283320",
+        "Energy"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "SMM Homes",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "6b4e008c-677b-49c8-81c6-99df743c4155",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "291.20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit SMM Homes"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "Söder Insurance",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "bb61bb2e-0e69-43b9-b7e5-446c55ad3e8e",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-28",
+      "transaction_amount": {
+        "amount": "29.44",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit Söder Insurance"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "SMM Homes",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-10-28",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "84e944d3-eb31-4286-92d6-119c04acfd80",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "254.80",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Autogiro"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Direct Debit SMM Homes"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "ed0ea18e-197a-4c78-bbaa-5e46f2766c9e",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "2145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vacation",
+        "Vacation 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Storyread Sweden AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-27",
+      "booking_date": "2024-10-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "1234 1234 1234 1234"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "3694ef08-b91b-4d43-b500-28185828af20",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-27",
+      "transaction_amount": {
+        "amount": "67.60",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Kortköp"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Card payment 180526 Storyread Sweden AB"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-26",
+      "booking_date": "2024-10-26",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "f25d8b2f-d42f-466a-b7f4-c4ed2f30ffc7",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-26",
+      "transaction_amount": {
+        "amount": "735.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Garden party",
+        "Garden party 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-26",
+      "booking_date": "2024-10-26",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "77efdc6c-e902-449b-9ed4-01feed81e4ed",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-26",
+      "transaction_amount": {
+        "amount": "1290.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Garden party",
+        "Garden party 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-26",
+      "booking_date": "2024-10-26",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "5b8bfc70-df73-42c0-a76e-dc89da338056",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-26",
+      "transaction_amount": {
+        "amount": "85.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring andras"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Flowers"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2024-10-26",
+      "booking_date": "2024-10-26",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+      "entry_reference": "e201e3cf-3e21-4a85-a7ef-be35fe7a4d5a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2024-10-26",
+      "transaction_amount": {
+        "amount": "402.75",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Överföring egna"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Pocket money",
+        "Pocket money 3042 00 11223"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "Nordea",
+      "country": "SE"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2024-11-11T12:30:46.840000Z",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2024-11-04T12:30:47.969300Z",
+    "accounts": [
+      "e2f23d05-5314-432c-9f2f-8860edec937e",
+      "f8aa1976-dba8-4c96-b938-20395939c3cd"
+    ],
+    "psu_type": "personal",
+    "authorized": "2024-11-04T12:31:03.634624Z",
+    "psu_id_hash": "522b95e69ac417d63e15e62ef9bda7a18152ed6cda00687d4b5fce85e19391ed",
+    "accounts_data": [
+      {
+        "uid": "e2f23d05-5314-432c-9f2f-8860edec937e",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.mEMOUqwHyWS8X1n9GI7xo9X/oPK6AeReOY5mG3blaLc=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.T7PbFhJSIspAgxkuM9eOwq8kLNUE+NWWFGWbb2K5Jfo=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.mEMOUqwHyWS8X1n9GI7xo9X/oPK6AeReOY5mG3blaLc=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.kaLkDNw6EE1/6qjQwHlweI4vTp4NQ+tpeo7lxZyhTZs=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.0iZpT5dy+uDbIjoLG5c+ELfOneyxDk5cAvH9YgBRC+M=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.O+/6/E05hmTX4PkztpjdX3vmQmwPMvX/GUwwnLTMfrs=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.FDurXg4wzGbJ27Xuv+5XhAO8VFABJsM2lc4bApaeCzQ=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.P/JZWiaJJ/+lj2PSWGnzKU2oKOf8MpEwdmmB6WMHy+c=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.Jed8puVeyaQTFikUp4shw5snQbqy3eV9ebyzyp3Ctjs="
+        ]
+      },
+      {
+        "uid": "f8aa1976-dba8-4c96-b938-20395939c3cd",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.I+R4lUA/cah+JX+zwU9UcP1n3k6T1OEuycVitkiTMyw=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.xJ7ODB1HOiVczBzgo9D+fuCgRe2NOsr0+IauCwMIiaY=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.I+R4lUA/cah+JX+zwU9UcP1n3k6T1OEuycVitkiTMyw=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.rsDazqxEtNkfeHcjR1sB0AZMnhAtRsiWkinSQTobkGw=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SyQzsAFsxvQu5PGo++nS9SrhcwICiBpr+X+KeBFuXT8=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.pqfGy7U2TzUqDOPPdyb1hWOx5WemWP9tWai0QTLx4F0=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./woqtZlyOCqkF5G9HRS9poEZNt/CGfORpK0TvH/0z+o=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.8XHnA7EIm+4P7zVfOTbzl198Yi2wmBh9aTizQ7ISIUM=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.Jed8puVeyaQTFikUp4shw5snQbqy3eV9ebyzyp3Ctjs="
+        ]
+      }
+    ]
+  }
+}

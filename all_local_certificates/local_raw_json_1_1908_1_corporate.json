@@ -1,0 +1,135 @@
+{
+  "user": {
+    "profile": {
+      "name": null,
+      "birth": null,
+      "gender": null,
+      "locale": "sv_SE",
+      "market": "SE",
+      "currency": "SEK",
+      "timeZone": "Europe/Stockholm",
+      "fraudPersonNumber": "280410040602"
+    }
+  },
+  "transactions": {
+    "net": -11980764.24,
+    "count": 2373,
+    "query": {
+      "sort": "DATE",
+      "limit": 100000,
+      "order": "DESC",
+      "offset": 0,
+      "endDate": 1584728999999,
+      "accounts": [
+
+      ],
+      "startDate": 1551398400000
+    },
+    "results": [
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1551438000000,
+        "transaction": {
+          "id": "1a7a44ddfdfb4477972d4e225bfc8216",
+          "date": 1551438000000,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -357.0,
+          "userId": "032a1697d12b45aaaf09d021f90320ab",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1584629128000,
+          "upcoming": false,
+          "accountId": "80a59a1eedcf480f8d13d4c156d03b35",
+          "timestamp": 1584629128277,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": "",
+          "description": "Toys'R Us",
+          "categoryType": "EXPENSES",
+          "lastModified": 1601078400000,
+          "originalDate": 1601078400000,
+          "userModified": null,
+          "originalAmount": -357.0,
+          "originalDescription": "Petter arons Överföring",
+          "formattedDescription": "Petter arons Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -3570
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -3570
+          }
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "80a59a1eedcf480f8d13d4c156d03b35",
+        "name": "Checking Account tink zero balance",
+        "type": "CHECKING",
+        "bankId": "1019637004280640",
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/provider-images/tink.png",
+          "banner": null
+        },
+        "userId": "032a1697d12b45aaaf09d021f90320ab",
+        "balance": 0.0,
+        "details": null,
+        "payload": null,
+        "holderName": null,
+        "currencyCode": "SEK",
+        "accountNumber": "1019-637004280640",
+        "currencyDenominatedBalance": {
+          "scale": 1,
+          "currencyCode": "SEK",
+          "unscaledValue": 0
+        }
+      },
+      {
+        "id": "c4d7940cf4cb44fbb95bdf9ac44c10e9",
+        "name": "Basic Credit Card",
+        "type": "CREDIT_CARD",
+        "flags": "[]",
+        "bankId": "12341121",
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/provider-images/tink.png",
+          "banner": null
+        },
+        "userId": "032a1697d12b45aaaf09d021f90320ab",
+        "balance": -1456.0,
+        "details": null,
+        "payload": null,
+        "holderName": "Tink Tinkerton",
+        "currencyCode": "SEK",
+        "accountNumber": "1234 **** **** 1121",
+        "currencyDenominatedBalance": {
+          "scale": 1,
+          "currencyCode": "SEK",
+          "unscaledValue": -14560
+        }
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "ssn": "280410040602",
+        "name": "Jayesh Dateer",
+        "dateOfBirth": "1989-04-28",
+        "providerName": "se-test-kreditz"
+      }
+    ]
+  }
+}

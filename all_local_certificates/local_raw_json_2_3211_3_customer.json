@@ -1,0 +1,1855 @@
+{
+  "user": {
+    "profile": {
+      "name": "SAARENMAA MIKA",
+      "market": "FI"
+    }
+  },
+  "transactions": {
+    "results": [
+      {
+        "transaction": {
+          "id": "ee1b9a8878a89e4ca6ffca03b1c552fd",
+          "date": 1696982400000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696982400000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a0c766d038ba975bf90e9b6a7ac41a6f",
+          "date": 1696982400000,
+          "amount": -75.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696982400000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ab5266b15039f9f5a27cd0423c4d6c19",
+          "date": 1696982400000,
+          "amount": -25.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696982400000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e66ebe106ed276456217a449a0bb660d",
+          "date": 1696896000000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696896000000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bf8ec09c9c8ddda9f72eeafeb4d55e92",
+          "date": 1696896000000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696896000000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "83a219e77c6da70bd695633f4e8cf4ae",
+          "date": 1696896000000,
+          "amount": -75.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696896000000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "64a6fc342037a66854ac20f517ec30f0",
+          "date": 1696896000000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1696896000000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "681377788e726218dd64f86613d89826",
+          "date": 1696809600000,
+          "amount": -46.45,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 231007 MF NRO 74570003281828101051616 VARMENTAJA 400 PKORTTIMAKSU LIDL PORI MUSA MN21 PORI",
+          "originalDate": 1696809600000,
+          "originalDescription": "492065******2957 OSTOPVM 231007 MF NRO 74570003281828101051616 VARMENTAJA 400 PKORTTIMAKSU LIDL PORI MUSA MN21 PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ca1a04d8ddfeafec0ce947df72241ce1",
+          "date": 1696809600000,
+          "amount": -156.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 231007 MF NRO 74987503280008497520139 VARMENTAJA 050 PKORTTIMAKSU Rock Your Art Oy Jyvaskyla",
+          "originalDate": 1696809600000,
+          "originalDescription": "492065******2957 OSTOPVM 231007 MF NRO 74987503280008497520139 VARMENTAJA 050 PKORTTIMAKSU Rock Your Art Oy Jyvaskyla"
+        }
+      },
+      {
+        "transaction": {
+          "id": "55171119267e8ba60383b5f4f3cb9f0f",
+          "date": 1696809600000,
+          "amount": -85.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696809600000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c8dcfd8a09882484f6c1050e435e2d45",
+          "date": 1696809600000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696809600000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2ceeccc3f24a2a65af956b1a0adbddbf",
+          "date": 1696809600000,
+          "amount": -115.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696809600000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b1c22d51d617da5cbed44ea47723d663",
+          "date": 1696809600000,
+          "amount": -135.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696809600000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "99a37a2a0743860fea7df58161631b91",
+          "date": 1696809600000,
+          "amount": -50.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VR-YHTYMÄ OYJ",
+          "originalDate": 1696809600000,
+          "originalDescription": "TILISIIRTO VR-YHTYMÄ OYJ"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9f1a6c36a11b3b921065e05a08fcfa89",
+          "date": 1696809600000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1696809600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0f112c806224b08d60fc8720935185d8",
+          "date": 1696550400000,
+          "amount": -259.21,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 249,99 euroa Viivästyskorko 4,22 euroa Kulut 5,00 euroa Jäljellä 37 699,82 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1696550400000,
+          "originalDescription": "Lyhennys 249,99 euroa Viivästyskorko 4,22 euroa Kulut 5,00 euroa Jäljellä 37 699,82 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ee29667580c6d6672f50d149c388dbfe",
+          "date": 1696550400000,
+          "amount": 500.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO VEIKKAUS OY",
+          "originalDate": 1696550400000,
+          "originalDescription": "VIITESIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4b9ac0e5cae28f234f94bddd4daaecee",
+          "date": 1696550400000,
+          "amount": -180.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1696550400000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f514c408089ebd58658d9d77e0898310",
+          "date": 1696550400000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00059311B +358406809726 Pivo-maksu NOSTO AHOLA ANNINA TUULIKKI",
+          "originalDate": 1696550400000,
+          "originalDescription": "SIIRTO 09P00059311B +358406809726 Pivo-maksu NOSTO AHOLA ANNINA TUULIKKI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e88a4873ae294793cb1a760f07768791",
+          "date": 1696550400000,
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma",
+          "originalDate": 1696550400000,
+          "originalDescription": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma"
+        }
+      },
+      {
+        "transaction": {
+          "id": "adcc0829a0192038032600111c301044",
+          "date": 1696550400000,
+          "amount": 2142.76,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU 202310052588CEAU4206 Palkka kaudelta 10/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY",
+          "originalDate": 1696550400000,
+          "originalDescription": "SEPA-MAKSU 202310052588CEAU4206 Palkka kaudelta 10/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b1e0b24d4177c792f8eb35c0c07eda70",
+          "date": 1696204800000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00037751B +358456065105 juu NOSTO JAVANAINEN MIKA VÄINÖ J",
+          "originalDate": 1696204800000,
+          "originalDescription": "SIIRTO 09P00037751B +358456065105 juu NOSTO JAVANAINEN MIKA VÄINÖ J"
+        }
+      },
+      {
+        "transaction": {
+          "id": "98cf25504a04f61f60bca05341d9c311",
+          "date": 1696204800000,
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA PIKASIIRTO SCIDABAFIHHMQUY2MAGRO1D DABAFIHHXXX VIITESIIRTO MobilePay Annina Tuulikki Ahola",
+          "originalDate": 1696204800000,
+          "originalDescription": "SEPA PIKASIIRTO SCIDABAFIHHMQUY2MAGRO1D DABAFIHHXXX VIITESIIRTO MobilePay Annina Tuulikki Ahola"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c1123a59a0562396aa8da7d233c284b5",
+          "date": 1695772800000,
+          "amount": -18.26,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1695772800000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "172b5a86d2c04cef2119582d91e3f662",
+          "date": 1695772800000,
+          "amount": 14.8,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO VEIKKAUS OY",
+          "originalDate": 1695772800000,
+          "originalDescription": "VIITESIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2404a406515822098e370549cb33e802",
+          "date": 1695168000000,
+          "amount": 3.46,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO VEIKKAUS OY",
+          "originalDate": 1695168000000,
+          "originalDescription": "VIITESIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "15d4d4b83527f8343cd54b920c70dcf9",
+          "date": 1694736000000,
+          "amount": -350.01,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 148,74 euroa Korko 201,27 euroa Kulut 2,30 euroa OP-bonuksista Jäljellä 37 949,81 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1694736000000,
+          "originalDescription": "Lyhennys 148,74 euroa Korko 201,27 euroa Kulut 2,30 euroa OP-bonuksista Jäljellä 37 949,81 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "58dfa5c013bc265f80c14190cc84539b",
+          "date": 1694736000000,
+          "amount": 350.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO VEIKKAUS OY",
+          "originalDate": 1694736000000,
+          "originalDescription": "VIITESIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "243d6b5daed83352ea646eac67fc00a0",
+          "date": 1694649600000,
+          "amount": -160.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1694649600000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "aabe5c4d2de092a2165f26c22d2f08b2",
+          "date": 1694649600000,
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1694649600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4b282c7d29673dba154d16da41663a9d",
+          "date": 1694649600000,
+          "amount": -400.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1694649600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "13b5d9d095fbba480c7bb0078c61c174",
+          "date": 1694649600000,
+          "amount": -400.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1694649600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e6dc427509d47fde8c2db4653e1c5f3d",
+          "date": 1694649600000,
+          "amount": 760.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO VEIKKAUS OY",
+          "originalDate": 1694649600000,
+          "originalDescription": "VIITESIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d0477433db9fd2d0596f70531b24beb4",
+          "date": 1694563200000,
+          "amount": -61.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1694563200000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "150e7c2da2a6e320816bd54573c57982",
+          "date": 1694390400000,
+          "amount": -58.55,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230908 MF NRO 74920543251335136155337 VARMENTAJA 400 PKORTTIMAKSU K-supermarket Kampu Pori",
+          "originalDate": 1694390400000,
+          "originalDescription": "492065******2957 OSTOPVM 230908 MF NRO 74920543251335136155337 VARMENTAJA 400 PKORTTIMAKSU K-supermarket Kampu Pori"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8125f14efdc8321b654559a09d4d4eaf",
+          "date": 1694044800000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa",
+          "originalDate": 1694044800000,
+          "originalDescription": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f4bf289b53b32a06fee23784c177ecaf",
+          "date": 1694044800000,
+          "amount": -25.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Kiitos TILISIIRTO Elina suokas",
+          "originalDate": 1694044800000,
+          "originalDescription": "Kiitos TILISIIRTO Elina suokas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0b1e0636dc524a312a877dfef6549b24",
+          "date": 1694044800000,
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma",
+          "originalDate": 1694044800000,
+          "originalDescription": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma"
+        }
+      },
+      {
+        "transaction": {
+          "id": "43e55c30495f6f47e9d32dd8e6484a40",
+          "date": 1694044800000,
+          "amount": -608.11,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 396,49 euroa Korko 203,51 euroa Viivästyskorko 3,11 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 38 098,55 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1694044800000,
+          "originalDescription": "Lyhennys 396,49 euroa Korko 203,51 euroa Viivästyskorko 3,11 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 38 098,55 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "11e32912256d8343d68e810793396e92",
+          "date": 1694044800000,
+          "amount": 1946.53,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU 202309062588CEAM5222 Palkka kaudelta 9/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY",
+          "originalDate": 1694044800000,
+          "originalDescription": "SEPA-MAKSU 202309062588CEAM5222 Palkka kaudelta 9/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c0acbbd34569a70de4a592ed38cb441a",
+          "date": 1693872000000,
+          "amount": -20.8,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TaxIdNb 2727980-6 TILISIIRTO PAYTRAIL OYJ",
+          "originalDate": 1693872000000,
+          "originalDescription": "TaxIdNb 2727980-6 TILISIIRTO PAYTRAIL OYJ"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4477ea084ab01111732c503c793d1f8d",
+          "date": 1693872000000,
+          "amount": 25.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lainaksi TILISIIRTO PUNTTI ARTO",
+          "originalDate": 1693872000000,
+          "originalDescription": "Lainaksi TILISIIRTO PUNTTI ARTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5fbd0d8234e0b9b4a3ba14590406fe09",
+          "date": 1692057600000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1692057600000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c61d71a98c8b5c082db53dcfdcf679f2",
+          "date": 1692057600000,
+          "amount": -1200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00086181B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1692057600000,
+          "originalDescription": "SIIRTO 09P00086181B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1fb00d26fc4f4b40289fc9f2f8e9c8ec",
+          "date": 1691971200000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 NOSTOPVM 230810 MF NRO 74850703222220005344610 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI",
+          "originalDate": 1691971200000,
+          "originalDescription": "492065******2957 NOSTOPVM 230810 MF NRO 74850703222220005344610 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1f2c073dfe78b21af362d9947a5c207c",
+          "date": 1691625600000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 NOSTOPVM 230808 MF NRO 74850703220220004519289 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI",
+          "originalDate": 1691625600000,
+          "originalDescription": "492065******2957 NOSTOPVM 230808 MF NRO 74850703220220004519289 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f66757c2e2a2bbec27e27b7feb1be46f",
+          "date": 1691452800000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa",
+          "originalDate": 1691452800000,
+          "originalDescription": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b0716f748b5c9ce228a955c84ef11ef7",
+          "date": 1691452800000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00004481B +358406809726 Pivo-maksu NOSTO AHOLA ANNINA TUULIKKI",
+          "originalDate": 1691452800000,
+          "originalDescription": "SIIRTO 09P00004481B +358406809726 Pivo-maksu NOSTO AHOLA ANNINA TUULIKKI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "63042fa5bb2785578c79ae45ef3cae66",
+          "date": 1691452800000,
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma",
+          "originalDate": 1691452800000,
+          "originalDescription": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9e2e48e7da46a6192686c4f404e119f0",
+          "date": 1691366400000,
+          "amount": -130.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 NOSTOPVM 230804 MF NRO 74850703216230001371283 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI",
+          "originalDate": 1691366400000,
+          "originalDescription": "492065******2957 NOSTOPVM 230804 MF NRO 74850703216230001371283 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "733a25967567ab5bb2f32296fcfcea1c",
+          "date": 1691366400000,
+          "amount": 8.6,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO VEIKKAUS OY",
+          "originalDate": 1691366400000,
+          "originalDescription": "VIITESIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "66f6f9074702e1ec71012f1f26e7c59c",
+          "date": 1691366400000,
+          "amount": 2392.8,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU 202308042588CEAP8812 Palkka kaudelta 8/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY",
+          "originalDate": 1691366400000,
+          "originalDescription": "SEPA-MAKSU 202308042588CEAP8812 Palkka kaudelta 8/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "132f114e881ef2b28d62f96931ba1d63",
+          "date": 1691366400000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1691366400000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1dfc2a19b95d87dbf43cc4345ca4067a",
+          "date": 1691366400000,
+          "amount": -120.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1691366400000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "caceb6b5cca73264ed501cb67fbd73b2",
+          "date": 1691366400000,
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1691366400000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "95dfd2ca35e2153b95e9cdd41f8a261d",
+          "date": 1691107200000,
+          "amount": -29.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230803 MF NRO 74987503215000137917643 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum",
+          "originalDate": 1691107200000,
+          "originalDescription": "492065******2957 OSTOPVM 230803 MF NRO 74987503215000137917643 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum"
+        }
+      },
+      {
+        "transaction": {
+          "id": "01a40304967d2f0bf969bc9cd8c4b08d",
+          "date": 1691020800000,
+          "amount": -90.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00117821B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1691020800000,
+          "originalDescription": "SIIRTO 09P00117821B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "104c7cd15e8ceab9248d10068f2a7719",
+          "date": 1691020800000,
+          "amount": -608.65,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 401,14 euroa Korko 198,86 euroa Viivästyskorko 3,65 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 38 495,04 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1691020800000,
+          "originalDescription": "Lyhennys 401,14 euroa Korko 198,86 euroa Viivästyskorko 3,65 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 38 495,04 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f1e91622d22b8548450b35816fc534b4",
+          "date": 1691020800000,
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1691020800000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "027bd328095ccae7c98ea1dd3fffbc28",
+          "date": 1691020800000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00070791B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1691020800000,
+          "originalDescription": "SIIRTO 09P00070791B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ca8727d29538c3f3e24d3edd0268f506",
+          "date": 1691020800000,
+          "amount": 1279.08,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU SCTIQCUO7FHXM1R R27495176, Saarenmaa Mika Antero (3 1.03.1981), Henkilön tulovero palau tus 1 275,86 euroa, korko 3,22 euro a DABAFIHH TILISIIRTO VEROHALLINTO",
+          "originalDate": 1691020800000,
+          "originalDescription": "SEPA-MAKSU SCTIQCUO7FHXM1R R27495176, Saarenmaa Mika Antero (3 1.03.1981), Henkilön tulovero palau tus 1 275,86 euroa, korko 3,22 euro a DABAFIHH TILISIIRTO VEROHALLINTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "913dc9405e3a9cef51a3567311df7341",
+          "date": 1690502400000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00094041B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1690502400000,
+          "originalDescription": "SIIRTO 09P00094041B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "24261442edb83a1d5bd8620242ac25f6",
+          "date": 1690416000000,
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA PIKASIIRTO SCIDABAFIHH7QAW2ZNZVA1B 1164591103 DABAFIHHXXX TILISIIRTO MobilePay Annina Tuulikki Ahola",
+          "originalDate": 1690416000000,
+          "originalDescription": "SEPA PIKASIIRTO SCIDABAFIHH7QAW2ZNZVA1B 1164591103 DABAFIHHXXX TILISIIRTO MobilePay Annina Tuulikki Ahola"
+        }
+      },
+      {
+        "transaction": {
+          "id": "19cb5fe6d0ee43a8a7cf390fb119ee11",
+          "date": 1690416000000,
+          "amount": -8.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00040451B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1690416000000,
+          "originalDescription": "SIIRTO 09P00040451B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "36c4be215c636630d2155f6bf4a12c61",
+          "date": 1689292800000,
+          "amount": -52.02,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230713 MF NRO 74920543194021689119744 VARMENTAJA 400 PKORTTIMAKSU K-Market Luoto Pori",
+          "originalDate": 1689292800000,
+          "originalDescription": "492065******2957 OSTOPVM 230713 MF NRO 74920543194021689119744 VARMENTAJA 400 PKORTTIMAKSU K-Market Luoto Pori"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6650d5832051e4b17ee0f145db19fb0f",
+          "date": 1689292800000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1689292800000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5856ee5da43c653cd9e18981c30e6af0",
+          "date": 1689206400000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1689206400000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b5588ee75c37a73b92ab9898d4ad920c",
+          "date": 1689206400000,
+          "amount": 200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "VIITESIIRTO TRUSTLY GROUP AB",
+          "originalDate": 1689206400000,
+          "originalDescription": "VIITESIIRTO TRUSTLY GROUP AB"
+        }
+      },
+      {
+        "transaction": {
+          "id": "486d85f046e835bd6c27a8d1de835799",
+          "date": 1689206400000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1689206400000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ad9d173f3ee4eeceb96c47b874e29461",
+          "date": 1689206400000,
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00004941C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1689206400000,
+          "originalDescription": "SIIRTO 09P00004941C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ea049977846a2218b2d53f798349c0b6",
+          "date": 1689120000000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1689120000000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "312f98f079177d73008eca616f9a25f6",
+          "date": 1689120000000,
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00059981C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1689120000000,
+          "originalDescription": "SIIRTO 09P00059981C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "21fb05d66eae0134f1fdbd17aa60be93",
+          "date": 1688947200000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1688947200000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1b66bb691b707a6154228150c57d9cb8",
+          "date": 1688947200000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1688947200000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e3169dd65910ba530e11509c9e034350",
+          "date": 1688947200000,
+          "amount": -74.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1688947200000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "dbe1a11e96a4a976dd5d07bdc9c8c2ab",
+          "date": 1688688000000,
+          "amount": -608.64,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 392,44 euroa Korko 207,56 euroa Viivästyskorko 3,64 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 38 896,18 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1688688000000,
+          "originalDescription": "Lyhennys 392,44 euroa Korko 207,56 euroa Viivästyskorko 3,64 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 38 896,18 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3b7c32392456c8beda81fbf673555f92",
+          "date": 1688688000000,
+          "amount": -111.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1688688000000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "07f18e0b2f805ec923e2bb126342c9dd",
+          "date": 1688688000000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00068831B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1688688000000,
+          "originalDescription": "SIIRTO 09P00068831B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f439bbd67b5f996fe91afe32d3a34d6b",
+          "date": 1688688000000,
+          "amount": -250.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1688688000000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6995bb1adb8b4b07333c85178ca6d210",
+          "date": 1688688000000,
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00035591B +358406809726 Pivo-maksu NOSTO AHOLA ANNINA TUULIKKI",
+          "originalDate": 1688688000000,
+          "originalDescription": "SIIRTO 09P00035591B +358406809726 Pivo-maksu NOSTO AHOLA ANNINA TUULIKKI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f9c52aa8a6c3ff7c8da7e5f1899f4ec5",
+          "date": 1688688000000,
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma",
+          "originalDate": 1688688000000,
+          "originalDescription": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c65b1c95f860564f0be90e045af6fef8",
+          "date": 1688688000000,
+          "amount": 2040.59,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU 202307062588CEDG0320 Palkka kaudelta 7/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY",
+          "originalDate": 1688688000000,
+          "originalDescription": "SEPA-MAKSU 202307062588CEDG0320 Palkka kaudelta 7/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b89c1edd7dfd4633ca3944b98a55f563",
+          "date": 1688342400000,
+          "amount": -96.84,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230630 MF NRO 74920543182406836166207 KÄTEISNOSTO 80,00 VARMENTAJA 400 PKORTTIMAKSU K-Market Karhunpesa Pori",
+          "originalDate": 1688342400000,
+          "originalDescription": "492065******2957 OSTOPVM 230630 MF NRO 74920543182406836166207 KÄTEISNOSTO 80,00 VARMENTAJA 400 PKORTTIMAKSU K-Market Karhunpesa Pori"
+        }
+      },
+      {
+        "transaction": {
+          "id": "946b07c4e1da3da19db976c37d84786e",
+          "date": 1688083200000,
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA PIKASIIRTO SCIDABAFIHH9P2ITKN64C1F 1152174847 DABAFIHHXXX TILISIIRTO MobilePay Annina Tuulikki Ahola",
+          "originalDate": 1688083200000,
+          "originalDescription": "SEPA PIKASIIRTO SCIDABAFIHH9P2ITKN64C1F 1152174847 DABAFIHHXXX TILISIIRTO MobilePay Annina Tuulikki Ahola"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1d11d82b4fd0fe1951c77926d53083ef",
+          "date": 1686614400000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1686614400000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "18f92429dae450c865ecca56426c58a5",
+          "date": 1686268800000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00100091B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1686268800000,
+          "originalDescription": "SIIRTO 09P00100091B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3d0894f148604c911f4b3e0dcd31aaa3",
+          "date": 1686268800000,
+          "amount": -43.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230608 MF NRO 74920543159192190044763 VARMENTAJA 400 PKORTTIMAKSU LUKKOTALO LUKKO PORI",
+          "originalDate": 1686268800000,
+          "originalDescription": "492065******2957 OSTOPVM 230608 MF NRO 74920543159192190044763 VARMENTAJA 400 PKORTTIMAKSU LUKKOTALO LUKKO PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ae3e59e5999c15fdf36c96f41f2827d4",
+          "date": 1686268800000,
+          "amount": -44.96,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230608 MF NRO 74987503159000735326070 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum",
+          "originalDate": 1686268800000,
+          "originalDescription": "492065******2957 OSTOPVM 230608 MF NRO 74987503159000735326070 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum"
+        }
+      },
+      {
+        "transaction": {
+          "id": "19e907c187f51086b06fef75d1821b1f",
+          "date": 1686268800000,
+          "amount": -38.14,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230608 MF NRO 74987503159000187639947 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum",
+          "originalDate": 1686268800000,
+          "originalDescription": "492065******2957 OSTOPVM 230608 MF NRO 74987503159000187639947 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d27b73a171e460a3012df35bf2ea0937",
+          "date": 1686268800000,
+          "amount": -300.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1686268800000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7f7d16d5064174db63be9d559a42562b",
+          "date": 1686268800000,
+          "amount": -185.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO VEIKKAUS OY",
+          "originalDate": 1686268800000,
+          "originalDescription": "TILISIIRTO VEIKKAUS OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8d2750fdb96a637a3fb33b5676951d07",
+          "date": 1686182400000,
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1686182400000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2eef053a5f70c0536268132b568471f4",
+          "date": 1686096000000,
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00075111B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA",
+          "originalDate": 1686096000000,
+          "originalDescription": "SIIRTO 09P00075111B +358400888787 Pivo-maksu NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "564f7fbbdb9b6a25aae9a3a879bb9e7a",
+          "date": 1686096000000,
+          "amount": -240.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1686096000000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f063d3c83b651aa680805d03faac5624",
+          "date": 1686096000000,
+          "amount": -59.31,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO avarda",
+          "originalDate": 1686096000000,
+          "originalDescription": "TILISIIRTO avarda"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f2b91f50362820842c454ca7c7767a5e",
+          "date": 1686096000000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa",
+          "originalDate": 1686096000000,
+          "originalDescription": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "be1023325967da6bd1d8ec255ab4e3a3",
+          "date": 1686096000000,
+          "amount": -150.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00016961B +358456065105 Pivo-maksu NOSTO JAVANAINEN MIKA VÄINÖ J",
+          "originalDate": 1686096000000,
+          "originalDescription": "SIIRTO 09P00016961B +358456065105 Pivo-maksu NOSTO JAVANAINEN MIKA VÄINÖ J"
+        }
+      },
+      {
+        "transaction": {
+          "id": "db2d22ea97143b6d779cf374a3c73bb9",
+          "date": 1686096000000,
+          "amount": -199.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1686096000000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "07f585c48ae6ecccc59603627d4e492d",
+          "date": 1686096000000,
+          "amount": -181.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO PLUSPAY FINLAND OY",
+          "originalDate": 1686096000000,
+          "originalDescription": "TILISIIRTO PLUSPAY FINLAND OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7b3361a5519259268f17cb8cf6851c5b",
+          "date": 1686096000000,
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Kiitos TILISIIRTO Elina suokas",
+          "originalDate": 1686096000000,
+          "originalDescription": "Kiitos TILISIIRTO Elina suokas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "757a34c5f400403bcf3f0aeedf1a1a5b",
+          "date": 1686096000000,
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma",
+          "originalDate": 1686096000000,
+          "originalDescription": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5fed019cb9acf949079ca4a528a7b058",
+          "date": 1686096000000,
+          "amount": -607.85,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 413,77 euroa Korko 186,23 euroa Viivästyskorko 2,85 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 39 288,62 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1686096000000,
+          "originalDescription": "Lyhennys 413,77 euroa Korko 186,23 euroa Viivästyskorko 2,85 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 39 288,62 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a2a0e7867bbfc296dd2e514e68fe59c4",
+          "date": 1686096000000,
+          "amount": 3648.41,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU 202306062588CEAK5132 Palkka kaudelta 6/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY",
+          "originalDate": 1686096000000,
+          "originalDescription": "SEPA-MAKSU 202306062588CEAK5132 Palkka kaudelta 6/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3ab095687f1f91a7e230edb62a8843a4",
+          "date": 1685318400000,
+          "amount": -1.44,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230527 MF NRO 74609053147000009756134 VARMENTAJA 400 PKORTTIMAKSU BIRD* AJO HELSINKI",
+          "originalDate": 1685318400000,
+          "originalDescription": "492065******2957 OSTOPVM 230527 MF NRO 74609053147000009756134 VARMENTAJA 400 PKORTTIMAKSU BIRD* AJO HELSINKI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f529072c8e253c8f95ab3c5930b89a32",
+          "date": 1685318400000,
+          "amount": -150.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "laina NOSTO Markus Ek",
+          "originalDate": 1685318400000,
+          "originalDescription": "laina NOSTO Markus Ek"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1ac81af16a0b8fe5dbf066ec2c705339",
+          "date": 1685318400000,
+          "amount": 150.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00080671C JUURIKASTILITYS JAVANAINEN MIKA VÄINÖ J",
+          "originalDate": 1685318400000,
+          "originalDescription": "SIIRTO 09P00080671C JUURIKASTILITYS JAVANAINEN MIKA VÄINÖ J"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bc11fca0f780f9e392974e7720353071",
+          "date": 1684281600000,
+          "amount": -50.1,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Kiitos TILISIIRTO Elina suokas",
+          "originalDate": 1684281600000,
+          "originalDescription": "Kiitos TILISIIRTO Elina suokas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3598c64e7a94e7851c130905abd1df75",
+          "date": 1684281600000,
+          "amount": 50.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00059811C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1684281600000,
+          "originalDescription": "SIIRTO 09P00059811C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4e551e0792757ef1e23d1857b999fb8a",
+          "date": 1684108800000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1684108800000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bb6404aedfb4ae636d187b5c19b71031",
+          "date": 1684108800000,
+          "amount": 60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00029071C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1684108800000,
+          "originalDescription": "SIIRTO 09P00029071C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7e7cf4f35b5343065f1bd3e17c7bd3a3",
+          "date": 1683849600000,
+          "amount": -150.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 NOSTOPVM 230510 MF NRO 74850703130220000553133 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI",
+          "originalDate": 1683849600000,
+          "originalDescription": "492065******2957 NOSTOPVM 230510 MF NRO 74850703130220000553133 VARMENTAJA 400 PKORTTINOSTO ATM NOSTO 3334 PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "09186b495207b341b548534891defa2b",
+          "date": 1683849600000,
+          "amount": -8.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230511 MF NRO 74987503131001242521073 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum",
+          "originalDate": 1683849600000,
+          "originalDescription": "492065******2957 OSTOPVM 230511 MF NRO 74987503131001242521073 VARMENTAJA 050 PKORTTIMAKSU PlayStation Network Hilversum"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ebfab4ae850929715ee918c0117ed92e",
+          "date": 1683849600000,
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1683849600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2c6cdb5d39ce4b480c1dd0bc414c6237",
+          "date": 1683849600000,
+          "amount": 20.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA PIKASIIRTO SCIDABAFIHHVPM8P8XMBK1F 1127329738 DABAFIHHXXX TILISIIRTO MobilePay Leena Saarenmaa",
+          "originalDate": 1683849600000,
+          "originalDescription": "SEPA PIKASIIRTO SCIDABAFIHHVPM8P8XMBK1F 1127329738 DABAFIHHXXX TILISIIRTO MobilePay Leena Saarenmaa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f42571fc4d01fa2e127b9854cb850ca5",
+          "date": 1683763200000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1683763200000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8a6d379aa9a0c60c96187472fb4fa34d",
+          "date": 1683763200000,
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "TILISIIRTO Trustly Group AB",
+          "originalDate": 1683763200000,
+          "originalDescription": "TILISIIRTO Trustly Group AB"
+        }
+      },
+      {
+        "transaction": {
+          "id": "50be4bda485c9116d135445609204b83",
+          "date": 1683676800000,
+          "amount": 250.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lainaksi TILISIIRTO PUNTTI ARTO",
+          "originalDate": 1683676800000,
+          "originalDescription": "Lainaksi TILISIIRTO PUNTTI ARTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6cb607e24a44725e35633b6cce49cf2d",
+          "date": 1683590400000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1683590400000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ff32a2b755ad0ced0ec5d39b3dbc4644",
+          "date": 1683590400000,
+          "amount": 3.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00049301C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1683590400000,
+          "originalDescription": "SIIRTO 09P00049301C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a7f6a574f8f290c182e1ad96806819d3",
+          "date": 1683504000000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1683504000000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9f4729470772927a9b9722f60872e28d",
+          "date": 1683244800000,
+          "amount": -608.48,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Lyhennys 440,78 euroa Korko 159,22 euroa Viivästyskorko 3,48 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 39 702,39 euroa LUOTON MAKSU FI76 5246 0683 5338 74",
+          "originalDate": 1683244800000,
+          "originalDescription": "Lyhennys 440,78 euroa Korko 159,22 euroa Viivästyskorko 3,48 euroa Kulut 7,30 euroa, josta OP-bonuksista 2,30 euroa Jäljellä 39 702,39 euroa LUOTON MAKSU FI76 5246 0683 5338 74"
+        }
+      },
+      {
+        "transaction": {
+          "id": "409912f2d7c3d8f27a6dbe3d644a76bd",
+          "date": 1683244800000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1683244800000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4b298df4e1376f375304e38027829d8e",
+          "date": 1683244800000,
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1683244800000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9cc0d27b2bfffecf5e7d355f3df6c9cb",
+          "date": 1683244800000,
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00017811B +358400888787 maksuja NOSTO LEVON ILONA MARIA",
+          "originalDate": 1683244800000,
+          "originalDescription": "SIIRTO 09P00017811B +358400888787 maksuja NOSTO LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6bcae3036c79a6c47e72a06046515247",
+          "date": 1683244800000,
+          "amount": -50.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "laina NOSTO Mari Johanna Saarenmaa",
+          "originalDate": 1683244800000,
+          "originalDescription": "laina NOSTO Mari Johanna Saarenmaa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0f7d356868df2500221a32838a5e8918",
+          "date": 1683244800000,
+          "amount": -120.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00017541B +358406809726 laina NOSTO AHOLA ANNINA TUULIKKI",
+          "originalDate": 1683244800000,
+          "originalDescription": "SIIRTO 09P00017541B +358406809726 laina NOSTO AHOLA ANNINA TUULIKKI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b0b469bcb624e88b154c5ec43e4bade1",
+          "date": 1683244800000,
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma",
+          "originalDate": 1683244800000,
+          "originalDescription": "Purjeentie 4c15 vuokra TILISIIRTO Satu itäluoma"
+        }
+      },
+      {
+        "transaction": {
+          "id": "63eef69ab56efcc6185236aa80f6874b",
+          "date": 1683244800000,
+          "amount": 1795.4,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA-MAKSU 202305042588CEAN3419 Palkka kaudelta 5/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY",
+          "originalDate": 1683244800000,
+          "originalDescription": "SEPA-MAKSU 202305042588CEAN3419 Palkka kaudelta 5/2023 NDEAFIHH PALKKA KORROOSIOTYÖ KORKAL OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d57c6d99e21696a98acb722853627093",
+          "date": 1682985600000,
+          "amount": -50.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1682985600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "382a5b15cd426ec8107fa621c639bf46",
+          "date": 1682985600000,
+          "amount": 50.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Laina TILISIIRTO SAARENMAA MARI JOHANNA",
+          "originalDate": 1682985600000,
+          "originalDescription": "Laina TILISIIRTO SAARENMAA MARI JOHANNA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5888906c3ba84cfbcf9a8a6bae5801e4",
+          "date": 1682553600000,
+          "amount": -120.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1682553600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "90169ac8b49cc05061e1eb81dbcc1209",
+          "date": 1682553600000,
+          "amount": 120.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SEPA PIKASIIRTO SCIDABAFIHHFPIMKBKUDG1D DABAFIHHXXX VIITESIIRTO MobilePay Annina Tuulikki Ahola",
+          "originalDate": 1682553600000,
+          "originalDescription": "SEPA PIKASIIRTO SCIDABAFIHHFPIMKBKUDG1D DABAFIHHXXX VIITESIIRTO MobilePay Annina Tuulikki Ahola"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e6365ce3957bb8acc579b951af706060",
+          "date": 1681948800000,
+          "amount": -2.6,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230419 MF NRO 74987503109001964829769 VARMENTAJA 050 PKORTTIMAKSU R_PORI_Paekintie 2 PORI",
+          "originalDate": 1681948800000,
+          "originalDescription": "492065******2957 OSTOPVM 230419 MF NRO 74987503109001964829769 VARMENTAJA 050 PKORTTIMAKSU R_PORI_Paekintie 2 PORI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0442411c07dd2a812c2964d980f463a8",
+          "date": 1681862400000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Pivo-maksu NOSTO AUNE EK",
+          "originalDate": 1681862400000,
+          "originalDescription": "Pivo-maksu NOSTO AUNE EK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b73faa8318c9a232c5011f58524d3932",
+          "date": 1681862400000,
+          "amount": -120.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa",
+          "originalDate": 1681862400000,
+          "originalDescription": "Pivo-maksu NOSTO Niko-Petteri Saarenmaa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "903573b75f0d664a5e3070d22ef5c67d",
+          "date": 1681862400000,
+          "amount": 160.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00059981C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1681862400000,
+          "originalDescription": "SIIRTO 09P00059981C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f46182c9ef9fde527fe73d665a0f09a6",
+          "date": 1681862400000,
+          "amount": -2.18,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "492065******2957 OSTOPVM 230417 MF NRO 74920543108066381872483 VARMENTAJA 400 PKORTTIMAKSU PICK N PAY PORI Pori",
+          "originalDate": 1681862400000,
+          "originalDescription": "492065******2957 OSTOPVM 230417 MF NRO 74920543108066381872483 VARMENTAJA 400 PKORTTIMAKSU PICK N PAY PORI Pori"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e3db90060f666fe4ed69b7988d346da5",
+          "date": 1681689600000,
+          "amount": 5.97,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "SIIRTO 09P00077101C JUURIKASTILITYS LEVON ILONA MARIA",
+          "originalDate": 1681689600000,
+          "originalDescription": "SIIRTO 09P00077101C JUURIKASTILITYS LEVON ILONA MARIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9aae8340c1674ff6d2aaafe77b7c534f",
+          "date": 1681689600000,
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "AUTOMAATTINOSTO",
+          "originalDate": 1681689600000,
+          "originalDescription": "AUTOMAATTINOSTO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "84b36be030f6927d35906e234697bb95",
+          "date": 1681689600000,
+          "amount": 40.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1862-216117",
+          "description": "moi TILISIIRTO EK AUNE",
+          "originalDate": 1681689600000,
+          "originalDescription": "moi TILISIIRTO EK AUNE"
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "account_AT-1862-216117",
+        "iban": "FI7352460640011386",
+        "name": "SAARENMAA MIKA",
+        "type": "KÄYTTÖTILI",
+        "closed": false,
+        "balance": 0.9,
+        "holderName": "SAARENMAA MIKA",
+        "currencyCode": "EUR",
+        "accountNumber": "FI7352460640011386"
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "name": "SAARENMAA MIKA",
+        "providerName": ""
+      }
+    ]
+  }
+}

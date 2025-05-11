@@ -1,0 +1,285 @@
+{
+  "bank": {
+    "logo": "https://enablebanking.com/brands/SE/Swedbank/",
+    "name": "Swedbank",
+    "country": "SE",
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "name": "REDIRECT",
+        "title": "Redirect",
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": false,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ],
+        "default_method": true
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "uid": "FI85100-00-85100-0000-0000-1",
+      "name": "Daniel Dansson",
+      "usage": null,
+      "details": "privatkonto",
+      "product": "privatkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Current available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": 25020.75,
+                "currency": "SEK"
+              },
+              "reference_date": "2022-12-02",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance with pre-approved credit line",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": 25020.75,
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "FI85100008510000000000-1",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "8510-0,000 000 000--1"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "linked_account": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "FI85100008510000000000-1"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "8510-0,000 000 000--1"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "SWEDSESS",
+        "clearing_system_member_id": {
+          "member_id": "85100",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "kreditz_demo_cert_no_consumer_account_-1"
+    },
+    {
+      "uid": "FI85100-00-851000-0000-0000",
+      "name": "Daniel Dansson",
+      "usage": null,
+      "details": "Sparkonto",
+      "product": "Sparkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Current available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": 85250.13,
+                "currency": "SEK"
+              },
+              "reference_date": "2022-12-02",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance with pre-approved credit line",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": 85250.13,
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "FI851000085100000000000",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "8510-0,000 000 000-0"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "linked_account": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "FI851000085100000000000"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "8510-0,000 000 000-0"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "SWEDSESS",
+        "clearing_system_member_id": {
+          "member_id": "85100",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "kreditz_demo_cert_no_consumer_account_0"
+    }
+  ],
+  "transactions": [
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-06-20",
+      "booking_date": "2022-06-20",
+      "debtor_account": null,
+      "bank_account_id": "FI85100-00-851000-0000-0000",
+      "entry_reference": 866,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2022-06-20",
+      "transaction_amount": {
+        "amount": 5450.0,
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Intern överföring"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-05-20",
+      "booking_date": "2022-05-20",
+      "debtor_account": null,
+      "bank_account_id": "FI85100-00-851000-0000-0000",
+      "entry_reference": 867,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2022-05-20",
+      "transaction_amount": {
+        "amount": 5450.0,
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Intern överföring"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-04-27",
+      "booking_date": "2022-04-27",
+      "debtor_account": null,
+      "bank_account_id": "FI85100-00-85100-0000-0000-1",
+      "entry_reference": 868,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2022-04-27",
+      "transaction_amount": {
+        "amount": 25000.0,
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": null
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Överföring"
+      ],
+      "balance_after_transaction": null
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "Swedbank",
+      "country": "SE"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2022-12-09T13:40:47.746660",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2022-12-02T13:40:47.746543",
+    "accounts": [
+      "FI85100-00-85100-0000-0000-1",
+      "FI85100-00-851000-0000-0000"
+    ],
+    "psu_type": "personal",
+    "authorized": "2022-12-02T13:41:47.746611",
+    "accounts_data": [
+      {
+        "uid": "FI85100-00-85100-0000-0000-1",
+        "identification_hash": "kreditz_demo_cert_no_consumer_account_-1"
+      },
+      {
+        "uid": "FI85100-00-851000-0000-0000",
+        "identification_hash": "kreditz_demo_cert_no_consumer_account_0"
+      }
+    ]
+  }
+}

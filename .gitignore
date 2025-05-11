@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If you're using MySQL or PostgreSQL, you might still want to ignore the default SQLite files
+# Comment the below if you're not using SQLite
+*.sqlite3
+
+# Ignore Django migration history if not tracking (optional)
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+
+# Python environment variables
+.env
+.env.*
+
+# MacOS
+.DS_Store
+
+# Node (if using npm/yarn for frontend assets)
+node_modules/
+
+# Compiled files
+*.pot
+*.mo
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+pyrightconfig.json
+
+# Test output
+test-output/
+
+# Media uploads
+uploads/

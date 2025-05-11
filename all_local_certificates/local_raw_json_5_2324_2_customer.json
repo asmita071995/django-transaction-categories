@@ -1,0 +1,2116 @@
+{
+  "bank": {
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/NO/DNB/",
+    "name": "DNB",
+    "country": "NO",
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": true,
+            "template": "^([0-3]\\d[01]\\d\\d{2}\\d{3}\\d{2})$",
+            "description": "Norwegian national identity number in the format DDMMYYXXXXX (11 digits)"
+          }
+        ],
+        "hidden_method": false
+      }
+    ],
+    "required_psu_headers": [
+      "psu-ip-address"
+    ],
+    "maximum_consent_validity": 7776000
+  },
+  "accounts": [
+    {
+      "uid": "2143d143-88bb-468c-b217-345890b95dd7",
+      "name": "Mohamad Fadul Muqbel Ali",
+      "usage": null,
+      "details": "PLUSS BRUKSKONTO",
+      "product": null,
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Opening booked balance",
+              "balance_type": "OPBD",
+              "balance_amount": {
+                "amount": "12746.74",
+                "currency": "NOK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Balance of type \"authorised\"",
+              "balance_type": "OTHR",
+              "balance_amount": {
+                "amount": "12746.74",
+                "currency": "NOK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": "12746.74",
+                "currency": "NOK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "NOK",
+      "account_id": {
+        "iban": "NO1312074768065",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "NO1312074768065"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "DNBANOKKXXX",
+        "clearing_system_member_id": null
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.4U/fiG0M+jDWyieFaYqn0uv53FU3iuo//7tRorVMazQ=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.aT/MBhLcbnltl1Ldn4nAiSFlWhyJf6qPpAZkrt5IqZo=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.4U/fiG0M+jDWyieFaYqn0uv53FU3iuo//7tRorVMazQ=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.xrZp6XlJA1fAC1voOrW7eIFpxro3Aa5RpaM4kBX5Xjc=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.Ig5SnAPm3aOF8aaSnAZgMkezPOVaXbD6LsMlBuUSg2c=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.x79nb6OVcks5XBOun7CxfgQEvpdHiniDeB1ZIZ64R7g=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.oRP2gEgyefqAKMdbOTxNsZVK1+2CgvQm/dbVqLsy1P0="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Storebrand Forsikring AS",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-05-04",
+      "booking_date": "2023-05-04",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "81013009090"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "644.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9904044592",
+        "Giro, Storebrand Forsikring As, Efaktura, Tpp: Vipps As"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-04-25",
+      "booking_date": "2023-04-25",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "13390.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Ark.Ref *88721444   Dato 25.04, Tx33062942700xt Finnkode:, Adyen N.V"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-04-11",
+      "booking_date": "2023-04-11",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "14000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Jan Hetland"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Bank Norwegian",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-04-11",
+      "booking_date": "2023-04-11",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "15031563892"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "14000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "002095060014",
+        "Giro, Bank Norwegian, Efaktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Santander Consumer Bank As",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-03-17",
+      "booking_date": "2023-03-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "97500631000"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1050.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9351004685903",
+        "Giro, Santander Consumer Bank As, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2023-03-17",
+      "booking_date": "2023-03-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "83840451545"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "373.26",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Til : 83840451545, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Sparebank 1 Kreditt As",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-03-17",
+      "booking_date": "2023-03-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "42024603940"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "4576.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "018197767496",
+        "Giro, Sparebank 1 Kreditt As, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-03-16",
+      "booking_date": "2023-03-16",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "6000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Refusjon -  Finn Frakt Og Betaling, Finn No As"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-02-07",
+      "booking_date": "2023-02-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "7000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Uttak/innskudd, Ark.Ref *17135466   Dato 07.02, Kontantinnskudd I Butikk Kiwi 607 K, Unnsk Stord"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "American Express Europe Sa",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-02-07",
+      "booking_date": "2023-02-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "15060321334"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "4200.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "370197723431009",
+        "Giro, American Express Europe Sa, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Mohammed Gamal Mahmood Abdulmanea",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-02-07",
+      "booking_date": "2023-02-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12084479134"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2800.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Mohammed Gamal Mahmood Abdulmanea, Betaling, Tpp: Vipps As, Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-01-16",
+      "booking_date": "2023-01-16",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "0.66",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Giro, Mohamad Fadul Muqbel Ali"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-01-13",
+      "booking_date": "2023-01-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "289.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Giro, Mohamad Fadul Muqbel Ali"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2023-01-02",
+      "booking_date": "2023-01-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "295.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Visa-Kostnad, Årspris Kort Med Visa - 2023"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-10-11",
+      "booking_date": "2022-10-11",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "83840451545"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "0.48",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-08-08",
+      "booking_date": "2022-08-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "83840451545"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "111.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Til : 83840451545, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Bank Norwegian",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-08-08",
+      "booking_date": "2022-08-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "15031563892"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "13000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "002095060014",
+        "Giro, Bank Norwegian, Efaktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "DNB BANK ASA",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-07-28",
+      "booking_date": "2022-07-28",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12016399394"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "2000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "578838404515459",
+        "Giro, Dnb Bank Asa, Efaktura, Tpp: Vipps As"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-07-27",
+      "booking_date": "2022-07-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "11723.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Tryg Forsikring"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-07-27",
+      "booking_date": "2022-07-27",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "3366.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Tryg Forsikring"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-07-25",
+      "booking_date": "2022-07-25",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "50.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Bashar Khaled Naji Matea, Vipps, Tpp: Vipps As"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-07-25",
+      "booking_date": "2022-07-25",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "83840451545"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "26.18",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Til : 83840451545, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-13",
+      "booking_date": "2022-06-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Zhenja Stordahl, Vipps Vipps, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2022-06-13",
+      "booking_date": "2022-06-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "83840451545"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "5115.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Mobil Betaling"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-13",
+      "booking_date": "2022-06-13",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Kamal Al Said Salman, Forespørsel"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-08",
+      "booking_date": "2022-06-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Mohammed A Abdulmajed, Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-08",
+      "booking_date": "2022-06-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "500.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Misgna Gebru Kifle, Vipps, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-08",
+      "booking_date": "2022-06-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Amjad Mohammad Saleh, Vipps Forespørsel"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-08",
+      "booking_date": "2022-06-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Fahim Thabet Ariqi, Forespørsel"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-08",
+      "booking_date": "2022-06-08",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "400.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Fahim Thabet Ariqi, Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Mohammed Gamal Mahmood Abdulmanea, Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Amin Mohammed Amin Saleh, Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Mahmoud Qassem Alnashef, Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Abdel Rahim Suleyman Fakak, Vipps Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Ibrahim Abdallah Mohammed Al-Baadan, Vipps Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Ahmed Abdullah Nasser, Vipps Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Abdulasis Mohammed Ahmed, Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "500.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Sibel Uysal, Vipps, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Zakaria Ahmed Mohammed, Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Ahmed Saadi Saleh, Forespørsel, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "1000.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring, Biftu Abdosh Ahmed, Vipps, Tpp: Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Telia Norge AS (Mobil)",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "12074768065"
+        }
+      },
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "60050672525"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "384.3",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "835220419",
+        "Giro, Telia Norge As Mobil), Efaktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "400.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Katrine Gjesdal Bræin, Forespørsel"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Mahmoud A A Abdelbaki, Forespørsel"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-06-07",
+      "booking_date": "2022-06-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Niyaz A A Al-Sharabi, Forespørsel"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": null,
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": "2022-05-18",
+      "booking_date": "2022-05-18",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "bank_account_id": "2143d143-88bb-468c-b217-345890b95dd7",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "NO1312074768065",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": null,
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "NOK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Overføring Innland, Nuaas Khames Othman, Vipps"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "DNB",
+      "country": "NO"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2023-05-14T12:21:04.209000+00:00",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2023-05-07T12:21:04.579848+00:00",
+    "accounts": [
+      "2143d143-88bb-468c-b217-345890b95dd7"
+    ],
+    "psu_type": "personal",
+    "authorized": "2023-05-07T12:21:33.789585+00:00",
+    "accounts_data": [
+      {
+        "uid": "2143d143-88bb-468c-b217-345890b95dd7",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.4U/fiG0M+jDWyieFaYqn0uv53FU3iuo//7tRorVMazQ=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.aT/MBhLcbnltl1Ldn4nAiSFlWhyJf6qPpAZkrt5IqZo=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.4U/fiG0M+jDWyieFaYqn0uv53FU3iuo//7tRorVMazQ=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.xrZp6XlJA1fAC1voOrW7eIFpxro3Aa5RpaM4kBX5Xjc=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.Ig5SnAPm3aOF8aaSnAZgMkezPOVaXbD6LsMlBuUSg2c=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.x79nb6OVcks5XBOun7CxfgQEvpdHiniDeB1ZIZ64R7g=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.oRP2gEgyefqAKMdbOTxNsZVK1+2CgvQm/dbVqLsy1P0="
+        ]
+      }
+    ]
+  }
+}

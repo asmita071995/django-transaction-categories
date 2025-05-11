@@ -1,0 +1,1319 @@
+{
+  "bank": {
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/SE/SEB/",
+    "name": "SEB",
+    "country": "SE",
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "name": "REDIRECT",
+        "title": "Redirect",
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": false,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ],
+        "hidden_method": false
+      },
+      {
+        "name": "MOBILE_ID",
+        "title": "Mobile BankID",
+        "approach": "DECOUPLED",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": true,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ],
+        "hidden_method": true
+      }
+    ],
+    "maximum_consent_validity": 15552000
+  },
+  "accounts": [
+    {
+      "uid": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "name": "ALI AHMED",
+      "usage": null,
+      "details": "PRIVATKONTO 1",
+      "product": "Privatkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "93545.750",
+                "currency": "SEK"
+              }
+            },
+            {
+              "name": "",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "93545.750",
+                "currency": "SEK"
+              }
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE4550000000052730253556"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": null,
+        "clearing_system_member_id": {
+          "member_id": "5273",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.KRTp5j6r/BYaJ4C6BWn+tYRUuLq2+IEZG8T9Zhb1ZZ8=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.tsQqIE2zvMHoaip2Y8pEJJeq7ktGZtuApZAOKG5fdbo=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.KRTp5j6r/BYaJ4C6BWn+tYRUuLq2+IEZG8T9Zhb1ZZ8=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.eHYplRaZqCrhjcMxGD6Xs75yXTy0sMet6FgRrl1Nxp4=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.dwg62thPk+XdVqPHiM3KDRi4W1VIehyok+MnqEH4/cI=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.49VqwlciCwHLqTPwy3eDYUMlJfCGFVmTkX6KCECycU4=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.whrA3vWUNZrVhWoF6416Hit2GQX7sxHNfG7EIotz9Og=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.R4Gkfg4YfGBBEAQBLpvGSSN+2tcweFECxnqE+P80g7A=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.CJFEKOBpwasp6jHy3vUO817ISOFH4Le7XhiA2vyYAQc="
+      ]
+    },
+    {
+      "uid": "c07446be-d3f2-40ba-8cea-d3bc397e4f6c",
+      "name": "ALI AHMED",
+      "usage": null,
+      "details": "Privatkonto",
+      "product": "Privatkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "0.000",
+                "currency": "SEK"
+              }
+            },
+            {
+              "name": "",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "0.000",
+                "currency": "SEK"
+              }
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE9850000000052730253572",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "52730253572"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE9850000000052730253572"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "52730253572"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": null,
+        "clearing_system_member_id": {
+          "member_id": "5273",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.yJcbNEAlGXP4cCOSRZh0CWGcgwgDdQXcdELEIUMfWko=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.ovaUW7Po7CBugr8zX4zMSibn+h0nxetnnuLb6QUTcPA=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.yJcbNEAlGXP4cCOSRZh0CWGcgwgDdQXcdELEIUMfWko=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.HOPu0auBeYyaQknterd+SQT8ZmgAWYAtyl/yb/xFfJ8=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.VJyuvYGGadslyWG6hQb6wuh31JRySfiGlPN6TSJke4c=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.RSCLwIr2cXI5aIVN7dXHHOB9jPHwXsMVtWCKKgeqZPQ=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.uiayuyMZbLJpdQF6p1MsEDHXoeDjv/Tw7ZNZO/kMQcY=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.rcUNtQZNImVnWuLWwaIH59R8Row1i/Z2HddYjlj3bz0=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.CJFEKOBpwasp6jHy3vUO817ISOFH4Le7XhiA2vyYAQc="
+      ]
+    },
+    {
+      "uid": "302273a3-3a29-4759-a387-c84924b17ae4",
+      "name": "ALI AHMED",
+      "usage": null,
+      "details": "ENKLA SPARKONTOT",
+      "product": "Enkla sparkontot",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "0.000",
+                "currency": "SEK"
+              }
+            },
+            {
+              "name": "",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "0.000",
+                "currency": "SEK"
+              }
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE6050000000052733482610",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "52733482610"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE6050000000052733482610"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "52733482610"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": null,
+        "clearing_system_member_id": {
+          "member_id": "5273",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.c+Zw4FI9PINviVK6vH9DrOBHbQuscLqGFUSof0Pl//I=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.6Uxv8zWOdIky17/X5zpFZsY1vuAmF61KiYOrPrmhzHE=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.c+Zw4FI9PINviVK6vH9DrOBHbQuscLqGFUSof0Pl//I=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.vRx2JVuhfVtVVrQYfllF8/gr77gC30zpRAX1eIIegzg=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.bqnY7LJF1qaluAUM9WG5saMHOQXVHxs3VDzQUe3bVsM=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SLVIsM9a1MvtxvZ0TqiVCWo6Ni9WgbjWLOwdj/xbC6w=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.N7CguA3g8MPz50sJ1n1nCkJbM35K9DRKLHf9OTsFj38=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.w/7aYyax6y+Ztv5YBug/471RbgjbzxwihNvcgj2QLnU=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.CJFEKOBpwasp6jHy3vUO817ISOFH4Le7XhiA2vyYAQc="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-08-30",
+      "booking_date": "2023-08-30",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "93545.750",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6763.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "93595.750",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-07-28",
+      "booking_date": "2023-07-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6768.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "100358.750",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-07-28",
+      "booking_date": "2023-07-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "107126.750",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-07-26",
+      "booking_date": "2023-07-26",
+      "creditor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490961331",
+      "creditor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_amount": {
+        "amount": "32000.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+        "LÖN"
+      ],
+      "balance_after_transaction": {
+        "amount": "107176.750",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-06-30",
+      "booking_date": "2023-06-30",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990010",
+      "transaction_amount": {
+        "amount": "1.230",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "RÄNTA"
+      ],
+      "balance_after_transaction": {
+        "amount": "75176.750",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-06-29",
+      "booking_date": "2023-06-29",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "75177.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-06-29",
+      "booking_date": "2023-06-29",
+      "creditor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490961331",
+      "creditor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_amount": {
+        "amount": "32000.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+        "LÖN"
+      ],
+      "balance_after_transaction": {
+        "amount": "75227.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-06-28",
+      "booking_date": "2023-06-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6772.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "43227.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-05-30",
+      "booking_date": "2023-05-30",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "49999.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-05-26",
+      "booking_date": "2023-05-26",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6850.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "50049.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-05-26",
+      "booking_date": "2023-05-26",
+      "creditor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490961331",
+      "creditor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_amount": {
+        "amount": "32000.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+        "LÖN"
+      ],
+      "balance_after_transaction": {
+        "amount": "56899.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-05-10",
+      "booking_date": "2023-05-10",
+      "creditor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490961331",
+      "creditor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_amount": {
+        "amount": "25000.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+        "LÖN"
+      ],
+      "balance_after_transaction": {
+        "amount": "24899.980",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-04-27",
+      "booking_date": "2023-04-27",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "-100.020",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-03-31",
+      "booking_date": "2023-03-31",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990010",
+      "transaction_amount": {
+        "amount": "0.020",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "RÄNTA"
+      ],
+      "balance_after_transaction": {
+        "amount": "-50.020",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-03-30",
+      "booking_date": "2023-03-30",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "-50.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-03-28",
+      "booking_date": "2023-03-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6776.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "0.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-02-28",
+      "booking_date": "2023-02-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6791.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "6776.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-02-27",
+      "booking_date": "2023-02-27",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "13567.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-01-30",
+      "booking_date": "2023-01-30",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "13617.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2023-01-27",
+      "booking_date": "2023-01-27",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6795.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "13667.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-12-29",
+      "booking_date": "2022-12-29",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "20462.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-12-28",
+      "booking_date": "2022-12-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6800.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "20512.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-11-29",
+      "booking_date": "2022-11-29",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "27312.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-11-28",
+      "booking_date": "2022-11-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6805.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "27362.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-10-28",
+      "booking_date": "2022-10-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6809.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "34167.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-10-28",
+      "booking_date": "2022-10-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "40976.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-09-29",
+      "booking_date": "2022-09-29",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990733",
+      "transaction_amount": {
+        "amount": "50.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Other"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ENKLA VARDAG"
+      ],
+      "balance_after_transaction": {
+        "amount": "41026.000",
+        "currency": "XXX"
+      }
+    },
+    {
+      "note": null,
+      "status": "BOOK",
+      "value_date": "2022-09-28",
+      "booking_date": "2022-09-28",
+      "debtor_agent": {
+        "bic_fi": "ESSESESSXXX"
+      },
+      "debtor_account": {
+        "iban": "SE4550000000052730253556",
+        "other": {
+          "scheme_name": "BBAN",
+          "identification": "52730253556"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "entry_reference": "5490990250",
+      "transaction_amount": {
+        "amount": "6814.000",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "description": "Mortgage"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "LÅN 46289641"
+      ],
+      "balance_after_transaction": {
+        "amount": "41076.000",
+        "currency": "XXX"
+      }
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "SEB",
+      "country": "SE"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2023-09-25T08:20:18.353000Z",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2023-09-18T08:20:18.648341Z",
+    "accounts": [
+      "302273a3-3a29-4759-a387-c84924b17ae4",
+      "b4822a6f-afee-4da4-a481-80b781c662a7",
+      "c07446be-d3f2-40ba-8cea-d3bc397e4f6c"
+    ],
+    "psu_type": "personal",
+    "authorized": "2023-09-18T08:20:47.936072Z",
+    "psu_id_hash": "0589dce82570adac9ad8bb56d25bf9fb1c4aabe3280bbf677b454dda8f083f59",
+    "accounts_data": [
+      {
+        "uid": "302273a3-3a29-4759-a387-c84924b17ae4",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.c+Zw4FI9PINviVK6vH9DrOBHbQuscLqGFUSof0Pl//I=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.6Uxv8zWOdIky17/X5zpFZsY1vuAmF61KiYOrPrmhzHE=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.c+Zw4FI9PINviVK6vH9DrOBHbQuscLqGFUSof0Pl//I=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.vRx2JVuhfVtVVrQYfllF8/gr77gC30zpRAX1eIIegzg=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.bqnY7LJF1qaluAUM9WG5saMHOQXVHxs3VDzQUe3bVsM=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SLVIsM9a1MvtxvZ0TqiVCWo6Ni9WgbjWLOwdj/xbC6w=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.N7CguA3g8MPz50sJ1n1nCkJbM35K9DRKLHf9OTsFj38=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.w/7aYyax6y+Ztv5YBug/471RbgjbzxwihNvcgj2QLnU=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.CJFEKOBpwasp6jHy3vUO817ISOFH4Le7XhiA2vyYAQc="
+        ]
+      },
+      {
+        "uid": "b4822a6f-afee-4da4-a481-80b781c662a7",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.KRTp5j6r/BYaJ4C6BWn+tYRUuLq2+IEZG8T9Zhb1ZZ8=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.tsQqIE2zvMHoaip2Y8pEJJeq7ktGZtuApZAOKG5fdbo=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.KRTp5j6r/BYaJ4C6BWn+tYRUuLq2+IEZG8T9Zhb1ZZ8=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.eHYplRaZqCrhjcMxGD6Xs75yXTy0sMet6FgRrl1Nxp4=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.dwg62thPk+XdVqPHiM3KDRi4W1VIehyok+MnqEH4/cI=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.49VqwlciCwHLqTPwy3eDYUMlJfCGFVmTkX6KCECycU4=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.whrA3vWUNZrVhWoF6416Hit2GQX7sxHNfG7EIotz9Og=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.R4Gkfg4YfGBBEAQBLpvGSSN+2tcweFECxnqE+P80g7A=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.CJFEKOBpwasp6jHy3vUO817ISOFH4Le7XhiA2vyYAQc="
+        ]
+      },
+      {
+        "uid": "c07446be-d3f2-40ba-8cea-d3bc397e4f6c",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.yJcbNEAlGXP4cCOSRZh0CWGcgwgDdQXcdELEIUMfWko=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.ovaUW7Po7CBugr8zX4zMSibn+h0nxetnnuLb6QUTcPA=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.yJcbNEAlGXP4cCOSRZh0CWGcgwgDdQXcdELEIUMfWko=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.HOPu0auBeYyaQknterd+SQT8ZmgAWYAtyl/yb/xFfJ8=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.VJyuvYGGadslyWG6hQb6wuh31JRySfiGlPN6TSJke4c=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.RSCLwIr2cXI5aIVN7dXHHOB9jPHwXsMVtWCKKgeqZPQ=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.uiayuyMZbLJpdQF6p1MsEDHXoeDjv/Tw7ZNZO/kMQcY=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.rcUNtQZNImVnWuLWwaIH59R8Row1i/Z2HddYjlj3bz0=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.CJFEKOBpwasp6jHy3vUO817ISOFH4Le7XhiA2vyYAQc="
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2700 @@
+{
+  "user": {
+    "profile": {
+      "name": "FERRO BETANCOUR ELIANA                                                         ",
+      "market": "ES"
+    }
+  },
+  "transactions": {
+    "results": [
+      {
+        "transaction": {
+          "id": "56ab5358dda76361d397526f5930c882",
+          "date": 1682553600000,
+          "amount": 160,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "INGRESO EN EFECTIVO",
+          "originalDate": 1682553600000,
+          "originalDescription": "INGRESO EN EFECTIVO"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0c37b25dd52febfddf597c4e72794194",
+          "date": 1682553600000,
+          "amount": 30,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE WENDY OTAYA BETANCOURT CONCEPTO wen",
+          "originalDate": 1682553600000,
+          "originalDescription": "BIZUM DE WENDY OTAYA BETANCOURT CONCEPTO wen"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0704c1898373b8d9976ca5010c3851d2",
+          "date": 1682467200000,
+          "amount": -3.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-26",
+          "originalDate": 1682467200000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-26"
+        }
+      },
+      {
+        "transaction": {
+          "id": "be2445a68192192c0f329895cfdc2042",
+          "date": 1681948800000,
+          "amount": -11.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ALDI SABADELL CAN FEU, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-20",
+          "originalDate": 1681948800000,
+          "originalDescription": "Apple pay: COMPRA EN ALDI SABADELL CAN FEU, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-20"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ea997b5bfd4c61fb228d3f46b825ba1a",
+          "date": 1681862400000,
+          "amount": -49.82,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN ENDESA E WEB EC 0001, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-19",
+          "originalDate": 1681862400000,
+          "originalDescription": "COMPRA EN ENDESA E WEB EC 0001, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-19"
+        }
+      },
+      {
+        "transaction": {
+          "id": "dd20da4b09c9f7103ddcc4a92c9f65dc",
+          "date": 1681776000000,
+          "amount": -763.43,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA A FAVOR DE WENANCE CONCEPTO: Y7248485A Eliana Ferro Betancour",
+          "originalDate": 1681776000000,
+          "originalDescription": "TRANSFERENCIA A FAVOR DE WENANCE CONCEPTO: Y7248485A Eliana Ferro Betancour"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5846435f88a63cb8179ebe862a1969a4",
+          "date": 1681689600000,
+          "amount": 600,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "ABONO EN CUENTA DESDE LA TARJETA XXXXXXXXXXXX4105",
+          "originalDate": 1681689600000,
+          "originalDescription": "ABONO EN CUENTA DESDE LA TARJETA XXXXXXXXXXXX4105"
+        }
+      },
+      {
+        "transaction": {
+          "id": "835ad12412a29a0b5496ca7cb5b26043",
+          "date": 1681689600000,
+          "amount": -300,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "ENTREGA A CUENTA",
+          "originalDate": 1681689600000,
+          "originalDescription": "ENTREGA A CUENTA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6fdcdd3f730877c8d8ce4e406b7daac5",
+          "date": 1681689600000,
+          "amount": 210,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO deudas",
+          "originalDate": 1681689600000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO deudas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "74448cd9abc8879f8b31cd0960b375a6",
+          "date": 1681689600000,
+          "amount": 300,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE Jose Montserrat Munoz CONCEPTO haci",
+          "originalDate": 1681689600000,
+          "originalDescription": "BIZUM DE Jose Montserrat Munoz CONCEPTO haci"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2c55d971c089220f2420f8f5c70ae6f2",
+          "date": 1681689600000,
+          "amount": -32.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BYJZHYS REF. MANDATO 9902926182",
+          "originalDate": 1681689600000,
+          "originalDescription": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BYJZHYS REF. MANDATO 9902926182"
+        }
+      },
+      {
+        "transaction": {
+          "id": "46bb6992bd787c7ac84777650a56c753",
+          "date": 1681689600000,
+          "amount": -11,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: gatos",
+          "originalDate": 1681689600000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: gatos"
+        }
+      },
+      {
+        "transaction": {
+          "id": "22cd8bd2e122f284af9e0ad01dd863de",
+          "date": 1681257600000,
+          "amount": -24.96,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO Santa Lucia S.A. Nº RECIBO 0073 0100 755 BYJGQTM REF. MANDATO 330001916588",
+          "originalDate": 1681257600000,
+          "originalDescription": "RECIBO Santa Lucia S.A. Nº RECIBO 0073 0100 755 BYJGQTM REF. MANDATO 330001916588"
+        }
+      },
+      {
+        "transaction": {
+          "id": "017718eb02e2a2b0e7e0430b3081ee34",
+          "date": 1681084800000,
+          "amount": -6.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-10",
+          "originalDate": 1681084800000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-10"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a1c139f9faf2f92d7455681bf80cc53f",
+          "date": 1681084800000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN CARRETERA BARCELONA KM 10, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-09",
+          "originalDate": 1681084800000,
+          "originalDescription": "Apple pay: COMPRA EN CARRETERA BARCELONA KM 10, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-09"
+        }
+      },
+      {
+        "transaction": {
+          "id": "45c1945bb1e9861580e9b6c5d057e69c",
+          "date": 1681084800000,
+          "amount": 4,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Sin concepto",
+          "originalDate": 1681084800000,
+          "originalDescription": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Sin concepto"
+        }
+      },
+      {
+        "transaction": {
+          "id": "43335d54f50247f0e47db803a8a17bbc",
+          "date": 1680739200000,
+          "amount": -15.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN YELMO CINES BARICENTRO, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-06",
+          "originalDate": 1680739200000,
+          "originalDescription": "Apple pay: COMPRA EN YELMO CINES BARICENTRO, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5f43154bedb5d0148888c36e365945d3",
+          "date": 1680739200000,
+          "amount": -15.65,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-06",
+          "originalDate": 1680739200000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX6402 EL 2023-04-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bc7c65658630cb43c5fa3ce213c9b404",
+          "date": 1680652800000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BYGWDNH REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1680652800000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BYGWDNH REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6033072de5fb4c168930829dbb109bec",
+          "date": 1680652800000,
+          "amount": -79.92,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BYGWDNG REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1680652800000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BYGWDNG REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b96ef5bdbd20ed04eac45ae0c7463f00",
+          "date": 1680566400000,
+          "amount": -37.55,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN REST CAL SILVINO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02",
+          "originalDate": 1680566400000,
+          "originalDescription": "Apple pay: COMPRA EN REST CAL SILVINO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "811201c367a837eb8d3e3461a03e6e60",
+          "date": 1680566400000,
+          "amount": -57,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN PERFUMERIA JULIA RIVER, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02",
+          "originalDate": 1680566400000,
+          "originalDescription": "Apple pay: COMPRA EN PERFUMERIA JULIA RIVER, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5e5b4a4d64530f6d9e7e906f5834db7e",
+          "date": 1680566400000,
+          "amount": -3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN CALDEA - BOTIGA AQUATI, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02",
+          "originalDate": 1680566400000,
+          "originalDescription": "Apple pay: COMPRA EN CALDEA - BOTIGA AQUATI, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "22fa35832ef395a64ab3dde5bae15df3",
+          "date": 1680566400000,
+          "amount": -0.03,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES",
+          "originalDate": 1680566400000,
+          "originalDescription": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES"
+        }
+      },
+      {
+        "transaction": {
+          "id": "93e8799710737214c8a821394d7f26e9",
+          "date": 1680566400000,
+          "amount": 0.16,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+          "originalDate": 1680566400000,
+          "originalDescription": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "664ce00e0556fd29cc05fdb7b8467fae",
+          "date": 1680480000000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: pago",
+          "originalDate": 1680480000000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: pago"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b984c49f1ff340f2a741e5b7664a2f53",
+          "date": 1680480000000,
+          "amount": -68.16,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA BIZUM ORGANISME TRIBUTARI 2023-04-03 PEDIDO 013759262",
+          "originalDate": 1680480000000,
+          "originalDescription": "COMPRA BIZUM ORGANISME TRIBUTARI 2023-04-03 PEDIDO 013759262"
+        }
+      },
+      {
+        "transaction": {
+          "id": "30e5f3ca4ca64f24124b459b7a232a0d",
+          "date": 1680480000000,
+          "amount": -150,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE DARAMY IBRAHIM CONCEPTO: prestamo",
+          "originalDate": 1680480000000,
+          "originalDescription": "BIZUM A FAVOR DE DARAMY IBRAHIM CONCEPTO: prestamo"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cd553ca0d813f5326cac58a197e4094a",
+          "date": 1680480000000,
+          "amount": -39.3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO COMISSIO OBRERA NACIONAL DE CATALUNYA Nº RECIBO 0073 0100 755 BYDZCPS REF. MANDATO Y7248485",
+          "originalDate": 1680480000000,
+          "originalDescription": "RECIBO COMISSIO OBRERA NACIONAL DE CATALUNYA Nº RECIBO 0073 0100 755 BYDZCPS REF. MANDATO Y7248485"
+        }
+      },
+      {
+        "transaction": {
+          "id": "87ec8f26881e336c1a2da81069a5de01",
+          "date": 1680480000000,
+          "amount": -11,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN KFC SAN CUGAT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02",
+          "originalDate": 1680480000000,
+          "originalDescription": "Apple pay: COMPRA EN KFC SAN CUGAT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c8aab0dfabe3b1c72c56d7edeb70ec3c",
+          "date": 1680480000000,
+          "amount": -3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ONDINA DEL SEGRE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02",
+          "originalDate": 1680480000000,
+          "originalDescription": "Apple pay: COMPRA EN ONDINA DEL SEGRE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-04-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b485dab8e5bff742501e58f961f52387",
+          "date": 1680480000000,
+          "amount": 100,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO deudas",
+          "originalDate": 1680480000000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO deudas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "849033e44e55c02d7e096c395fef8c7b",
+          "date": 1680480000000,
+          "amount": -300,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "LIQUIDACION DE LA TARJETA DE CREDITO 0073 0100 500 0496313",
+          "originalDate": 1680480000000,
+          "originalDescription": "LIQUIDACION DE LA TARJETA DE CREDITO 0073 0100 500 0496313"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f3ec3df72e160e4353fff24af915b044",
+          "date": 1680220800000,
+          "amount": -50,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE HECTOR ALEJANDRO MOLINA CONCEPTO: gracias",
+          "originalDate": 1680220800000,
+          "originalDescription": "BIZUM A FAVOR DE HECTOR ALEJANDRO MOLINA CONCEPTO: gracias"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8a7b71b2b368271c2b40d2da741d4e4d",
+          "date": 1680220800000,
+          "amount": 1120.4,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24",
+          "originalDate": 1680220800000,
+          "originalDescription": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fa490dff978e289f0eec2923c4c6e48c",
+          "date": 1680134400000,
+          "amount": -10,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: Sin concepto",
+          "originalDate": 1680134400000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: Sin concepto"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9148ffe991304ba1ae1507b291aaeba1",
+          "date": 1680134400000,
+          "amount": -165.14,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA BIZUM TRAVENTIA 2023-03-30 PEDIDO 6423NjcGvkU0",
+          "originalDate": 1680134400000,
+          "originalDescription": "COMPRA BIZUM TRAVENTIA 2023-03-30 PEDIDO 6423NjcGvkU0"
+        }
+      },
+      {
+        "transaction": {
+          "id": "157f973cae5affea78ad88cb33f03137",
+          "date": 1680134400000,
+          "amount": 50,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE HECTOR ALEJANDRO MOLINA CONCEPTO Ya tu sabe",
+          "originalDate": 1680134400000,
+          "originalDescription": "BIZUM DE HECTOR ALEJANDRO MOLINA CONCEPTO Ya tu sabe"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c600fc14c836105b3151faa7b2020894",
+          "date": 1680134400000,
+          "amount": 150,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO deudas",
+          "originalDate": 1680134400000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO deudas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a2ac478a6810f2bc56a1a3f660a2a494",
+          "date": 1680048000000,
+          "amount": -8.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-27",
+          "originalDate": 1680048000000,
+          "originalDescription": "Apple pay: COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-27"
+        }
+      },
+      {
+        "transaction": {
+          "id": "393c74ad2a5d032a34e9692ad28361f4",
+          "date": 1679961600000,
+          "amount": -4.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-28",
+          "originalDate": 1679961600000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-28"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f9cdb99879e36929cbc9f4ee7459a647",
+          "date": 1679875200000,
+          "amount": -185.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BYBGSQR REF. MANDATO 42185086001",
+          "originalDate": 1679875200000,
+          "originalDescription": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BYBGSQR REF. MANDATO 42185086001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7b7ed8ac428cecc9f4a2bf2f56bc5b78",
+          "date": 1679875200000,
+          "amount": 200,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO ele",
+          "originalDate": 1679875200000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO ele"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8a7a158ee59c9dd3ce3fe850964bbcd7",
+          "date": 1679443200000,
+          "amount": -7.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN Netflix.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-20",
+          "originalDate": 1679443200000,
+          "originalDescription": "COMPRA EN Netflix.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-20"
+        }
+      },
+      {
+        "transaction": {
+          "id": "027ba1981f19fb0b390bd3b049a14810",
+          "date": 1679270400000,
+          "amount": -62.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN shein.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-16",
+          "originalDate": 1679270400000,
+          "originalDescription": "Apple pay: COMPRA EN shein.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-16"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5632e2e1a6ad6252dfaa82d4829f0626",
+          "date": 1679270400000,
+          "amount": -5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: tabaco",
+          "originalDate": 1679270400000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: tabaco"
+        }
+      },
+      {
+        "transaction": {
+          "id": "aa521322288cbe2d2e9c50c5c6172301",
+          "date": 1679270400000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN CARRETERA BARCELONA KM 10, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-18",
+          "originalDate": 1679270400000,
+          "originalDescription": "Apple pay: COMPRA EN CARRETERA BARCELONA KM 10, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-18"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4d8f983d85dd4898cc7bab54841fa906",
+          "date": 1679011200000,
+          "amount": -200,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE NURIA GARCIA CHECA CONCEPTO: Jordi Mateu",
+          "originalDate": 1679011200000,
+          "originalDescription": "BIZUM A FAVOR DE NURIA GARCIA CHECA CONCEPTO: Jordi Mateu"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b14a8b1dd783b6e534a42cd3145dbf29",
+          "date": 1678924800000,
+          "amount": -32.93,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-16",
+          "originalDate": 1678924800000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-16"
+        }
+      },
+      {
+        "transaction": {
+          "id": "da7aafc3b2e07a4948051d881e5315b7",
+          "date": 1678924800000,
+          "amount": -77.41,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN ENDESA E WEB EC 0001, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-16",
+          "originalDate": 1678924800000,
+          "originalDescription": "COMPRA EN ENDESA E WEB EC 0001, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-16"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e60083e81c4823dbb38059d83786a796",
+          "date": 1678838400000,
+          "amount": -33,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BXZLRCR REF. MANDATO 9902926182",
+          "originalDate": 1678838400000,
+          "originalDescription": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BXZLRCR REF. MANDATO 9902926182"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bc0d3248a9c0300e035b055968dd94ce",
+          "date": 1678665600000,
+          "amount": -51.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO COMPANYIA D'AIGUES DE SABADELL, SA Nº RECIBO 0073 0100 755 BXXZLCK REF. MANDATO 0100001254421",
+          "originalDate": 1678665600000,
+          "originalDescription": "RECIBO COMPANYIA D'AIGUES DE SABADELL, SA Nº RECIBO 0073 0100 755 BXXZLCK REF. MANDATO 0100001254421"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5d0e5ee636ce713fcb8b0b4ab1542eaa",
+          "date": 1678665600000,
+          "amount": -19.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-12",
+          "originalDate": 1678665600000,
+          "originalDescription": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-12"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c0a30a51d3e6276492dc072a3bea5588",
+          "date": 1678665600000,
+          "amount": 19.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE Mohammed Mrhar CONCEPTO pedido de kevin",
+          "originalDate": 1678665600000,
+          "originalDescription": "BIZUM DE Mohammed Mrhar CONCEPTO pedido de kevin"
+        }
+      },
+      {
+        "transaction": {
+          "id": "dc6be0683fdd6ae8e0850f7bd97cfee8",
+          "date": 1678406400000,
+          "amount": -44.39,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN MEDIA MARKT E305 SA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-10",
+          "originalDate": 1678406400000,
+          "originalDescription": "Apple pay: COMPRA EN MEDIA MARKT E305 SA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-10"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5d5fb0fc4b9413515e7036243096215e",
+          "date": 1678320000000,
+          "amount": -14.06,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-09",
+          "originalDate": 1678320000000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-09"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2a76a09ee084bb6741669fb890a98993",
+          "date": 1678233600000,
+          "amount": -72.59,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ALDI SABADELL II, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-08",
+          "originalDate": 1678233600000,
+          "originalDescription": "Apple pay: COMPRA EN ALDI SABADELL II, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-08"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8cf2f065cf3e40b8c3309bf0fd3e3d24",
+          "date": 1678233600000,
+          "amount": -100,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE LADY MARIANA OMANA BARRIO CONCEPTO: gracias",
+          "originalDate": 1678233600000,
+          "originalDescription": "BIZUM A FAVOR DE LADY MARIANA OMANA BARRIO CONCEPTO: gracias"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2a748dfc9c333b8a62576fb3cebf6ea9",
+          "date": 1678147200000,
+          "amount": -15.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN MERCADONA CAN LLONG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-07",
+          "originalDate": 1678147200000,
+          "originalDescription": "Apple pay: COMPRA EN MERCADONA CAN LLONG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-03-07"
+        }
+      },
+      {
+        "transaction": {
+          "id": "40cb67ac5897e41e02bf1af0df2813a4",
+          "date": 1678060800000,
+          "amount": -14,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE LADY MARIANA OMANA BARRIO CONCEPTO: ensaladas",
+          "originalDate": 1678060800000,
+          "originalDescription": "BIZUM A FAVOR DE LADY MARIANA OMANA BARRIO CONCEPTO: ensaladas"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b7fd913e9e3a082c1fc72d11248f004e",
+          "date": 1678060800000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXXGPVQ REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1678060800000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXXGPVQ REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b30c3b2b5efeb35c6490c0eaad0e5d95",
+          "date": 1678060800000,
+          "amount": -79.92,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXXGPVP REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1678060800000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXXGPVP REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a8f36d4659241622c4aaa5bb138ae3e1",
+          "date": 1677715200000,
+          "amount": -0.03,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES",
+          "originalDate": 1677715200000,
+          "originalDescription": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d10c6bcc22ed6c4b995e9cc79e2fd596",
+          "date": 1677715200000,
+          "amount": 0.16,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+          "originalDate": 1677715200000,
+          "originalDescription": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fb3c45ae6bf6a8aea55590fafc9e09e0",
+          "date": 1677628800000,
+          "amount": 1120.4,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24",
+          "originalDate": 1677628800000,
+          "originalDescription": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "11b0a93eab8d87c1aed61b5c1a3b9a85",
+          "date": 1677456000000,
+          "amount": -14.83,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN VIVA AQUA SERVICE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-27",
+          "originalDate": 1677456000000,
+          "originalDescription": "COMPRA EN VIVA AQUA SERVICE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-27"
+        }
+      },
+      {
+        "transaction": {
+          "id": "80d446e08b01ef7ca7161ec6a6c2b81e",
+          "date": 1677456000000,
+          "amount": -10,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE NORMA RAQUEL CHAMILCO AGU CONCEPTO: entradas rumba",
+          "originalDate": 1677456000000,
+          "originalDescription": "BIZUM A FAVOR DE NORMA RAQUEL CHAMILCO AGU CONCEPTO: entradas rumba"
+        }
+      },
+      {
+        "transaction": {
+          "id": "26d92c7ba9dae8cd6d89e126fa59bf0d",
+          "date": 1677456000000,
+          "amount": -5.1,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN ESTANCO M VALERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-27",
+          "originalDate": 1677456000000,
+          "originalDescription": "COMPRA EN ESTANCO M VALERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-27"
+        }
+      },
+      {
+        "transaction": {
+          "id": "39bf7895851c5ae946cea9baf4b79dcc",
+          "date": 1677456000000,
+          "amount": -14.63,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN SUPERMERCAT SUD, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-26",
+          "originalDate": 1677456000000,
+          "originalDescription": "COMPRA EN SUPERMERCAT SUD, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-26"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f1250c9e0bb0cba59cc3cbf0bae6d9dc",
+          "date": 1677456000000,
+          "amount": -50,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN RUMBA Y SON, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-26",
+          "originalDate": 1677456000000,
+          "originalDescription": "Apple pay: COMPRA EN RUMBA Y SON, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-26"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f223b2cc7c2474f6c3ae9bc08cdf1283",
+          "date": 1677456000000,
+          "amount": -5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-25",
+          "originalDate": 1677456000000,
+          "originalDescription": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-25"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0bd2d4dc85885e68612d4eebdf7b41ea",
+          "date": 1677456000000,
+          "amount": -3.6,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JONATAN MARTINEZ PARERA CONCEPTO: gatos",
+          "originalDate": 1677456000000,
+          "originalDescription": "BIZUM A FAVOR DE JONATAN MARTINEZ PARERA CONCEPTO: gatos"
+        }
+      },
+      {
+        "transaction": {
+          "id": "261ba825bbf4ad69d6f2b572d0a09d33",
+          "date": 1677110400000,
+          "amount": -7.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-21",
+          "originalDate": 1677110400000,
+          "originalDescription": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-21"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cc9af64e2f739f67c514511d8b5de5c6",
+          "date": 1677110400000,
+          "amount": 100,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO eli",
+          "originalDate": 1677110400000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO eli"
+        }
+      },
+      {
+        "transaction": {
+          "id": "32764dfd308976fd995720b1dd953d5d",
+          "date": 1677110400000,
+          "amount": -40.03,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN DIFISA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-23",
+          "originalDate": 1677110400000,
+          "originalDescription": "Apple pay: COMPRA EN DIFISA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-23"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f26f659ca5e7a896ec93f48ada2c0a0f",
+          "date": 1677024000000,
+          "amount": -21.78,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-22",
+          "originalDate": 1677024000000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-22"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5373b47fbe14365e25872d67b4e9f735",
+          "date": 1676937600000,
+          "amount": -185.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BXSDBVB REF. MANDATO 42185086001",
+          "originalDate": 1676937600000,
+          "originalDescription": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BXSDBVB REF. MANDATO 42185086001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4ce6fe3411bb44fb45ef81c4359d7be9",
+          "date": 1676851200000,
+          "amount": -17.3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN Glovo 17FEB QSZVWSLX, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-17",
+          "originalDate": 1676851200000,
+          "originalDescription": "Apple pay: COMPRA EN Glovo 17FEB QSZVWSLX, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-17"
+        }
+      },
+      {
+        "transaction": {
+          "id": "00dc63073bdff6d952569ee182c1370c",
+          "date": 1676851200000,
+          "amount": -400,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2023-02-18",
+          "originalDate": 1676851200000,
+          "originalDescription": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2023-02-18"
+        }
+      },
+      {
+        "transaction": {
+          "id": "43353accf27c80a4b0d19a2053175e39",
+          "date": 1676592000000,
+          "amount": -600,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2023-02-17",
+          "originalDate": 1676592000000,
+          "originalDescription": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2023-02-17"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ce99ff0fe15fe7d6c7d338a73608ef7d",
+          "date": 1676592000000,
+          "amount": 1000,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA INMEDIATA DE UNNAX REGULATORY SERVICES, EDE, SL CONCEPTO UNX0757 1352411 myKredit es",
+          "originalDate": 1676592000000,
+          "originalDescription": "TRANSFERENCIA INMEDIATA DE UNNAX REGULATORY SERVICES, EDE, SL CONCEPTO UNX0757 1352411 myKredit es"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fa45f016f0b8dd69ecb45196561dbe8e",
+          "date": 1676419200000,
+          "amount": -32.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BXRKGQP REF. MANDATO 9902926182",
+          "originalDate": 1676419200000,
+          "originalDescription": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BXRKGQP REF. MANDATO 9902926182"
+        }
+      },
+      {
+        "transaction": {
+          "id": "650572b8a1c626f2f93e5aa0c2bfc3dc",
+          "date": 1676419200000,
+          "amount": 100,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO gasto",
+          "originalDate": 1676419200000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO gasto"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ba6de5cc7277a7e07f5f0a35e26711d8",
+          "date": 1676332800000,
+          "amount": -7.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE LADY MARIANA OMANA BARRIO CONCEPTO: arena",
+          "originalDate": 1676332800000,
+          "originalDescription": "BIZUM A FAVOR DE LADY MARIANA OMANA BARRIO CONCEPTO: arena"
+        }
+      },
+      {
+        "transaction": {
+          "id": "304d6a795e82331b3c7d5108ae8a53f6",
+          "date": 1676246400000,
+          "amount": 100,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO gasto",
+          "originalDate": 1676246400000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO gasto"
+        }
+      },
+      {
+        "transaction": {
+          "id": "509172a9cbd7ed80af4227482cf4555f",
+          "date": 1676246400000,
+          "amount": 15.8,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE LADY MARIANA OMANA BARRIOS CONCEPTO Comida",
+          "originalDate": 1676246400000,
+          "originalDescription": "BIZUM DE LADY MARIANA OMANA BARRIOS CONCEPTO Comida"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1316a15b147fa4891d28ac726108341c",
+          "date": 1676246400000,
+          "amount": -15.8,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN TROPICALISSIMA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-13",
+          "originalDate": 1676246400000,
+          "originalDescription": "Apple pay: COMPRA EN TROPICALISSIMA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-13"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bf9b478ab5453ae4935f8185eea1b98b",
+          "date": 1676246400000,
+          "amount": -18.64,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-13",
+          "originalDate": 1676246400000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-13"
+        }
+      },
+      {
+        "transaction": {
+          "id": "26a6773b0b9cade9d297aeef5c2becee",
+          "date": 1675900800000,
+          "amount": -19,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ALEHOP 289 SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-09",
+          "originalDate": 1675900800000,
+          "originalDescription": "Apple pay: COMPRA EN ALEHOP 289 SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-09"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b0ce1f31ca99629de20b3f918ce035c4",
+          "date": 1675900800000,
+          "amount": -17.98,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN LA CASA DE LAS CARCASAS, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-09",
+          "originalDate": 1675900800000,
+          "originalDescription": "Apple pay: COMPRA EN LA CASA DE LAS CARCASAS, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-09"
+        }
+      },
+      {
+        "transaction": {
+          "id": "20ad19148279db0bddebaa7332585531",
+          "date": 1675900800000,
+          "amount": -39,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN INTECAT SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-09",
+          "originalDate": 1675900800000,
+          "originalDescription": "Apple pay: COMPRA EN INTECAT SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-09"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cf3665ece4a66eed3c9e7e17f87b5f24",
+          "date": 1675814400000,
+          "amount": -38.4,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ALDI SABADELL II, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-08",
+          "originalDate": 1675814400000,
+          "originalDescription": "Apple pay: COMPRA EN ALDI SABADELL II, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-08"
+        }
+      },
+      {
+        "transaction": {
+          "id": "583a67b5e1cfe3a4012fa9daeb1ec7ea",
+          "date": 1675814400000,
+          "amount": -85,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN INSTITUTO CERVANTES, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-08",
+          "originalDate": 1675814400000,
+          "originalDescription": "COMPRA EN INSTITUTO CERVANTES, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-08"
+        }
+      },
+      {
+        "transaction": {
+          "id": "24389c4a06b02f8e6a56900139a3a6e4",
+          "date": 1675641600000,
+          "amount": -76,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN PRIMARK PLAZA CATALUNA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-02",
+          "originalDate": 1675641600000,
+          "originalDescription": "Apple pay: COMPRA EN PRIMARK PLAZA CATALUNA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7c9d4b0a1c203dd057795859b90b1f3f",
+          "date": 1675641600000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXPDLRD REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1675641600000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXPDLRD REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c61a190b1a1e656a35c6206583b15011",
+          "date": 1675641600000,
+          "amount": -76.13,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXPDLRC REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1675641600000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXPDLRC REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2dde0cd80ee01beb3c9affefe214d8a8",
+          "date": 1675296000000,
+          "amount": -610,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN mykredit.es*GlobalKG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-31",
+          "originalDate": 1675296000000,
+          "originalDescription": "COMPRA EN mykredit.es*GlobalKG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-31"
+        }
+      },
+      {
+        "transaction": {
+          "id": "458378e35ed35451bd513730b32bd406",
+          "date": 1675296000000,
+          "amount": -8.3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUBWAY, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-02",
+          "originalDate": 1675296000000,
+          "originalDescription": "Apple pay: COMPRA EN SUBWAY, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fa9e73dbbaca2fc2a8a8c3bf09c19a59",
+          "date": 1675296000000,
+          "amount": -7.7,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN RENFE CERCANIAS 78703, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-02",
+          "originalDate": 1675296000000,
+          "originalDescription": "Apple pay: COMPRA EN RENFE CERCANIAS 78703, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-02-02"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7bf256a6d8be5bff79be844dfc3a8b5f",
+          "date": 1675296000000,
+          "amount": -0.11,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES",
+          "originalDate": 1675296000000,
+          "originalDescription": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9252aa05356691100c6668ffc1274836",
+          "date": 1675296000000,
+          "amount": 0.57,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+          "originalDate": 1675296000000,
+          "originalDescription": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1af716905027d1b597edb747eaaf534f",
+          "date": 1675123200000,
+          "amount": -31.54,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN A R H RECANVIS, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-31",
+          "originalDate": 1675123200000,
+          "originalDescription": "Apple pay: COMPRA EN A R H RECANVIS, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-31"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8948eef8f6aa006d67f173a25977daed",
+          "date": 1675123200000,
+          "amount": -193.66,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BXMGHRM REF. MANDATO 42185086001",
+          "originalDate": 1675123200000,
+          "originalDescription": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BXMGHRM REF. MANDATO 42185086001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "62b50bba10d6eaee87ce19b120ef98a5",
+          "date": 1675123200000,
+          "amount": 950.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24",
+          "originalDate": 1675123200000,
+          "originalDescription": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b6a9f6068492163ec0086475a36bab60",
+          "date": 1674777600000,
+          "amount": 500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Sin concepto",
+          "originalDate": 1674777600000,
+          "originalDescription": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Sin concepto"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a1091fc97bed24493ea5c5765806ce55",
+          "date": 1674777600000,
+          "amount": -10,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: prestamo",
+          "originalDate": 1674777600000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: prestamo"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a884d47b44a5f7339cae278a1a3dd370",
+          "date": 1674604800000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: aditivo gasolina",
+          "originalDate": 1674604800000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: aditivo gasolina"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3ace92067b79418d31f503c47003f956",
+          "date": 1674604800000,
+          "amount": -71.52,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ALDI SABADELL II, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-25",
+          "originalDate": 1674604800000,
+          "originalDescription": "Apple pay: COMPRA EN ALDI SABADELL II, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-25"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cb0fb8f0d8db6a8ae5eb6355646dfba7",
+          "date": 1674604800000,
+          "amount": -82.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BXKLBVC REF. MANDATO EXXXXXXXXXXXX15600020001",
+          "originalDate": 1674604800000,
+          "originalDescription": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BXKLBVC REF. MANDATO EXXXXXXXXXXXX15600020001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f305569bc001491907834e3e1073eec8",
+          "date": 1674432000000,
+          "amount": -8.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19",
+          "originalDate": 1674432000000,
+          "originalDescription": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19"
+        }
+      },
+      {
+        "transaction": {
+          "id": "94287c1018f40acc024fd692f339ce1d",
+          "date": 1674432000000,
+          "amount": -7.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19",
+          "originalDate": 1674432000000,
+          "originalDescription": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1db1dac1324ff74d3ec64b35ca88469a",
+          "date": 1674086400000,
+          "amount": -14.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN BAR DURANDE¥O - LA DANNA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19",
+          "originalDate": 1674086400000,
+          "originalDescription": "COMPRA EN BAR DURANDE¥O - LA DANNA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a9e1c2c29fb2cabc05ad45f8383e10fa",
+          "date": 1674086400000,
+          "amount": -78.7,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN VIVA AQUA SERVICE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19",
+          "originalDate": 1674086400000,
+          "originalDescription": "COMPRA EN VIVA AQUA SERVICE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-19"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3c53135ffc7ffda6ce13a5be53372206",
+          "date": 1674086400000,
+          "amount": 288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "GESTION DE DEVOLUCIONES -EXTERIOR",
+          "originalDate": 1674086400000,
+          "originalDescription": "GESTION DE DEVOLUCIONES -EXTERIOR"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ed8ce11e37371256757248a5c33318cf",
+          "date": 1674086400000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXJMMLQ REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1674086400000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXJMMLQ REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f7a597dff45f4ef93cafe7a88b5907c2",
+          "date": 1674086400000,
+          "amount": -32.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BXHZRZP REF. MANDATO 9902926182",
+          "originalDate": 1674086400000,
+          "originalDescription": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BXHZRZP REF. MANDATO 9902926182"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9d85862937f1d06f3d516aa355a41819",
+          "date": 1674086400000,
+          "amount": 500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE BANCO CETELEM, S.A., CONCEPTO TRANSFERENCIA EMITIDA POR BANCO CETELEM S.A.",
+          "originalDate": 1674086400000,
+          "originalDescription": "TRANSFERENCIA DE BANCO CETELEM, S.A., CONCEPTO TRANSFERENCIA EMITIDA POR BANCO CETELEM S.A."
+        }
+      },
+      {
+        "transaction": {
+          "id": "40bcfed5c3dd90a5b29bf0567aa3880d",
+          "date": 1673481600000,
+          "amount": -5.25,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN BAR JUVENTUT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-12",
+          "originalDate": 1673481600000,
+          "originalDescription": "COMPRA EN BAR JUVENTUT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-12"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e8be476a4424cf7cad2091c4afac5cc0",
+          "date": 1673395200000,
+          "amount": -450,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2023-01-11",
+          "originalDate": 1673395200000,
+          "originalDescription": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2023-01-11"
+        }
+      },
+      {
+        "transaction": {
+          "id": "caccd147d76ce95a1d7f32aa63fa4584",
+          "date": 1673395200000,
+          "amount": -50,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: prestamo",
+          "originalDate": 1673395200000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: prestamo"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1534b3d8bc1b7a28dd059e38228a8cd2",
+          "date": 1673395200000,
+          "amount": 500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA INMEDIATA DE UNNAX REGULATORY SERVICES, EDE, SL CONCEPTO UNX0757 1297234 myKredit es",
+          "originalDate": 1673395200000,
+          "originalDescription": "TRANSFERENCIA INMEDIATA DE UNNAX REGULATORY SERVICES, EDE, SL CONCEPTO UNX0757 1297234 myKredit es"
+        }
+      },
+      {
+        "transaction": {
+          "id": "50ba48a638e3de323679474af8e5158f",
+          "date": 1673395200000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA A FAVOR DE Cetelem CONCEPTO: Y7248485A Pago cuota enero2023",
+          "originalDate": 1673395200000,
+          "originalDescription": "TRANSFERENCIA A FAVOR DE Cetelem CONCEPTO: Y7248485A Pago cuota enero2023"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0fbda2b0bee146d115b5280b0a18ee87",
+          "date": 1673395200000,
+          "amount": -25.09,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO Santa Lucia S.A. Nº RECIBO 0073 0100 755 BXGYKKG REF. MANDATO 330001916588",
+          "originalDate": 1673395200000,
+          "originalDescription": "RECIBO Santa Lucia S.A. Nº RECIBO 0073 0100 755 BXGYKKG REF. MANDATO 330001916588"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fdb2758f1d2d13def6dea45688d77e44",
+          "date": 1673308800000,
+          "amount": -750,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA A FAVOR DE Silvia Granados CONCEPTO: Alquiler mes Diciembre 2022 Doctor balari 58 1a",
+          "originalDate": 1673308800000,
+          "originalDescription": "TRANSFERENCIA A FAVOR DE Silvia Granados CONCEPTO: Alquiler mes Diciembre 2022 Doctor balari 58 1a"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6ab0d39d3dbe00692c28f1f87b9c5a0f",
+          "date": 1673308800000,
+          "amount": -54.96,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXGCMVW REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1673308800000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BXGCMVW REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9f35efb31ba4c0a16bd3aabf2a1a32b1",
+          "date": 1673308800000,
+          "amount": 1125.36,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24",
+          "originalDate": 1673308800000,
+          "originalDescription": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e93395040fbb8f09afcdccbe16f3baaa",
+          "date": 1672704000000,
+          "amount": -5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN TULOTERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-03",
+          "originalDate": 1672704000000,
+          "originalDescription": "COMPRA EN TULOTERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2023-01-03"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3797304cc9efd4b4dc08038921a3d55f",
+          "date": 1672704000000,
+          "amount": -0.09,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES",
+          "originalDate": 1672704000000,
+          "originalDescription": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8a0e976b8d5b9839282f7e012f78457f",
+          "date": 1672704000000,
+          "amount": 0.49,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+          "originalDate": 1672704000000,
+          "originalDescription": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "31b92f1758b35392236eae89c74c50b6",
+          "date": 1672185600000,
+          "amount": -500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2022-12-28",
+          "originalDate": 1672185600000,
+          "originalDescription": "DISPOSICION EN CAJERO CON LA TARJETA XXXXXXXXXXXX4302, COMISION 0,00, EL 2022-12-28"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c509974564af13d181a08328d89b7d8a",
+          "date": 1672185600000,
+          "amount": 500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Alquiler",
+          "originalDate": 1672185600000,
+          "originalDescription": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Alquiler"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6777ec61b383f5eeee0a6f44cabaf254",
+          "date": 1672012800000,
+          "amount": -48.56,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN CreditoWELP, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-23",
+          "originalDate": 1672012800000,
+          "originalDescription": "COMPRA EN CreditoWELP, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-23"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cf1de3ea1d81799d6bd5a0068519bb8f",
+          "date": 1672012800000,
+          "amount": -2.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN PROXIM SUPERMERCAT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-24",
+          "originalDate": 1672012800000,
+          "originalDescription": "Apple pay: COMPRA EN PROXIM SUPERMERCAT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "82fe0badb8d31caf8882e74459efa591",
+          "date": 1672012800000,
+          "amount": -0.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN CREDCATCH, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-24",
+          "originalDate": 1672012800000,
+          "originalDescription": "COMPRA EN CREDCATCH, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "04fab1b6c2d2797445f318e5731680b1",
+          "date": 1671753600000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN TULOTERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-22",
+          "originalDate": 1671753600000,
+          "originalDescription": "COMPRA EN TULOTERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-22"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b8c00f4f6913da7778e6907279c15b28",
+          "date": 1671667200000,
+          "amount": 50,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE MARIA ISABEL PADILLA MENDE CONCEPTO te quiero",
+          "originalDate": 1671667200000,
+          "originalDescription": "BIZUM DE MARIA ISABEL PADILLA MENDE CONCEPTO te quiero"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c7ffa82a1c52c311ec3a2cc06f28dfca",
+          "date": 1671667200000,
+          "amount": -8.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-20",
+          "originalDate": 1671667200000,
+          "originalDescription": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-20"
+        }
+      },
+      {
+        "transaction": {
+          "id": "43816d90d39d9d0a3479307e31bd7392",
+          "date": 1671667200000,
+          "amount": -14.65,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN DA HONG FU MERCACHINA SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-22",
+          "originalDate": 1671667200000,
+          "originalDescription": "Apple pay: COMPRA EN DA HONG FU MERCACHINA SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-22"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9a93a407a99eea7211e4b2a3bd392cae",
+          "date": 1671580800000,
+          "amount": -65.2,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN ALCAMPO SANT QUIRZE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-21",
+          "originalDate": 1671580800000,
+          "originalDescription": "COMPRA EN ALCAMPO SANT QUIRZE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-21"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0f2bc36befda7a1e46e400b01ac13777",
+          "date": 1671580800000,
+          "amount": -11.66,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-21",
+          "originalDate": 1671580800000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-21"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9b54e7359881981577b9e1730aef79eb",
+          "date": 1671580800000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: gasolina",
+          "originalDate": 1671580800000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: gasolina"
+        }
+      },
+      {
+        "transaction": {
+          "id": "18629d33c987db547d1375893bb5a917",
+          "date": 1671580800000,
+          "amount": -64.96,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BWZKPGY REF. MANDATO EXXXXXXXXXXXX15600020001",
+          "originalDate": 1671580800000,
+          "originalDescription": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BWZKPGY REF. MANDATO EXXXXXXXXXXXX15600020001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "27fabd3fe8ba04017c754c44528f9855",
+          "date": 1671408000000,
+          "amount": -13.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN MERCADONA CAN LLONG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-19",
+          "originalDate": 1671408000000,
+          "originalDescription": "Apple pay: COMPRA EN MERCADONA CAN LLONG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-19"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6cf3dd803095ca5a0720bf336c43d468",
+          "date": 1671408000000,
+          "amount": -24.78,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN Glovo 15DEC QCFJCYJK, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-15",
+          "originalDate": 1671408000000,
+          "originalDescription": "Apple pay: COMPRA EN Glovo 15DEC QCFJCYJK, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-15"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2b285d132c9f1e4e2e16f2494c2d52e9",
+          "date": 1671408000000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BWYZVWX REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1671408000000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BWYZVWX REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "842fb01a653d18894fdb8dd73da33572",
+          "date": 1671408000000,
+          "amount": -48.37,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO COMPANYIA D'AIGUES DE SABADELL, SA Nº RECIBO 0073 0100 755 BWYWKLQ REF. MANDATO 0100001254421",
+          "originalDate": 1671408000000,
+          "originalDescription": "RECIBO COMPANYIA D'AIGUES DE SABADELL, SA Nº RECIBO 0073 0100 755 BWYWKLQ REF. MANDATO 0100001254421"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e2d12b05873bf7860184f1f734517473",
+          "date": 1671408000000,
+          "amount": -8.63,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-17",
+          "originalDate": 1671408000000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-17"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bb9d772ff52b3dfd58515f1275c2b656",
+          "date": 1671148800000,
+          "amount": -33.18,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BWYTWRQ REF. MANDATO 9902926182",
+          "originalDate": 1671148800000,
+          "originalDescription": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BWYTWRQ REF. MANDATO 9902926182"
+        }
+      },
+      {
+        "transaction": {
+          "id": "abe724b40a284735e80186e454fcbe47",
+          "date": 1670976000000,
+          "amount": -14,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN FLORES Y PLANTAS RAMBLA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14",
+          "originalDate": 1670976000000,
+          "originalDescription": "Apple pay: COMPRA EN FLORES Y PLANTAS RAMBLA, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fe24fe95c7debbbdf54f3a83daa9f52d",
+          "date": 1670976000000,
+          "amount": -3.5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN CASA INTERIOR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14",
+          "originalDate": 1670976000000,
+          "originalDescription": "Apple pay: COMPRA EN CASA INTERIOR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6d7f14e8b991bc77b682a5b7df994c5e",
+          "date": 1670976000000,
+          "amount": -9.92,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN DRUNI SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14",
+          "originalDate": 1670976000000,
+          "originalDescription": "Apple pay: COMPRA EN DRUNI SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9deb1d5ea7b60a5225962f06a1a3f6d1",
+          "date": 1670976000000,
+          "amount": -17.89,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14",
+          "originalDate": 1670976000000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-14"
+        }
+      },
+      {
+        "transaction": {
+          "id": "202c2aa31a735729a3de9dfaeefcae61",
+          "date": 1670889600000,
+          "amount": -500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN remitly.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-12",
+          "originalDate": 1670889600000,
+          "originalDescription": "COMPRA EN remitly.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-12"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1e5b417557b6dbb35a03a6f8553a5428",
+          "date": 1670803200000,
+          "amount": -7.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-10",
+          "originalDate": 1670803200000,
+          "originalDescription": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-10"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9a3a93c24d80d839a16d11684082af58",
+          "date": 1670803200000,
+          "amount": -62.17,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN shein.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-09",
+          "originalDate": 1670803200000,
+          "originalDescription": "COMPRA EN shein.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-09"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d7f6029884bd9187d1dd51fa1051cfa8",
+          "date": 1670803200000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: loterwen",
+          "originalDate": 1670803200000,
+          "originalDescription": "BIZUM A FAVOR DE JORDI MATEU ALAMO CONCEPTO: loterwen"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f369942404dadacf7f3b4f6057b35517",
+          "date": 1670803200000,
+          "amount": 20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE WENDY OTAYA BETANCOURT CONCEPTO loteria",
+          "originalDate": 1670803200000,
+          "originalDescription": "BIZUM DE WENDY OTAYA BETANCOURT CONCEPTO loteria"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d93a72cab8eaddc5084aab0759a545a4",
+          "date": 1670803200000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE WENDY OTAYA BETANCOURT CONCEPTO: loteria",
+          "originalDate": 1670803200000,
+          "originalDescription": "BIZUM A FAVOR DE WENDY OTAYA BETANCOURT CONCEPTO: loteria"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e098bc0a084da1a2d9fc3415981edbbd",
+          "date": 1670544000000,
+          "amount": -8.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-06",
+          "originalDate": 1670544000000,
+          "originalDescription": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "728a93e026f98a5dcaa4c6eb100d3c28",
+          "date": 1670544000000,
+          "amount": -54.96,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BWWDMWD REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1670544000000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BWWDMWD REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "71f2b08575295a41731136874302f289",
+          "date": 1670544000000,
+          "amount": -9.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-08",
+          "originalDate": 1670544000000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-08"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b868afe4e081b0c3a6b97e6fb57f5858",
+          "date": 1670544000000,
+          "amount": 242.8,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE WENANCE LENDING DE ESPANA SA, CONCEPTO Devolucion Wenance Caso SF: 04158223",
+          "originalDate": 1670544000000,
+          "originalDescription": "TRANSFERENCIA DE WENANCE LENDING DE ESPANA SA, CONCEPTO Devolucion Wenance Caso SF: 04158223"
+        }
+      },
+      {
+        "transaction": {
+          "id": "df93d2d9b815be9260268e90dd2af69f",
+          "date": 1670544000000,
+          "amount": 1085.3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24",
+          "originalDate": 1670544000000,
+          "originalDescription": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2b086b2990d1b69c418fb089aa818df3",
+          "date": 1670371200000,
+          "amount": -8.93,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-07",
+          "originalDate": 1670371200000,
+          "originalDescription": "Apple pay: COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-07"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d2ea9289c97850344d672149ca42b72b",
+          "date": 1670371200000,
+          "amount": -10,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-06",
+          "originalDate": 1670371200000,
+          "originalDescription": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e9b224c29aeaf23924646c5a79142732",
+          "date": 1670371200000,
+          "amount": 10,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE JUAN CARLOS CASILLAS VAZQU CONCEPTO Red bar",
+          "originalDate": 1670371200000,
+          "originalDescription": "BIZUM DE JUAN CARLOS CASILLAS VAZQU CONCEPTO Red bar"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0ed30cfd0fd16de4ab0f60dd51ad9ecb",
+          "date": 1670371200000,
+          "amount": -5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN TULOTERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-06",
+          "originalDate": 1670371200000,
+          "originalDescription": "COMPRA EN TULOTERO, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-12-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c8bb8ea074b188cc677c9dfb9b3dac15",
+          "date": 1670198400000,
+          "amount": -3.95,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE MANEL ALVAREZ PEREZ CONCEPTO: Sin concepto",
+          "originalDate": 1670198400000,
+          "originalDescription": "BIZUM A FAVOR DE MANEL ALVAREZ PEREZ CONCEPTO: Sin concepto"
+        }
+      },
+      {
+        "transaction": {
+          "id": "35b786fb733165f24f4b8c7f6e7f9f39",
+          "date": 1669939200000,
+          "amount": -0.14,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES",
+          "originalDate": 1669939200000,
+          "originalDescription": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES"
+        }
+      },
+      {
+        "transaction": {
+          "id": "210897d93c9dfe90c14ee3c1690df2f2",
+          "date": 1669939200000,
+          "amount": 0.76,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+          "originalDate": 1669939200000,
+          "originalDescription": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2232e6c5d60757fe6ce109b8cf0851f3",
+          "date": 1669766400000,
+          "amount": -48.56,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN WELP, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-28",
+          "originalDate": 1669766400000,
+          "originalDescription": "COMPRA EN WELP, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-28"
+        }
+      },
+      {
+        "transaction": {
+          "id": "513d57be570fffc8512ffe8f5d408cef",
+          "date": 1669593600000,
+          "amount": -388.48,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA A FAVOR DE Welp Servicios Financieros CONCEPTO: Y7248485A Eliana Ferro Betancour",
+          "originalDate": 1669593600000,
+          "originalDescription": "TRANSFERENCIA A FAVOR DE Welp Servicios Financieros CONCEPTO: Y7248485A Eliana Ferro Betancour"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2e9c4b4d5c53f4a3fd1fa33fa8f5b0aa",
+          "date": 1669593600000,
+          "amount": -47.63,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BWRJTMD REF. MANDATO EXXXXXXXXXXXX15600020001",
+          "originalDate": 1669593600000,
+          "originalDescription": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BWRJTMD REF. MANDATO EXXXXXXXXXXXX15600020001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b1be2a416b9a079ba47bc70e2f6ad842",
+          "date": 1669593600000,
+          "amount": 500,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Alquiler",
+          "originalDate": 1669593600000,
+          "originalDescription": "BIZUM DE JORDI MATEU ALAMO CONCEPTO Alquiler"
+        }
+      },
+      {
+        "transaction": {
+          "id": "99d8a460c73de92642e361ec4f806f72",
+          "date": 1669161600000,
+          "amount": -24.66,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-23",
+          "originalDate": 1669161600000,
+          "originalDescription": "COMPRA EN SUPERMERCADOS RAISEBER SL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-23"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e7c39fce0edc5778b03928b85b2c9803",
+          "date": 1669075200000,
+          "amount": -8.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-20",
+          "originalDate": 1669075200000,
+          "originalDescription": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-20"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8974aa16a4f7474fd32edd2979351412",
+          "date": 1669075200000,
+          "amount": -288.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BWQXHKK REF. MANDATO ES46000AXXXXXXXXXXXX41810812",
+          "originalDate": 1669075200000,
+          "originalDescription": "RECIBO BANCO CETELEM, S.A. Nº RECIBO 0073 0100 755 BWQXHKK REF. MANDATO ES46000AXXXXXXXXXXXX41810812"
+        }
+      },
+      {
+        "transaction": {
+          "id": "618269a406f26ec6d86838d8add83065",
+          "date": 1668988800000,
+          "amount": 170,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE DARAMY IBRAHIM CONCEPTO eli",
+          "originalDate": 1668988800000,
+          "originalDescription": "BIZUM DE DARAMY IBRAHIM CONCEPTO eli"
+        }
+      },
+      {
+        "transaction": {
+          "id": "da9fe9b2c95c051fca6396fc1da849ea",
+          "date": 1668643200000,
+          "amount": -9.28,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN FARMACIA CRISTINA COROMIN, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-17",
+          "originalDate": 1668643200000,
+          "originalDescription": "Apple pay: COMPRA EN FARMACIA CRISTINA COROMIN, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-17"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fd67f27117e3228950e509b1e1ab2603",
+          "date": 1668556800000,
+          "amount": -100,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN remitly.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-15",
+          "originalDate": 1668556800000,
+          "originalDescription": "COMPRA EN remitly.com, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-15"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d790d7666fee43264a0d7c52ba1c42bd",
+          "date": 1668556800000,
+          "amount": -32.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BWQRYYC REF. MANDATO 9902926182",
+          "originalDate": 1668556800000,
+          "originalDescription": "RECIBO VODAFONE Nº RECIBO 0073 0100 755 BWQRYYC REF. MANDATO 9902926182"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f84ed8bbb7ef030da58b5771e47c6e00",
+          "date": 1668384000000,
+          "amount": -25.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-13",
+          "originalDate": 1668384000000,
+          "originalDescription": "Apple pay: COMPRA EN REDBAR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-13"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9add348f1b773cf2c1dea59132fc42b7",
+          "date": 1668384000000,
+          "amount": 25.9,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM DE Xavier Sanchez Rey CONCEPTO calle castellasa",
+          "originalDate": 1668384000000,
+          "originalDescription": "BIZUM DE Xavier Sanchez Rey CONCEPTO calle castellasa"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1696baaceaca41fa490bf80d3e0f4bc1",
+          "date": 1668384000000,
+          "amount": -49,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN RESTAURANTE PUERTO SABOR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-13",
+          "originalDate": 1668384000000,
+          "originalDescription": "Apple pay: COMPRA EN RESTAURANTE PUERTO SABOR, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-13"
+        }
+      },
+      {
+        "transaction": {
+          "id": "de42faa8a48f43830f5e704d9c69374c",
+          "date": 1668384000000,
+          "amount": -20,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN CARRETERA BARCELONA KM 10, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-13",
+          "originalDate": 1668384000000,
+          "originalDescription": "Apple pay: COMPRA EN CARRETERA BARCELONA KM 10, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-13"
+        }
+      },
+      {
+        "transaction": {
+          "id": "062e9f916587720186618914ceea3461",
+          "date": 1668124800000,
+          "amount": -7.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-10",
+          "originalDate": 1668124800000,
+          "originalDescription": "COMPRA EN NETFLIX.COM, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-10"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6530a4d2f38ddab1e37a02d1428e0440",
+          "date": 1668124800000,
+          "amount": -448.4,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA A FAVOR DE Trive Credito Spain CONCEPTO: Eliana Ferro Betancour y7248485A",
+          "originalDate": 1668124800000,
+          "originalDescription": "TRANSFERENCIA A FAVOR DE Trive Credito Spain CONCEPTO: Eliana Ferro Betancour y7248485A"
+        }
+      },
+      {
+        "transaction": {
+          "id": "07be2e4ea05b794d29b7a6e026500da4",
+          "date": 1668124800000,
+          "amount": -750,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA A FAVOR DE Silvia Granados CONCEPTO: Alquiler noviembre doctor balari",
+          "originalDate": 1668124800000,
+          "originalDescription": "TRANSFERENCIA A FAVOR DE Silvia Granados CONCEPTO: Alquiler noviembre doctor balari"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1c2817e3d4a21c987cbde64a86f37108",
+          "date": 1668038400000,
+          "amount": 900,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA INMEDIATA DE UNNAX REGULATORY SERVICES, EDE, SL CONCEPTO UNX0793 WELP406996 Wenance Le",
+          "originalDate": 1668038400000,
+          "originalDescription": "TRANSFERENCIA INMEDIATA DE UNNAX REGULATORY SERVICES, EDE, SL CONCEPTO UNX0793 WELP406996 Wenance Le"
+        }
+      },
+      {
+        "transaction": {
+          "id": "49ea174678ac19e9fba2c2e02a804c4e",
+          "date": 1668038400000,
+          "amount": -8.12,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-10",
+          "originalDate": 1668038400000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-10"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c0f248940a345ddb8ff23d85289c986e",
+          "date": 1668038400000,
+          "amount": -315.81,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE SILVIA GRANADOS ABAD CONCEPTO: residuos y faltante alquiler sep",
+          "originalDate": 1668038400000,
+          "originalDescription": "BIZUM A FAVOR DE SILVIA GRANADOS ABAD CONCEPTO: residuos y faltante alquiler sep"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f15cce576a72b2602a00988a638b840b",
+          "date": 1667865600000,
+          "amount": -8.99,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-06",
+          "originalDate": 1667865600000,
+          "originalDescription": "COMPRA EN APPLE.COM/BILL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fa575719e5b9e46234e89664bc9da27e",
+          "date": 1667865600000,
+          "amount": -193.49,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BWPJVLR REF. MANDATO 58172150001",
+          "originalDate": 1667865600000,
+          "originalDescription": "RECIBO LINEA DIRECTA ASEGURADORA S.A. Nº RECIBO 0073 0100 755 BWPJVLR REF. MANDATO 58172150001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5db02618ecb4566eb3144b4d2dd65028",
+          "date": 1667865600000,
+          "amount": 1125.36,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24",
+          "originalDate": 1667865600000,
+          "originalDescription": "TRANSFERENCIA DE RED24 BUSINESS DEVELOPMENT, SLU, CONCEPTO NOMINA RED24"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9978755dbf056ea966ac8f6ad038aac7",
+          "date": 1667779200000,
+          "amount": -5,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN RED24, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-07",
+          "originalDate": 1667779200000,
+          "originalDescription": "Apple pay: COMPRA EN RED24, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-07"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2d2542008abd81b8d6892cf971eb39bf",
+          "date": 1667779200000,
+          "amount": -1.3,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ICEBERG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-06",
+          "originalDate": 1667779200000,
+          "originalDescription": "Apple pay: COMPRA EN ICEBERG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-06"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ea87dae4cb3fda0473336206e690b282",
+          "date": 1667779200000,
+          "amount": -30,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BIZUM A FAVOR DE Mohammed Mrhar CONCEPTO: pago",
+          "originalDate": 1667779200000,
+          "originalDescription": "BIZUM A FAVOR DE Mohammed Mrhar CONCEPTO: pago"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ffd6bfce4e47d3914996fa3a8ce2f0fd",
+          "date": 1667520000000,
+          "amount": -10.35,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN MERCADONA CAN LLONG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-04",
+          "originalDate": 1667520000000,
+          "originalDescription": "Apple pay: COMPRA EN MERCADONA CAN LLONG, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-04"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5e54356a014fad838ff0e0d9b2f86210",
+          "date": 1667520000000,
+          "amount": -32.97,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN LA CASA DE LAS CARCASAS, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-04",
+          "originalDate": 1667520000000,
+          "originalDescription": "Apple pay: COMPRA EN LA CASA DE LAS CARCASAS, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-04"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3b3dfe95a543395f652be81e9b79c01d",
+          "date": 1667520000000,
+          "amount": -6.15,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN ESTANCO 16 SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-04",
+          "originalDate": 1667520000000,
+          "originalDescription": "Apple pay: COMPRA EN ESTANCO 16 SABADELL, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-11-04"
+        }
+      },
+      {
+        "transaction": {
+          "id": "675b561f853df7b2245f1352e47e9762",
+          "date": 1667433600000,
+          "amount": -71.1,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BWMNQSB REF. MANDATO EXXXXXXXXXXXX15600020001",
+          "originalDate": 1667433600000,
+          "originalDescription": "RECIBO ENDESA ENERGIA SAU Nº RECIBO 0073 0100 755 BWMNQSB REF. MANDATO EXXXXXXXXXXXX15600020001"
+        }
+      },
+      {
+        "transaction": {
+          "id": "80829f393d7058aca37527c377e547ee",
+          "date": 1667433600000,
+          "amount": -0.03,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES",
+          "originalDate": 1667433600000,
+          "originalDescription": "RETENCION HACIENDA ABONO DE DEVOLUCION RECIBOS PRINCIPALES"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8f7a10aa5fd7af5416e3e42c2907a795",
+          "date": 1667433600000,
+          "amount": 0.16,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS",
+          "originalDate": 1667433600000,
+          "originalDescription": "BONIFICACION SOBRE EL IMPORTE DE RECIBOS DOMICILIADOS Y PAGADOS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3aa97341c9692b4185f9df687a728b6c",
+          "date": 1667174400000,
+          "amount": -17.1,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-10-31",
+          "originalDate": 1667174400000,
+          "originalDescription": "Apple pay: COMPRA EN 335 SORLI PENYAFORT, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-10-31"
+        }
+      },
+      {
+        "transaction": {
+          "id": "afebe960df09a5161f3257b41f55727a",
+          "date": 1667174400000,
+          "amount": -94.06,
+          "payload": {
+          },
+          "accountId": "account_AT-1927-359603",
+          "description": "COMPRA EN MERCADONA MERCAT ONZE DE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-10-31",
+          "originalDate": 1667174400000,
+          "originalDescription": "COMPRA EN MERCADONA MERCAT ONZE DE, CON LA TARJETA : XXXXXXXXXXXX4302 EL 2022-10-31"
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "account_AT-1927-359603",
+        "iban": "ES2000730100570747215299",
+        "name": "FERRO BETANCOUR ELIANA                                                         ",
+        "type": "CUENTA CORRIENTE",
+        "closed": false,
+        "balance": 190.68,
+        "holderName": "FERRO BETANCOUR ELIANA                                                         ",
+        "currencyCode": "EUR",
+        "accountNumber": "ES2000730100570747215299"
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "name": "FERRO BETANCOUR ELIANA                                                         ",
+        "providerName": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,1797 @@
+{
+  "bank": {
+    "logo": "https://enablebanking.com/brands/SE/L%C3%A4nsf%C3%B6rs%C3%A4kringar%20Bank/",
+    "name": "Länsförsäkringar Bank",
+    "country": "SE",
+    "psu_types": [
+      "business",
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "psu_type": "business",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": true,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ]
+      },
+      {
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": true,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ]
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "uid": "cd06d342-ce01-43c0-a9a6-9c1afe93b721",
+      "name": "Sparkonto",
+      "usage": null,
+      "details": "Sparkonto",
+      "product": "Sparkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Authorized balance",
+              "balance_type": "OTHR",
+              "balance_amount": {
+                "amount": "0.0",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": "0.0",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "90226252665"
+        }
+      },
+      "psu_status": null,
+      "linked_account": null,
+      "account_servicer": null,
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.BKBH+uB7mYtFTUxWipXzNw1qaC0lyhu/+kMegS86uCc="
+    },
+    {
+      "uid": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "name": "Kortkonto",
+      "usage": null,
+      "details": "Privatkonto",
+      "product": "Privatkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Authorized balance",
+              "balance_type": "OTHR",
+              "balance_amount": {
+                "amount": "3385.3",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": "3385.3",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "90231551306"
+        }
+      },
+      "psu_status": null,
+      "linked_account": null,
+      "account_servicer": null,
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.562QbYq8vqLahS0Tyf+F9/H/xg6pVjOL49fuwPZ04fw="
+    },
+    {
+      "uid": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "name": "Utgiftskonto",
+      "usage": null,
+      "details": "Privatkonto",
+      "product": "Privatkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Authorized balance",
+              "balance_type": "OTHR",
+              "balance_amount": {
+                "amount": "7904.0",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": "7904.0",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "90249503591"
+        }
+      },
+      "psu_status": null,
+      "linked_account": null,
+      "account_servicer": null,
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.dKHd6Ucei0A3Dzyq/oWViclJtbQ3/2GuSeVqBvNmgnA="
+    },
+    {
+      "uid": "5b83cb61-8e1b-4379-b2e6-262bea757912",
+      "name": "Sparkonto",
+      "usage": null,
+      "details": "Sparkonto",
+      "product": "Sparkonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Authorized balance",
+              "balance_type": "OTHR",
+              "balance_amount": {
+                "amount": "0.0",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": "0.0",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "90252465972"
+        }
+      },
+      "psu_status": null,
+      "linked_account": null,
+      "account_servicer": null,
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.x19VJDm8iBbAYDLrJLVJQHIcYDhbKLCakWQ3UtzNBiQ="
+    }
+  ],
+  "transactions": [
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-08-25",
+      "debtor_account": null,
+      "bank_account_id": "cd06d342-ce01-43c0-a9a6-9c1afe93b721",
+      "entry_reference": "340334964-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-08-25",
+      "transaction_amount": {
+        "amount": "4550.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9024.95.035.91"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-08-05",
+      "debtor_account": null,
+      "bank_account_id": "cd06d342-ce01-43c0-a9a6-9c1afe93b721",
+      "entry_reference": "331831272-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-08-05",
+      "transaction_amount": {
+        "amount": "4550.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-28",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219950985-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-28",
+      "transaction_amount": {
+        "amount": "83.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Hållbar"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-28",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219950813-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-28",
+      "transaction_amount": {
+        "amount": "166.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-28",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219923154-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-28",
+      "transaction_amount": {
+        "amount": "600.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Lådor och sånt"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-26",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219461541-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-26",
+      "transaction_amount": {
+        "amount": "517.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-26",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "416453429-1516",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "278.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "BRYGGAN CAFÉ &,JONKOPING,SE"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-26",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219380640-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-26",
+      "transaction_amount": {
+        "amount": "20.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-26",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219356691-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-26",
+      "transaction_amount": {
+        "amount": "1500.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Till mat"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-26",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "416729764-1516",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "109.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "SPOTIFY,STOCKHOLM,SE"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "462792565-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "400.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9024.95.035.91"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219039307-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "2450.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Räkningar"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "462787235-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "6076.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9024.95.035.91"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "462786598-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "900.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9555.52.890.59"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "462785732-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9272.84.559.53"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "462784807-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "2800.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9272.84.559.53"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "219037705-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "97.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-24",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "415544367-1516",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-23",
+      "transaction_amount": {
+        "amount": "25.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "CAFE TASTE OF BEIRUT,JONKOPING,SE"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-24",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "461403349-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-24",
+      "transaction_amount": {
+        "amount": "10928.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "STUDSTÖD"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-22",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "414644034-1516",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-21",
+      "transaction_amount": {
+        "amount": "330.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "UNICORE,JONKOPING,SE"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-19",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "217893815-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-19",
+      "transaction_amount": {
+        "amount": "482.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-19",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "217769434-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-19",
+      "transaction_amount": {
+        "amount": "11030.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Inbetalning till 199911225291."
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-19",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "459132090-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-19",
+      "transaction_amount": {
+        "amount": "11030.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "AVANZA"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-19",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "413070122-1516",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-18",
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "PAYPAL *KONEO AB,35314369001,SE"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-17",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "217429169-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-17",
+      "transaction_amount": {
+        "amount": "20.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Vitamin well"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-17",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "457894080-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-17",
+      "transaction_amount": {
+        "amount": "150.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "ÖVERFÖRING"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-16",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "217278889-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-16",
+      "transaction_amount": {
+        "amount": "720.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Lyko"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-16",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "457693600-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-16",
+      "transaction_amount": {
+        "amount": "1439.05",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "3468143330 LYKO 8024"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-16",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "457691912-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-16",
+      "transaction_amount": {
+        "amount": "720.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-15",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "217135962-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-15",
+      "transaction_amount": {
+        "amount": "500.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Noa praktik klart middag"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-15",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "217134305-1625",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-15",
+      "transaction_amount": {
+        "amount": "456.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-15",
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "457301708-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-15",
+      "transaction_amount": {
+        "amount": "456.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": null,
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "418420962-1516",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-28",
+      "transaction_amount": {
+        "amount": "617.8",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "CLAS OHLSON"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": null,
+      "debtor_account": null,
+      "bank_account_id": "29e6582a-5c8c-4079-abd6-b66c1d31b423",
+      "entry_reference": "463999512-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-29",
+      "transaction_amount": {
+        "amount": "2778.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "LÖN"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-26",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "462790260-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-26",
+      "transaction_amount": {
+        "amount": "144.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "SKELLEFTEÅ KRAFT AB"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "462792565-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "400.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "462791275-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "1950.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9020.53.624.88"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-25",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "462787235-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-25",
+      "transaction_amount": {
+        "amount": "6076.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-16",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "457691912-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-16",
+      "transaction_amount": {
+        "amount": "720.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-15",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "457301708-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-15",
+      "transaction_amount": {
+        "amount": "456.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-03-01",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "449942744-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-03-01",
+      "transaction_amount": {
+        "amount": "202.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "SKELLEFTEÅ KRAFT AB"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-28",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "449945030-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-28",
+      "transaction_amount": {
+        "amount": "169.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9555.52.890.59"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-28",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "449943992-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-28",
+      "transaction_amount": {
+        "amount": "2626.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "HSB GÖTA EK FÖRENING"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-28",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "449941600-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-28",
+      "transaction_amount": {
+        "amount": "155.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Jönköping Energi AB"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-28",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "449941366-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-28",
+      "transaction_amount": {
+        "amount": "1950.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9020.53.624.88"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-26",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "448266423-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-26",
+      "transaction_amount": {
+        "amount": "7211.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-22",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "444001526-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-22",
+      "transaction_amount": {
+        "amount": "500.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-22",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "443937115-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-22",
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-18",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "442389320-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-18",
+      "transaction_amount": {
+        "amount": "500.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-16",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "441262439-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-16",
+      "transaction_amount": {
+        "amount": "600.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9272.84.559.53"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-16",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "440994288-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-16",
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-16",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "440993779-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-16",
+      "transaction_amount": {
+        "amount": "100.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-02-13",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "439931874-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-02-13",
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-01-29",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "425480058-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-01-29",
+      "transaction_amount": {
+        "amount": "127.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Jönköping Energi AB"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-01-20",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "425486347-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-01-20",
+      "transaction_amount": {
+        "amount": "200.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9555.52.890.59"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-01-20",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "425486006-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-01-20",
+      "transaction_amount": {
+        "amount": "2626.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "HSB GÖTA EK FÖRENING"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-01-20",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "425480284-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-01-20",
+      "transaction_amount": {
+        "amount": "1950.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9020.53.624.88"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-01-20",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "425465708-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-01-20",
+      "transaction_amount": {
+        "amount": "6900.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2021-01-04",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "419010913-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2021-01-04",
+      "transaction_amount": {
+        "amount": "2000.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-12-30",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "413062292-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-12-30",
+      "transaction_amount": {
+        "amount": "128.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Jönköping Energi AB"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-12-29",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "50684414-202",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-12-29",
+      "transaction_amount": {
+        "amount": "159.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Kivra AB"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-12-27",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "413073030-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-12-27",
+      "transaction_amount": {
+        "amount": "4900.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Alex Wahlberg"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-12-27",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "413068455-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-12-27",
+      "transaction_amount": {
+        "amount": "2626.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "HSB GÖTA EK FÖRENING"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-12-27",
+      "debtor_account": null,
+      "bank_account_id": "9299d971-d7dd-4a38-b2dc-5100abf9f544",
+      "entry_reference": "413065097-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-12-27",
+      "transaction_amount": {
+        "amount": "1950.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9020.53.624.88"
+      ],
+      "balance_after_transaction": null
+    },
+    {
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2020-10-11",
+      "debtor_account": null,
+      "bank_account_id": "5b83cb61-8e1b-4379-b2e6-262bea757912",
+      "entry_reference": "368142228-25",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2020-10-11",
+      "transaction_amount": {
+        "amount": "1219.0",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "9023.15.513.06"
+      ],
+      "balance_after_transaction": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "user": {
+    "profile": {
+      "name": "Jennyfer Lena Idnert",
+      "market": "FI"
+    }
+  },
+  "transactions": {
+    "results": [
+      {
+        "transaction": {
+          "id": "dca6c762f0debddec947a5e07ecbf218",
+          "date": 1656288000000,
+          "amount": 324.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1863-95707",
+          "description": "0 - Överföring",
+          "originalDate": 1656288000000,
+          "originalDescription": "0 - Överföring"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3b3612ecf0a257d6c33d8abd059b08ca",
+          "date": 1656288000000,
+          "amount": -245.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1863-95707",
+          "description": "9 - Korttransaktion",
+          "originalDate": 1656288000000,
+          "originalDescription": "9 - Korttransaktion"
+        }
+      },
+      {
+        "transaction": {
+          "id": "10d5a17db613d3ebe77802aa3931520f",
+          "date": 1656288000000,
+          "amount": -4000.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1863-95707",
+          "description": "8 - Överföring",
+          "originalDate": 1656288000000,
+          "originalDescription": "8 - Överföring"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d2b612896bf0476267c65f229310bfeb",
+          "date": 1656288000000,
+          "amount": 4000.0,
+          "payload": {
+          },
+          "accountId": "account_AT-1863-95707",
+          "description": "4 - Swishbetalning",
+          "originalDate": 1656288000000,
+          "originalDescription": "4 - Swishbetalning"
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "account_AT-1863-95707",
+        "iban": "SE2050000000050620049367",
+        "name": "Jennyfer Lena Idnert",
+        "type": "Privatkonto",
+        "closed": false,
+        "balance": 3705.64,
+        "holderName": "Jennyfer Lena Idnert",
+        "currencyCode": "SEK",
+        "accountNumber": "SE2050000000050620049367"
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "name": "Jennyfer Lena Idnert",
+        "providerName": ""
+      }
+    ]
+  }
+}

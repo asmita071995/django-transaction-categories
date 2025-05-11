@@ -1,0 +1,5914 @@
+{
+  "user": {
+    "id": "bb448ddc6e532ee22e198277a171fe06",
+    "flags": [
+      "DETECT_NATIONAL_ID",
+      "ANONYMOUS",
+      "APPLICATIONS_INTERCOM_CHAT",
+      "FRAUD_PROTECTION",
+      "SPLIT_TRANSACTIONS",
+      "NO_TINK_USER",
+      "BUDGETS_V2",
+      "TRANSFERS",
+      "TEST_MANUAL_REFRESH_REMINDER_OFF",
+      "BUDGETS_MIGRATE",
+      "HAS_DEMO_CREDENTIALS"
+    ],
+    "label": null,
+    "created": 1679292591,
+    "profile": {
+      "name": "LEO GRÖNLUND NORDBERG",
+      "birth": null,
+      "gender": null,
+      "locale": "sv_SE",
+      "market": "SE",
+      "currency": "SEK",
+      "timeZone": "",
+      "periodMode": "",
+      "periodSettings": {
+        "mode": "",
+        "adjustedPeriodDay": null
+      },
+      "cashbackEnabled": false,
+      "fraudPersonNumber": "tink",
+      "periodAdjustedDay": null,
+      "notificationSettings": {
+        "fraud": true,
+        "budget": true,
+        "income": true,
+        "balance": true,
+        "einvoices": true,
+        "loanUpdate": true,
+        "leftToSpend": false,
+        "transaction": true,
+        "doubleCharge": true,
+        "largeExpense": true,
+        "summaryWeekly": true,
+        "summaryMonthly": true,
+        "unusualAccount": true,
+        "unusualCategory": true
+      }
+    },
+    "endpoint": null,
+    "services": [
+      {
+        "type": "TINK",
+        "state": "INACTIVE",
+        "externalId": "bb448ddc6e532ee22e198277a171fe06"
+      }
+    ],
+    "username": null,
+    "debugUntil": null,
+    "nationalId": null
+  },
+  "loan_type": null,
+  "transactions": {
+    "net": 0,
+    "count": 0,
+    "query": {
+      "sort": "DATE",
+      "limit": 0,
+      "order": "DESC",
+      "offset": 0,
+      "endDate": 1679292591,
+      "accounts": [
+
+      ],
+      "startDate": 1679292591,
+      "categories": [
+
+      ],
+      "externalIds": [
+
+      ],
+      "queryString": null,
+      "transactionId": null,
+      "includeUpcoming": false,
+      "lastTransactionId": null
+    },
+    "metrics": {
+      "AVG": 0,
+      "NET": 0,
+      "SUM": 0,
+      "COUNT": 0,
+      "CATEGORIES": {
+      }
+    },
+    "results": [
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "5147a310bff47f3bd590ba45f2147577",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 460,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "bcc16ad69c7b026a23e3602cc0967bef",
+          "merchantId": "",
+          "description": "Insättning Kort 220927 Jd_sweden",
+          "categoryType": null,
+          "lastModified": "2022-10-03T10:00:00.000+00:00",
+          "originalDate": "2022-10-03T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 460,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Insättning Kort 220927 Jd_sweden",
+          "formattedDescription": "Insättning Kort 220927 Jd_sweden",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "83e31794e7e65dba3c5e4d7438c5c264",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -420,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "20264a021008aa79a57dbbc5db64297a",
+          "merchantId": "",
+          "description": "Överföring 4395 19 40812",
+          "categoryType": null,
+          "lastModified": "2022-10-15T10:00:00.000+00:00",
+          "originalDate": "2022-10-15T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -420,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Överföring 4395 19 40812",
+          "formattedDescription": "Överföring 4395 19 40812",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "57372167aec7fb18661310a9110d61b8",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -39,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "e11c00378938dcbc7fc24241bb25bebd",
+          "merchantId": "",
+          "description": "Sl",
+          "categoryType": null,
+          "lastModified": "2022-10-17T10:00:00.000+00:00",
+          "originalDate": "2022-10-17T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -39,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Sl",
+          "formattedDescription": "Sl",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "824180bcd039e212bc1cb82be86d95d6",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -39,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "74d3c0c9decd74432d9f3cdedf852927",
+          "merchantId": "",
+          "description": "Sl",
+          "categoryType": null,
+          "lastModified": "2022-10-17T10:00:00.000+00:00",
+          "originalDate": "2022-10-17T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -39,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Sl",
+          "formattedDescription": "Sl",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "085f9e9f45ebfb8eaf1643eeb3c40ef3",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -0.76,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "ea3b68ca44cfad79af72f95fadaaa8f4",
+          "merchantId": "",
+          "description": "Skuldränta",
+          "categoryType": null,
+          "lastModified": "2022-12-31T11:00:00.000+00:00",
+          "originalDate": "2022-12-31T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -0.76,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Skuldränta",
+          "formattedDescription": "Skuldränta",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "9b68842a72d4107f0505219a654a7885",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 550,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "23685121bf4bf96163f2fb27804b6b71",
+          "merchantId": "",
+          "description": "Bankgiroinsättning 102512415746",
+          "categoryType": null,
+          "lastModified": "2023-02-08T11:00:00.000+00:00",
+          "originalDate": "2023-02-08T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 550,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Bankgiroinsättning 102512415746",
+          "formattedDescription": "Bankgiroinsättning 102512415746",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a86676bd7feb3d434c2c396f74d969dd",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -150,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "0f366c0553b1bf733cdf47723d83b81f",
+          "merchantId": "",
+          "description": "Överföring 040729-3612",
+          "categoryType": null,
+          "lastModified": "2023-02-08T11:00:00.000+00:00",
+          "originalDate": "2023-02-08T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -150,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Överföring 040729-3612",
+          "formattedDescription": "Överföring 040729-3612",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "eaf69ddd3ea1f5057d738e087ead4804",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "a59b71c3139575bbfa4a54ad6417c3b7",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-02-11T11:00:00.000+00:00",
+          "originalDate": "2023-02-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "29ddf1c544bb40bbff98e2094d7c8b22",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "8c6fe16742e3530e2d6893657b08b0b6",
+          "merchantId": "",
+          "description": "Swish Nowak,Maciej Henryk",
+          "categoryType": null,
+          "lastModified": "2023-02-12T11:00:00.000+00:00",
+          "originalDate": "2023-02-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -500,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Nowak,Maciej Henryk",
+          "formattedDescription": "Swish Nowak,Maciej Henryk",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "cd0b2368977be9ab7c27856912436e15",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 500,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "2dcd02efe9e13e0430784280de517e23",
+          "merchantId": "",
+          "description": "Swish Grönlund, Marie",
+          "categoryType": null,
+          "lastModified": "2023-02-12T11:00:00.000+00:00",
+          "originalDate": "2023-02-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 500,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Grönlund, Marie",
+          "formattedDescription": "Swish Grönlund, Marie",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "cc4c1b8a874e86321c6c2cf9854006ad",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -159,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "e2e4f14ebcca2bbab1fa6d635ef2a336",
+          "merchantId": "",
+          "description": "Åhl Ns City Stockhol",
+          "categoryType": null,
+          "lastModified": "2023-02-13T11:00:00.000+00:00",
+          "originalDate": "2023-02-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -159,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Åhl Ns City Stockhol",
+          "formattedDescription": "Åhl Ns City Stockhol",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "c538aa7812536eae5013ae34410ca3fb",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 30,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "9aede6893a134a270de41ce5082280b4",
+          "merchantId": "",
+          "description": "Swish Oscar Nilsson",
+          "categoryType": null,
+          "lastModified": "2023-02-13T11:00:00.000+00:00",
+          "originalDate": "2023-02-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 30,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Oscar Nilsson",
+          "formattedDescription": "Swish Oscar Nilsson",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "8449deb1ebd62c158c60ed42dd1d1a39",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 20,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "d26ef0090baa3c30d9b3f3e97cd71949",
+          "merchantId": "",
+          "description": "Swish Love Ekelöw",
+          "categoryType": null,
+          "lastModified": "2023-02-13T11:00:00.000+00:00",
+          "originalDate": "2023-02-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 20,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Love Ekelöw",
+          "formattedDescription": "Swish Love Ekelöw",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "fe1b2b6c9954f88382e2035a9fd6feb5",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -24.95,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "4f8399c36cdaed1bc02ceba6394cfc51",
+          "merchantId": "",
+          "description": "Ica Nara Sergels Tor",
+          "categoryType": null,
+          "lastModified": "2023-02-13T11:00:00.000+00:00",
+          "originalDate": "2023-02-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -24.95,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Ica Nara Sergels Tor",
+          "formattedDescription": "Ica Nara Sergels Tor",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a49316b6c74cebf907d8a236eb4b4130",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -109,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3891df27b53b204e0e6cc8fd8720a57c",
+          "merchantId": "",
+          "description": "Mcd 0127 Årsta",
+          "categoryType": null,
+          "lastModified": "2023-02-14T11:00:00.000+00:00",
+          "originalDate": "2023-02-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -109,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Mcd 0127 Årsta",
+          "formattedDescription": "Mcd 0127 Årsta",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "42d0491460f06e5e9e7f845c871681c8",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 20,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "dc206458335dc9bbad1965bbab5d489d",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-02-14T11:00:00.000+00:00",
+          "originalDate": "2023-02-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 20,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "4621af0d39b411b048302c8b5b0599e5",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -82,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "158d48aa2ffd454fae084aa0a3e19070",
+          "merchantId": "",
+          "description": "4405196 Pressbyrån",
+          "categoryType": null,
+          "lastModified": "2023-02-14T11:00:00.000+00:00",
+          "originalDate": "2023-02-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -82,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "4405196 Pressbyrån",
+          "formattedDescription": "4405196 Pressbyrån",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "54bfbb55503315eabc98baf231831be0",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "518e54325f1e9f235d28d59ed2fd4d6b",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-02-14T11:00:00.000+00:00",
+          "originalDate": "2023-02-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "c4aeeae0c827fd64979b1927a1c0270f",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -71,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "cd58730c77f0a2c640f44d8f6ad564da",
+          "merchantId": "",
+          "description": "Livax Enterprise",
+          "categoryType": null,
+          "lastModified": "2023-02-15T11:00:00.000+00:00",
+          "originalDate": "2023-02-15T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -71,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Livax Enterprise",
+          "formattedDescription": "Livax Enterprise",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "37dfa4bb56aea690e66842391b69c8a1",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -15.95,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "f1c9c53365601ec789f4fc6b3c7276b3",
+          "merchantId": "",
+          "description": "Coop Nara Stamg Alvs",
+          "categoryType": null,
+          "lastModified": "2023-02-15T11:00:00.000+00:00",
+          "originalDate": "2023-02-15T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -15.95,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Coop Nara Stamg Alvs",
+          "formattedDescription": "Coop Nara Stamg Alvs",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "d5b57e4150f6d42d8b41b29df5108c20",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "bc16660e82c2c50f7f984a3972cdfcbc",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-02-15T11:00:00.000+00:00",
+          "originalDate": "2023-02-15T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "f3e0888bf0c74ce3016bf3f7e2a827aa",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -62,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "a1a07bb2122b9aab56e004e53e953288",
+          "merchantId": "",
+          "description": "4405196 Pressbyrån",
+          "categoryType": null,
+          "lastModified": "2023-02-16T11:00:00.000+00:00",
+          "originalDate": "2023-02-16T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -62,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "4405196 Pressbyrån",
+          "formattedDescription": "4405196 Pressbyrån",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "22d74a2a61c67a4cb2ffb2dd58b25529",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 400,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "214371d55b85c777e7f153cd377baec6",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-02-16T11:00:00.000+00:00",
+          "originalDate": "2023-02-16T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 400,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a788fea1f61b3e8cbe6a1037dc497086",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "41bd77f10b1c720822005abb86e8fb48",
+          "merchantId": "",
+          "description": "Swish Nowak,Maciej Henryk",
+          "categoryType": null,
+          "lastModified": "2023-02-17T11:00:00.000+00:00",
+          "originalDate": "2023-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Nowak,Maciej Henryk",
+          "formattedDescription": "Swish Nowak,Maciej Henryk",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "e4ea634fb9cd98e147c7ed1b588bedf0",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "769445f492e432c186dd20ad45e0acf2",
+          "merchantId": "",
+          "description": "Swish Al-Zuhairi, Hendam",
+          "categoryType": null,
+          "lastModified": "2023-02-17T11:00:00.000+00:00",
+          "originalDate": "2023-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Al-Zuhairi, Hendam",
+          "formattedDescription": "Swish Al-Zuhairi, Hendam",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "b29b757fe5d4a6701236afed6f6fb3e2",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3629418796e8d1620526137f7a995bac",
+          "merchantId": "",
+          "description": "Swish Al-Zuhairi, Henda",
+          "categoryType": null,
+          "lastModified": "2023-02-17T11:00:00.000+00:00",
+          "originalDate": "2023-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Al-Zuhairi, Henda",
+          "formattedDescription": "Swish Al-Zuhairi, Henda",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "efbdbc810d0b54642cc14188ffe0f322",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -15,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "19357e8eb276b77db0de6265f77ac5e2",
+          "merchantId": "",
+          "description": "4405196 Pressbyrån",
+          "categoryType": null,
+          "lastModified": "2023-02-17T11:00:00.000+00:00",
+          "originalDate": "2023-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -15,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "4405196 Pressbyrån",
+          "formattedDescription": "4405196 Pressbyrån",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "7e23fddfed62b50669ece9dc5fb8e52e",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3f58810daa598d1d7b4e4b1b96cc40f6",
+          "merchantId": "",
+          "description": "Livax Enterprise",
+          "categoryType": null,
+          "lastModified": "2023-02-17T11:00:00.000+00:00",
+          "originalDate": "2023-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Livax Enterprise",
+          "formattedDescription": "Livax Enterprise",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "698a00112763c56be35cdf94645b51f0",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 79,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "5b3206d1edad2a23ff102b696a0e60b2",
+          "merchantId": "",
+          "description": "Swish Keith Kabenge",
+          "categoryType": null,
+          "lastModified": "2023-02-18T11:00:00.000+00:00",
+          "originalDate": "2023-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 79,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Keith Kabenge",
+          "formattedDescription": "Swish Keith Kabenge",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "3a94a61322d3eb60ab20a5112e59bbb0",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 65,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "41f32db79a41e69584eca13d21e26288",
+          "merchantId": "",
+          "description": "Swish Viggo Asp",
+          "categoryType": null,
+          "lastModified": "2023-02-18T11:00:00.000+00:00",
+          "originalDate": "2023-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 65,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Viggo Asp",
+          "formattedDescription": "Swish Viggo Asp",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "43b12317b4b0d68b04319acb884ebeaa",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 55,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "48171edbf0c04e1cda0d56206be0e2e8",
+          "merchantId": "",
+          "description": "Swish Erik Hjelm",
+          "categoryType": null,
+          "lastModified": "2023-02-18T11:00:00.000+00:00",
+          "originalDate": "2023-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 55,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Erik Hjelm",
+          "formattedDescription": "Swish Erik Hjelm",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "ab514883cb751686c9d7c68bc7442d35",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "05f4afafc0d474e5a0b367fa364e78d1",
+          "merchantId": "",
+          "description": "Swish Stendahl,Andreas",
+          "categoryType": null,
+          "lastModified": "2023-02-18T11:00:00.000+00:00",
+          "originalDate": "2023-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Stendahl,Andreas",
+          "formattedDescription": "Swish Stendahl,Andreas",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a2735529416369507cec3b73209a4991",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 65,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "341f655c78bea2385a6f99e22f79d93c",
+          "merchantId": "",
+          "description": "Swish Ehrnvall,Robin",
+          "categoryType": null,
+          "lastModified": "2023-02-18T11:00:00.000+00:00",
+          "originalDate": "2023-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 65,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Ehrnvall,Robin",
+          "formattedDescription": "Swish Ehrnvall,Robin",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "4c3779b9aceb2b08c3e107ded940a31e",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 250,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "4b9cdef1abbfaed11ef7c2f56ae06491",
+          "merchantId": "",
+          "description": "Swish Nordberg,Anna-Len",
+          "categoryType": null,
+          "lastModified": "2023-02-18T11:00:00.000+00:00",
+          "originalDate": "2023-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 250,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Nordberg,Anna-Len",
+          "formattedDescription": "Swish Nordberg,Anna-Len",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "d44eb7198df087b7e8d1b253c2723819",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -18,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "92ef27f3c26f3be68ab8988f3d1a7213",
+          "merchantId": "",
+          "description": "Max Burgers",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -18,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Max Burgers",
+          "formattedDescription": "Max Burgers",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "8ebef518659c4e43409988522c06f343",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -65,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "90fbf61fe1015be7788a66c02e156ce2",
+          "merchantId": "",
+          "description": "Levy Restaurants",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -65,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Levy Restaurants",
+          "formattedDescription": "Levy Restaurants",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "97d7c627cf1898f3ede461d708c50cdc",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -127,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "8df84e747c49768c8a92c6171d15a04b",
+          "merchantId": "",
+          "description": "Levy Restaurants",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -127,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Levy Restaurants",
+          "formattedDescription": "Levy Restaurants",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "ad3b444e3df3c13f64bc8aac42b51a88",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -60,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "368f1e9dc20ba9120caa54de9f84738a",
+          "merchantId": "",
+          "description": "Coop Nara Stamg Alvs",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -60,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Coop Nara Stamg Alvs",
+          "formattedDescription": "Coop Nara Stamg Alvs",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "fe173fc5322ccaba939466e6b641ef9a",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -20.8,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "5137e0cfa79073da5b04e72af16d2ef1",
+          "merchantId": "",
+          "description": "Ica Supermarket Glob",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -20.8,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Ica Supermarket Glob",
+          "formattedDescription": "Ica Supermarket Glob",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "0516e41358bf31e035878b62ff9f545a",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -192,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "0f234667b309138bbc39641ad19818d7",
+          "merchantId": "",
+          "description": "Kloster",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -192,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Kloster",
+          "formattedDescription": "Kloster",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "d37b2f1396b200204178dbf3b4d5b6df",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -95,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "335a0087ee6f9dba7999c215be3647a7",
+          "merchantId": "",
+          "description": "Levy Restaurants",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -95,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Levy Restaurants",
+          "formattedDescription": "Levy Restaurants",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "8682d3c4d102c8dd8d7756fc14d7f4cf",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -39,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "03f6bb843ca7f672d198f86c5b55c52a",
+          "merchantId": "",
+          "description": "Levy Restaurants",
+          "categoryType": null,
+          "lastModified": "2023-02-20T11:00:00.000+00:00",
+          "originalDate": "2023-02-20T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -39,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Levy Restaurants",
+          "formattedDescription": "Levy Restaurants",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "697edd243dca13b6cccc97d73628ae25",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 20,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "d2be30e2483654aabb9dbf7b53c3cc18",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-02-21T11:00:00.000+00:00",
+          "originalDate": "2023-02-21T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 20,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "63b145b94c287e104b8995b931b09743",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -158,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "7c1c7d279e265ee74d0c6e8a7ed5eee3",
+          "merchantId": "",
+          "description": "Colosseum",
+          "categoryType": null,
+          "lastModified": "2023-02-21T11:00:00.000+00:00",
+          "originalDate": "2023-02-21T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -158,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Colosseum",
+          "formattedDescription": "Colosseum",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "538dafab00004f6748bbfca3332c6706",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -93,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "994563d9723ec4b6ceb3f7822cd8407e",
+          "merchantId": "",
+          "description": "Subway",
+          "categoryType": null,
+          "lastModified": "2023-02-21T11:00:00.000+00:00",
+          "originalDate": "2023-02-21T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -93,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Subway",
+          "formattedDescription": "Subway",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "4fb409c306c31492078ce0e7adc78a12",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 75,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "63f9619becd36041569714982cc96a04",
+          "merchantId": "",
+          "description": "Swish Ehrnvall,Robin",
+          "categoryType": null,
+          "lastModified": "2023-02-22T11:00:00.000+00:00",
+          "originalDate": "2023-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 75,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Ehrnvall,Robin",
+          "formattedDescription": "Swish Ehrnvall,Robin",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "1418f35d671449c58e3b9e1d3e7540d4",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 75,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "372eccb0af94a4182a7d5a5769ab4cd9",
+          "merchantId": "",
+          "description": "Swish Ehrnvall,Robin",
+          "categoryType": null,
+          "lastModified": "2023-02-22T11:00:00.000+00:00",
+          "originalDate": "2023-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 75,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Ehrnvall,Robin",
+          "formattedDescription": "Swish Ehrnvall,Robin",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "b9b00188f417102fea5388f81c3ca171",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 61,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "9c9db6369b8b72e3258ef7e63db6073f",
+          "merchantId": "",
+          "description": "Swish Ehrnvall,Robin",
+          "categoryType": null,
+          "lastModified": "2023-02-22T11:00:00.000+00:00",
+          "originalDate": "2023-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 61,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Ehrnvall,Robin",
+          "formattedDescription": "Swish Ehrnvall,Robin",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "6dbd49c7c971d74315ce6e6b0ed687b4",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -40,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "2cfb9428b1ac0be51f09287e0cc3c84b",
+          "merchantId": "",
+          "description": "4405196 Pressbyrån",
+          "categoryType": null,
+          "lastModified": "2023-02-22T11:00:00.000+00:00",
+          "originalDate": "2023-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -40,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "4405196 Pressbyrån",
+          "formattedDescription": "4405196 Pressbyrån",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "670a48b6f0bd34ea279c8a13b8977c5c",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -25,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "cd1091422c90a56b6e0d32449f9352b3",
+          "merchantId": "",
+          "description": "Globens Trafiks",
+          "categoryType": null,
+          "lastModified": "2023-02-23T11:00:00.000+00:00",
+          "originalDate": "2023-02-23T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -25,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Globens Trafiks",
+          "formattedDescription": "Globens Trafiks",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "aff1b86eaf27080c9c79c8d340093722",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -95,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3037ad133f58b405cbf1fb6e7cce0129",
+          "merchantId": "",
+          "description": "4516110 7 Eleven",
+          "categoryType": null,
+          "lastModified": "2023-02-24T11:00:00.000+00:00",
+          "originalDate": "2023-02-24T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -95,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "4516110 7 Eleven",
+          "formattedDescription": "4516110 7 Eleven",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "efb23fa4b7a0a2a3de080a25fff1fc72",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -24.95,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "6f6f222c62825423a4b9e3a89df6bc80",
+          "merchantId": "",
+          "description": "Ica Supermarket Sjos",
+          "categoryType": null,
+          "lastModified": "2023-02-27T11:00:00.000+00:00",
+          "originalDate": "2023-02-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -24.95,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Ica Supermarket Sjos",
+          "formattedDescription": "Ica Supermarket Sjos",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "dff6608ee9f90d154a297d9eb94ded47",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -69.9,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "99cac5c282310a97e0e78a045aeacee0",
+          "merchantId": "",
+          "description": "Hemkop Stockholm Gul",
+          "categoryType": null,
+          "lastModified": "2023-02-27T11:00:00.000+00:00",
+          "originalDate": "2023-02-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -69.9,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Hemkop Stockholm Gul",
+          "formattedDescription": "Hemkop Stockholm Gul",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "3f25b814cad29938fab57ad3723231ab",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 115,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "d882c39be59c1df9a75613d3479fd307",
+          "merchantId": "",
+          "description": "Swish Güclü,Burak",
+          "categoryType": null,
+          "lastModified": "2023-02-27T11:00:00.000+00:00",
+          "originalDate": "2023-02-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 115,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Güclü,Burak",
+          "formattedDescription": "Swish Güclü,Burak",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "2d99acf424b009497c6da9ae4c70f874",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -100,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "bfcde82126c5918d71e8fe893ba4d74f",
+          "merchantId": "",
+          "description": "Swish Leovegas Gaming Plc",
+          "categoryType": null,
+          "lastModified": "2023-02-27T11:00:00.000+00:00",
+          "originalDate": "2023-02-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Leovegas Gaming Plc",
+          "formattedDescription": "Swish Leovegas Gaming Plc",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "922748d499af58753a8abdc5f1e8d39a",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 3000,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "ecdd1dd84f9504779830753b9f9f9889",
+          "merchantId": "",
+          "description": "Insättningsautomat",
+          "categoryType": null,
+          "lastModified": "2023-02-28T11:00:00.000+00:00",
+          "originalDate": "2023-02-28T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 3000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Insättningsautomat",
+          "formattedDescription": "Insättningsautomat",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "2d250da7e285e201de9542910c4e8024",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -100,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "7a97be795868111a32de6951e6a68b32",
+          "merchantId": "",
+          "description": "Swish Leovegas Gaming Plc",
+          "categoryType": null,
+          "lastModified": "2023-02-28T11:00:00.000+00:00",
+          "originalDate": "2023-02-28T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Leovegas Gaming Plc",
+          "formattedDescription": "Swish Leovegas Gaming Plc",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "91d00b5c47362a76b503d9e93e732161",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -20,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "55e759ac2a499863ad9bf107a515e1b1",
+          "merchantId": "",
+          "description": "Nyx*Philipsonsspeloc",
+          "categoryType": null,
+          "lastModified": "2023-02-28T11:00:00.000+00:00",
+          "originalDate": "2023-02-28T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -20,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Nyx*Philipsonsspeloc",
+          "formattedDescription": "Nyx*Philipsonsspeloc",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a9141377364de83d4df6edb40b8bf7cf",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -180,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "5159cc124661de61e0c64a4e2cb25225",
+          "merchantId": "",
+          "description": "Swish Stendahl,Andreas",
+          "categoryType": null,
+          "lastModified": "2023-02-28T11:00:00.000+00:00",
+          "originalDate": "2023-02-28T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -180,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Stendahl,Andreas",
+          "formattedDescription": "Swish Stendahl,Andreas",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "7b5095daa3fbf3d40677fb0e34247596",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -2500,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "152b4af9d0d0a84e04eb2cdb734d38b4",
+          "merchantId": "",
+          "description": "Swish Grönlund, Marie",
+          "categoryType": null,
+          "lastModified": "2023-02-28T11:00:00.000+00:00",
+          "originalDate": "2023-02-28T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -2500,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Grönlund, Marie",
+          "formattedDescription": "Swish Grönlund, Marie",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "c6ed018c6384a4071a0164e68b0bf42f",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -100,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "c2d604c6bb04b6fda3fadf3ed2bdee40",
+          "merchantId": "",
+          "description": "Swish Jack Firas Abboud",
+          "categoryType": null,
+          "lastModified": "2023-03-02T11:00:00.000+00:00",
+          "originalDate": "2023-03-02T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Jack Firas Abboud",
+          "formattedDescription": "Swish Jack Firas Abboud",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "ace1417ca1ec2d8b3318c8e0bafaad17",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 15,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "99a2439d7249ec01947d9eff3be52e19",
+          "merchantId": "",
+          "description": "Swish Alison Tatiana Ca",
+          "categoryType": null,
+          "lastModified": "2023-03-04T11:00:00.000+00:00",
+          "originalDate": "2023-03-04T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 15,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Alison Tatiana Ca",
+          "formattedDescription": "Swish Alison Tatiana Ca",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "e6379b158804873c3bc03075485135fb",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "e89132d457ec0ac83dfaf413e109282e",
+          "merchantId": "",
+          "description": "Nyx*Primeragruppenab",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Nyx*Primeragruppenab",
+          "formattedDescription": "Nyx*Primeragruppenab",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "c76e4d110522c46488a0a9c7def31f44",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 250,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "d5dce290080a018ea260502f744643e1",
+          "merchantId": "",
+          "description": "Swish Nordberg,Anna-Len",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 250,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Nordberg,Anna-Len",
+          "formattedDescription": "Swish Nordberg,Anna-Len",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "cc6ff24f9cea48021b8d0e21867ceaa0",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -46.95,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "7726cd166f647947b13d0ac85316424c",
+          "merchantId": "",
+          "description": "Hemkop Stockholm Gul",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -46.95,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Hemkop Stockholm Gul",
+          "formattedDescription": "Hemkop Stockholm Gul",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "df584b9738bed7a18e73f6b865324c25",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 2,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "dafb7ece4fb5b71e945c2fad67d084fe",
+          "merchantId": "",
+          "description": "Swish Erik Hjelm",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 2,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Erik Hjelm",
+          "formattedDescription": "Swish Erik Hjelm",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "fb4e09d0ceb95702a0461b7de2a1dccb",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -15,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "9d84bc8b11ded3bfe19eb22bc5dcc340",
+          "merchantId": "",
+          "description": "Nyx*Primeragruppenab",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -15,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Nyx*Primeragruppenab",
+          "formattedDescription": "Nyx*Primeragruppenab",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a140ab86ac4f0a4335b371319c3d5759",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3ce876757ace314b2657f28929a8110e",
+          "merchantId": "",
+          "description": "Bet365",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Bet365",
+          "formattedDescription": "Bet365",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "6f017e79956904bdc99adb8540d6e118",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -100,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "87506702183162fab7a248fe622488a3",
+          "merchantId": "",
+          "description": "Swish Sol Invictus",
+          "categoryType": null,
+          "lastModified": "2023-03-06T11:00:00.000+00:00",
+          "originalDate": "2023-03-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Sol Invictus",
+          "formattedDescription": "Swish Sol Invictus",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "30673b9076d69cbc5eb642d3f107203d",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -107,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "d14373c8a9f0f196772fd0143270f73f",
+          "merchantId": "",
+          "description": "Max Burgers 2010091_",
+          "categoryType": null,
+          "lastModified": "2023-03-08T11:00:00.000+00:00",
+          "originalDate": "2023-03-08T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -107,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Max Burgers 2010091_",
+          "formattedDescription": "Max Burgers 2010091_",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "fea12890ae8bed6349c1072f4c066321",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -61,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "2bd60fc6de6a1584ee18a865ba858a2d",
+          "merchantId": "",
+          "description": "77 Ans Service Hb",
+          "categoryType": null,
+          "lastModified": "2023-03-08T11:00:00.000+00:00",
+          "originalDate": "2023-03-08T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -61,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "77 Ans Service Hb",
+          "formattedDescription": "77 Ans Service Hb",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "c12b94cd13a7fc42be0e9f77991eba1c",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 200,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "b5e1e9ce52913394015dff204ef39c79",
+          "merchantId": "",
+          "description": "Swish Erik Hjelm",
+          "categoryType": null,
+          "lastModified": "2023-03-10T11:00:00.000+00:00",
+          "originalDate": "2023-03-10T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Erik Hjelm",
+          "formattedDescription": "Swish Erik Hjelm",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "33d6566ac55d8d8b2609435768041cf2",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "606347be989d90f5f4daa0e3ea645246",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-10T11:00:00.000+00:00",
+          "originalDate": "2023-03-10T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "bc725a434d4505c2a72641a862eb41d1",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -100,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "81e2a70f59111f55981c9faacfd1b739",
+          "merchantId": "",
+          "description": "Swish Vendela Maajoun",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Vendela Maajoun",
+          "formattedDescription": "Swish Vendela Maajoun",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "65b52fa2e714d4de7450c4bd522d5bb4",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 550,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "c72d1de4c5a823828109d0b57407d507",
+          "merchantId": "",
+          "description": "Swish Rocker (Publ)",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 550,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Rocker (Publ)",
+          "formattedDescription": "Swish Rocker (Publ)",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a742395ffb7b7a6916071db69b1aed34",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -100,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3bd2a653b0b5b373099e0c7fe893cbaf",
+          "merchantId": "",
+          "description": "Swish Expekt Nordics Ltd",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Expekt Nordics Ltd",
+          "formattedDescription": "Swish Expekt Nordics Ltd",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "cf01753de01cca2b78383753cbe8304f",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "85c2927425b830c8286e1fc887760293",
+          "merchantId": "",
+          "description": "Swish Arif,Sara",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Arif,Sara",
+          "formattedDescription": "Swish Arif,Sara",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "ba922b0c776e7210fc975b3f187b8cb0",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -6,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "708ce68040dc734cf65ce7110aced55d",
+          "merchantId": "",
+          "description": "Swish Pasic,Alvin",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -6,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Pasic,Alvin",
+          "formattedDescription": "Swish Pasic,Alvin",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "69694f0474694668ea854f2788ccf1e4",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 150,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "361e2c60da1acf02237c7f38cb581433",
+          "merchantId": "",
+          "description": "Swish Al-Zuhairi, Henda",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 150,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Al-Zuhairi, Henda",
+          "formattedDescription": "Swish Al-Zuhairi, Henda",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "080ca9b4ba3903d8e22885a7b7d6499a",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -150,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "4cb616437cbbf9ba2b13b13a87cb847e",
+          "merchantId": "",
+          "description": "Swish Al-Zuhairi, Hendam",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -150,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Al-Zuhairi, Hendam",
+          "formattedDescription": "Swish Al-Zuhairi, Hendam",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "de62ac6e97c22b80bbf8bc2fd607ba3a",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 150,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "c73367f0f74f44342c6b358e28b3132c",
+          "merchantId": "",
+          "description": "Swish Vendela Maajoun",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 150,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Vendela Maajoun",
+          "formattedDescription": "Swish Vendela Maajoun",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "189e32d3731eb45db0e7fd1df4c718ae",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 300,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "cbc687bcae8bb7dfd993df974d03e074",
+          "merchantId": "",
+          "description": "Swish Al-Zuhairi, Henda",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 300,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Al-Zuhairi, Henda",
+          "formattedDescription": "Swish Al-Zuhairi, Henda",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "a4d64d2358a65f0ce264dd379524ad7f",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -700,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "8fad9f817342717f4a5c5d7313597080",
+          "merchantId": "",
+          "description": "Swish Pasic,Alvin",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -700,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Pasic,Alvin",
+          "formattedDescription": "Swish Pasic,Alvin",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "ea474181ecae378a7bae9ad65b26f64d",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 150,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "7950c810394b0c179131b63e3ec74e7a",
+          "merchantId": "",
+          "description": "Swish Arif,Sara",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 150,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Arif,Sara",
+          "formattedDescription": "Swish Arif,Sara",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "06481241e8143a397b597e59f4f9c703",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3b1549264ebbd1a61f26d968c20119a8",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "e94bc4bea54343baf7412e753cc4bf45",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 6,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "2a2a441da7769d8ebd48d6c9b2ae32ef",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 6,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "374aa7657cf01887d54ffd47bac18631",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 150,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "074229571ab03aa8283493776e9f5dd5",
+          "merchantId": "",
+          "description": "Swish Vendela Maajoun",
+          "categoryType": null,
+          "lastModified": "2023-03-11T11:00:00.000+00:00",
+          "originalDate": "2023-03-11T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 150,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Vendela Maajoun",
+          "formattedDescription": "Swish Vendela Maajoun",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "8df9f5728ea93cadc911854b36d13b7b",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "c6c231a9360e39efb8ae97eb3f701812",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-12T11:00:00.000+00:00",
+          "originalDate": "2023-03-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "95d2a80955b83363f3735c867cad77b4",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 70,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "6206aabc3b663f27753a1121fd1a3d10",
+          "merchantId": "",
+          "description": "Swish Emma Viklund",
+          "categoryType": null,
+          "lastModified": "2023-03-12T11:00:00.000+00:00",
+          "originalDate": "2023-03-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 70,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Emma Viklund",
+          "formattedDescription": "Swish Emma Viklund",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "ee0cab36276efdd88d8458067b209ef4",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "fa2b0373acf34973e660f77a9acd47da",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-12T11:00:00.000+00:00",
+          "originalDate": "2023-03-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "1d0747174bccc4aa044b4be7ae083542",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "6b0558ee00cc03cdaaf7bfb2228f42f3",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-12T11:00:00.000+00:00",
+          "originalDate": "2023-03-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "832751051c51e0cadbd35e8d2f291a3a",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "1f897104233273b7d89951a3bc3a0c71",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-12T11:00:00.000+00:00",
+          "originalDate": "2023-03-12T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "d341a6cb4dc120979c843c70dac1d94c",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -6,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "90b075da6c7c1190a6d5c4798c267617",
+          "merchantId": "",
+          "description": "Globen Spel Och Toba",
+          "categoryType": null,
+          "lastModified": "2023-03-13T11:00:00.000+00:00",
+          "originalDate": "2023-03-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -6,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Globen Spel Och Toba",
+          "formattedDescription": "Globen Spel Och Toba",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "7cd6aedf5f75cf7ff153ef227cd2ebee",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -39,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "9a130faf3be2825671683bc0748ed2b2",
+          "merchantId": "",
+          "description": "Sl",
+          "categoryType": null,
+          "lastModified": "2023-03-13T11:00:00.000+00:00",
+          "originalDate": "2023-03-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -39,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Sl",
+          "formattedDescription": "Sl",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "8dc487f78131a25b1caeb8f4241c338b",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -26,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "a73f61590ef5d46ccc75d4cfb511a93e",
+          "merchantId": "",
+          "description": "Swish Storstockholms L",
+          "categoryType": null,
+          "lastModified": "2023-03-13T11:00:00.000+00:00",
+          "originalDate": "2023-03-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -26,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Storstockholms L",
+          "formattedDescription": "Swish Storstockholms L",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "cc47946c3399e35533ef294e1e5a3747",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -37,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "45d085ba6a8c49df3c04d8aeaee1ffde",
+          "merchantId": "",
+          "description": "4108176 Pressbyrån",
+          "categoryType": null,
+          "lastModified": "2023-03-13T11:00:00.000+00:00",
+          "originalDate": "2023-03-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -37,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "4108176 Pressbyrån",
+          "formattedDescription": "4108176 Pressbyrån",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "1f3d1cf9201f1772ed5f06eecf3a0009",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 41,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "11093e9e491c3d45a5a722f3b7a6b64f",
+          "merchantId": "",
+          "description": "Swish Sabri,Ilias",
+          "categoryType": null,
+          "lastModified": "2023-03-13T11:00:00.000+00:00",
+          "originalDate": "2023-03-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 41,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Sabri,Ilias",
+          "formattedDescription": "Swish Sabri,Ilias",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "00ebd1785c13129999265991e8739b4b",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -139,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "6ce596cf7a7ed30ff488cb74a2955e44",
+          "merchantId": "",
+          "description": "Filmstaden Serg",
+          "categoryType": null,
+          "lastModified": "2023-03-14T11:00:00.000+00:00",
+          "originalDate": "2023-03-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -139,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Filmstaden Serg",
+          "formattedDescription": "Filmstaden Serg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "4dfd0ba77db5bd529d94deb5b2da3b91",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -60,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "888f774149e0a5919a6f9673ebd1d5ed",
+          "merchantId": "",
+          "description": "Ica Supermarket Glob",
+          "categoryType": null,
+          "lastModified": "2023-03-14T11:00:00.000+00:00",
+          "originalDate": "2023-03-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -60,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Ica Supermarket Glob",
+          "formattedDescription": "Ica Supermarket Glob",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "22bce6f2ae23cb7f2fd27a435e30f246",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -10,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "d6df4d5930a4dc29fa8e5b9cb507053d",
+          "merchantId": "",
+          "description": "T Cenralen",
+          "categoryType": null,
+          "lastModified": "2023-03-14T11:00:00.000+00:00",
+          "originalDate": "2023-03-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -10,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "T Cenralen",
+          "formattedDescription": "T Cenralen",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "df44732cfb74966bb696c711171f3822",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "2a142d8eb314ce51be5ac4d2d80fd0a0",
+          "merchantId": "",
+          "description": "Bet365",
+          "categoryType": null,
+          "lastModified": "2023-03-14T11:00:00.000+00:00",
+          "originalDate": "2023-03-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Bet365",
+          "formattedDescription": "Bet365",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "022dc2f41326fcc0e6e95b03ca4ce005",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -20,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "e1949e0dac4a5db3947b9b4da2b0de3c",
+          "merchantId": "",
+          "description": "T Cenralen",
+          "categoryType": null,
+          "lastModified": "2023-03-14T11:00:00.000+00:00",
+          "originalDate": "2023-03-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -20,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "T Cenralen",
+          "formattedDescription": "T Cenralen",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "546dd36ce8ac25728dd2d32d4e0d2731",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -50,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "2f35e38b1e88c47e653aa306b8bd3f59",
+          "merchantId": "",
+          "description": "Bet365",
+          "categoryType": null,
+          "lastModified": "2023-03-14T11:00:00.000+00:00",
+          "originalDate": "2023-03-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Bet365",
+          "formattedDescription": "Bet365",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "d6bdc72a744e995e03ecbc5dfc7327ad",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -65,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "a9fa06c86144ef0d89952e7c717b5239",
+          "merchantId": "",
+          "description": "Formaggio Pizzeria",
+          "categoryType": null,
+          "lastModified": "2023-03-15T11:00:00.000+00:00",
+          "originalDate": "2023-03-15T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -65,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Formaggio Pizzeria",
+          "formattedDescription": "Formaggio Pizzeria",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "d46bb03707b78b1c6a3bf0b39f655dff",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -2000,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "98c83ede2d53d23ca22475a1bf8823d4",
+          "merchantId": "",
+          "description": "Lyckost.se",
+          "categoryType": null,
+          "lastModified": "2023-03-19T11:00:00.000+00:00",
+          "originalDate": "2023-03-19T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -2000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Lyckost.se",
+          "formattedDescription": "Lyckost.se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "c3f7434c9799ad89e02551245a416f0c",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 4000,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "3d99175a07726a12417c3ce34b9e0772",
+          "merchantId": "",
+          "description": "Reservation Insättning Kort Lyckost",
+          "categoryType": null,
+          "lastModified": "2023-03-19T11:00:00.000+00:00",
+          "originalDate": "2023-03-19T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 4000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Reservation Insättning Kort Lyckost",
+          "formattedDescription": "Reservation Insättning Kort Lyckost",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "9164e705c318c10cdcfd8b831500cbf2",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -3500,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "e4dd1776656e14e7aec91330908e0dcb",
+          "merchantId": "",
+          "description": "Swish Manne Colak",
+          "categoryType": null,
+          "lastModified": "2023-03-19T11:00:00.000+00:00",
+          "originalDate": "2023-03-19T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -3500,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Manne Colak",
+          "formattedDescription": "Swish Manne Colak",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "b8a72312eb1dc0f3cf372cf5d18fc2a8",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 2000,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "33000501286116",
+          "timestamp": 1679292591,
+          "categoryId": "e126380685a953f970d6a9cfcf10d1b7",
+          "merchantId": "",
+          "description": "Swish Viktor Colak",
+          "categoryType": null,
+          "lastModified": "2023-03-19T11:00:00.000+00:00",
+          "originalDate": "2023-03-19T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 2000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Swish Viktor Colak",
+          "formattedDescription": "Swish Viktor Colak",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "6f63d44a67a623961b70f360eea4a149",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 420,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "43951940812",
+          "timestamp": 1679292591,
+          "categoryId": "decfc06cb4ce604e3b640dc46ae78832",
+          "merchantId": "",
+          "description": "Överföring 050128-6116",
+          "categoryType": null,
+          "lastModified": "2022-10-15T10:00:00.000+00:00",
+          "originalDate": "2022-10-15T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 420,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Överföring 050128-6116",
+          "formattedDescription": "Överföring 050128-6116",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1679292591,
+        "transaction": {
+          "id": "8e600b90326b00df9da228cbf611f844",
+          "date": 1679292591,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -420,
+          "userId": "bb448ddc6e532ee22e198277a171fe06",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1679292591,
+          "upcoming": false,
+          "accountId": "43951940812",
+          "timestamp": 1679292591,
+          "categoryId": "65669a73181208c661d510394909e9fe",
+          "merchantId": "",
+          "description": "Överföring 3259 02 08316",
+          "categoryType": null,
+          "lastModified": "2022-10-15T10:00:00.000+00:00",
+          "originalDate": "2022-10-15T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -420,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Överföring 3259 02 08316",
+          "formattedDescription": "Överföring 3259 02 08316",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      }
+    ],
+    "periodAmounts": [
+
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "33000501286116",
+        "name": null,
+        "type": "CHECKING",
+        "flags": "[]",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/nordea/tink.png",
+          "banner": null
+        },
+        "userId": "bb448ddc6e532ee22e198277a171fe06",
+        "balance": 33.05,
+        "details": null,
+        "favored": true,
+        "payload": null,
+        "excluded": false,
+        "ownership": 0.0,
+        "refreshed": 1679292591,
+        "holderName": "Grönlund Nordberg,leo",
+        "certainDate": 1679292591,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "33000501286116",
+        "credentialsId": null,
+        "availableCredit": 0.0,
+        "accountExclusion": "NONE",
+        "userModifiedName": false,
+        "userModifiedType": false,
+        "transferDestinations": null,
+        "userModifiedExcluded": false,
+        "financialInstitutionId": null,
+        "currencyDenominatedBalance": {
+          "scale": 0,
+          "currencyCode": "SEK",
+          "unscaledValue": 0
+        }
+      },
+      {
+        "id": "43951940812",
+        "name": null,
+        "type": "SAVINGS",
+        "flags": "[]",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/nordea/tink.png",
+          "banner": null
+        },
+        "userId": "bb448ddc6e532ee22e198277a171fe06",
+        "balance": 0,
+        "details": null,
+        "favored": true,
+        "payload": null,
+        "excluded": false,
+        "ownership": 0.0,
+        "refreshed": 1679292591,
+        "holderName": "Grönlund Nordberg,leo",
+        "certainDate": 1679292591,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "43951940812",
+        "credentialsId": null,
+        "availableCredit": 0.0,
+        "accountExclusion": "NONE",
+        "userModifiedName": false,
+        "userModifiedType": false,
+        "transferDestinations": null,
+        "userModifiedExcluded": false,
+        "financialInstitutionId": null,
+        "currencyDenominatedBalance": {
+          "scale": 0,
+          "currencyCode": "SEK",
+          "unscaledValue": 0
+        }
+      }
+    ]
+  },
+  "monthly_loan_cost": null,
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "ssn": null,
+        "name": null,
+        "dateOfBirth": null,
+        "providerName": "Nordea"
+      }
+    ]
+  }
+}

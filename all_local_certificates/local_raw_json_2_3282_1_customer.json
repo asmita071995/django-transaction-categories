@@ -1,0 +1,4122 @@
+{
+  "user": {
+    "id": "user-id-from-bank-db",
+    "profile": {
+      "name": "Jayesh Dateer",
+      "birth": "1989-04-28",
+      "gender": "Male",
+      "locale": "sv_SE",
+      "market": "SE",
+      "currency": "SEK",
+      "timeZone": "Europe/Stockholm",
+      "fraudPersonNumber": "280410040602"
+    },
+    "username": "string-username",
+    "nationalId": "string-nationalId"
+  },
+  "transactions": {
+    "results": [
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-1",
+          "amount": -357.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Toys'R Us",
+          "categoryType": "EXPENSES",
+          "originalDate": 1681378400000,
+          "originalDescription": "buy grocery paypal",
+          "formattedDescription": "buy grocery from XYZ shop"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-2",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "rent",
+          "categoryType": "EXPENSES",
+          "originalDate": 1688428800000,
+          "originalDescription": "rent",
+          "formattedDescription": "rent from tenant"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-3",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "+4678962290984",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "+4678962290984",
+          "formattedDescription": "+4678962290984"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-4",
+          "amount": 1500.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "hs 62290984",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "hs 62290984",
+          "formattedDescription": "hs 62290984"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-5",
+          "amount": 125.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "if",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "if",
+          "formattedDescription": "if"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-6",
+          "amount": 30000.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "8962290984 lan",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "8962290984 lan",
+          "formattedDescription": "8962290984 lan"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-8",
+          "amount": 40000.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "8962290984 lan",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "8962290984 lan",
+          "formattedDescription": "8962290984 lan"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-9",
+          "amount": 6200.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "cdm desposit from machine",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "cdm desposit from machine",
+          "formattedDescription": "cdm desposit from machine"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-10",
+          "amount": 620.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "isk",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "isk",
+          "formattedDescription": "isk"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-11",
+          "amount": 684.9,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "hm",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "hm",
+          "formattedDescription": "hm"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-12",
+          "amount": 684.9,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "income may be lrn",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "income may be lrn",
+          "formattedDescription": "income may be lrn"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-13",
+          "amount": 4500.9,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "income may bel nalsaray",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "income may bel nalsaray",
+          "formattedDescription": "income may bel nalsaray"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-14",
+          "amount": 4510.9,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "jayesh dateet ln is added",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "jayesh dateet ln is added",
+          "formattedDescription": "jayesh dateet ln is added"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-15",
+          "amount": 510.9,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "what si qliro meane",
+          "categoryType": "INCOMES",
+          "originalDate": 1688428800000,
+          "originalDescription": "what si qliro meane",
+          "formattedDescription": "what si qliro meane"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002daf5974594138a1126f38bf647880",
+          "amount": 1325.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "barnbdr",
+          "categoryType": null,
+          "originalDate": 1683286400000,
+          "originalDescription": "Barnbdr",
+          "original_description": "barnbdr"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "009cd41693bf4e4eb5e0ce5d5e93af38",
+          "amount": 1250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SUSANNE WANDEFORS 1967042435801290 1967042435801290 Barnbidrag",
+          "categoryType": null,
+          "originalDate": 1689270400000,
+          "originalDescription": "1967042435801290 Barnbidrag",
+          "original_description": "1967042435801290"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00a6ad454aa64e6986e60c1f9d1e02d0",
+          "amount": 1988.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BARNBDR",
+          "categoryType": null,
+          "originalDate": 1686224000000,
+          "originalDescription": "BARNBDR",
+          "original_description": "Barnbdr"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "1e635361fdfc482e8df2f042709b8603",
+          "amount": 2000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "bonuspuss!",
+          "categoryType": null,
+          "originalDate": 1684496000000,
+          "originalDescription": "Bonuspuss!",
+          "original_description": "bonuspuss!"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "363eb006b3814bf998de0964bf0bf44c",
+          "amount": 10500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Överföring Bonus Nybro Viki",
+          "categoryType": null,
+          "originalDate": 1684843200000,
+          "originalDescription": "Överföring Bonus Nybro Viki",
+          "original_description": "Överföring Bonus Nybro Viki"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "426a110de2444c5798f690c48ba62117",
+          "amount": 10500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Överföring Bonus Nybro Viki",
+          "categoryType": null,
+          "originalDate": 1684843200000,
+          "originalDescription": "Överföring Bonus Nybro Viki",
+          "original_description": "Överföring Bonus Nybro Viki"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000d26f2447c4ff89a25aeaa851a163d",
+          "amount": 28400.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "lön",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Lön",
+          "original_description": "lön"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00198272165344a8835959d4253a0267",
+          "amount": 3500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Salary",
+          "categoryType": "INCOME",
+          "originalDate": 1690938400000,
+          "originalDescription": "Salary",
+          "original_description": "Salary"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002097215fc34256a062a98f7d84ee23",
+          "amount": 10943.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ALEXANDRA ROSENGREN 0LÖN20230224 0lön20230224 Lön",
+          "categoryType": null,
+          "originalDate": 1687196800000,
+          "originalDescription": "0lön20230224 Lön",
+          "original_description": "0lön20230224"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000b073b67d449e0bf451c4e679a606e",
+          "amount": 9765.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "DAYSE CRISTINA SILVA DE ALMEIDA 1997021667870484 1997021667870484 Fk pmynd",
+          "categoryType": null,
+          "originalDate": 1684086400000,
+          "originalDescription": "1997021667870484 Fk pmynd",
+          "original_description": "1997021667870484"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00eeb77bdab642e9ac5966ab236f0b7e",
+          "amount": 583.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SALAH EL-SAYED ALECTA alecta Insättning",
+          "categoryType": null,
+          "originalDate": 1687392000000,
+          "originalDescription": "Alecta Insättning",
+          "original_description": "Alecta"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "021263351a4045808f45309451a30e15",
+          "amount": 1306.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "KERSTIN ULANDER SPP PENSION spp pension Insättning",
+          "categoryType": null,
+          "originalDate": 1692921600000,
+          "originalDescription": "Spp pension Insättning",
+          "original_description": "Spp pension"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00acb5e8497147c0b94522fc761d2aa6",
+          "amount": 3346.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "MOHAMED MUSSE YUSUF 1990021774350680 1990021774350680 Underhållsstöd",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "1990021774350680 Underhållsstöd",
+          "original_description": "1990021774350680"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "02b5ffb08c814330bb4330b88369c1f3",
+          "amount": 1823.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SOLIANA ABRHAM HAILE 1986111415271417 1986111415271417 Underhållsstöd",
+          "categoryType": null,
+          "originalDate": 1686656000000,
+          "originalDescription": "1986111415271417 Underhållsstöd",
+          "original_description": "1986111415271417"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "034d2468af5846359243f85fee2c7ae5",
+          "amount": 1673.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "underhst insättning",
+          "categoryType": null,
+          "originalDate": 1681667200000,
+          "originalDescription": "Underhst insättning",
+          "original_description": "underhst insättning"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "224eb9d9c6564212b20f6b2a36072b2e",
+          "amount": 446.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "UTD BEGR SS",
+          "categoryType": null,
+          "originalDate": 1681104000000,
+          "originalDescription": "UTD BEGR SS",
+          "original_description": "Utd Begr Ss"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "2d75342132384c4997e26989a922e8fd",
+          "amount": 14.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Kundeutbytte",
+          "categoryType": null,
+          "originalDate": 1681992000000,
+          "originalDescription": "Kundeutbytte",
+          "original_description": "Kundeutbytte"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "311c3eba679a4616ab98bdcad2e27906",
+          "amount": 4460.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Utd Begr Ss",
+          "categoryType": null,
+          "originalDate": 1681104000000,
+          "originalDescription": "Utd Begr Ss",
+          "original_description": "Utd Begr Ss"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0001071eb5a246b3b549bdb9fb30e7a2",
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "JESPER EGNERFORS 8270148547632 8270148547632 Överföring via internet",
+          "categoryType": null,
+          "originalDate": 1680566400000,
+          "originalDescription": "8270148547632 Överföring via internet",
+          "original_description": "8270148547632"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00021b0ac414448abca2ea5710695811",
+          "amount": 200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "IDA LARSSON 8270145754231 8270145754231 Överföring via internet",
+          "categoryType": null,
+          "originalDate": 1684777600000,
+          "originalDescription": "8270145754231 Överföring via internet",
+          "original_description": "8270145754231"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00056469f9034f41af58b80ff23ef899",
+          "amount": 4290.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "amela hasic",
+          "categoryType": null,
+          "originalDate": 1687542400000,
+          "originalDescription": "Amela hasic Transfer",
+          "original_description": "amela hasic"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0009dd0c2cd94d7f8751c7e3b019e6cc",
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "JESPER EGNERFORS +46762216829 +46762216829 Swish mottagen",
+          "categoryType": null,
+          "originalDate": 1686592000000,
+          "originalDescription": "+46762216829 Swish mottagen",
+          "original_description": "+46762216829"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000bffc2bbaf4e199249c72633a7b693",
+          "amount": 400.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "LOUISE JALDESJÖ +46736641245 +46736641245 Swish mottagen",
+          "categoryType": null,
+          "originalDate": 1687369600000,
+          "originalDescription": "+46736641245 Swish mottagen",
+          "original_description": "+46736641245"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000e7515214a4f91a2d4e76efff7548b",
+          "amount": 45.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Swish +46703343910",
+          "categoryType": null,
+          "originalDate": 1687608000000,
+          "originalDescription": "Swish +46703343910",
+          "original_description": "Swish +46703343910"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0013c9e3c66e4d79b571b530ae2bacef",
+          "amount": 3515.04,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "FIRAS JAWAD NAZAL 1022307040017447 1022307040017447 Europabetalning",
+          "categoryType": null,
+          "originalDate": 1688428800000,
+          "originalDescription": "1022307040017447 Europabetalning",
+          "original_description": "1022307040017447"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "017d97cf7e7146c78458cca9b8ea1e91",
+          "amount": 1213.57,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ANETTE STEN 1022304240016963 1022304240016963 Europabetalning",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "1022304240016963 Europabetalning",
+          "original_description": "1022304240016963"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "040cdad7e24e4b6d9acc313e337a6ce8",
+          "amount": 19.2,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "gebyr udland 3722200011geb",
+          "categoryType": null,
+          "originalDate": 1681344000000,
+          "originalDescription": "gebyr udland 3722200011geb",
+          "original_description": "gebyr udland 3722200011geb"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0033c012687b4219a6c67cc85fee7e36",
+          "amount": 35.25,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "KIK Sports Club license for 2018 swish payment kik sports club Swish",
+          "categoryType": null,
+          "originalDate": 1696809600000,
+          "originalDescription": "License for 2018 swish payment kik sports club Swish",
+          "original_description": "Kik sports club"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0065559642354ba3a1facf31f51c8586",
+          "amount": 150.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Lee-Sophie Got",
+          "categoryType": null,
+          "originalDate": 1699376000000,
+          "originalDescription": "Lee-Sophie Got",
+          "original_description": "Lee-Sophie Got"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "007bc9fef3f04f7d8a8badb20c3a349b",
+          "amount": 9.6,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "easypark ab",
+          "categoryType": null,
+          "originalDate": 1680630400000,
+          "originalDescription": "Easypark ab",
+          "original_description": "easypark ab"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003fe3afd0de47fcad76d63ecacd3a66",
+          "amount": 2890.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "A-Kassa",
+          "categoryType": null,
+          "originalDate": 1685620800000,
+          "originalDescription": "A-Kassa",
+          "original_description": "A-Kassa"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00a0e1a48b144c96a388ac2d80f85962",
+          "amount": 2890.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "A-Kassa",
+          "categoryType": null,
+          "originalDate": 1686312000000,
+          "originalDescription": "A-Kassa",
+          "original_description": "A-Kassa"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0166bc8b1a984332be1ca28547861c53",
+          "amount": 15975.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ABDULLA NADA   Arbetslöshetskassa",
+          "categoryType": null,
+          "originalDate": 1682553600000,
+          "originalDescription": " Arbetslöshetskassa",
+          "original_description": " Arbetslöshetskassa"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0055a658ef12477ca0b8b464007bc6d8",
+          "amount": 3076.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "fkassa",
+          "categoryType": null,
+          "originalDate": 1684518400000,
+          "originalDescription": "Fkassa",
+          "original_description": "fkassa"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01af4e19a972475ebf471c8635dca5f5",
+          "amount": 1300.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "bostadsb",
+          "categoryType": null,
+          "originalDate": 1687110400000,
+          "originalDescription": "Bostadsb",
+          "original_description": "bostadsb"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "021dc06be84346bc8e3a6fb2cae15490",
+          "amount": 2640.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "1988011755581490, Dagersättning",
+          "categoryType": "INCOME",
+          "originalDate": 1686656000000,
+          "originalDescription": "1988011755581490, Dagersättning",
+          "original_description": "1988011755581490, Dagersättning"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00b2d06f005b43a58974c6749abbd72c",
+          "amount": 5327.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "HILLA GUNSDOTTER Folksam",
+          "categoryType": null,
+          "originalDate": 1685664000000,
+          "originalDescription": " Folksam",
+          "original_description": " Folksam"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0106206c312c499faf4063d4d3e42be8",
+          "amount": 838.39,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "",
+          "categoryType": null,
+          "originalDate": 1682659200000,
+          "originalDescription": "Home Bakery Company Payment for birthday cake delivered to door Payment PG 225577-4 Home Bakery PlusGiro",
+          "original_description": "Payment for birthday cake delivered to door Payment PG 225577-4 Home Bakery"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0256b428bc914db895f7c9920fd1c29e",
+          "amount": 21005.22,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ANNALENA NIEMI   Swedbank försäkring ab",
+          "categoryType": null,
+          "originalDate": 1681753600000,
+          "originalDescription": " Swedbank försäkring ab",
+          "original_description": " Swedbank försäkring ab"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0004f5c60b2f442fa7202467f72e0968",
+          "amount": 200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "leovegas gam Instant payment",
+          "categoryType": null,
+          "originalDate": 1694476800000,
+          "originalDescription": "Leovegas gam",
+          "original_description": "leovegas gam"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00091e1bf2274739b9740203b471d9a5",
+          "amount": 500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "MALIN LARSSON HappyCasino happycasino Swish utbetalning",
+          "categoryType": null,
+          "originalDate": 1688083200000,
+          "originalDescription": "Happycasino Swish utbetalning",
+          "original_description": "Happycasino"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001e4a6e5326419a8fc1551d5ac63fb3",
+          "amount": 900.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Överföring 3232333252 Ninja",
+          "categoryType": null,
+          "originalDate": 1689550400000,
+          "originalDescription": "Överföring 3232333252 Ninja",
+          "original_description": "Överföring 3232333252 Ninja"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "006e58acec33480bb27f8f802536be43",
+          "amount": 1756.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Omschrijving: TERUGGAAF NR.<br>02-06-2022Verzamelbetaling",
+          "categoryType": null,
+          "originalDate": 1684128000000,
+          "originalDescription": "Omschrijving: TERUGGAAF NR.<br>02-06-2022Verzamelbetaling",
+          "original_description": "Omschrijving: TERUGGAAF NR.<br>02-06-2022Verzamelbetaling"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00849dda6bec4d18aed175b3b01a2535",
+          "amount": 12182.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "JONAS ÖSTMAN SK8504187876 sk8504187876 Bg kontoinsättning",
+          "categoryType": null,
+          "originalDate": 1680566400000,
+          "originalDescription": "Sk8504187876 Bg kontoinsättning",
+          "original_description": "Sk8504187876"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00bd7a2034aa41a98ae6d84decb9cc5d",
+          "amount": 12627.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "REBECCA CHAMBERS SK9001150987 sk9001150987 Bg kontoinsättning",
+          "categoryType": null,
+          "originalDate": 1680566400000,
+          "originalDescription": "Sk9001150987 Bg kontoinsättning",
+          "original_description": "Sk9001150987"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0044299b332a451ab6395d0993694a9b",
+          "amount": 1390.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "utlägg",
+          "categoryType": null,
+          "originalDate": 1687779200000,
+          "originalDescription": "Utlägg",
+          "original_description": "utlägg"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00bf638106b14c19a3c7de8c4a804a62",
+          "amount": 61.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "utlägg 11 7",
+          "categoryType": null,
+          "originalDate": 1689292800000,
+          "originalDescription": "Utlägg 11 7",
+          "original_description": "utlägg 11 7"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00e03003df264c93a6668916eee9c7c2",
+          "amount": 262.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "utlägg",
+          "categoryType": null,
+          "originalDate": 1681321600000,
+          "originalDescription": "Utlägg",
+          "original_description": "utlägg"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "07c6644b1eb04b18b2c449c1ddb764bb",
+          "amount": 23620.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Hs 02515066",
+          "categoryType": null,
+          "originalDate": 1686633600000,
+          "originalDescription": "Hs 02515066",
+          "original_description": "Hs 02515066"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00807cc81e3847009acf53086f529a2b",
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "S-Pankki Oyj",
+          "categoryType": null,
+          "originalDate": 1684886400000,
+          "originalDescription": "S-pankki oyj",
+          "original_description": "S-pankki oyj"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00b5c68c04be470d8f383324a39ecc2c",
+          "amount": 35641.32,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Sbl Finans A",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Sbl Finans A",
+          "original_description": "Sbl Finans A"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01df4283bfae479aa8b10e3dcb76abe1",
+          "amount": 35641.32,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Sbl Finans A",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Sbl Finans A",
+          "original_description": "Sbl Finans A"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01560a6f99c24ca1b9fc910f967f1a35",
+          "amount": 1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "overføring fra kredittkort til",
+          "categoryType": null,
+          "originalDate": 1683632000000,
+          "originalDescription": "overføring fra kredittkort til",
+          "original_description": "overføring fra kredittkort til"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "026d4982a632468ab5dcf5c2f091c195",
+          "amount": 18074.89,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "remember insättning",
+          "categoryType": null,
+          "originalDate": 1684172800000,
+          "originalDescription": "Remember insättning",
+          "original_description": "remember insättning"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "03e533e7fc01442caa32b87fa5c89398",
+          "amount": 1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "från mastercard guld",
+          "categoryType": null,
+          "originalDate": 1689270400000,
+          "originalDescription": "Från mastercard guld",
+          "original_description": "från mastercard guld"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000ac992774741a088871a1478a35fa8",
+          "amount": 500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "merax",
+          "categoryType": null,
+          "originalDate": 1689680000000,
+          "originalDescription": "Merax Salary",
+          "original_description": "merax"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00309801a3654e53a5632502e48d8c11",
+          "amount": 1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "CHRISTINE NORD BRIXO brixo Insättning",
+          "categoryType": null,
+          "originalDate": 1686614400000,
+          "originalDescription": "Brixo Insättning",
+          "original_description": "Brixo"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00691f9010a84e6088cc0d19660b516d",
+          "amount": 2500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "nätlån lån",
+          "categoryType": null,
+          "originalDate": 1681948800000,
+          "originalDescription": "Nätlån lån",
+          "original_description": "nätlån lån"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "4b162a7c07d8444a8660c5b8b70096f5",
+          "amount": 85000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "bilsalg toyota",
+          "categoryType": null,
+          "originalDate": 1688470400000,
+          "originalDescription": "bilsalg toyota",
+          "original_description": "bilsalg toyota"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0b00623101e54b04a68f8680c43e2233",
+          "amount": 1250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "studstöd Other",
+          "categoryType": null,
+          "originalDate": 1689766400000,
+          "originalDescription": "Studstöd",
+          "original_description": "studstöd"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0df42abf958047f59d912c98c1713aad",
+          "amount": 1250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "studstöd Other",
+          "categoryType": null,
+          "originalDate": 1687174400000,
+          "originalDescription": "Studstöd",
+          "original_description": "studstöd"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "10748993dd424d6c8afb54a8de8b9dca",
+          "amount": 1250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "JENNIFER KARLBERG   Studiehjälp",
+          "categoryType": null,
+          "originalDate": 1682640000000,
+          "originalDescription": " Studiehjälp",
+          "original_description": " Studiehjälp"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "07cd58069683426cb322e5a92c10293e",
+          "amount": 8213.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "JESSICA PERSSON HYRA OKTOBER hyra oktober Insättning",
+          "categoryType": null,
+          "originalDate": 1684150400000,
+          "originalDescription": "Hyra oktober Insättning",
+          "original_description": "Hyra oktober"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0d7aa99aa11f401aa0c630b0ecec70f8",
+          "amount": 7500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "hyra",
+          "categoryType": null,
+          "originalDate": 1690243200000,
+          "originalDescription": "Hyra",
+          "original_description": "hyra"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "2a54667d123e4a59bef3ff4541f592e7",
+          "amount": 8213.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "JESSICA PERSSON HYRA JAN hyra jan Insättning",
+          "categoryType": null,
+          "originalDate": 1682099200000,
+          "originalDescription": "Hyra jan Insättning",
+          "original_description": "Hyra jan"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01f8ba48e2ea43a9954e8da4c1ccd9f6",
+          "amount": 1011.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Omschrijving: Verzamelbetaling",
+          "categoryType": null,
+          "originalDate": 1682441600000,
+          "originalDescription": "Omschrijving: Verzamelbetaling",
+          "original_description": "Omschrijving: Verzamelbetaling"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "02efd6a0592e4bd4b6a3e948ec8eb6a6",
+          "amount": 15780.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "IVANA DJORDJEVIC   Csn",
+          "categoryType": null,
+          "originalDate": 1684777600000,
+          "originalDescription": " Csn",
+          "original_description": " Csn"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "03f8281da2a14bc6bdd8143f3e787c8f",
+          "amount": 6336.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "PABLO CAICEDO LOPEZ   Csn",
+          "categoryType": null,
+          "originalDate": 1689334400000,
+          "originalDescription": " Csn",
+          "original_description": " Csn"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00007248e85a467898d61e1b3b721546",
+          "amount": 13673.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "plata",
+          "categoryType": null,
+          "originalDate": 1687305600000,
+          "originalDescription": "Plata",
+          "original_description": "plata"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00077d9c6a7f4152b591b51f63c1ea8a",
+          "amount": 2079.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "FAKTURA 500303 MW",
+          "categoryType": null,
+          "originalDate": 1682419200000,
+          "originalDescription": "FAKTURA 500303 MW",
+          "original_description": "FAKTURA 500303 MW"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0009488ac0ce4633bf9a427cee99487a",
+          "amount": 5800.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ibrahim abdi ahmed",
+          "categoryType": null,
+          "originalDate": 1688102400000,
+          "originalDescription": "ibrahim abdi ahmed",
+          "original_description": "ibrahim abdi ahmed"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001cd899ec2648328e9b4091cf3e8301",
+          "amount": 200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ZIMPLER AB zevekfagri01",
+          "categoryType": null,
+          "originalDate": 1680739200000,
+          "originalDescription": "Zimpler ab zevekfagri01",
+          "original_description": "Zimpler ab zevekfagri01"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00760a02925c452c8c60deea5514b348",
+          "amount": 59.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Zimpler AB z 123d7a049f",
+          "categoryType": null,
+          "originalDate": 1686569600000,
+          "originalDescription": "Zimpler ab z 123d7a049f",
+          "original_description": "Zimpler ab z 123d7a049f"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "007934ee6f8b49f08ee637a3399737e8",
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "TILISIIRTO OP VÄHITTÄISASIAKKAAT OYJ",
+          "categoryType": null,
+          "originalDate": 1681948800000,
+          "originalDescription": "TILISIIRTO OP VÄHITTÄISASIAKKAAT OYJ",
+          "original_description": "TILISIIRTO OP VÄHITTÄISASIAKKAAT OYJ"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00a7994c1f1a46ec8656d28a43053984",
+          "amount": -2928.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BÄRKEHUS MATS MATTON bärkehus Autogiro",
+          "categoryType": null,
+          "originalDate": 1689766400000,
+          "originalDescription": "Bärkehus",
+          "original_description": "Bärkehus"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00c7c1935b9848a3b30894aa01d0ce9b",
+          "amount": -970.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "hsb södra norr",
+          "categoryType": null,
+          "originalDate": 1682467200000,
+          "originalDescription": "Hsb södra norr",
+          "original_description": "hsb södra norr"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00c8b10d2d184fa79f8cbb746cd4f7d1",
+          "amount": -4167.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Hyra CHRISTINE NORD hyra Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1686656000000,
+          "originalDescription": "Hyra",
+          "original_description": "Hyra"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00f641c37cab43b792976ad6702ea2ca",
+          "amount": -85.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Autogiro Hyresgästför",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Autogiro Hyresgästför",
+          "original_description": "Autogiro Hyresgästför"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01ed009185064c73b320aa7b36c45867",
+          "amount": -85.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "000028403 autogiro hyresgästför BankGiro",
+          "categoryType": null,
+          "originalDate": 1689961600000,
+          "originalDescription": "000028403 autogiro hyresgästför",
+          "original_description": "000028403 autogiro hyresgästför"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0218c18039214d2ca86350dc650426bd",
+          "amount": -85.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Hyresgästför LOUISE JALDESJÖ hyresgästför Autogiro",
+          "categoryType": null,
+          "originalDate": 1685036800000,
+          "originalDescription": "Hyresgästför",
+          "original_description": "Hyresgästför"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000036698bb24385b9a9cf3c3b82be03",
+          "amount": -895.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "NORDVÄSTRA SKÅNES RENHÅLL",
+          "categoryType": null,
+          "originalDate": 1689334400000,
+          "originalDescription": "NORDVÄSTRA SKÅNES RENHÅLL",
+          "original_description": "Nordvästra Skånes Renhåll"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0019982995e54ec895d1cdde28eeea3f",
+          "amount": -725.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "NETS*Comviq",
+          "categoryType": null,
+          "originalDate": 1683868800000,
+          "originalDescription": "NETS*Comviq",
+          "original_description": "NETS*Comviq"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0020eaead7a644d18b1ba4ed5cf3698d",
+          "amount": -50.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "comviq",
+          "categoryType": null,
+          "originalDate": 1684972800000,
+          "originalDescription": "Comviq",
+          "original_description": "comviq"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000da99308014e9a9fefddd31771784d",
+          "amount": -120.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "gjensidige Direct debit",
+          "categoryType": null,
+          "originalDate": 1681449600000,
+          "originalDescription": "Gjensidige",
+          "original_description": "gjensidige"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0041584997bf4fc2b57cf14b965fb29c",
+          "amount": -299.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Autogiro Hela Försäkr",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Autogiro Hela Försäkr",
+          "original_description": "Autogiro Hela Försäkr"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00456446c0f547599ef3d20e9846225d",
+          "amount": -167.44,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Söder Insurance",
+          "categoryType": null,
+          "originalDate": 1680803200000,
+          "originalDescription": "Söder Insurance",
+          "original_description": ""
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0000cb6156204d98b8da5e8c1d698e3c",
+          "amount": -66.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Gulf Fränsta",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Gulf Fränsta",
+          "original_description": "Gulf Fränsta"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000f1f19c51f4487a1ff0fe801b10c8c",
+          "amount": -551.39,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "st1",
+          "categoryType": null,
+          "originalDate": 1684992000000,
+          "originalDescription": "St1",
+          "original_description": "st1"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00107710b74c44ff804208eb36e97dd9",
+          "amount": -454.97,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "okq8 Card purchase",
+          "categoryType": null,
+          "originalDate": 1685491200000,
+          "originalDescription": "Okq8",
+          "original_description": "okq8"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0008bdca78a146d983ec4dcfb7ffe108",
+          "amount": -122.7,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "uber taxi",
+          "categoryType": null,
+          "originalDate": 1687110400000,
+          "originalDescription": "Uber taxi",
+          "original_description": "uber taxi"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001218132cbf47a096bb0c5dcaa62b12",
+          "amount": -17.56,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BOLT.EU/R/220922, Kortköp/uttag",
+          "categoryType": "EXPENSES",
+          "originalDate": 1683891200000,
+          "originalDescription": "BOLT.EU/R/220922, Kortköp/uttag",
+          "original_description": "BOLT.EU/R/220922, Kortköp/uttag"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001390ad8b7e475d86ce17112a84a42b",
+          "amount": -192.71,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "taxi stockholm",
+          "categoryType": null,
+          "originalDate": 1685273600000,
+          "originalDescription": "Taxi stockholm",
+          "original_description": "taxi stockholm"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0025f7a245454f09a8a117c55e73ab0a",
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SJ AB OMBORD LINDA FORSMARK sj ab ombord Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1682640000000,
+          "originalDescription": "Sj ab ombord Kortköp uttag",
+          "original_description": "Sj ab ombord"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00540f815d1c419381419bcf2659eb0a",
+          "amount": -630.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Sörmlandstrafike LOUISE JALDESJÖ sörmlandstrafike Swish",
+          "categoryType": null,
+          "originalDate": 1688838400000,
+          "originalDescription": "Sörmlandstrafike Swish",
+          "original_description": "Sörmlandstrafike"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0060b32784064facb0e012c3ca6f7eae",
+          "amount": -39.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "sl Card purchase",
+          "categoryType": null,
+          "originalDate": 1689680000000,
+          "originalDescription": "Sl",
+          "original_description": "sl"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0044d2bb32ec454582eddff69c967f38",
+          "amount": -622.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "WIZZ AIR000XNN3N IVANA DJORDJEVIC wizz air000xnn3n Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1683308800000,
+          "originalDescription": "Wizz air000xnn3n Kortköp uttag",
+          "original_description": "Wizz air000xnn3n"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "005a64f5ac3642bba97a98fb6bf9543c",
+          "amount": -523.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ryanair  5jh0",
+          "categoryType": null,
+          "originalDate": 1689033600000,
+          "originalDescription": "Ryanair 5jh0",
+          "original_description": "ryanair  5jh0"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00d10d5fab8843c1b52dc62f517fcaa7",
+          "amount": -1598.29,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ryanair00000 Card purchase",
+          "categoryType": null,
+          "originalDate": 1680544000000,
+          "originalDescription": "Ryanair00000",
+          "original_description": "ryanair00000"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00026960d64045fcac6cdbf234ca0f5c",
+          "amount": -938.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "T.G.I. Friday's",
+          "categoryType": "EXPENSES",
+          "originalDate": 1680295600000,
+          "originalDescription": "T.G.I. Friday's",
+          "original_description": "T.G.I. Friday's"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00038bfa2b8c4187bbc5e685ea918deb",
+          "amount": -107.9,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BAZAAR FOODMARKE MIRZA ABBASI bazaar foodmarke Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1683718400000,
+          "originalDescription": "Bazaar foodmarke Kortköp uttag",
+          "original_description": "Bazaar foodmarke"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0003e9e551374f28ab9b3471c543f835",
+          "amount": -83.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Mcd 198 - Nybro",
+          "categoryType": null,
+          "originalDate": 1682574400000,
+          "originalDescription": "Mcd 198 - Nybro",
+          "original_description": "Mcd 198 - Nybro"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0013dd90b5fd45f4a64993e97eaf3ccc",
+          "amount": -186.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "systembolaget",
+          "categoryType": null,
+          "originalDate": 1684777600000,
+          "originalDescription": "Systembolaget",
+          "original_description": "systembolaget"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003ef4725fac47a3a151118ca5975b55",
+          "amount": -252.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "systembolaget",
+          "categoryType": null,
+          "originalDate": 1686633600000,
+          "originalDescription": "Systembolaget",
+          "original_description": "systembolaget"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "005ee4a9111f409b93495ab0cf4406ae",
+          "amount": -6.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "PRYZM TURKU",
+          "categoryType": null,
+          "originalDate": 1681689600000,
+          "originalDescription": "Pryzm turku",
+          "original_description": "Pryzm turku"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0000f8d3edb34856af3ecd4cbd3bb068",
+          "amount": -52.9,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "HEMKÖP GÖTEBORG SOLIANA ABRHAM HAILE hemköp göteborg Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1688860800000,
+          "originalDescription": "Hemköp göteborg Kortköp uttag",
+          "original_description": "Hemköp göteborg"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0004aa8ff6ef43419225dbbc48430aee",
+          "amount": -160.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "atg 13799 coop",
+          "categoryType": null,
+          "originalDate": 1690934400000,
+          "originalDescription": "Atg 13799 coop",
+          "original_description": "atg 13799 coop"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0005e3d522744331b9f53f5bff35464c",
+          "amount": -182.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ICA SUPERMARKET KERSTIN ULANDER ica supermarket Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1685404800000,
+          "originalDescription": "Ica supermarket Kortköp uttag",
+          "original_description": "Ica supermarket"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0004502cc63a48a196065b10534f4096",
+          "amount": -1231.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "H&m",
+          "categoryType": "EXPENSES",
+          "originalDate": 1683751600000,
+          "originalDescription": "H&M",
+          "original_description": "H&M"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0009743007624bcb82b9092c4b0b0d06",
+          "amount": -348.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "KappAhl Malmoe M MIRZA ABBASI kappahl malmoe m Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1685555200000,
+          "originalDescription": "Kappahl malmoe m Kortköp uttag",
+          "original_description": "Kappahl malmoe m"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000e9d36af5f4a58b2adc558ab1c6392",
+          "amount": -303.9,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "K*Gina Trico SOLIANA ABRHAM HAILE k gina trico Autogiro",
+          "categoryType": null,
+          "originalDate": 1688147200000,
+          "originalDescription": "K*gina trico k gina trico",
+          "original_description": "K*gina trico"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00642da10c3d40d18085003be25f69c3",
+          "amount": -790.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Telia Finance RIMEN WILDIT GILAI telia finance Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1686656000000,
+          "originalDescription": "Telia finance",
+          "original_description": "Telia finance"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0086e9ee93694e6aacd73384319e7cd8",
+          "amount": -3990.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Elgiganten.se",
+          "categoryType": null,
+          "originalDate": 1691712000000,
+          "originalDescription": "Elgiganten.se",
+          "original_description": "Elgiganten.se"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0088479f6b824513bd21e667724e4ade",
+          "amount": -23286.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Apple Retail",
+          "categoryType": "EXPENSES",
+          "originalDate": 1694804000000,
+          "originalDescription": "Apple Retail",
+          "original_description": "Apple Retail"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003ffde27a0d4c698b7431131474ecbb",
+          "amount": -199.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "INTERSPORT ENKO MAGNUS HOLMBERG intersport enko Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1689811200000,
+          "originalDescription": "Intersport enko Kortköp uttag",
+          "original_description": "Intersport enko"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00c17334ea7c46df9c85f2d35470e7f1",
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Stadium Outlet",
+          "categoryType": null,
+          "originalDate": 1684670400000,
+          "originalDescription": "Stadium Outlet",
+          "original_description": "Stadium Outlet"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0173c39dd1f043b68f69739ed78701b7",
+          "amount": -1396.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "STADIUM SVAGER",
+          "categoryType": null,
+          "originalDate": 1684128000000,
+          "originalDescription": "STADIUM SVAGER",
+          "original_description": "STADIUM SVAGER"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0007cc93c69e42e09d0f127d4fc1a933",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "APPLE.COM BILL ANETTE STEN apple.com bill Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1680284800000,
+          "originalDescription": "Apple.com bill Kortköp uttag",
+          "original_description": "Apple.com bill"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000918afd08642969633d0dd7cabb2a7",
+          "amount": -65.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "APPLE.COM BILL EMILIA SVENSSON LÖVENDAHL apple.com bill Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1684691200000,
+          "originalDescription": "Apple.com bill Kortköp uttag",
+          "original_description": "Apple.com bill"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000b4ca10bf9459b950c3cb88647dcd3",
+          "amount": -99.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "netflix abon",
+          "categoryType": null,
+          "originalDate": 1681990400000,
+          "originalDescription": "Netflix abon",
+          "original_description": "netflix abon"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00f1ccdf1f4e4cd9ade3190b1133d16d",
+          "amount": -1557.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "arken zoo 2042",
+          "categoryType": null,
+          "originalDate": 1682726400000,
+          "originalDescription": "Arken zoo 2042",
+          "original_description": "arken zoo 2042"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01c84d3e7eef46568ef3a0fe1593bd06",
+          "amount": -8000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Rolles Julgran",
+          "categoryType": null,
+          "originalDate": 1689180800000,
+          "originalDescription": "Rolles Julgran",
+          "original_description": "Rolles Julgran"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01cc490ab32b49589b90d336bbad5904",
+          "amount": -181.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "klarna zoo se Kortköp",
+          "categoryType": null,
+          "originalDate": 1687369600000,
+          "originalDescription": "Klarna zoo se Kortköp",
+          "original_description": " klarna zoo se"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00034ca111e747349671b2bcd6ede4ea",
+          "amount": -45.99,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Gym Membership",
+          "categoryType": "EXPENSES",
+          "originalDate": 1695668000000,
+          "originalDescription": "Gym Membership",
+          "original_description": "Gym Membership"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0012a8aed6504fccb48bd42fbb5678db",
+          "amount": -45.99,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Gym Membership",
+          "categoryType": "EXPENSES",
+          "originalDate": 1682110000000,
+          "originalDescription": "Gym Membership",
+          "original_description": "Gym Membership"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0030741e065c4646a79cae3b0b329f95",
+          "amount": -45.99,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Gym Membership",
+          "categoryType": "EXPENSES",
+          "originalDate": 1698887200000,
+          "originalDescription": "Gym Membership",
+          "original_description": "Gym Membership"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0011053d0e0149ef85695295ad3078d8",
+          "amount": -7.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "VIKING LINE, VIKING GRACE",
+          "categoryType": null,
+          "originalDate": 1683504000000,
+          "originalDescription": "Viking line, viking grace",
+          "original_description": "Viking line, viking grace"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00115601ae8e40c6ba57b91d4aedb889",
+          "amount": -1033.55,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Hotel Grand Pa",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Hotel Grand Pa",
+          "original_description": "Hotel Grand Pa"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0055822d7e1b4c4eace22ab846131720",
+          "amount": -224.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "M S ECKERO REBECCA CHAMBERS m s eckero Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1681084800000,
+          "originalDescription": "M s eckero Kortköp uttag",
+          "original_description": "M s eckero"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "05dca265db504d8e960602592c528e4c",
+          "amount": -225.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "E sjukvård ERIK GRÖDAHL e sjukvård Autogiro",
+          "categoryType": null,
+          "originalDate": 1684972800000,
+          "originalDescription": "E sjukvård",
+          "original_description": "E sjukvård"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "15fb14b6e05b4f4d9621c6011116de84",
+          "amount": -420.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Vaccindirekt S",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Vaccindirekt S",
+          "original_description": "Vaccindirekt S"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "1d18f0d267164b6bb48853c26ff86593",
+          "amount": -250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "RASUNDA VARDCENT SAIF KHATANA rasunda vardcent Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1692403200000,
+          "originalDescription": "Rasunda vardcent Kortköp uttag",
+          "original_description": "Rasunda vardcent"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0007d607e4184371aaf528cb3276d607",
+          "amount": -111.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "klarna apotea",
+          "categoryType": null,
+          "originalDate": 1687324800000,
+          "originalDescription": "klarna apotea",
+          "original_description": "klarna apotea"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00101d8e19f64370abf1cf55c56b604c",
+          "amount": -99.9,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "apotek hjartat nords Kortköp",
+          "categoryType": null,
+          "originalDate": 1688556800000,
+          "originalDescription": "Apotek hjartat nords Kortköp",
+          "original_description": " apotek hjartat nords"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0020c24c98be4af4a50e77d396cf71b5",
+          "amount": -29.9,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "kd apotek Card purchase",
+          "categoryType": null,
+          "originalDate": 1692662400000,
+          "originalDescription": "Kd apotek",
+          "original_description": "kd apotek"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01fc06d2eee744f0a15195c22b6f9f60",
+          "amount": -2225.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "297 synsam k Card purchase",
+          "categoryType": null,
+          "originalDate": 1694044800000,
+          "originalDescription": "297 synsam k",
+          "original_description": "297 synsam k"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "020695b5b35949e892e7541fdbaf0a41",
+          "amount": -263.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "synoptik autogiro",
+          "categoryType": null,
+          "originalDate": 1689593600000,
+          "originalDescription": "Synoptik autogiro",
+          "original_description": "synoptik autogiro"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "02d085a80f1f4a5eaf24d44899a3833a",
+          "amount": -730.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "synoptik sweden ab Payment",
+          "categoryType": null,
+          "originalDate": 1684777600000,
+          "originalDescription": "Synoptik sweden ab",
+          "original_description": "synoptik sweden ab"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001e44f6ecce497a8398e1dafd983b54",
+          "amount": -89.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "K*Luxplus Ap ARMEND SULJEV k luxplus ap Autogiro",
+          "categoryType": null,
+          "originalDate": 1683676800000,
+          "originalDescription": "K*luxplus ap k luxplus ap",
+          "original_description": "K*luxplus ap"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0036ffdc7c354c96af27f4807045deff",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "klarna kicks Card purchase",
+          "categoryType": null,
+          "originalDate": 1685619200000,
+          "originalDescription": "Klarna kicks",
+          "original_description": "klarna kicks"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "009aeb26151f42d8bcf30f3e37ab389b",
+          "amount": -400.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "zettle_ salong",
+          "categoryType": null,
+          "originalDate": 1693785600000,
+          "originalDescription": "Zettle_ salong",
+          "original_description": "zettle_ salong"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0007e1c9f22f4c3a998d177dc2d78559",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "bankomat söder",
+          "categoryType": null,
+          "originalDate": 1686806400000,
+          "originalDescription": "Bankomat söder",
+          "original_description": "bankomat söder"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002d5e1b5d8e423e904a19ef69444f5c",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "atm aut14",
+          "categoryType": null,
+          "originalDate": 1685814400000,
+          "originalDescription": "Atm aut14",
+          "original_description": "atm aut14"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003f3f59d83e4005a2a92ab0be4c83ed",
+          "amount": -1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ATM Kontanten160 SAIF KHATANA atm kontanten160 Automatuttag",
+          "categoryType": null,
+          "originalDate": 1682704000000,
+          "originalDescription": "Atm kontanten160 Automatuttag",
+          "original_description": "Atm kontanten160"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "004c7acb99f8451584451974d8f46528",
+          "amount": -29.63,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "CreditVisor Oy  00000210000105617735 TILISIIRTO",
+          "categoryType": null,
+          "originalDate": 1687865600000,
+          "originalDescription": "Creditvisor oy 00000210000105617735 TILISIIRTO",
+          "original_description": "Creditvisor oy"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "006f8f114a8b4f499a9071151af7880f",
+          "amount": -239.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "visma financia",
+          "categoryType": null,
+          "originalDate": 1689852800000,
+          "originalDescription": "Visma financia",
+          "original_description": "visma financia"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00710a8f32e34cd28973f19131a7afe6",
+          "amount": -1760.78,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "alektum group",
+          "categoryType": null,
+          "originalDate": 1685059200000,
+          "originalDescription": "Alektum group",
+          "original_description": "alektum group"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "063cb7005fec4aeebc4250e5bd303205",
+          "amount": -33626.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Kronofogdemyndig ANNALENA NIEMI kronofogdemyndig Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1684150400000,
+          "originalDescription": "Kronofogdemyndig",
+          "original_description": "Kronofogdemyndig"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "15f1cd7308df48c5a0773412a9fdaeef",
+          "amount": -10000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "kfm kronofogdmyndigheten sverige",
+          "categoryType": null,
+          "originalDate": 1687628800000,
+          "originalDescription": "Kfm kronofogdmyndigheten sverige",
+          "original_description": "kfm kronofogdmyndigheten sverige"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "22dec6ff1b6c4c4ab7929d908105c36e",
+          "amount": -10000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "kfm kronofogdmyndigheten sverige",
+          "categoryType": null,
+          "originalDate": 1682899200000,
+          "originalDescription": "Kfm kronofogdmyndigheten sverige",
+          "original_description": "kfm kronofogdmyndigheten sverige"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00072b1e0ef64b8b99c9c1f4dc48c589",
+          "amount": -1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Svenska Spel V",
+          "categoryType": null,
+          "originalDate": 1692809600000,
+          "originalDescription": "Svenska Spel V",
+          "original_description": "Svenska Spel V"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000ca6e06fef42d1af8f6ee0f24f4433",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ninjacasino trustly",
+          "categoryType": null,
+          "originalDate": 1681516800000,
+          "originalDescription": "Ninjacasino trustly",
+          "original_description": "ninjacasino trustly"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000d373199ca4db8bfc95f04a201795f",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "unibet ins",
+          "categoryType": null,
+          "originalDate": 1684387200000,
+          "originalDescription": "Unibet ins",
+          "original_description": "unibet ins"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0002522d72804734898bb703cae59388",
+          "amount": -22740.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Hs 02515066",
+          "categoryType": null,
+          "originalDate": 1693673600000,
+          "originalDescription": "Hs 02515066",
+          "original_description": "Hs 02515066"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0058df148bd34a768d463f1c2d68ac89",
+          "amount": -608.94,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "seb autogiro",
+          "categoryType": null,
+          "originalDate": 1684496000000,
+          "originalDescription": "Seb autogiro",
+          "original_description": "seb autogiro"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "006155d01f394e3e9c37e75bd7eebd10",
+          "amount": -3688.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BLUESTEP IVANA DJORDJEVIC bluestep Autogiro",
+          "categoryType": null,
+          "originalDate": 1689875200000,
+          "originalDescription": "Bluestep",
+          "original_description": "Bluestep"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0007920455834c1e9c11de40d3eb72b7",
+          "amount": -899.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "bg 5392-5350 svea bank ab brix",
+          "categoryType": null,
+          "originalDate": 1688342400000,
+          "originalDescription": "Bg 5392-5350 svea bank ab brix",
+          "original_description": "bg 5392-5350 svea bank ab brix"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001079a571a045ac8387417aa6696ab4",
+          "amount": -300.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Giro, Komplett Bank Asa, Efaktura",
+          "categoryType": null,
+          "originalDate": 1684475200000,
+          "originalDescription": "Giro, Komplett Bank Asa, Efaktura",
+          "original_description": "Giro, Komplett Bank Asa, Efaktura"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003692b0a85e41d29db7dc5677a47840",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SEVENDAY",
+          "categoryType": null,
+          "originalDate": 1695747200000,
+          "originalDescription": "SEVENDAY",
+          "original_description": "Sevenday"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000425b2d98f42cbb29a2cee48c337bc",
+          "amount": -2500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ENTERCARD SVERIG LINDA FORSMARK entercard sverig Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1688083200000,
+          "originalDescription": "Entercard sverig",
+          "original_description": "Entercard sverig"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0007e92709244f0590bf85e4c03a8aad",
+          "amount": -5000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "",
+          "categoryType": null,
+          "originalDate": 1680368000000,
+          "originalDescription": "To Mastercard We have transferred the amount to: 4001 4011070043",
+          "original_description": "To Mastercard We have transferred the amount to: 4001 4011070043"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "006e8ecd7de143eb879b946e51ef7998",
+          "amount": -847.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ENTERCARD GROUP",
+          "categoryType": null,
+          "originalDate": 1695747200000,
+          "originalDescription": "ENTERCARD GROUP",
+          "original_description": "ENTERCARD GROUP"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0006bf1fd2764f0087f8ca98012050b0",
+          "amount": -273.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Betalning Pg 572101-4 Tact Finance",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Betalning Pg 572101-4 Tact Finance",
+          "original_description": "Betalning Pg 572101-4 Tact Finance"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000c071887e94e0c8a252c5df6b65afa",
+          "amount": -1970.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Kontokredit JESPER CLARENSIUS kontokredit Autogiro",
+          "categoryType": null,
+          "originalDate": 1687824000000,
+          "originalDescription": "Kontokredit",
+          "original_description": "Kontokredit"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00230849284c44c5a470006717f1a8d1",
+          "amount": -1044.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Brixo AB MADELENE NILSSON brixo ab Autogiro",
+          "categoryType": null,
+          "originalDate": 1684150400000,
+          "originalDescription": "Brixo ab",
+          "original_description": "Brixo ab"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003bb21f06c64d459adb56ec6a3ca80c",
+          "amount": -8370.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Betalning Bg 317-2434 Volvofinans B",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Betalning Bg 317-2434 Volvofinans B",
+          "original_description": "Betalning Bg 317-2434 Volvofinans B"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00ace9f6968f410b90d9fe7a01f993b3",
+          "amount": -1750.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "VOLVOFINANS BANK SHAHRIYAR LOTFI-TARMIANI volvofinans bank Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1690329600000,
+          "originalDescription": "Volvofinans bank",
+          "original_description": "Volvofinans bank"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00bfebc6492f4bd8ab039887eeb383b0",
+          "amount": -3735.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BMW FINANCIAL SE MALIN LARSSON bmw financial se Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1688060800000,
+          "originalDescription": "Bmw financial se",
+          "original_description": "Bmw financial se"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002465ef54704514bdf8298452e5267c",
+          "amount": -1564.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "CENTRALA STUDIES RONNIE LUNDSTRÖM centrala studies Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1689443200000,
+          "originalDescription": "Centrala studies",
+          "original_description": "Centrala studies"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0053065ee7e54e3d8769dc4fa6aa23f8",
+          "amount": -1022.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "csn",
+          "categoryType": null,
+          "originalDate": 1687542400000,
+          "originalDescription": "Csn",
+          "original_description": "csn"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "03057c7de5d14f9b9f367726216db1e3",
+          "amount": -624.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "centrala studi",
+          "categoryType": null,
+          "originalDate": 1689334400000,
+          "originalDescription": "Centrala studi",
+          "original_description": "centrala studi"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00584d3e22f8436791440fee93a6f7d8",
+          "amount": -15000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Fondab AB",
+          "categoryType": null,
+          "originalDate": 1687193600000,
+          "originalDescription": "Fondab AB",
+          "original_description": "Fondab"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0070bfdba99c4d36aa89b02d8949e0bf",
+          "amount": -150000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Fondab",
+          "categoryType": null,
+          "originalDate": 1687193600000,
+          "originalDescription": "Fondab",
+          "original_description": "Fondab"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0081bc49824d471b9b9030a749f5f997",
+          "amount": -1325.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Avanza",
+          "categoryType": null,
+          "originalDate": 1683632000000,
+          "originalDescription": "Avanza",
+          "original_description": "Avanza"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001375254eb7416688c3d8762da0f50a",
+          "amount": -55.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Dreams GABRIELLA OTTINGIUS dreams Autogiro",
+          "categoryType": null,
+          "originalDate": 1688515200000,
+          "originalDescription": "Dreams",
+          "original_description": "Dreams"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00348b95cfae4fb3a3507d3cd04de801",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Till Sparkonto EndToEndID: FRI Från Privatkonto",
+          "categoryType": null,
+          "originalDate": 1688902400000,
+          "originalDescription": "Till Sparkonto EndToEndID: FRI Från Privatkonto",
+          "original_description": "Till Sparkonto EndToEndID: FRI Från Privatkonto"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0115bb8b3bd340c69273695aa0a6669d",
+          "amount": -65.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Dreams GABRIELLA OTTINGIUS dreams Autogiro",
+          "categoryType": null,
+          "originalDate": 1680198400000,
+          "originalDescription": "Dreams",
+          "original_description": "Dreams"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "007bc445eb7b4b1e8e172f18f37b8b46",
+          "amount": -216.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "831390034926287 CHRISTINE NORD  831390034926287 Ip-inbetalning",
+          "categoryType": null,
+          "originalDate": 1689852800000,
+          "originalDescription": "831390034926287 Ip-inbetalning",
+          "original_description": " 831390034926287"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0296575e4e7f42a2977873eace0bea56",
+          "amount": -350.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "843190531045771 LINDA FORSMARK  843190531045771 Ip-inbetalning",
+          "categoryType": null,
+          "originalDate": 1689334400000,
+          "originalDescription": "843190531045771 Ip-inbetalning",
+          "original_description": " 843190531045771"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0832eef7034f41d9b8bb429f8f421af7",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "826440531266542 ERIK GRÖDAHL  826440531266542 Ip-inbetalning",
+          "categoryType": null,
+          "originalDate": 1686915200000,
+          "originalDescription": "826440531266542 Ip-inbetalning",
+          "original_description": " 826440531266542"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003e3a23627c445090f60bfcbe8684ed",
+          "amount": -1771.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Swish Erik Penser Bank",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Swish Erik Penser Bank",
+          "original_description": "Swish Erik Penser Bank"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00f9c93c6ee0465a99495b2edca0710f",
+          "amount": -1316.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Swish Erik Penser Bank",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Swish Erik Penser Bank",
+          "original_description": "Swish Erik Penser Bank"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0235f436830a45c5a0e48be22c958277",
+          "amount": -5000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "AKTIEINVEST",
+          "categoryType": null,
+          "originalDate": 1684150400000,
+          "originalDescription": "AKTIEINVEST",
+          "original_description": "Aktieinvest"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01e418173ffe4569bf3c1840df522a79",
+          "amount": -318.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "",
+          "categoryType": null,
+          "originalDate": 1682659200000,
+          "originalDescription": "SMM Homes  Direct Debit SMM Homes Autogiro",
+          "original_description": "Direct Debit SMM Homes"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "05c9c8db1e464b99bb7bd0cef54abe7e",
+          "amount": -127.4,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "",
+          "categoryType": null,
+          "originalDate": 1689484800000,
+          "originalDescription": "SMM Homes  Direct Debit SMM Homes Autogiro",
+          "original_description": "Direct Debit SMM Homes"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0796866556264fe492ac8357d3b6de1b",
+          "amount": -336.7,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "",
+          "categoryType": null,
+          "originalDate": 1689484800000,
+          "originalDescription": "SMM Homes  Direct Debit SMM Homes Autogiro",
+          "original_description": "Direct Debit SMM Homes"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0006813f393944da888dfa650336bbb5",
+          "amount": -535.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Toys'R Us",
+          "categoryType": "EXPENSES",
+          "originalDate": 1693079600000,
+          "originalDescription": "Toys'R Us",
+          "original_description": "Toys'R Us"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001c8ca956fb4cb58af06e71751e7c04",
+          "amount": -363.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "förskolan mästerkatten Payment",
+          "categoryType": null,
+          "originalDate": 1690243200000,
+          "originalDescription": "Förskolan mästerkatten",
+          "original_description": "förskolan mästerkatten"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001c8f45fa6e4fb8bea7127fec48cd4a",
+          "amount": -357.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Toys'R Us",
+          "categoryType": "EXPENSES",
+          "originalDate": 1694458400000,
+          "originalDescription": "Toys'R Us",
+          "original_description": "Toys'R Us"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000016f6ff49434a941a10940f30d681",
+          "amount": -351.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "8270147673959 IDA LARSSON 8270147673959 Överföring via internet",
+          "categoryType": null,
+          "originalDate": 1682380800000,
+          "originalDescription": "8270147673959 Överföring via internet",
+          "original_description": "8270147673959"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000f3f29d1834e348d5e4df55505fbbe",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "",
+          "categoryType": null,
+          "originalDate": 1694822400000,
+          "originalDescription": " Transfer",
+          "original_description": " Transfer"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0011afead28c43aa9fbb94931869fa4a",
+          "amount": -1050.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "överf mobil",
+          "categoryType": null,
+          "originalDate": 1689875200000,
+          "originalDescription": "Överf mobil",
+          "original_description": "överf mobil"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00058c41f09244d1b42eb1c836af4be4",
+          "amount": -50.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Mob.Pay*Sonja Maria Ja Helsinki FI 513358******7421 63130751 20220922 Korttiosto",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Mob.Pay*Sonja Maria Ja Helsinki FI 513358******7421 63130751 20220922 Korttiosto",
+          "original_description": "Mob.Pay*Sonja Maria Ja Helsinki FI 513358******7421 63130751 20220922 Korttiosto"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00083c417d0e467b8ceddbe48cf37ae2",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "+46764058782, Swish skickad",
+          "categoryType": "EXPENSES",
+          "originalDate": 1683545600000,
+          "originalDescription": "+46764058782, Swish skickad",
+          "original_description": "+46764058782, Swish skickad"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0014ea69c1b14841b2464e70cbda7e4a",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "+46703333947 KERSTIN ULANDER +46703333947 Swish skickad",
+          "categoryType": null,
+          "originalDate": 1685814400000,
+          "originalDescription": "+46703333947 Swish skickad",
+          "original_description": "+46703333947"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "007e29ab197c4f3abf733855a77a68f3",
+          "amount": -1017.9,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "remitly Card purchase",
+          "categoryType": null,
+          "originalDate": 1685273600000,
+          "originalDescription": "Remitly",
+          "original_description": "remitly"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "008cbe8bb9c84267a4e48f1a196b0b15",
+          "amount": -581.4,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "remitly com Kortköp",
+          "categoryType": null,
+          "originalDate": 1683222400000,
+          "originalDescription": "Remitly com Kortköp",
+          "original_description": " remitly com"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00eaaf2b28744591b17eb84b90b8d392",
+          "amount": -3000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Visa, Nok 3000,00 Acemoneytransfer.",
+          "categoryType": null,
+          "originalDate": 1689096000000,
+          "originalDescription": "Visa, Nok 3000,00 Acemoneytransfer.",
+          "original_description": "Visa, Nok 3000,00 Acemoneytransfer."
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000f8ad262d04fc8bf561afce6319a31",
+          "amount": -75.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "PRIS BANKKORT MA SABINA GASHI pris bankkort ma Debiteringsavgift",
+          "categoryType": null,
+          "originalDate": 1689033600000,
+          "originalDescription": "Pris bankkort ma",
+          "original_description": "Pris bankkort ma"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003f54b6bbe54f209d4ad25e919600c6",
+          "amount": -39.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "PRIS NYCKELKUND LUZ MARIA CANO MONTOYA pris nyckelkund Debiteringsavgift",
+          "categoryType": null,
+          "originalDate": 1689961600000,
+          "originalDescription": "Pris nyckelkund",
+          "original_description": "Pris nyckelkund"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00b17316a9bb47f8bf9aa18f63645f0d",
+          "amount": -39.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Nordea Vardagspaket",
+          "categoryType": null,
+          "originalDate": 1683891200000,
+          "originalDescription": "Nordea Vardagspaket",
+          "original_description": "Nordea Vardagspaket"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00f49f3411244933bf99b7f5837031fe",
+          "amount": -83.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "erikshjalpen s",
+          "categoryType": null,
+          "originalDate": 1683977600000,
+          "originalDescription": "Erikshjalpen s",
+          "original_description": "erikshjalpen s"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "013beb7a30054b5e9f1b57a0de2855ac",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "UNICEF ALEXANDRA ROSENGREN unicef Autogiro",
+          "categoryType": null,
+          "originalDate": 1687542400000,
+          "originalDescription": "Unicef",
+          "original_description": "Unicef"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0258b167588542bb88e228545f5d5aa7",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "UNICEF ALEXANDRA ROSENGREN unicef Autogiro",
+          "categoryType": null,
+          "originalDate": 1689593600000,
+          "originalDescription": "Unicef",
+          "original_description": "Unicef"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "02ffb774e69549ccac3d06b719505b61",
+          "amount": -168761.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "skatteverket",
+          "categoryType": null,
+          "originalDate": 1686873600000,
+          "originalDescription": "Skatteverket",
+          "original_description": "skatteverket"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "030fa81407e645cea0329956db4abcc1",
+          "amount": -3830.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Skatteverket",
+          "categoryType": null,
+          "originalDate": 1688124800000,
+          "originalDescription": "Skatteverket",
+          "original_description": "Skatteverket"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "03430092351845eaa44d5d809d964921",
+          "amount": -9693.25,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BS BETALINGSORDNINGER SKATTEKON",
+          "categoryType": null,
+          "originalDate": 1689766400000,
+          "originalDescription": "BS BETALINGSORDNINGER SKATTEKON",
+          "original_description": "BS BETALINGSORDNINGER SKATTEKON"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003b1743b68a4eacaa222e4351bac6e4",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "bostadsförmedlingen i st Payment",
+          "categoryType": null,
+          "originalDate": 1687542400000,
+          "originalDescription": "Bostadsförmedlingen i st",
+          "original_description": "bostadsförmedlingen i st"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "030ca9e98b1940d3be989067ccf59fe7",
+          "amount": -244.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Obs BYGG",
+          "categoryType": null,
+          "originalDate": 1685899200000,
+          "originalDescription": "Obs BYGG",
+          "original_description": "Obs BYGG"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "04bb8b18158a4e15bc178655de2fced3",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BOSTADSFÖRMEDL",
+          "categoryType": null,
+          "originalDate": 1680521600000,
+          "originalDescription": "BOSTADSFÖRMEDL",
+          "original_description": "Bostadsförmedl"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "016264050c5149c3b952df2702f40592",
+          "amount": -10.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "visa, nya:bane nor sf, divis",
+          "categoryType": null,
+          "originalDate": 1684236800000,
+          "originalDescription": "visa, nya:bane nor sf, divis",
+          "original_description": "visa, nya:bane nor sf, divis"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "016c42ba680b4a128978b72539d38ad9",
+          "amount": -56.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "varekjøp, kl. 13.45 versjon 6 aut. 406086, coor postnord l fugleåsen 9 langhu",
+          "categoryType": null,
+          "originalDate": 1684086400000,
+          "originalDescription": "varekjøp, kl. 13.45 versjon 6 aut. 406086, coor postnord l fugleåsen 9 langhu",
+          "original_description": "varekjøp, kl. 13.45 versjon 6 aut. 406086, coor postnord l fugleåsen 9 langhu"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0263fbc3f7344f4990022080c221b3ec",
+          "amount": -40.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "QICKSCOOTERS OSCAR LENTER qickscooters Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1686009600000,
+          "originalDescription": "Qickscooters Kortköp uttag",
+          "original_description": "Qickscooters"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000709150c744bbabf0db9fce63cc5b3",
+          "amount": -9.8,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BERESKA KAUPPA  kerava Korttiosto",
+          "categoryType": null,
+          "originalDate": 1684713600000,
+          "originalDescription": "Bereska kauppa kerava Korttiosto",
+          "original_description": "Bereska kauppa kerava Korttiosto"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0009a8e0aa2141aead9641a1ee64e559",
+          "amount": -8248.5,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Ikea",
+          "categoryType": "EXPENSES",
+          "originalDate": 1683319600000,
+          "originalDescription": "IKEA",
+          "original_description": "IKEA"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000b84d46bda42f795f1c92d45f203d9",
+          "amount": -44256.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Apple Retail",
+          "categoryType": "EXPENSES",
+          "originalDate": 1697136800000,
+          "originalDescription": "Apple Retail",
+          "original_description": "Apple Retail"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0792cd9033024c3d912e8d08952da93f",
+          "amount": -8.15,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Helsinki Musti ja Mirri Helsinki C",
+          "categoryType": null,
+          "originalDate": 1688947200000,
+          "originalDescription": "Helsinki Musti ja Mirri Helsinki C",
+          "original_description": "Helsinki Musti ja Mirri Helsinki C"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0870885eaf534f78ad22f6d9b73cf256",
+          "amount": -4.69,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Musti ja Mirri Kerava  kerava Korttiosto",
+          "categoryType": null,
+          "originalDate": 1686592000000,
+          "originalDescription": "Musti ja mirri kerava kerava Korttiosto",
+          "original_description": "Musti ja mirri kerava kerava Korttiosto"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0a382080400545248d10f7fc399ba68d",
+          "amount": -120.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ADOBE PRODUCTS JONAS SUNDBOM adobe products Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1687715200000,
+          "originalDescription": "Adobe products Kortköp uttag",
+          "original_description": "Adobe products"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0000f1625b164281a94d3e2d6d48d0e5",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Zimpler AB  89123515687243283953",
+          "categoryType": null,
+          "originalDate": 1685059200000,
+          "originalDescription": "Zimpler ab 89123515687243283953",
+          "original_description": "Zimpler ab 89123515687243283953"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0012e2894c184b469280eb905abc3a2f",
+          "amount": -10.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Zimpler  15209390023826662833",
+          "categoryType": null,
+          "originalDate": 1680480000000,
+          "originalDescription": "Zimpler 15209390023826662833",
+          "original_description": "Zimpler 15209390023826662833"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002877c6df4d44af9a8450ea0be1d8ca",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Zimpler AB  31378801955945098371",
+          "categoryType": null,
+          "originalDate": 1684454400000,
+          "originalDescription": "Zimpler ab 31378801955945098371",
+          "original_description": "Zimpler ab 31378801955945098371"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00e17609b8e74b77b5cf668564b4d97b",
+          "amount": -10.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "småsparing 1 stk fast beløp",
+          "categoryType": null,
+          "originalDate": 1684777600000,
+          "originalDescription": "småsparing 1 stk fast beløp",
+          "original_description": "småsparing 1 stk fast beløp"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "012e40e7a5654ab3a42445cc7cea9341",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "småsparing 2 stk fast beløp",
+          "categoryType": null,
+          "originalDate": 1682940800000,
+          "originalDescription": "småsparing 2 stk fast beløp",
+          "original_description": "småsparing 2 stk fast beløp"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0190cb95ff534a92a3f179f15240ba5b",
+          "amount": -500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "överföring månadssparande",
+          "categoryType": null,
+          "originalDate": 1684604800000,
+          "originalDescription": "Överföring månadssparande",
+          "original_description": "överföring månadssparande"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00019c3e29b9419ca5f12c41842c66d7",
+          "amount": -1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "YOUNES, AMANI",
+          "categoryType": null,
+          "originalDate": 1689766400000,
+          "originalDescription": "YOUNES, AMANI",
+          "original_description": "YOUNES, AMANI"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0001c43f7287455a973dc1789d98dc9f",
+          "amount": -0.18,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ALDI BENALMADENA TIENDA 1",
+          "categoryType": null,
+          "originalDate": 1685705600000,
+          "originalDescription": "Aldi benalmadena tienda 1",
+          "original_description": "Aldi benalmadena tienda 1"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000251cb082d48d9a5a5ae61a7e929e2",
+          "amount": -10934.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Afregning til Told og Skat",
+          "categoryType": null,
+          "originalDate": 1682140800000,
+          "originalDescription": "Afregning til Told og Skat",
+          "original_description": "Afregning til Told og Skat"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "001a4388ed6843b0b656d27e346ae2d2",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Unionen",
+          "categoryType": null,
+          "originalDate": 1690804800000,
+          "originalDescription": "Unionen",
+          "original_description": "Unionen"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00716d31b8864ba5a84d24e8a95b881e",
+          "amount": -140.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Unionens A-Kassa",
+          "categoryType": null,
+          "originalDate": 1693483200000,
+          "originalDescription": "Unionens A-Kassa",
+          "original_description": "Unionens A-Kassa"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00af0a7f29d84692a75dcb6cf695feb0",
+          "amount": -660.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "LIVSMEDELSARBETA SHAHRIYAR LOTFI-TARMIANI livsmedelsarbeta Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1682185600000,
+          "originalDescription": "Livsmedelsarbeta",
+          "original_description": "Livsmedelsarbeta"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00fb1f1144cc469bbc0896ce4f0831c7",
+          "amount": -1550.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Rotterdam B.V.<br>Omschrijving: 202130294 2025022 incasso Valutadatum: 04-10-2021Incasso",
+          "categoryType": null,
+          "originalDate": 1683305600000,
+          "originalDescription": "Rotterdam B.V.<br>Omschrijving: 202130294 2025022 incasso Valutadatum: 04-10-2021Incasso",
+          "original_description": "Rotterdam B.V.<br>Omschrijving: 202130294 2025022 incasso Valutadatum: 04-10-2021Incasso"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "030b44c76e074d0bbda4d32aecf67178",
+          "amount": -250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "CAROLI TRAFIKSKO MIRZA ABBASI caroli trafiksko Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1691107200000,
+          "originalDescription": "Caroli trafiksko Kortköp uttag",
+          "original_description": "Caroli trafiksko"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0bbbed49d15442be91a7d5f653ed34d6",
+          "amount": -1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "LEKSANDS TRAFIKS RONNIE LUNDSTRÖM leksands trafiks Swish",
+          "categoryType": null,
+          "originalDate": 1683481600000,
+          "originalDescription": "Leksands trafiks Swish",
+          "original_description": "Leksands trafiks"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "178988cd3e2a4ea1a4def83d0c67c314",
+          "amount": -1000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "DENIZ,HACER",
+          "categoryType": null,
+          "originalDate": 1689875200000,
+          "originalDescription": "DENIZ,HACER",
+          "original_description": "Deniz,Hacer"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "3c2bce5984bf412b9aa905364ce33b16",
+          "amount": -250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "DENIZ,HACER",
+          "categoryType": null,
+          "originalDate": 1684800000000,
+          "originalDescription": "DENIZ,HACER",
+          "original_description": "Deniz,Hacer"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "4b65ab5885e24781804d8675aa759bda",
+          "amount": -25483.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Akkafrakt I Sk",
+          "categoryType": null,
+          "originalDate": 1691340800000,
+          "originalDescription": "Akkafrakt I Sk",
+          "original_description": "Akkafrakt I Sk"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000206a403f04d4d919e6e205d637c7b",
+          "amount": -48.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SHELL J@NK@PING  shell j@nk@ping Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1683590400000,
+          "originalDescription": "Shell j@nk@ping Kortköp uttag",
+          "original_description": "Shell j@nk@ping"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00137fa7765e4fe19a20f9b6cc0e65c5",
+          "amount": -117.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "7-eleven",
+          "categoryType": null,
+          "originalDate": 1684518400000,
+          "originalDescription": "7-eleven",
+          "original_description": "7-eleven"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002374027e5a444cb0257dc0bf97dbd2",
+          "amount": -31.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Pressbyran Anger SABINA GASHI pressbyran anger Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1681689600000,
+          "originalDescription": "Pressbyran anger Kortköp uttag",
+          "original_description": "Pressbyran anger"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0226f5eafe2f48b58d2eaab00063bb63",
+          "amount": -1366.34,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Anyfin JESSICA PERSSON anyfin Autogiro",
+          "categoryType": null,
+          "originalDate": 1682358400000,
+          "originalDescription": "Anyfin",
+          "original_description": "Anyfin"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "02a9663a59874eed92a3401f8d5972a3",
+          "amount": -104.15,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Renter",
+          "categoryType": null,
+          "originalDate": 1682401600000,
+          "originalDescription": "Renter",
+          "original_description": "Renter"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "02fb3186ff9b42ee9cc9108300022a61",
+          "amount": -1774.78,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Anyfin ANNA LIIFV anyfin Autogiro",
+          "categoryType": null,
+          "originalDate": 1680048000000,
+          "originalDescription": "Anyfin",
+          "original_description": "Anyfin"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "000f97e603384f59967216a1e229c6e0",
+          "amount": -250.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "aleris",
+          "categoryType": null,
+          "originalDate": 1687737600000,
+          "originalDescription": "Aleris",
+          "original_description": "**********"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00710f7f1efa4fbeb107122ae9d57663",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "NARHALSAN SABINA GASHI narhalsan Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1690329600000,
+          "originalDescription": "Narhalsan Kortköp uttag",
+          "original_description": "**********"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00adf150a4bc4fb2881a2b4c48d12eb3",
+          "amount": -2590.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Folktandvården S SUSANNE WANDEFORS folktandvården s Bg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1681753600000,
+          "originalDescription": "Folktandvården s",
+          "original_description": "**********"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "002b2f6fe7924f58bf085f44701832ba",
+          "amount": 2500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Uttag Nordne",
+          "categoryType": null,
+          "originalDate": 1689916800000,
+          "originalDescription": "Uttag Nordne",
+          "original_description": "Uttag Nordne"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "003d2550dbf14192ae6dfd9da91028e3",
+          "amount": 3.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "198801175558, Robur",
+          "categoryType": "INCOME",
+          "originalDate": 1683004800000,
+          "originalDescription": "198801175558, Robur",
+          "original_description": "198801175558, Robur"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "005329933c814642bb92455dbdbf6ba2",
+          "amount": 100.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "fra opsparingskonto",
+          "categoryType": null,
+          "originalDate": 1683286400000,
+          "originalDescription": "fra opsparingskonto",
+          "original_description": "fra opsparingskonto"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00053913a86b4b51b54e934e4e67d746",
+          "amount": -440.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Betalning Bg 5347-9499 Volvofinans",
+          "categoryType": null,
+          "originalDate": 1682294400000,
+          "originalDescription": "Betalning Bg 5347-9499 Volvofinans",
+          "original_description": "Betalning Bg 5347-9499 Volvofinans"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0076b50b35b8404793c3e4cf435546f5",
+          "amount": -1460.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ARVATO FINANCE A LINDA FORSMARK arvato finance a Pg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1684432000000,
+          "originalDescription": "Arvato finance a",
+          "original_description": "Arvato finance a"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00957923df434fc69e644fe2d0f96cc2",
+          "amount": -1500.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "ARVATO FINANCE A LOUISE JALDESJÖ arvato finance a Pg-bet. via internet",
+          "categoryType": null,
+          "originalDate": 1682185600000,
+          "originalDescription": "Arvato finance a",
+          "original_description": "Arvato finance a"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "008bf7d2679e4f6889d6f2d40b12bdcb",
+          "amount": -941.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "byggmax",
+          "categoryType": null,
+          "originalDate": 1682876800000,
+          "originalDescription": "Byggmax",
+          "original_description": "byggmax"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00ab703fb3d04b07b4e79eaac1bcefe1",
+          "amount": -84.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "debitcard dk brinck isenkram ri",
+          "categoryType": null,
+          "originalDate": 1686028800000,
+          "originalDescription": "debitcard dk brinck isenkram ri",
+          "original_description": "debitcard dk brinck isenkram ri"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00be17c58581409ca867c2ea0b3dba44",
+          "amount": -696.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "SARO BLOMSTERMAL SHIVA BAVADI saro blomstermal Kortköp uttag",
+          "categoryType": null,
+          "originalDate": 1687824000000,
+          "originalDescription": "Saro blomstermal Kortköp uttag",
+          "original_description": "Saro blomstermal"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "00c1193988fb4a25b1741ee85d3f1044",
+          "amount": 7000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "insättningsautomat",
+          "categoryType": null,
+          "originalDate": 1689248000000,
+          "originalDescription": "Insättningsautomat",
+          "original_description": "insättningsautomat"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "0115de80577144fb818c22837e328a3e",
+          "amount": 700.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "CDM MELLBY CENTE, Insättningsautomat",
+          "categoryType": "INCOME",
+          "originalDate": 1683868800000,
+          "originalDescription": "CDM MELLBY CENTE, Insättningsautomat",
+          "original_description": "CDM MELLBY CENTE, Insättningsautomat"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "01525ec9b9ca4fcdac0eb78369d6afa6",
+          "amount": 8000.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "BANKOMATINSÄTT",
+          "categoryType": null,
+          "originalDate": 1684518400000,
+          "originalDescription": "BANKOMATINSÄTT",
+          "original_description": "BANKOMATINSÄTT"
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "account-id-1",
+        "iban": "iban - 1",
+        "name": "Kreditz Account 1",
+        "type": "CHECKING",
+        "closed": false,
+        "balance": 5000.0,
+        "holderName": "J D acc 1 holderName",
+        "currencyCode": "SEK",
+        "accountNumber": "1989 2804 0001"
+      },
+      {
+        "id": "account-id-2",
+        "iban": "iban - 2",
+        "name": "Kreditz Account 2",
+        "type": "CREDIT_CARD",
+        "closed": true,
+        "balance": -1456.0,
+        "holderName": "J D acc 2 holderName",
+        "currencyCode": "SEK",
+        "accountNumber": "1989 2804 0002"
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "ssn": "280410040602",
+        "name": "Jayesh Dateer",
+        "dateOfBirth": "1989-04-28",
+        "providerName": "Swedbank"
+      }
+    ]
+  }
+}

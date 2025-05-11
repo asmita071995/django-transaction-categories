@@ -1,0 +1,885 @@
+{
+  "bank": {
+    "bic": "SWEDSESS",
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/SE/Swedbank/",
+    "name": "Swedbank",
+    "country": "SE",
+    "psu_types": [
+      "business"
+    ],
+    "auth_methods": [
+      {
+        "name": "REDIRECT",
+        "title": "Redirect",
+        "approach": "REDIRECT",
+        "psu_type": "business",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": false,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          },
+          {
+            "name": "companyId",
+            "title": "Company ID",
+            "required": false,
+            "template": "(^\\d{10}$)|(^\\d{12}$)",
+            "description": "10 digit organisation number (or 12 digit personal number if the company is a sole proprietorship)"
+          }
+        ],
+        "hidden_method": false
+      }
+    ],
+    "required_psu_headers": [
+      "psu-ip-address",
+      "psu-user-agent"
+    ],
+    "maximum_consent_validity": 15552000
+  },
+  "accounts": [
+    {
+      "uid": "9dd8af36-c2e4-429e-99b5-10840f62935b",
+      "name": "SCANHAG AB",
+      "usage": null,
+      "details": null,
+      "product": "Placeringskonto ftg",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Current available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "3000000.00",
+                "currency": "SEK"
+              },
+              "reference_date": "2024-01-12",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Current booked balance",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "0.00",
+                "currency": "SEK"
+              },
+              "reference_date": "2024-01-12",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE1880000815059047922084",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "815059047922084"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE1880000815059047922084"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "815059047922084"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "SWEDSESS",
+        "clearing_system_member_id": {
+          "member_id": "81505",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.95kAbnCOKn/1PLb/FH3PiyFOu6Oc8IRHdt/LOmp1NH0=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.b2p0n1GQ7SdAYRLnzxCEWALLGqMXsTQ01FRSgtU6430=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.95kAbnCOKn/1PLb/FH3PiyFOu6Oc8IRHdt/LOmp1NH0=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.hdhT6z7gkX9w4ZIviE8BgHEaRxy57s2ctx4w4YmXO0g=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.8w1aSpOKNiFQt6WfNJimVL3ct/vdUiqQbo7G5VuUjI0=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.ituE7wPBoPT+12X8+3hzuFbgPEVstpAlN1BSq1Cvqpw=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.EdAxRgzFxw24TVazrjb8rjwVwLJEFxUDgJ/9kcVppo0=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.PXNk1J0ABWbwtS0wQ2n4wcRbrtnIq80Bw8Q468ohTAE=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.ecpBYLJ4zeWyvAT5e2OW3cCh7naq/UVz3pdHmOZEBkA="
+      ]
+    },
+    {
+      "uid": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "name": "SCANHAG AB",
+      "usage": null,
+      "details": null,
+      "product": "Företagskonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Current available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "0",
+                "currency": "SEK"
+              },
+              "reference_date": "2024-01-12",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Current booked balance",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "0",
+                "currency": "SEK"
+              },
+              "reference_date": "2024-01-12",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE0780000815059043763698",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "815059043763698"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE0780000815059043763698"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "815059043763698"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "SWEDSESS",
+        "clearing_system_member_id": {
+          "member_id": "81505",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.G3Tzl32QigMNre33jrmEv0cI+6LgNVO5JId4ntJ6IKU=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.98HFtv4izbYht4QdrMjRcf42V0QSWdTN82+KuCFvteM=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.G3Tzl32QigMNre33jrmEv0cI+6LgNVO5JId4ntJ6IKU=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.5xdnlsahEX4H3jZLOMUg0/qQQ+Gt1PV7lXdDuGMPtpo=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.OA1oaiJ3HK+oAZTDjI0AV7HBaiGqWMXyqm/86HoRPmA=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SoF24vUCP2NOo1OSE6uig04rnugBP4Czp183VMC8gpA=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.gxGpS+bjOqXcXmA/asKJNLNoWkE4IOuLFKHLrVWXxO0=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.SiQaV99lcW/tyfI2GENu3yHWjamzEbsJ44fcwB7AwWM=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.ecpBYLJ4zeWyvAT5e2OW3cCh7naq/UVz3pdHmOZEBkA="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": "2023-12-15",
+      "booking_date": "2023-12-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-12-15",
+      "transaction_amount": {
+        "amount": "2000.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "atm"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Mobiltele",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-11-15",
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": "490.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Pg-bet. via internet"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Mobiltele"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Transport GBB120",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-10-15",
+      "booking_date": "2023-10-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-10-15",
+      "transaction_amount": {
+        "amount": "2458.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Bg-bet. via internet"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Transport GBB120"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Transport GBB120",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-09-15",
+      "booking_date": "2023-09-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-09-15",
+      "transaction_amount": {
+        "amount": "2458.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Bg-bet. via internet"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Transport GBB120"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Transport GBB120",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-08-15",
+      "booking_date": "2023-08-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-08-15",
+      "transaction_amount": {
+        "amount": "2458.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Bg-bet. via internet"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Transport GBB120"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Transport GBB120",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-07-15",
+      "booking_date": "2023-07-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-07-15",
+      "transaction_amount": {
+        "amount": "2458.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Bg-bet. via internet"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Transport GBB120"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SCANHAG AB",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Transport GBB120",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2024-01-10",
+      "booking_date": "2024-01-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2024-01-10",
+      "transaction_amount": {
+        "amount": "2458.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "Bg-bet. via internet"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Transport GBB120"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-07-10",
+      "booking_date": "2023-07-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-07-10",
+      "transaction_amount": {
+        "amount": "24580.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "försäljning sales faktura"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "försäljning sales faktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-08-10",
+      "booking_date": "2023-08-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-08-10",
+      "transaction_amount": {
+        "amount": "24580.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "försäljning sales faktura"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "försäljning sales faktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-09-10",
+      "booking_date": "2023-09-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-09-10",
+      "transaction_amount": {
+        "amount": "24580.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "försäljning sales faktura"
+      },
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "försäljning sales faktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-12-10",
+      "booking_date": "2023-12-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-12-10",
+      "transaction_amount": {
+        "amount": "2480.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "försäljning sales faktura"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "försäljning sales faktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-12-10",
+      "booking_date": "2023-12-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-12-10",
+      "transaction_amount": {
+        "amount": "2450.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "försäljning sales faktura"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "försäljning sales faktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "försäljning sales faktura",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": "2023-12-10",
+      "booking_date": "2023-12-10",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "69a1204a-6264-4d47-b914-ca6aa7eac526",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": "SE0780000815059043763698",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-12-10",
+      "transaction_amount": {
+        "amount": "2450.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": null,
+        "sub_code": null,
+        "description": "försäljning sales faktura"
+      },
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "försäljning sales faktura"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    }
+  ]
+}

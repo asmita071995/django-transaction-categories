@@ -1,0 +1,509 @@
+{
+  "bank": {
+    "bank_krn": "krn:openbanking:global:bank:1fda582d-e07e-4600-8e26-e06c66ee2d54",
+    "bank_code": "000000",
+    "bank_name": "Testbank",
+    "connection": "PSD2",
+    "country_code": "GB",
+    "integration_krn": "krn:openbanking:global:integration:9fd7e210-d9ac-4bf3-b0d5-a943d046fb72",
+    "sub_integration_krn": "krn:openbanking:global:sub-integration:d08b72a4-79e0-4597-97ed-ac75ef7b3556"
+  },
+  "accounts": [
+    {
+      "id": "NzRiOWMzOWItNDQxYi00ZGYzLWIyZjItODA5Y2Y1MWFjNzQ0",
+      "bic": "TESTGB10XXX",
+      "alias": "My checking account",
+      "balance": 148815,
+      "currency": "GBP",
+      "bank_code": "000000",
+      "holder_name": "John Doe",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "56865168",
+      "national_branch_code": "000000"
+    },
+    {
+      "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+      "iban": "GB44LOYD00000066369875",
+      "alias": "My salary account",
+      "balance": 2159176,
+      "currency": "GBP",
+      "holder_name": "Jane Doe",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "66369875",
+      "holder_address": {
+        "city": "Musterstadt",
+        "region": "Hessen",
+        "country": "GB",
+        "postalcode": "01234",
+        "street_address": "Hügelstr. 5"
+      }
+    },
+    {
+      "id": "YzQ1MzZlMDQtOGZjNy00YWFlLWEyOTEtNjcyZjYzMTJhM2Q3",
+      "bic": "TESTGB10XXX",
+      "alias": "My overdraft account",
+      "balance": -79480,
+      "currency": "GBP",
+      "bank_code": "000000",
+      "holder_name": "John Doe",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "48966138",
+      "national_branch_code": "000000"
+    },
+    {
+      "id": "YTM5ODI4ZWItNjk5NC00NTdhLTkxZjItYzI5ZmExMzU5Y2Nm",
+      "bic": "TESTGB10XXX",
+      "alias": "My saving account",
+      "balance": 27054800,
+      "currency": "GBP",
+      "bank_code": "000000",
+      "holder_name": "John Doe",
+      "account_type": "SAVING",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": false
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "REFERENCE",
+      "account_number": "87464159",
+      "national_branch_code": "000000"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2023-10-26",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 862664,
+        "currency": "GBP"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "eBay",
+      "value_date": "2023-10-27",
+      "booking_date": "2023-10-26",
+      "counter_party": {
+        "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+        "iban": "GB44LOYD00000066369875",
+        "alias": "My salary account",
+        "holder_name": "Jane Doe",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "66369875",
+        "holder_address": {
+          "city": "Musterstadt",
+          "region": "Hessen",
+          "country": "GB",
+          "postalcode": "01234",
+          "street_address": "Hügelstr. 5"
+        }
+      },
+      "account_number": "56865168",
+      "transaction_id": "19c3174bd3a255ffab651feb324e830a",
+      "bank_references": {
+        "unstructured": "eBay"
+      },
+      "bank_transaction_id": "ZGU4ZWQyYWQtMWM1YS00ZTQxLWFiZmEtZDU1YWNkMWM2YTY5"
+    },
+    {
+      "date": "2023-10-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 13990,
+        "currency": "GBP"
+      },
+      "method": "TRANSFER",
+      "reference": "zalando plus fashion-service 5812871289",
+      "value_date": "2023-10-26",
+      "booking_date": "2023-10-25",
+      "counter_party": {
+        "id": "ODE5NGNlMzAtZGY2OS00N2JiLTgzNjQtYmI5ZTc4NDljM2Ux",
+        "iban": "GB84ABBY00000081166159",
+        "holder_name": "Zalando",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "ABBY00000081166159"
+      },
+      "account_number": "56865168",
+      "transaction_id": "172e411b996d25cd7f22d3f80f410bd2",
+      "bank_references": {
+        "unstructured": "zalando plus fashion-service 5812871289"
+      },
+      "bank_transaction_id": "MzY5N2Y1OGItNTJkOS00MDkxLTllMTktNTQ5YjljNzVhYzZi"
+    },
+    {
+      "date": "2023-10-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 6500,
+        "currency": "GBP"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "DIRECT DEBIT AMAZON PRIME VIGBO END-TO-END-REF.: / MANDATSREF.: GLÄUBIGER-ID: Ref. AMAZON MEDIA EU S.A R.L.",
+      "value_date": "2023-10-26",
+      "booking_date": "2023-10-25",
+      "counter_party": {
+        "id": "OWFjYmRmOWItZDY3Ny00MGU2LTg2MjktZWZlYzU5NGI0ZDgw",
+        "iban": "GB30HLFX00000017164159",
+        "holder_name": "AMAZON MEDIA EU S.A R.L.",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "HLFX00000017164159"
+      },
+      "account_number": "56865168",
+      "transaction_id": "7e6ca2ab1d4bd27b93fc90eabde7c804",
+      "bank_references": {
+        "unstructured": "DIRECT DEBIT AMAZON PRIME VIGBO END-TO-END-REF.: / MANDATSREF.: GLÄUBIGER-ID: Ref. AMAZON MEDIA EU S.A R.L."
+      },
+      "bank_transaction_id": "YjgwZWMzMDgtYTg4Yy00MzA3LTgwMmQtMTY3NWZjY2YzMTU5"
+    },
+    {
+      "date": "2023-10-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 50000,
+        "currency": "GBP"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "transfer",
+      "value_date": "2023-10-23",
+      "counter_party": {
+        "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+        "iban": "GB44LOYD00000066369875",
+        "alias": "My salary account",
+        "holder_name": "Jane Doe",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "66369875",
+        "holder_address": {
+          "city": "Musterstadt",
+          "region": "Hessen",
+          "country": "GB",
+          "postalcode": "01234",
+          "street_address": "Hügelstr. 5"
+        }
+      },
+      "account_number": "56865168",
+      "transaction_id": "fff0683c1856d5b128731832238458fa",
+      "bank_references": {
+        "unstructured": "transfer"
+      },
+      "bank_transaction_id": "YTY4MjY2ZmItZTdmMy00NGYzLWFhZmMtYjI0NmM3Yjk0Zjcx"
+    },
+    {
+      "date": "2023-10-22",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1199,
+        "currency": "GBP"
+      },
+      "method": "TRANSFER",
+      "reference": "Netflix 2388191",
+      "value_date": "2023-10-23",
+      "booking_date": "2023-10-22",
+      "counter_party": {
+        "id": "ODI4ODRjZjAtODU0MS00MjY1LThhN2UtYTk5NjYwMGMxNGZj",
+        "holder_name": "Netflix",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL"
+      },
+      "account_number": "56865168",
+      "transaction_id": "d04d8d4abdb2a26b09871605d934a9d1",
+      "bank_references": {
+        "unstructured": "Netflix 2388191"
+      },
+      "bank_transaction_id": "NjQ2NGY5YWYtYzE4Yi00OWNkLTlhOWEtMjRiZWNmNmY1ZTc2"
+    },
+    {
+      "date": "2023-10-22",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 580,
+        "currency": "GBP"
+      },
+      "method": "TRANSFER",
+      "reference": "Thanks for the coffee",
+      "value_date": "2023-10-23",
+      "booking_date": "2023-10-22",
+      "counter_party": {
+        "id": "ZDFiYzc1YzEtNmRiOS00ODY1LTk1NTYtMjg5YjdkMGNkYzQ4",
+        "iban": "GB13RBOS00000027164159",
+        "holder_name": "Angela Murkel",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "RBOS00000027164159"
+      },
+      "account_number": "56865168",
+      "transaction_id": "ede3e2156a4d57817059d2ff367702dd",
+      "bank_references": {
+        "unstructured": "Thanks for the coffee"
+      },
+      "bank_transaction_id": "NjQ2NGY5YWYtYzE4Yi00OWNkLTlhOWEtMjRiZWNmNmY1ZTc2"
+    },
+    {
+      "date": "2023-10-22",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 7791,
+        "currency": "GBP"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "523628918",
+      "value_date": "2023-10-23",
+      "booking_date": "2023-10-22",
+      "counter_party": {
+        "id": "YjYyODYzMzgtNTExZi00MDQyLThmY2MtMzkyNjU5NGI1MGI3",
+        "holder_name": "Spotify",
+        "account_type": "DEFAULT"
+      },
+      "account_number": "56865168",
+      "transaction_id": "18352f3ab6355f93c5a56de953200be5",
+      "bank_references": {
+        "unstructured": "523628918"
+      },
+      "bank_transaction_id": "MjE3YjEyZDAtNjJlYi00MGQxLTg2MmItNjc4NjBhOTc0YWEx"
+    },
+    {
+      "date": "2023-10-18",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 4999,
+        "currency": "GBP"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "302-123123-1900368 AMZN Mktp GB HEWEHASQE",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-18",
+      "counter_party": {
+        "id": "NWI4NzVjMDktZDQ0OC00NzY4LWJjM2QtOTc4NTM2YzY3YjIw",
+        "holder_name": "AMAZON PAYMENTS EUROPE S.C.A.",
+        "account_type": "DEFAULT"
+      },
+      "account_number": "56865168",
+      "transaction_id": "27a052a2fc2ba7fdd6b63b9e9977d890",
+      "bank_references": {
+        "unstructured": "302-123123-1900368 AMZN Mktp GB HEWEHASQE"
+      },
+      "bank_transaction_id": "ZGFlY2Y5OGEtMTdlZi00ZTliLWIyNzktN2ZiZDYwMTBjNDdh"
+    },
+    {
+      "date": "2023-10-15",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 75000,
+        "currency": "GBP"
+      },
+      "method": "DIRECT_DEBIT",
+      "reference": "Rent",
+      "value_date": "2023-10-16",
+      "booking_date": "2023-10-15",
+      "counter_party": {
+        "id": "NDc1MjZiOGYtMjhmZi00OWRjLWI0NDQtZWRkYTFiMTM1Mzcz",
+        "iban": "GB24CITI00000037165159",
+        "holder_name": "Franz Maier",
+        "account_type": "DEFAULT",
+        "transfer_type": "FULL",
+        "account_number": "CITI00000037165159"
+      },
+      "account_number": "56865168",
+      "transaction_id": "da7e83f79f755fdbba5ddff2269ddb4a",
+      "bank_references": {
+        "unstructured": "Rent"
+      },
+      "bank_transaction_id": "NjMxODkzZjktZTY4Ni00YzlhLWEwZWMtMzk3ODJhNWE5MWY0"
+    }
+  ],
+  "accounts_details": [
+    {
+      "id": "NzRiOWMzOWItNDQxYi00ZGYzLWIyZjItODA5Y2Y1MWFjNzQ0",
+      "bic": "TESTGB10XXX",
+      "alias": "My checking account",
+      "bank_code": "000000",
+      "holder_name": "John Doe",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "56865168",
+      "national_branch_code": "000000"
+    },
+    {
+      "id": "YmI5NDAzZDctMGNmNi00ZjNiLTkyZGItM2JiNGVkZDM3ZDkw",
+      "iban": "GB44LOYD00000066369875",
+      "alias": "My salary account",
+      "holder_name": "Jane Doe",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "66369875",
+      "holder_address": {
+        "city": "Musterstadt",
+        "region": "Hessen",
+        "country": "GB",
+        "postalcode": "01234",
+        "street_address": "Hügelstr. 5"
+      }
+    },
+    {
+      "id": "YzQ1MzZlMDQtOGZjNy00YWFlLWEyOTEtNjcyZjYzMTJhM2Q3",
+      "bic": "TESTGB10XXX",
+      "alias": "My overdraft account",
+      "bank_code": "000000",
+      "holder_name": "John Doe",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "48966138",
+      "national_branch_code": "000000"
+    },
+    {
+      "id": "YTM5ODI4ZWItNjk5NC00NTdhLTkxZjItYzI5ZmExMzU5Y2Nm",
+      "bic": "TESTGB10XXX",
+      "alias": "My saving account",
+      "bank_code": "000000",
+      "holder_name": "John Doe",
+      "account_type": "SAVING",
+      "bank_address": {
+        "country": "GB"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": false
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "REFERENCE",
+      "account_number": "87464159",
+      "national_branch_code": "000000"
+    }
+  ]
+}

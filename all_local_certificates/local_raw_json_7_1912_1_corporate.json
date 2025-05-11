@@ -1,0 +1,108 @@
+{
+  "bank": "swedbank företag",
+  "accounts": [
+    {
+      "currency": "sek",
+      "accountid": "account-id-1",
+      "bookedbalance": 36044.32
+    }
+  ],
+  "transactions": [
+    {
+      "id": "9b981d2c098aed2049814a9a5df36ea3bc34f8e9857f3a4c95a360bf2dbdfb8b90ded7da97a667484afb483a2cc2e9accd66e5b8e772b8080fc4ae7225a32b9a",
+      "date": "2022-05-09",
+      "amount": 2000.0,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "transaktion"
+    },
+    {
+      "id": "5243cf0d11b68a91746a6f109d0beb32d4472b53f2ecec24b885591ad43f81a3dadd86d6e8a6e41c2c3bc38907e0a8ab3bf22372eb3e9785b2dbe1514816e36b",
+      "date": "2022-05-09",
+      "amount": 5.0,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "transaktion"
+    },
+    {
+      "id": "47e8480d65c130cf61e786cebf58b4a502f51da700b295147d7a0b23f2c92b1eaaf524b18ce0fd3abcac6605637a42b7f8c3574553819f964bb6e51ee300743b",
+      "date": "2022-05-09",
+      "amount": 10011.0,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "lån"
+    },
+    {
+      "id": "d7c78982abb1ce7e70604edac97575a29085679e1a45cbf1137a723f81b5f79e013a66c5daa4c760e10e36e44d8d0d5c4e7d908003723db60efba9ed492dd5ac",
+      "date": "2022-05-09",
+      "amount": -213.92,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "kjell & co 96 k8613"
+    },
+    {
+      "id": "20271b020abd7ff9b7aca58471d4444025f67980f7e7c05ca5b09ae669df636dee7a99cf37755a8497a4d4baa985a595d03705a0416a4bafb8285086f171b7d6",
+      "date": "2022-05-09",
+      "amount": 35343.6,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "b05094074713"
+    },
+    {
+      "id": "b32b1df1d27e0d92615aea36a340d0ddd081050984a2b757b9eb270e2e5f6d47b1c6e017d63dcd6200967602a14904566e6183087848198c657c28fe8256e493",
+      "date": "2022-05-09",
+      "amount": -22328.0,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "värnamo energi a gambling"
+    },
+    {
+      "id": "24469cf740168e8db39989f15c4eaabd216f1c5ca463ef0619d8ec36204eed1ec323359c15b2c6a55994b2b64f61c2e079533ed1f0636a4710c461f36ba355b0",
+      "date": "2022-05-09",
+      "amount": 1000.0,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "åter lån"
+    },
+    {
+      "id": "ee3b1ad05c6a503a7711ab79730bfb844c1cbffaccd2f480937c044d83c240817f0c0afced485602841b73c65363b6276e09f35deedb9ce48c070ca9944e2008",
+      "date": "2022-05-06",
+      "amount": 8842.16,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "b05064012506"
+    },
+    {
+      "id": "ed5999074bbda3ae9ae13dc91de00d5af4925df991eaf8dee33e18412b11736ba2af6bfef00eb16320e892703e6e39190378478841f1221257f8fcb271633aa2",
+      "date": "2022-05-06",
+      "amount": -94.8,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "factoringgruppen"
+    },
+    {
+      "id": "a3b9507ba51dccedbc6f026b8f664d0e40360c96a10838b2dc899070291df7cc49c2fad3042d14684d8a741e271c32223da117cf80799cc03e83a8214c504652",
+      "date": "2022-05-06",
+      "amount": -363.13,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "arvato finance a"
+    },
+    {
+      "id": "3ba1d14cb987f4d27aa99e45dba965256d4723ed6461efa3394d550d91a14250b4cbd70bf9ce55f7ffc6bd783502b218401fce5a8373247590fe60f2898343fe",
+      "date": "2022-05-06",
+      "amount": -4000.0,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "atm ica supermar"
+    },
+    {
+      "id": "e0dfe70146d8d10e8f8a0040f83d9be33b58a171eeb42c07c02bb3428037c2a05c2eb479ac2fc8ed3f690dad9fb91f315269df96e2ef4f0e77e3c06a95998dee",
+      "date": "2022-02-10",
+      "amount": 8554.51,
+      "currency": "sek",
+      "account_id": "account-id-1",
+      "description": "b02102144438"
+    }
+  ]
+}

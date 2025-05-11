@@ -1,0 +1,1809 @@
+{
+  "bank": {
+    "logo": "https://enablebanking.com/brands/FI/OP/",
+    "name": "OP",
+    "country": "FI",
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "name": "REDIRECT",
+        "title": "Redirect",
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": false,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Social security number in the format YYYYMMDDXXXX"
+          }
+        ],
+        "default_method": true
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "uid": "FI85100-00-85100-0000-00001",
+      "name": "No CFO",
+      "usage": null,
+      "details": "Account",
+      "product": "Account",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Current available balance",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": 2502.75,
+                "currency": "EUR"
+              },
+              "reference_date": "2023-10-04",
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "Expected balance with pre-approved credit line",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": 2502.75,
+                "currency": "EUR"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "EUR",
+      "account_id": {
+        "iban": "FI851000085100000000001",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "8510-0,000 000 000-1"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "linked_account": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "FI851000085100000000001"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "8510-0,000 000 000-1"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "OKOYFIHH",
+        "clearing_system_member_id": {
+          "member_id": "85100",
+          "clearing_system_id": "SESBA"
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "kreditz_demo_cert_no_consumer_account_1"
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Holvi Payment Services",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "a0dc89d63197079d83f36f67ace1309f",
+      "creditor_account": {
+        "iban": "FI8579977990816410",
+        "other": null
+      },
+      "reference_number": "RF57D64WYMRCXJ",
+      "transaction_date": "2023-11-01",
+      "transaction_amount": {
+        "amount": 11.16,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "RF57D64WYMRCXJ"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "KULJETUSLIIKE REIJO OHTONEN OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-01",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "b31906a7881d6fc1c5aa4758d457f055",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000031150",
+      "transaction_date": "2023-11-01",
+      "transaction_amount": {
+        "amount": 0.5,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000031150"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "GOOGLE *ADS3354158947",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "12006acaad2cd814593f2184a3097b4a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-02",
+      "transaction_amount": {
+        "amount": 107.11,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Google GSUITE_nocfo.io",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "74118a63d108fe9f71efb164e0493814",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-02",
+      "transaction_amount": {
+        "amount": 31.2,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "WIZARDO OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "edf5f581bb14780a1e4b640166d1dd26",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000021937",
+      "transaction_date": "2023-11-02",
+      "transaction_amount": {
+        "amount": 1.49,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000021937"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Tuohimedia Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-02",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "04bcdc60da251dc6674a537cd47bcaa7",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000031079",
+      "transaction_date": "2023-11-02",
+      "transaction_amount": {
+        "amount": 0.5,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000031079"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "cookiebotcom  co Cybot",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "7efc0110392ef3ef4ff2cab1d4c29fa5",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-03",
+      "transaction_amount": {
+        "amount": 12,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "PJA SALES SOLUTIONS OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-03",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "b21f9da37d761d14a5bb377ec6cf6ca0",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000025661",
+      "transaction_date": "2023-11-03",
+      "transaction_amount": {
+        "amount": 0.99,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000025661"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "VOJS GROUP OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-06",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "a7a4a09391ce87fa5077905d42253e7a",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000025674",
+      "transaction_date": "2023-11-06",
+      "transaction_amount": {
+        "amount": 0.99,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000025674"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "CHATBASE.CO",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "718e3c04a3fbf40c07f921a2eafd705a",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-07",
+      "transaction_amount": {
+        "amount": 18.27,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "SendinBlue",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "f46e3e02adb8ec42dad4b2f84da65ce3",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-09",
+      "transaction_amount": {
+        "amount": 62,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "HARRI ANNI ELINA",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "18747cc7526928f6c469ad294e947216",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000019318",
+      "transaction_date": "2023-11-09",
+      "transaction_amount": {
+        "amount": 0.99,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000019318"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "HARRI ANNI ELINA",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "8e9a173ea437e4c728a119a840cda49b",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000019318",
+      "transaction_date": "2023-11-09",
+      "transaction_amount": {
+        "amount": 0.99,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000019318"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Satupoika Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-09",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "6f699e6a20d907507b0e8b3f02b352a2",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000031118",
+      "transaction_date": "2023-11-09",
+      "transaction_amount": {
+        "amount": 0.5,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000031118"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Apix Messaging Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-14",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "d8dfc783eda91757365d5b1d5127e430",
+      "creditor_account": {
+        "iban": "FI6417453000112393",
+        "other": null
+      },
+      "reference_number": "1473238",
+      "transaction_date": "2023-11-14",
+      "transaction_amount": {
+        "amount": 50.24,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "1473238"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "FACEBK *QJ6T8WTMJ2",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-14",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "66442824ac3177af116b8475d5b520c8",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-14",
+      "transaction_amount": {
+        "amount": 150,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "raksve Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "c0eababb0af71a5a2e6f82201ffb1b35",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000031134",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 5.46,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000031134"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "raksve Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "f4d7725895937cc8c969ecfab343388a",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000031134",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 5.46,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000031134"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Jarkko Salo Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "d55962c0886409e1e30264c3cb634933",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000021911",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 0.99,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000021911"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "KSN Service Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "9b80c01b63ebd622c950ae465471730c",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "17255",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 0.5,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "17255"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "BioAccess Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "9323ae918ff39c3e00b0d3c917426add",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "31163",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 1.49,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "31163"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SILVEKOSKI VEIKKA",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "43f0820415a5a0c379d4991a6f5542e8",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "31095",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 2.23,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "31095"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "AICONTENTFY OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "70f8c9ec5ef0010f7f90b9d81449811a",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "19279",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 1.49,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "19279"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "V\\u00c4RIUITTO OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "946ef6e116636878f9fcd43a86405768",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000011235",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 24.8,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000011235"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "Taukonautti Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "eb7b887adbda197ff30032efb5059c11",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": null,
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 1.49,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "16463"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "MAINOS21 OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "af0f2dc45dd241ac49a6cb24ca96ea7c",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "11248",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 18.6,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "11248"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "As. Oy Espoon Friisilanpuisto I",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "4dca2cd8181a38d52b99cea2fbdb973f",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "25645",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 1.49,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "25645"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "VARCA OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "d89ef9c8163807d559dbb248924c8885",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000009726",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 3.72,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000009726"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "SEPTIMUS OY",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "b27a0c96286748cf94dceef7f6fd7de9",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000006839",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 963.38,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000006839"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "FACEBK *BR3AAWTMJ2",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "15b68ae397242b666b686daff290dd1f",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 10.73,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "HAAKANA JOONAS VILPPU",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-15",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "f1366872ba69a68ef2e586439bd0645b",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000000031082",
+      "transaction_date": "2023-11-15",
+      "transaction_amount": {
+        "amount": 1.49,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000000031082"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "P\\u00d6YH\\u00d6NEN TUOMAS",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-16",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "f00c2e35a5b7a2fdd69770e0890961d8",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "31176",
+      "transaction_date": "2023-11-16",
+      "transaction_amount": {
+        "amount": 5.95,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "31176"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "CANVA* I03971-35942141",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "4a666cb2d98141ec5fe84d65bf5897d6",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-17",
+      "transaction_amount": {
+        "amount": 75,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Fazer Ravintolat Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "21006d2a4434f440076b108c22fb1025",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-17",
+      "transaction_amount": {
+        "amount": 21.2,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "TURUNEN WERNERI",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "c5be2d2dbd1caa713908e04daeccb114",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "11222",
+      "transaction_date": "2023-11-17",
+      "transaction_amount": {
+        "amount": 62,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "11222"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "Vistaprint",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-20",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "f469e795ea901bd6694f76e02b3ee5cb",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2023-11-20",
+      "transaction_amount": {
+        "amount": 74.4,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": {
+        "name": "TMI MARIANNA JASMIN",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "status": "BOOK",
+      "creditor": {
+        "name": "NoCFO Oy",
+        "private_id": null,
+        "postal_address": null,
+        "contact_details": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2023-11-20",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "FI85100-00-85100-0000-00001",
+      "entry_reference": "9bfb2f164c82f038f95f7b66cfa5c42c",
+      "creditor_account": {
+        "iban": "FI5279977998833375",
+        "other": null
+      },
+      "reference_number": "00000000000010000016",
+      "transaction_date": "2023-11-20",
+      "transaction_amount": {
+        "amount": 68.2,
+        "currency": "EUR"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "00000000000010000016"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    }
+  ]
+}

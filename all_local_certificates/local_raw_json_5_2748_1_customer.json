@@ -1,0 +1,1512 @@
+{
+  "bank": {
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/SE/Resurs%20Bank/",
+    "name": "Resurs Bank",
+    "country": "SE",
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "hidden_method": false
+      }
+    ],
+    "maximum_consent_validity": 7776000
+  },
+  "accounts": [
+    {
+      "uid": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "name": "-",
+      "usage": "PRIV",
+      "details": null,
+      "product": "RESURS CLASSIC",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "Balance, composed of booked entries and pending items",
+              "balance_type": "XPCD",
+              "balance_amount": {
+                "amount": "-843.02",
+                "currency": "SEK"
+              },
+              "reference_date": "2023-09-18"
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "528248XXXXXX6019"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "528248XXXXXX6019"
+        }
+      ],
+      "account_servicer": null,
+      "cash_account_type": "CARD",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.mz/S3pokCEw7UTSz2NT40wmRSRezst3TSjdO3q+djSw=",
+      "identification_hashes": [
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.mz/S3pokCEw7UTSz2NT40wmRSRezst3TSjdO3q+djSw=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.5oXUOWni6KhDfBry0skJYjzMaYqtAee72nH97/Ho+TY=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.cAgAPxtliuJrQwx5M5xoJiAHv97drcUd4Kj19IX+rE8=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.9dqY4hf8wZRvnigGwd5O6sdNVvuH4BjVfjdGokizH+c=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.kh/8lUCRPzEqzfBNlFEWZl/0VOxwYuuVNyDI50irA5k=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.svOQDaVFF4/ms/i4lmFpSIdHWuPlNFTWHO+IEkvnJ+0="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-09-07",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000175",
+      "transaction_amount": {
+        "amount": "60.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-08-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000168",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-08-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000169",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-08-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000170",
+      "transaction_amount": {
+        "amount": "176.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000159",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000160",
+      "transaction_amount": {
+        "amount": "136.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-27",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000167",
+      "transaction_amount": {
+        "amount": "75.50",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ST1 HALLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-17",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000166",
+      "transaction_amount": {
+        "amount": "61.57",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "PEKÅS HÄLLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-17",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000164",
+      "transaction_amount": {
+        "amount": "109.96",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "PEKÅS HÄLLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-17",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000165",
+      "transaction_amount": {
+        "amount": "76.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "Oriental House"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-17",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000161",
+      "transaction_amount": {
+        "amount": "431.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "Systembolaget"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-17",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000162",
+      "transaction_amount": {
+        "amount": "218.93",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "PEKÅS HÄLLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-07-17",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000163",
+      "transaction_amount": {
+        "amount": "95.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "Oriental House"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-06-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000154",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-06-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000155",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-06-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000156",
+      "transaction_amount": {
+        "amount": "203.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-06-22",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000158",
+      "transaction_amount": {
+        "amount": "2000.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-06-07",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000157",
+      "transaction_amount": {
+        "amount": "60.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-05-04",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000151",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-05-04",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000152",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-05-04",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000153",
+      "transaction_amount": {
+        "amount": "189.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-04-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000149",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-04-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000150",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-03-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000143",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-03-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000144",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-03-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000145",
+      "transaction_amount": {
+        "amount": "12.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-03-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000146",
+      "transaction_amount": {
+        "amount": "198.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-03-21",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000148",
+      "transaction_amount": {
+        "amount": "1078.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-03-06",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000147",
+      "transaction_amount": {
+        "amount": "60.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-02-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000139",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-02-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000140",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-02-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000141",
+      "transaction_amount": {
+        "amount": "14.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-02-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000142",
+      "transaction_amount": {
+        "amount": "179.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-01-04",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000136",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-01-04",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000137",
+      "transaction_amount": {
+        "amount": "156.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-01-16",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000138",
+      "transaction_amount": {
+        "amount": "406.95",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ST1 HALLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2023-01-02",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000135",
+      "transaction_amount": {
+        "amount": "600.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-12-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000129",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-12-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000130",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-12-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000131",
+      "transaction_amount": {
+        "amount": "24.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-12-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000132",
+      "transaction_amount": {
+        "amount": "174.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-12-13",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000134",
+      "transaction_amount": {
+        "amount": "439.20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "Systembolaget"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-12-06",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000133",
+      "transaction_amount": {
+        "amount": "1000.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-11-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000125",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-11-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000126",
+      "transaction_amount": {
+        "amount": "22.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-11-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000127",
+      "transaction_amount": {
+        "amount": "120.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-11-02",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000124",
+      "transaction_amount": {
+        "amount": "341.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "Systembolaget"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-11-04",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000128",
+      "transaction_amount": {
+        "amount": "199.85",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ST1 HALLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000118",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000119",
+      "transaction_amount": {
+        "amount": "4.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000120",
+      "transaction_amount": {
+        "amount": "109.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-31",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000123",
+      "transaction_amount": {
+        "amount": "403.12",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ST1 HALLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-25",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000121",
+      "transaction_amount": {
+        "amount": "500.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-25",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000122",
+      "transaction_amount": {
+        "amount": "600.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000117",
+      "transaction_amount": {
+        "amount": "470.36",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "ST1 HALLEFORS"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-09-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000111",
+      "transaction_amount": {
+        "amount": "39.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-09-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000112",
+      "transaction_amount": {
+        "amount": "145.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "CHARGE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-09-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000113",
+      "transaction_amount": {
+        "amount": "9.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-09-05",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000114",
+      "transaction_amount": {
+        "amount": "153.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "INTEREST"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-10-03",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000116",
+      "transaction_amount": {
+        "amount": "183.50",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PURCHASE"
+      },
+      "credit_debit_indicator": "DBIT",
+      "remittance_information": [
+        "OKQ8"
+      ]
+    },
+    {
+      "note": null,
+      "debtor": {
+      },
+      "status": "BOOK",
+      "creditor": {
+      },
+      "booking_date": "2022-09-20",
+      "transaction_id": null,
+      "bank_account_id": "50e72b40-de19-41d6-8706-a30349f722d2",
+      "entry_reference": "60282063845_000000115",
+      "transaction_amount": {
+        "amount": "1000.00",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": {
+        "code": "PAYMENT"
+      },
+      "credit_debit_indicator": "CRDT",
+      "remittance_information": [
+
+      ]
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "Resurs Bank",
+      "country": "SE"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2023-12-17T08:35:11.355000Z",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2023-09-18T08:35:11.681435Z",
+    "accounts": [
+      "50e72b40-de19-41d6-8706-a30349f722d2"
+    ],
+    "psu_type": "personal",
+    "authorized": "2023-09-18T08:36:13.779307Z",
+    "psu_id_hash": "73ec00a92a545c50fc551da33223b114833f1a46f55908b14c1428e1a555a892",
+    "accounts_data": [
+      {
+        "uid": "50e72b40-de19-41d6-8706-a30349f722d2",
+        "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.mz/S3pokCEw7UTSz2NT40wmRSRezst3TSjdO3q+djSw=",
+        "identification_hashes": [
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.mz/S3pokCEw7UTSz2NT40wmRSRezst3TSjdO3q+djSw=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.5oXUOWni6KhDfBry0skJYjzMaYqtAee72nH97/Ho+TY=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.cAgAPxtliuJrQwx5M5xoJiAHv97drcUd4Kj19IX+rE8=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.9dqY4hf8wZRvnigGwd5O6sdNVvuH4BjVfjdGokizH+c=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.kh/8lUCRPzEqzfBNlFEWZl/0VOxwYuuVNyDI50irA5k=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.svOQDaVFF4/ms/i4lmFpSIdHWuPlNFTWHO+IEkvnJ+0="
+        ]
+      }
+    ]
+  }
+}

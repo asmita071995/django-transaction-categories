@@ -1,0 +1,808 @@
+{
+  "bank": {
+    "bic": "HANDSESS",
+    "beta": false,
+    "logo": "https://enablebanking.com/brands/SE/Handelsbanken/",
+    "name": "Handelsbanken",
+    "country": "SE",
+    "sandbox": {
+      "users": [
+        {
+          "username": "192001029384"
+        }
+      ]
+    },
+    "psu_types": [
+      "personal"
+    ],
+    "auth_methods": [
+      {
+        "name": "BANKID",
+        "title": "Bank ID",
+        "approach": "DECOUPLED",
+        "psu_type": "personal",
+        "credentials": [
+          {
+            "name": "userId",
+            "title": "User ID",
+            "required": true,
+            "template": "^(19|20)\\d{2}[01]\\d[0-3]\\d\\d{4}$",
+            "description": "Swedish social security number in the format YYYYMMDDXXXX"
+          }
+        ],
+        "hidden_method": false
+      },
+      {
+        "name": "CARDREADER",
+        "title": "Card Reader",
+        "approach": "REDIRECT",
+        "psu_type": "personal",
+        "hidden_method": true
+      }
+    ],
+    "required_psu_headers": [
+      "psu-ip-address"
+    ],
+    "maximum_consent_validity": 7776000
+  },
+  "accounts": [
+    {
+      "uid": "3a8e6fed-a8d8-4135-ac01-c1539a9237e6",
+      "name": "Bo Bankkund",
+      "usage": null,
+      "details": null,
+      "product": "Allkortskonto",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "CURRENT",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "33633.25",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "AVAILABLE_AMOUNT",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "33528.25",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE5460000000000403333911",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "403333911"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE5460000000000403333911"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "403333911"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "HANDSESS",
+        "clearing_system_member_id": {
+          "member_id": "6295",
+          "clearing_system_id": null
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.dkJjhSwdQbBhuRPgg4S8qm40rMbb9l66YtN7FLr4SrA=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.wrbs5AUEn49ZFOln/4ecpzyUj5hzk282YX/cPadKV2I=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.dkJjhSwdQbBhuRPgg4S8qm40rMbb9l66YtN7FLr4SrA=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.GCo/qQrLSgLf0irlYAAMv6356e0gp5Jsft7jpMhCGhE=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.2/qIjOkQoknh2VksqshVkILBNWnkwYEVqBNokwPzyVg=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.Pa07Is36HZ4JEgNCNqC35mureF4vjVLGBarR6HBVFV0=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.k4VIjajYwSUfsUcaiNO95qwYyi/YD4UgJipfuorG8ok=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.xVip4vu9R/+GEJxsP2BUAfaIJCbWA0pfmgS5PfrPILQ=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.sujBm+66R+LyUAHAH0n3L4tQl6GBRgHBtjP8dO3HgKQ="
+      ]
+    },
+    {
+      "uid": "3c512960-a0f8-4b40-b606-b48b8eefce66",
+      "name": "Alma Bankkund",
+      "usage": null,
+      "details": "Almas konto",
+      "product": "Allkonto Ung",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "CURRENT",
+              "balance_type": "ITBD",
+              "balance_amount": {
+                "amount": "2782.34",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            },
+            {
+              "name": "AVAILABLE_AMOUNT",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "2782.34",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": "SE8160000000000401975231",
+        "other": {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "401975231"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": null,
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "IBAN",
+          "identification": "SE8160000000000401975231"
+        },
+        {
+          "issuer": null,
+          "scheme_name": "BBAN",
+          "identification": "401975231"
+        }
+      ],
+      "account_servicer": {
+        "name": null,
+        "bic_fi": "HANDSESS",
+        "clearing_system_member_id": {
+          "member_id": "6295",
+          "clearing_system_id": null
+        }
+      },
+      "cash_account_type": "CACC",
+      "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.IU/OLRn78dtO6MzQ2qr2sdbwEg/La41TIE1OHXjOYm4=",
+      "identification_hashes": [
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.jdzgfu1WhFJU3Nhklyz07y6iNp4/resjpXSSSPg5nDg=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.IU/OLRn78dtO6MzQ2qr2sdbwEg/La41TIE1OHXjOYm4=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.L6ZCpwBGCeOA/moub1Q3KIqMICz+J516DN+r+Rpgh+Q=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.yitWxsvwODqcC7Kh+hTxVTFsLuXFu+F0TEP7U9JaY6w=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.UrfnB0RYsfn7pXOC+tQn30Hu9/VbOIRUZSXHiwm7RLw=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.az5I81ei+I4MHvaXEw9luGVqa6Si6HX0/S3Iz/BwLD8=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.T5GmhzLJpWCKmEya3K9dMwTsNclIPRYGj6JhL4O309U=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.++S/0hH6WqSVuGSqe4VCY8js+vzQe2Id+93TvXIueoE="
+      ]
+    },
+    {
+      "uid": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "name": "Parent  A Xavier",
+      "usage": null,
+      "details": null,
+      "product": "Platinum",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "AVAILABLE_AMOUNT",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "9357.73",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********3283"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": {
+        "amount": "20000",
+        "currency": "SEK"
+      },
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********3283"
+        }
+      ],
+      "account_servicer": null,
+      "cash_account_type": "CARD",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./eJf4dPiXiauJYaZJKhxqt9iQaZ4HyXcOoTmbBaS9Ek=",
+      "identification_hashes": [
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./eJf4dPiXiauJYaZJKhxqt9iQaZ4HyXcOoTmbBaS9Ek=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.CY4mNwiup3rGerVUPdaHsgG0qjIx5LLXg41KHGB4L3w=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SZ53g1f4vObU9Yg01LlE82mR4irzHAFJ2cM1CD1DedM=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.71aHXe7NPG6w5Ym/azLZwEH8IHc3gGb8IXVw02+kflo=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.Qf4saSHgTOw/u78cujfYwilTtih1m0d0UB8bacmtRfo=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.2AGkUDRAdTnY2D1posybF+crgX3D5vA8ahdIIatWQl0="
+      ]
+    },
+    {
+      "uid": "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+      "name": "Parent  A Xavier",
+      "usage": null,
+      "details": null,
+      "product": "Allkort",
+      "balances": [
+        {
+          "balances": [
+            {
+              "name": "AVAILABLE_AMOUNT",
+              "balance_type": "ITAV",
+              "balance_amount": {
+                "amount": "97.73",
+                "currency": "SEK"
+              },
+              "reference_date": null,
+              "last_change_date_time": null,
+              "last_committed_transaction": null
+            }
+          ]
+        }
+      ],
+      "currency": "SEK",
+      "account_id": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********7171"
+        }
+      },
+      "psu_status": null,
+      "credit_limit": {
+        "amount": "4000",
+        "currency": "SEK"
+      },
+      "all_account_ids": [
+        {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********7171"
+        }
+      ],
+      "account_servicer": null,
+      "cash_account_type": "CARD",
+      "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./rtVzG7cPLJ8mzqP1ppPk2OF6HKADlJRfXesmTAEl7Y=",
+      "identification_hashes": [
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./rtVzG7cPLJ8mzqP1ppPk2OF6HKADlJRfXesmTAEl7Y=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.fDe5JSPEHhtMBVztPOQ4kSkD3apaktxevFFlXLptqVc=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.mzLT3aXoWVQFzGp9YlV2nEvhVcA7rNnSQqpkw3zJ3W4=",
+        "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.Z6qKH/bsDBLTezVhCt/rb78KcEKYEfav1OtBEbJ4Gh4=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.jY7ly9VzPdkbHJcFXjo+SWo+rGzXZQsHY/K0UYkbPpM=",
+        "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.2AGkUDRAdTnY2D1posybF+crgX3D5vA8ahdIIatWQl0="
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "note": null,
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": null,
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********7272"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": "2019-11-11",
+      "transaction_amount": {
+        "amount": "20",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "MOOSE"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": {
+        "name": "HILMA",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": null,
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********7171"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+      "entry_reference": null,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2019-11-20",
+      "transaction_amount": {
+        "amount": "100",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "STADIUM",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2019-12-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********7272"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+      "entry_reference": "2019-12-17.0",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2019-12-17",
+      "transaction_amount": {
+        "amount": "128.76",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2019-11-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+      "entry_reference": "2019-11-07.0",
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********7171"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": "2019-11-04",
+      "transaction_amount": {
+        "amount": "90",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "NK"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": "2019-11-07",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "entry_reference": "2019-11-07.0",
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********4293"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": "2019-11-06",
+      "transaction_amount": {
+        "amount": "90",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "Lidingo"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": null,
+      "value_date": null,
+      "booking_date": null,
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": null,
+      "transaction_id": null,
+      "bank_account_id": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "entry_reference": null,
+      "creditor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********4293"
+        }
+      },
+      "reference_number": null,
+      "transaction_date": "2019-11-07",
+      "transaction_amount": {
+        "amount": "18",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "CRDT",
+      "merchant_category_code": null,
+      "remittance_information": [
+        "PREL.CIRCLE K TEBY A"
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": {
+        "name": "CAFE MÅNEN",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": null,
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********4444"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "entry_reference": null,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2019-11-25",
+      "transaction_amount": {
+        "amount": "15",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": {
+        "name": "PRESSBYRÅN",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": null,
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********3333"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "entry_reference": null,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2019-11-20",
+      "transaction_amount": {
+        "amount": "10",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "PDNG",
+      "creditor": {
+        "name": "WIFI MARKET",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": null,
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********3283"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "entry_reference": null,
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2019-11-20",
+      "transaction_amount": {
+        "amount": "100",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    },
+    {
+      "note": null,
+      "debtor": null,
+      "status": "BOOK",
+      "creditor": {
+        "name": "REST ESCOTILHO",
+        "private_id": null,
+        "postal_address": null,
+        "organisation_id": null
+      },
+      "value_date": null,
+      "booking_date": "2019-11-17",
+      "debtor_agent": null,
+      "exchange_rate": null,
+      "creditor_agent": null,
+      "debtor_account": {
+        "iban": null,
+        "other": {
+          "issuer": null,
+          "scheme_name": "CPAN",
+          "identification": "5213********4293"
+        }
+      },
+      "transaction_id": null,
+      "bank_account_id": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+      "entry_reference": "2019-11-17.0",
+      "creditor_account": null,
+      "reference_number": null,
+      "transaction_date": "2019-11-17",
+      "transaction_amount": {
+        "amount": "128.76",
+        "currency": "SEK"
+      },
+      "bank_transaction_code": null,
+      "credit_debit_indicator": "DBIT",
+      "merchant_category_code": null,
+      "remittance_information": [
+
+      ],
+      "balance_after_transaction": null,
+      "debtor_account_additional_identification": null,
+      "creditor_account_additional_identification": null
+    }
+  ],
+  "session_details": {
+    "aspsp": {
+      "name": "Handelsbanken",
+      "country": "SE"
+    },
+    "access": {
+      "accounts": null,
+      "balances": true,
+      "valid_until": "2023-10-13T10:52:50.638000Z",
+      "transactions": true
+    },
+    "closed": null,
+    "status": "AUTHORIZED",
+    "created": "2023-10-06T10:52:51.365345Z",
+    "accounts": [
+      "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+      "3a8e6fed-a8d8-4135-ac01-c1539a9237e6",
+      "3c512960-a0f8-4b40-b606-b48b8eefce66",
+      "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea"
+    ],
+    "psu_type": "personal",
+    "authorized": "2023-10-06T10:53:33.491327Z",
+    "psu_id_hash": "8f0190be1c5b596fd04c853029a0778bf7461cd5ad057fa94a1fc1685ca2439f",
+    "accounts_data": [
+      {
+        "uid": "08c32d6a-bc7c-49fc-9759-1460334ccf7a",
+        "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./rtVzG7cPLJ8mzqP1ppPk2OF6HKADlJRfXesmTAEl7Y=",
+        "identification_hashes": [
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./rtVzG7cPLJ8mzqP1ppPk2OF6HKADlJRfXesmTAEl7Y=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.fDe5JSPEHhtMBVztPOQ4kSkD3apaktxevFFlXLptqVc=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.mzLT3aXoWVQFzGp9YlV2nEvhVcA7rNnSQqpkw3zJ3W4=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.Z6qKH/bsDBLTezVhCt/rb78KcEKYEfav1OtBEbJ4Gh4=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.jY7ly9VzPdkbHJcFXjo+SWo+rGzXZQsHY/K0UYkbPpM=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.2AGkUDRAdTnY2D1posybF+crgX3D5vA8ahdIIatWQl0="
+        ]
+      },
+      {
+        "uid": "3a8e6fed-a8d8-4135-ac01-c1539a9237e6",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.dkJjhSwdQbBhuRPgg4S8qm40rMbb9l66YtN7FLr4SrA=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.wrbs5AUEn49ZFOln/4ecpzyUj5hzk282YX/cPadKV2I=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.dkJjhSwdQbBhuRPgg4S8qm40rMbb9l66YtN7FLr4SrA=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.GCo/qQrLSgLf0irlYAAMv6356e0gp5Jsft7jpMhCGhE=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.2/qIjOkQoknh2VksqshVkILBNWnkwYEVqBNokwPzyVg=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.Pa07Is36HZ4JEgNCNqC35mureF4vjVLGBarR6HBVFV0=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.k4VIjajYwSUfsUcaiNO95qwYyi/YD4UgJipfuorG8ok=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.xVip4vu9R/+GEJxsP2BUAfaIJCbWA0pfmgS5PfrPILQ=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.sujBm+66R+LyUAHAH0n3L4tQl6GBRgHBtjP8dO3HgKQ="
+        ]
+      },
+      {
+        "uid": "3c512960-a0f8-4b40-b606-b48b8eefce66",
+        "identification_hash": "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.IU/OLRn78dtO6MzQ2qr2sdbwEg/La41TIE1OHXjOYm4=",
+        "identification_hashes": [
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXQpd.jdzgfu1WhFJU3Nhklyz07y6iNp4/resjpXSSSPg5nDg=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoiaWJhbiIKXSwKWwoiYWNjb3VudCIsCiJjdXJyZW5jeSIKXQpd.IU/OLRn78dtO6MzQ2qr2sdbwEg/La41TIE1OHXjOYm4=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.L6ZCpwBGCeOA/moub1Q3KIqMICz+J516DN+r+Rpgh+Q=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.yitWxsvwODqcC7Kh+hTxVTFsLuXFu+F0TEP7U9JaY6w=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.UrfnB0RYsfn7pXOC+tQn30Hu9/VbOIRUZSXHiwm7RLw=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.az5I81ei+I4MHvaXEw9luGVqa6Si6HX0/S3Iz/BwLD8=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.T5GmhzLJpWCKmEya3K9dMwTsNclIPRYGj6JhL4O309U=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.++S/0hH6WqSVuGSqe4VCY8js+vzQe2Id+93TvXIueoE="
+        ]
+      },
+      {
+        "uid": "3f0aa9f1-481b-44b3-a05c-d5529f1eeaea",
+        "identification_hash": "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./eJf4dPiXiauJYaZJKhxqt9iQaZ4HyXcOoTmbBaS9Ek=",
+        "identification_hashes": [
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd./eJf4dPiXiauJYaZJKhxqt9iQaZ4HyXcOoTmbBaS9Ek=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.CY4mNwiup3rGerVUPdaHsgG0qjIx5LLXg41KHGB4L3w=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.SZ53g1f4vObU9Yg01LlE82mR4irzHAFJ2cM1CD1DedM=",
+          "WwpbCiJhY2NvdW50IiwKImFjY291bnRfaWQiLAoib3RoZXIiLAoic2NoZW1lX25hbWUiCl0sClsKImFjY291bnQiLAoiYWNjb3VudF9pZCIsCiJvdGhlciIsCiJpZGVudGlmaWNhdGlvbiIKXQpd.71aHXe7NPG6w5Ym/azLZwEH8IHc3gGb8IXVw02+kflo=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKInJlc291cmNlX2lkIgpdCl0=.Qf4saSHgTOw/u78cujfYwilTtih1m0d0UB8bacmtRfo=",
+          "WwpbCiJhc3BzcF9uYW1lIgpdLApbCiJhc3BzcF9jb3VudHJ5IgpdLApbCiJhY2NvdW50IiwKIm5hbWUiCl0KXQ==.2AGkUDRAdTnY2D1posybF+crgX3D5vA8ahdIIatWQl0="
+        ]
+      }
+    ]
+  }
+}

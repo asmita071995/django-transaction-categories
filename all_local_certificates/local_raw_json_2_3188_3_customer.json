@@ -1,0 +1,1491 @@
+{
+  "user": {
+    "profile": {
+      "name": "HILDEN SAMULI",
+      "market": "FI"
+    }
+  },
+  "transactions": {
+    "results": [
+      {
+        "transaction": {
+          "id": "5dcb8f84a4114388a1e0edb922cdf89f",
+          "date": "2023-10-17",
+          "amount": -104.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-10-17",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c108eb36d9da2f55d9848c085a567f64",
+          "date": "2023-10-15",
+          "amount": -25.7,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Amarillo Kotka",
+          "originalDate": "2023-10-15",
+          "originalDescription": "Amarillo Kotka"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9f5b81390d9a36fc5c7e149e1a6dbe3d",
+          "date": "2023-10-09",
+          "amount": -45.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*TAXIZABI",
+          "originalDate": "2023-10-09",
+          "originalDescription": "VFI*TAXIZABI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "afc95573ace8f3780b9e351a3218812c",
+          "date": "2023-10-01",
+          "amount": -5.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-10-01",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f7d0928614b26e5fea453672ffbccbff",
+          "date": "2023-09-30",
+          "amount": -114.01,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-09-30",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "e287f95fb3fe4a8037397ed1d7d81d59",
+          "date": "2023-09-29",
+          "amount": -62.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "33-ravintolat Oy",
+          "originalDate": "2023-09-29",
+          "originalDescription": "33-ravintolat Oy"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a539547211a51345580c94e64bdbd370",
+          "date": "2023-09-29",
+          "amount": -4.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Play Ap",
+          "originalDate": "2023-09-29",
+          "originalDescription": "GOOGLE *Google Play Ap"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cf2e76fcc372b3284a7336c0a5f9e0ad",
+          "date": "2023-09-27",
+          "amount": -2.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Storage",
+          "originalDate": "2023-09-27",
+          "originalDescription": "GOOGLE *Google Storage"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5c2a2940ec22d18ffc2d8a2ae30b48ac",
+          "date": "2023-09-17",
+          "amount": -16.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*RAVINTOLA PATAESSE TA",
+          "originalDate": "2023-09-17",
+          "originalDescription": "VFI*RAVINTOLA PATAESSE TA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "cc995aea863eb8e85b6a352f1ca0b5d4",
+          "date": "2023-08-31",
+          "amount": -117.92,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-08-31",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "394db516a5ab010821e020d4a6ea8af7",
+          "date": "2023-08-29",
+          "amount": -4.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Play Ap",
+          "originalDate": "2023-08-29",
+          "originalDescription": "GOOGLE *Google Play Ap"
+        }
+      },
+      {
+        "transaction": {
+          "id": "060926fd07b6c2548c1c95c1d094ba68",
+          "date": "2023-08-27",
+          "amount": -2.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Storage",
+          "originalDate": "2023-08-27",
+          "originalDescription": "GOOGLE *Google Storage"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6d13b3a7e88b8173e32cbcaae6862fa2",
+          "date": "2023-08-03",
+          "amount": 467.88,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-08-03",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "967a2c8c62109a41b7c7d607240d469e",
+          "date": "2023-07-31",
+          "amount": -108.35,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-07-31",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "fa7748e776f3bbbcb2dab5db4db5612e",
+          "date": "2023-07-27",
+          "amount": -3.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-07-27",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "58a62fbbb86a24a54a3b4cf0d67074ec",
+          "date": "2023-07-27",
+          "amount": -2.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Storage",
+          "originalDate": "2023-07-27",
+          "originalDescription": "GOOGLE *Google Storage"
+        }
+      },
+      {
+        "transaction": {
+          "id": "70322419aae7708ae0f9a3f3d44d5b29",
+          "date": "2023-07-12",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-07-12",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "afa571462b69f4a1d838178670233340",
+          "date": "2023-06-30",
+          "amount": -89.53,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-30",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d01f76bf590c1bbc866e07c78ace8c26",
+          "date": "2023-06-29",
+          "amount": -4.49,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Play Ap",
+          "originalDate": "2023-06-29",
+          "originalDescription": "GOOGLE *Google Play Ap"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1427dda307c9ea96ec9f6e91dcf068d0",
+          "date": "2023-06-27",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*RIIKKA-MARIA KORH",
+          "originalDate": "2023-06-27",
+          "originalDescription": "MOB.PAY*RIIKKA-MARIA KORH"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1d3d5f138cdb8e69b8f8248337b2ba43",
+          "date": "2023-06-27",
+          "amount": -2.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Storage",
+          "originalDate": "2023-06-27",
+          "originalDescription": "GOOGLE *Google Storage"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7fa8fb1b0897f0951a9e0ffbafed5a12",
+          "date": "2023-06-27",
+          "amount": -112.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "PAWSHAKE",
+          "originalDate": "2023-06-27",
+          "originalDescription": "PAWSHAKE"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2a13cf8321b5b28583b2fd758c6e3cb9",
+          "date": "2023-06-22",
+          "amount": -260.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "CHF*Suomen Hopealinja Oy",
+          "originalDate": "2023-06-22",
+          "originalDescription": "CHF*Suomen Hopealinja Oy"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d76cc77cc0b1e7cf69c2a71da8835b92",
+          "date": "2023-06-21",
+          "amount": -19.9,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "POWER.FI",
+          "originalDate": "2023-06-21",
+          "originalDescription": "POWER.FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d2e04f2b0640c0bdec2bd40d48b45c7c",
+          "date": "2023-06-20",
+          "amount": -24.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "FINNKINO CARDS",
+          "originalDate": "2023-06-20",
+          "originalDescription": "FINNKINO CARDS"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3256ce57d7b39117ed88d48594e31b68",
+          "date": "2023-06-19",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-19",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "469e02f3e9c1da788f3b33a1a17995bb",
+          "date": "2023-06-19",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-19",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "062b92c542a03fca74dd9911d6b6ceb1",
+          "date": "2023-06-19",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-19",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "9f5eb2c59094e89880b6243af01f895b",
+          "date": "2023-06-19",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-19",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0214c363b747b141fc87524696f9acc5",
+          "date": "2023-06-19",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-19",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6b1df58b97b3605904643f8911ebe42c",
+          "date": "2023-06-19",
+          "amount": -48.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*KUVA JA KEHYS LAHTI A",
+          "originalDate": "2023-06-19",
+          "originalDescription": "VFI*KUVA JA KEHYS LAHTI A"
+        }
+      },
+      {
+        "transaction": {
+          "id": "14be1dbbadfcba3ff0c87479d198711d",
+          "date": "2023-06-19",
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*JESSE MARKUS EVER",
+          "originalDate": "2023-06-19",
+          "originalDescription": "MOB.PAY*JESSE MARKUS EVER"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c9ad03232043ae0758989afee8ccc212",
+          "date": "2023-06-19",
+          "amount": -60.7,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "CHF*Foodora Finland",
+          "originalDate": "2023-06-19",
+          "originalDescription": "CHF*Foodora Finland"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1242f89e062513e41554649815b82e56",
+          "date": "2023-06-18",
+          "amount": -50.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*RIIKKA-MARIA KORH",
+          "originalDate": "2023-06-18",
+          "originalDescription": "MOB.PAY*RIIKKA-MARIA KORH"
+        }
+      },
+      {
+        "transaction": {
+          "id": "799bc390669f88247ebe98bf1fccf482",
+          "date": "2023-06-13",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TOMMI MIELONEN K",
+          "originalDate": "2023-06-13",
+          "originalDescription": "MOB.PAY*TOMMI MIELONEN K"
+        }
+      },
+      {
+        "transaction": {
+          "id": "538057935fb1002a2c07c6a75660dcd0",
+          "date": "2023-06-13",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Aamuposti",
+          "originalDate": "2023-06-13",
+          "originalDescription": "Aamuposti"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6c5f59ece308e0fce6144b4bd19a18bd",
+          "date": "2023-06-13",
+          "amount": 293.28,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-13",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0f4217a4b738513861271791b00cbfa4",
+          "date": "2023-06-12",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-06-12",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "22b2744e3e524b4b747d6e1bad4a52f5",
+          "date": "2023-06-11",
+          "amount": -5.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VESA JOKINEN",
+          "originalDate": "2023-06-11",
+          "originalDescription": "MOB.PAY*VESA JOKINEN"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2a1e83502b42c64c4279718414370c03",
+          "date": "2023-06-11",
+          "amount": -4.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VESA JOKINEN",
+          "originalDate": "2023-06-11",
+          "originalDescription": "MOB.PAY*VESA JOKINEN"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8f2e25293e98278ccb761ed0aa1349cb",
+          "date": "2023-06-11",
+          "amount": -7.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*RIIKKA-MARIA KORH",
+          "originalDate": "2023-06-11",
+          "originalDescription": "MOB.PAY*RIIKKA-MARIA KORH"
+        }
+      },
+      {
+        "transaction": {
+          "id": "7b553ffa3b913236428bc64ecda75746",
+          "date": "2023-06-11",
+          "amount": -5.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VR -YHTYM$ OYJ",
+          "originalDate": "2023-06-11",
+          "originalDescription": "MOB.PAY*VR -YHTYM$ OYJ"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ea310fb5fa6b8140672656486e19ff66",
+          "date": "2023-06-11",
+          "amount": -7.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VESA JOKINEN",
+          "originalDate": "2023-06-11",
+          "originalDescription": "MOB.PAY*VESA JOKINEN"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4c427183c49ebb363b1b8e97bf6e5763",
+          "date": "2023-06-11",
+          "amount": -2.81,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "SWUP FI",
+          "originalDate": "2023-06-11",
+          "originalDescription": "SWUP FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4a2b37070945848ab9d934e2e7755069",
+          "date": "2023-06-11",
+          "amount": -0.47,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "SWUP FI",
+          "originalDate": "2023-06-11",
+          "originalDescription": "SWUP FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "658d1e0b66fb7b47f7f9cf104fc99d11",
+          "date": "2023-06-11",
+          "amount": -3.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "SWUP FI",
+          "originalDate": "2023-06-11",
+          "originalDescription": "SWUP FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d5255499df05f263b447c5bedb1320fa",
+          "date": "2023-06-10",
+          "amount": -35.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*KRAPINA OY",
+          "originalDate": "2023-06-10",
+          "originalDescription": "VFI*KRAPINA OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ac74fd1fab76b19727f42a9d37ba9ec9",
+          "date": "2023-06-10",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*KRAPINA OY",
+          "originalDate": "2023-06-10",
+          "originalDescription": "VFI*KRAPINA OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c79aab8f7049d045093c58a6896a871a",
+          "date": "2023-06-10",
+          "amount": -27.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*KRAPINA OY",
+          "originalDate": "2023-06-10",
+          "originalDescription": "VFI*KRAPINA OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d6ded3407626e6fb49bf1b65e0f5557a",
+          "date": "2023-06-10",
+          "amount": -2.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VESA JOKINEN",
+          "originalDate": "2023-06-10",
+          "originalDescription": "MOB.PAY*VESA JOKINEN"
+        }
+      },
+      {
+        "transaction": {
+          "id": "773c177db4da8a69f42dd1c86062cff1",
+          "date": "2023-06-10",
+          "amount": -110.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*RIIKKA-MARIA KORH",
+          "originalDate": "2023-06-10",
+          "originalDescription": "MOB.PAY*RIIKKA-MARIA KORH"
+        }
+      },
+      {
+        "transaction": {
+          "id": "4f867642df6e39297cd132bbf35178f7",
+          "date": "2023-06-10",
+          "amount": -7.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VESA JOKINEN",
+          "originalDate": "2023-06-10",
+          "originalDescription": "MOB.PAY*VESA JOKINEN"
+        }
+      },
+      {
+        "transaction": {
+          "id": "543858e68442d6478c3be4aca2813a4f",
+          "date": "2023-06-10",
+          "amount": -1.13,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "SWUP FI",
+          "originalDate": "2023-06-10",
+          "originalDescription": "SWUP FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d10b59e1f794bca6deffbe24d4357784",
+          "date": "2023-06-10",
+          "amount": -3.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "SWUP FI",
+          "originalDate": "2023-06-10",
+          "originalDescription": "SWUP FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "56d84a457b579ce159a74f8821e5173b",
+          "date": "2023-06-09",
+          "amount": -90.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*BACKSTAGE ROCK SHOP O",
+          "originalDate": "2023-06-09",
+          "originalDescription": "VFI*BACKSTAGE ROCK SHOP O"
+        }
+      },
+      {
+        "transaction": {
+          "id": "23aa14f33a240eb146451fa58c42d6d4",
+          "date": "2023-06-09",
+          "amount": -5.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*KRAPINA OY",
+          "originalDate": "2023-06-09",
+          "originalDescription": "VFI*KRAPINA OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "599a2df446dc861a150f47b46aead1de",
+          "date": "2023-06-09",
+          "amount": -2.3,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VR -YHTYM$ OYJ",
+          "originalDate": "2023-06-09",
+          "originalDescription": "MOB.PAY*VR -YHTYM$ OYJ"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5bfbd2ab7194d149e52d2f28f9da016b",
+          "date": "2023-06-09",
+          "amount": -39.95,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Prisma Nokia",
+          "originalDate": "2023-06-09",
+          "originalDescription": "Prisma Nokia"
+        }
+      },
+      {
+        "transaction": {
+          "id": "2f2a65602d1ba66c15ccfa0768dfc895",
+          "date": "2023-06-04",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-06-04",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "37534e1d4d99214065721d873e8ad0ce",
+          "date": "2023-06-04",
+          "amount": -67.6,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "CHF*Kotipizza",
+          "originalDate": "2023-06-04",
+          "originalDescription": "CHF*Kotipizza"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5f3fd606d00d9f1c4f939b31ccb90302",
+          "date": "2023-06-04",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "IZETTLE AS PAYPAL SERVICE",
+          "originalDate": "2023-06-04",
+          "originalDescription": "IZETTLE AS PAYPAL SERVICE"
+        }
+      },
+      {
+        "transaction": {
+          "id": "97d703039d564fcdadd6bf06baac67e4",
+          "date": "2023-06-04",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "ATM NOSTO 3491",
+          "originalDate": "2023-06-04",
+          "originalDescription": "ATM NOSTO 3491"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5f5109759541da013bced6c82060ae47",
+          "date": "2023-06-03",
+          "amount": -35.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "KRAFTPOINT OY",
+          "originalDate": "2023-06-03",
+          "originalDescription": "KRAFTPOINT OY"
+        }
+      },
+      {
+        "transaction": {
+          "id": "3ba15b2b1514299cf1fb9b5bff02956c",
+          "date": "2023-06-02",
+          "amount": -39.9,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "CHF*Fysioline Fressi",
+          "originalDate": "2023-06-02",
+          "originalDescription": "CHF*Fysioline Fressi"
+        }
+      },
+      {
+        "transaction": {
+          "id": "af4fc82ce261efc60e153b8ed0525f58",
+          "date": "2023-06-01",
+          "amount": -47.9,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*VR -YHTYM$ OYJ",
+          "originalDate": "2023-06-01",
+          "originalDescription": "MOB.PAY*VR -YHTYM$ OYJ"
+        }
+      },
+      {
+        "transaction": {
+          "id": "73676d943ebc33dc6e7ab281fed0bc98",
+          "date": "2023-05-31",
+          "amount": -30.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*JESSE MARKUS EVER",
+          "originalDate": "2023-05-31",
+          "originalDescription": "MOB.PAY*JESSE MARKUS EVER"
+        }
+      },
+      {
+        "transaction": {
+          "id": "249ec4760f17417b9179e991c14026e6",
+          "date": "2023-05-31",
+          "amount": -67.98,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-31",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "10c61e69d41438efcb5ddf2f176651a0",
+          "date": "2023-05-29",
+          "amount": -18.8,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Pizzarium - KP1361",
+          "originalDate": "2023-05-29",
+          "originalDescription": "Pizzarium - KP1361"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8eb032fc80aff9208161731acf70b813",
+          "date": "2023-05-29",
+          "amount": -18.8,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Pizzarium - KP1361",
+          "originalDate": "2023-05-29",
+          "originalDescription": "Pizzarium - KP1361"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5c341b786eb07942713e530adf973bc6",
+          "date": "2023-05-29",
+          "amount": -4.49,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Play Ap",
+          "originalDate": "2023-05-29",
+          "originalDescription": "GOOGLE *Google Play Ap"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8b20fb8448fe11882acfc9c58908f846",
+          "date": "2023-05-28",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*JONI-MATTI MIKAEL",
+          "originalDate": "2023-05-28",
+          "originalDescription": "MOB.PAY*JONI-MATTI MIKAEL"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c0a48f6513ab99e478c68ef6c9d5a0d1",
+          "date": "2023-05-27",
+          "amount": -33.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*MIIKKA ALASORVARI",
+          "originalDate": "2023-05-27",
+          "originalDescription": "MOB.PAY*MIIKKA ALASORVARI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d3a47124574eed8916eec3199a0d9f3b",
+          "date": "2023-05-27",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-27",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "5be565166786d61555953245478ef93c",
+          "date": "2023-05-27",
+          "amount": -2.99,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "GOOGLE *Google Storage",
+          "originalDate": "2023-05-27",
+          "originalDescription": "GOOGLE *Google Storage"
+        }
+      },
+      {
+        "transaction": {
+          "id": "be91c54f23b4429ed7ea1f02e7dee37c",
+          "date": "2023-05-26",
+          "amount": -71.89,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*WOLT",
+          "originalDate": "2023-05-26",
+          "originalDescription": "MOB.PAY*WOLT"
+        }
+      },
+      {
+        "transaction": {
+          "id": "50d54a2f93b21024d8a321d2fedb26e7",
+          "date": "2023-05-25",
+          "amount": -52.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-25",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ce90aa195d4f611507e8b1a733156de9",
+          "date": "2023-05-25",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-25",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f7e8ad5d07c45a156191a44b91202c42",
+          "date": "2023-05-24",
+          "amount": -51.68,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Teboil Kapykangas 7614",
+          "originalDate": "2023-05-24",
+          "originalDescription": "Teboil Kapykangas 7614"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bd76c71c871898b99a904be75246b652",
+          "date": "2023-05-22",
+          "amount": -16.2,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Ravintola Lannentie 66",
+          "originalDate": "2023-05-22",
+          "originalDescription": "Ravintola Lannentie 66"
+        }
+      },
+      {
+        "transaction": {
+          "id": "973e606e6f4818f41b0278d2aafd40b8",
+          "date": "2023-05-22",
+          "amount": -29.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Ravintola Lannentie 66",
+          "originalDate": "2023-05-22",
+          "originalDescription": "Ravintola Lannentie 66"
+        }
+      },
+      {
+        "transaction": {
+          "id": "0f2e4d8913a65b8847a9111a1227189a",
+          "date": "2023-05-21",
+          "amount": -85.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "JYSK NOKIA",
+          "originalDate": "2023-05-21",
+          "originalDescription": "JYSK NOKIA"
+        }
+      },
+      {
+        "transaction": {
+          "id": "563860ddeb66e86bb1f2704d588e06e4",
+          "date": "2023-05-21",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-21",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1822cfa951465f93a09801f87cd89abc",
+          "date": "2023-05-20",
+          "amount": -200.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-20",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "939a93a15f1267dc69cafa4d788dd265",
+          "date": "2023-05-19",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-19",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a524a43f9e28b4bb1b25d8377d872b65",
+          "date": "2023-05-19",
+          "amount": -4.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-19",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d3e9755c87f8055ddcd9428192198c32",
+          "date": "2023-05-18",
+          "amount": -18.02,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*WOLT",
+          "originalDate": "2023-05-18",
+          "originalDescription": "MOB.PAY*WOLT"
+        }
+      },
+      {
+        "transaction": {
+          "id": "c078bbed5feadcccc175b0e2611e56bb",
+          "date": "2023-05-17",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-17",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "361d5bf6d7266d0edffc28297f106699",
+          "date": "2023-05-17",
+          "amount": -57.3,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Henkka Tre - 3331",
+          "originalDate": "2023-05-17",
+          "originalDescription": "Henkka Tre - 3331"
+        }
+      },
+      {
+        "transaction": {
+          "id": "b6e9e5d9a94403fa5c136caf185f415c",
+          "date": "2023-05-17",
+          "amount": -23.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Henkka Tre - 3331",
+          "originalDate": "2023-05-17",
+          "originalDescription": "Henkka Tre - 3331"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1871d24adadb367b7d504d2f3ebef1ec",
+          "date": "2023-05-17",
+          "amount": -10.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Henkka Tre - 3331",
+          "originalDate": "2023-05-17",
+          "originalDescription": "Henkka Tre - 3331"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6f12d8faccab71d6cc1dc0c0e30b0592",
+          "date": "2023-05-17",
+          "amount": -13.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Henkka Tre - 3331",
+          "originalDate": "2023-05-17",
+          "originalDescription": "Henkka Tre - 3331"
+        }
+      },
+      {
+        "transaction": {
+          "id": "bbc4921333bedf28d48821adf3aba976",
+          "date": "2023-05-17",
+          "amount": -16.1,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Paapan Kapakka - 3329",
+          "originalDate": "2023-05-17",
+          "originalDescription": "Paapan Kapakka - 3329"
+        }
+      },
+      {
+        "transaction": {
+          "id": "6768447b1cfd2eb95abe38e7aa90ce42",
+          "date": "2023-05-16",
+          "amount": -60.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-16",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "470a7803a16b4f16f2309a891c419566",
+          "date": "2023-05-16",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-16",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "a9d2b423029a282797f748933af8f81f",
+          "date": "2023-05-16",
+          "amount": -29.94,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Fruugo.com",
+          "originalDate": "2023-05-16",
+          "originalDescription": "Fruugo.com"
+        }
+      },
+      {
+        "transaction": {
+          "id": "ebbb52d7de266ecffbb20490de60a3df",
+          "date": "2023-05-15",
+          "amount": -85.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "VFI*BACKSTAGE ROCK SHOP O",
+          "originalDate": "2023-05-15",
+          "originalDescription": "VFI*BACKSTAGE ROCK SHOP O"
+        }
+      },
+      {
+        "transaction": {
+          "id": "be771ae8cbb3383b567f6fd0816c4fd1",
+          "date": "2023-05-15",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "LIVELABORATORIO TAMPER",
+          "originalDate": "2023-05-15",
+          "originalDescription": "LIVELABORATORIO TAMPER"
+        }
+      },
+      {
+        "transaction": {
+          "id": "8c365089e140b3ff9dd152e29ea59f19",
+          "date": "2023-05-15",
+          "amount": -9.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "LIVELABORATORIO TAMPER",
+          "originalDate": "2023-05-15",
+          "originalDescription": "LIVELABORATORIO TAMPER"
+        }
+      },
+      {
+        "transaction": {
+          "id": "39ca074880c317965f76063b4e8ff432",
+          "date": "2023-05-15",
+          "amount": -140.03,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Prisma Nokia",
+          "originalDate": "2023-05-15",
+          "originalDescription": "Prisma Nokia"
+        }
+      },
+      {
+        "transaction": {
+          "id": "46a98990086a07bcca8cd108012a579d",
+          "date": "2023-05-13",
+          "amount": -2.7,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-13",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1145b2f22ddaf5065d67bc2fdbfbdd03",
+          "date": "2023-05-13",
+          "amount": -4.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-13",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      },
+      {
+        "transaction": {
+          "id": "05928caef644764c5ffe1309957fef3d",
+          "date": "2023-05-13",
+          "amount": -84.66,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "LIPPU.FI",
+          "originalDate": "2023-05-13",
+          "originalDescription": "LIPPU.FI"
+        }
+      },
+      {
+        "transaction": {
+          "id": "15a851627df652071b3e65821a5777b2",
+          "date": "2023-05-13",
+          "amount": -54.08,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "Prisma Nokia",
+          "originalDate": "2023-05-13",
+          "originalDescription": "Prisma Nokia"
+        }
+      },
+      {
+        "transaction": {
+          "id": "26d3519e8a73e4e0cc38be86efc728f8",
+          "date": "2023-05-12",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-12",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "f0a75743586f22076016aed84aa387c0",
+          "date": "2023-05-11",
+          "amount": -107.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-11",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "050be94320fe51496d311bb81a899daa",
+          "date": "2023-05-11",
+          "amount": -100.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-11",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "770e5f9b20fe3f74a9a242f4b25f7094",
+          "date": "2023-05-11",
+          "amount": -20.0,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-11",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "81c887dc6b4510138a835f636fdee900",
+          "date": "2023-05-10",
+          "amount": -30.84,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*WOLT",
+          "originalDate": "2023-05-10",
+          "originalDescription": "MOB.PAY*WOLT"
+        }
+      },
+      {
+        "transaction": {
+          "id": "71d67c02a51eb95dcf7b6d7a88e3b4a6",
+          "date": "2023-05-09",
+          "amount": 228.36,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "S-Pankki",
+          "originalDate": "2023-05-09",
+          "originalDescription": "S-Pankki"
+        }
+      },
+      {
+        "transaction": {
+          "id": "38eb4ac1c92473ee61b59a1248f03eaf",
+          "date": "2023-05-08",
+          "amount": -23.3,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "33-Ravintolat O",
+          "originalDate": "2023-05-08",
+          "originalDescription": "33-Ravintolat O"
+        }
+      },
+      {
+        "transaction": {
+          "id": "1ae85617ad4617acdb0a5032492b7fd3",
+          "date": "2023-05-06",
+          "amount": -50.8,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "CHF*Foodora Finland",
+          "originalDate": "2023-05-06",
+          "originalDescription": "CHF*Foodora Finland"
+        }
+      },
+      {
+        "transaction": {
+          "id": "d590445260846c3c0c045f7ad2e85881",
+          "date": "2023-05-06",
+          "amount": -4.5,
+          "payload": {
+          },
+          "accountId": "account_nordigen_1",
+          "description": "MOB.PAY*TAMPEREEN KAUPUNK",
+          "originalDate": "2023-05-06",
+          "originalDescription": "MOB.PAY*TAMPEREEN KAUPUNK"
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "account_nordigen_1",
+        "iban": "4000488071",
+        "name": "HILDEN SAMULI",
+        "type": "CreditCard",
+        "closed": false,
+        "balance": 0.85,
+        "holderName": "HILDEN SAMULI",
+        "currencyCode": "EUR",
+        "accountNumber": "4000488071"
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "name": "HILDEN SAMULI",
+        "providerName": ""
+      }
+    ]
+  }
+}

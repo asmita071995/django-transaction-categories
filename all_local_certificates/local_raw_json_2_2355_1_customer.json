@@ -1,0 +1,63 @@
+{
+  "user": {
+    "profile": {
+    }
+  },
+  "transactions": {
+    "results": [
+      {
+        "transaction": {
+          "amount": -357.0,
+          "payload": {
+          },
+          "accountId": "acc-id-1",
+          "description": "Transfer to yatharva",
+          "originalDate": 1601678400000,
+          "originalDescription": "buy grocery paypal"
+        }
+      },
+      {
+        "transaction": {
+          "amount": -357.0,
+          "payload": {
+          },
+          "accountId": "acc-id-1",
+          "description": "Salary given to employee",
+          "originalDate": 1601678400000,
+          "originalDescription": "buy grocery"
+        }
+      },
+      {
+        "transaction": {
+          "amount": 50000.0,
+          "payload": {
+          },
+          "accountId": "acc-id-2",
+          "description": "rent",
+          "originalDate": 1652678400000,
+          "originalDescription": "slary from company"
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "acc-id-1",
+        "type": "CHECKING",
+        "balance": 5000.0
+      },
+      {
+        "id": "acc-id-2",
+        "type": "CREDIT_CARD",
+        "balance": -1456.0
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+      }
+    ]
+  }
+}

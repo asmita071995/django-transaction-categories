@@ -1,0 +1,5426 @@
+{
+  "user": {
+    "id": "user-id-from-bank-db",
+    "profile": {
+      "name": "Jayesh Dateer",
+      "birth": "1989-04-28",
+      "gender": "Male",
+      "locale": "sv_SE",
+      "market": "SE",
+      "currency": "SEK",
+      "timeZone": "Europe/Stockholm",
+      "fraudPersonNumber": "280410040602"
+    },
+    "username": "string-username",
+    "nationalId": "string-nationalId"
+  },
+  "transactions": {
+    "results": [
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-1",
+          "amount": -357.0,
+          "payload": {
+          },
+          "accountId": "account-id-1",
+          "description": "Toys'R Us",
+          "categoryType": "EXPENSES",
+          "originalDate": 1671378400000,
+          "originalDescription": "buy grocery paypal",
+          "formattedDescription": "buy grocery from XYZ shop"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "transaction": {
+          "id": "transaction-id-2",
+          "amount": 500.0,
+          "payload": {
+          },
+          "accountId": "account-id-2",
+          "description": "rent",
+          "categoryType": "EXPENSES",
+          "originalDate": 1672678400000,
+          "originalDescription": "rent",
+          "formattedDescription": "rent from tenant"
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1610708400000,
+        "transaction": {
+          "id": "ac965ed8623344a19ea075fa34f92257",
+          "date": 1610708400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3639,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -3639,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3639,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -36390
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -36390
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1609671600000,
+        "transaction": {
+          "id": "1f24f70e87364c15b1b3910e324f777a",
+          "date": 1609671600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -82301.92,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -82301.92,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -82301.92,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -8230192
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -8230192
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1609498800000,
+        "transaction": {
+          "id": "1f2e641d09fe412e91e81a38fe34e59c",
+          "date": 1609498800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -1250,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "f97ed636f1c54f1f91b5c648f9329155",
+          "merchantId": null,
+          "description": "Företagspaket",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1647624864428,
+          "userModified": false,
+          "originalAmount": -1250,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -1250,
+          "userModifiedAmount": false,
+          "originalDescription": "FÖRETAGSPAKET",
+          "formattedDescription": "Företagspaket",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -12500
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -12500
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1608721200000,
+        "transaction": {
+          "id": "5929b75ba1a14fd48c1caa3f83289f72",
+          "date": 1608721200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -55968,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1668792864428,
+          "userModified": false,
+          "originalAmount": -55968,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -55968,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -559680
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -559680
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1608548400000,
+        "transaction": {
+          "id": "804d896126e6463dae4ce250cbafbd8c",
+          "date": 1608548400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1608548400000,
+        "transaction": {
+          "id": "34b64bdade8947c7a3089ad730a23e2b",
+          "date": 1608548400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 62500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": 62500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 62500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 625000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 625000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1608289200000,
+        "transaction": {
+          "id": "13f04e8f8913471d877067224bc1f132",
+          "date": 1608289200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 125000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": 125000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 125000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1250000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1250000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1608030000000,
+        "transaction": {
+          "id": "1aeab529a44042e99905e5fb5e52c497",
+          "date": 1608030000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3639,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -3639,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3639,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -36390
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -36390
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1607943600000,
+        "transaction": {
+          "id": "60861f80c72e4d43806a2ee90f60b661",
+          "date": 1607943600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1645205664428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1607943600000,
+        "transaction": {
+          "id": "4844e258928c442e983838a2573654c3",
+          "date": 1607943600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -62300,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": -62300,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -62300,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -623000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -623000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1607684400000,
+        "transaction": {
+          "id": "849beaa172714035a149b2de1ddb6d3e",
+          "date": 1607684400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 31250,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": 31250,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 31250,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 312500
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 312500
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1606993200000,
+        "transaction": {
+          "id": "af09f90697514898a0d35a4d377633d7",
+          "date": 1606993200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -16927.37,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": -16927.37,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -16927.37,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -1692737
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -1692737
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1606302000000,
+        "transaction": {
+          "id": "64843d18be3a4e19a57282ec85836919",
+          "date": 1606302000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -55968,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": -55968,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -55968,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -559680
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -559680
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1606215600000,
+        "transaction": {
+          "id": "b1f7a1b6e62244349dfe63ed02e20f35",
+          "date": 1606215600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 62500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": 62500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 62500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 625000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 625000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1605870000000,
+        "transaction": {
+          "id": "3d56c8cc51224153914a5764fe39bf3c",
+          "date": 1605870000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1605610800000,
+        "transaction": {
+          "id": "e569f76ac2424755abe3c4dd933ab3e1",
+          "date": 1605610800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 625000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": 625000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 625000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 6250000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 6250000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1605524400000,
+        "transaction": {
+          "id": "4f96a2c8a60b4182a53c8e73c0b449b5",
+          "date": 1605524400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3639,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -3639,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3639,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -36390
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -36390
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1605178800000,
+        "transaction": {
+          "id": "b85c760bbc404e5fbf09d210e27230db",
+          "date": 1605178800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -107100,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -107100,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -107100,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -1071000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -1071000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1604574000000,
+        "transaction": {
+          "id": "cddfc18725f248469ff20f8382b44b4b",
+          "date": 1604574000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 150000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1647624864428,
+          "userModified": false,
+          "originalAmount": 150000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 150000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1500000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1500000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1604228400000,
+        "transaction": {
+          "id": "8bf60461d09643ce98c4c9719bbb5d2f",
+          "date": 1604228400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -6937.14,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -6937.14,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -6937.14,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -693714
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -693714
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1603447200000,
+        "transaction": {
+          "id": "daef972fbbba4cea8da1336bcb0e4f66",
+          "date": 1603447200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -29427,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -29427,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -29427,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -294270
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -294270
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1603274400000,
+        "transaction": {
+          "id": "e27b036e5a7e4c3fb87ac0506d1a740b",
+          "date": 1603274400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1668792864428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1602756000000,
+        "transaction": {
+          "id": "a7f5e80b532c48d49f53684369d71678",
+          "date": 1602756000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -4281,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": -4281,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -4281,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -42810
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -42810
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1602756000000,
+        "transaction": {
+          "id": "6f2a192d68ae42149a9b9f6778a7513c",
+          "date": 1602756000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1602583200000,
+        "transaction": {
+          "id": "2495838fca0e413c9e588d24475dad05",
+          "date": 1602583200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 125000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": 125000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 125000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1250000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1250000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1602496800000,
+        "transaction": {
+          "id": "b82df80f17d841c8ac21e92a1001f168",
+          "date": 1602496800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -20512,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -20512,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -20512,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -205120
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -205120
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1602064800000,
+        "transaction": {
+          "id": "2239d8fd8a25472cbbdb99cddae0c643",
+          "date": 1602064800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -20573,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1647624864428,
+          "userModified": false,
+          "originalAmount": -20573,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -20573,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -205730
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -205730
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1601028000000,
+        "transaction": {
+          "id": "5a0869c490d842048affed068d394563",
+          "date": 1601028000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -29427,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": -29427,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -29427,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -294270
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -294270
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1600768800000,
+        "transaction": {
+          "id": "4f3db87dcc2548e7b6421dd9821ab891",
+          "date": 1600768800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -33799,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1668792864428,
+          "userModified": false,
+          "originalAmount": -33799,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -33799,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -337990
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -337990
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1600682400000,
+        "transaction": {
+          "id": "083a9a8cb079435da70e7e640e4d1f79",
+          "date": 1600682400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1645205664428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1600250400000,
+        "transaction": {
+          "id": "ed1044b0b2f84ea1b84e56ad0ffb090a",
+          "date": 1600250400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1600164000000,
+        "transaction": {
+          "id": "f11bf847772d4d849a7fd97b0227bf24",
+          "date": 1600164000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3425,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -3425,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3425,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -34250
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -34250
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1600077600000,
+        "transaction": {
+          "id": "1ee89daef0f64386ae4eae698ab97bac",
+          "date": 1600077600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -18700,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -18700,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -18700,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -187000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -187000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1599645600000,
+        "transaction": {
+          "id": "0c356a3d68b14c3a89339b118cbd7e18",
+          "date": 1599645600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 625,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": 625,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 625,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 6250
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 6250
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1599472800000,
+        "transaction": {
+          "id": "41be97ea88d04f55be5cf15460ebfea8",
+          "date": 1599472800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "c59a38ff206c4fe29a9e7b2bb1fcb3de",
+          "merchantId": null,
+          "description": "Kopeskilling",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Kopeskilling",
+          "formattedDescription": "Kopeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598349600000,
+        "transaction": {
+          "id": "b1e8d070a50a4c3097ff99d23e13059b",
+          "date": 1598349600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 75000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1647624864428,
+          "userModified": false,
+          "originalAmount": 75000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 75000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 750000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 750000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598349600000,
+        "transaction": {
+          "id": "261806b469a7431684f011a0ffff03e1",
+          "date": 1598349600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -27297,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -27297,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -27297,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -272970
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -272970
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598263200000,
+        "transaction": {
+          "id": "ea8b7a5c1fb44bb6a3ddcadf02943b9b",
+          "date": 1598263200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 45000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1645205664428,
+          "userModified": false,
+          "originalAmount": 45000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 45000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 450000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 450000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598004000000,
+        "transaction": {
+          "id": "cb1fa5c7bb4543199f9c923617504c88",
+          "date": 1598004000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1597658400000,
+        "transaction": {
+          "id": "97ed8f78425d442f8b8c692d638af446",
+          "date": 1597658400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -75193,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -75193,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -75193,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -751930
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -751930
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1597399200000,
+        "transaction": {
+          "id": "5dee2c01dd1e45a187349980e0eb8ae8",
+          "date": 1597399200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -1498,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -1498,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -1498,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -14980
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -14980
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1597226400000,
+        "transaction": {
+          "id": "1a0e595141524bf89945a87d1d72399d",
+          "date": 1597226400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1597140000000,
+        "transaction": {
+          "id": "ae25c536e75c4e14a48088582f433ced",
+          "date": 1597140000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -7942,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": -7942,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -7942,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -79420
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -79420
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1595930400000,
+        "transaction": {
+          "id": "370e4dfa64634c37861d3fb46947f73b",
+          "date": 1595930400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1595584800000,
+        "transaction": {
+          "id": "12963ca5205345f294adee3bf9db29bc",
+          "date": 1595584800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -27297,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -27297,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -27297,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -272970
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -272970
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1595239200000,
+        "transaction": {
+          "id": "587e518c14e040e29209e8429c78fdcf",
+          "date": 1595239200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1645205664428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1594893600000,
+        "transaction": {
+          "id": "eeafb7b6d947444b884f86949ce7c81a",
+          "date": 1594893600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 162500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": 162500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 162500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1625000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1625000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1594807200000,
+        "transaction": {
+          "id": "6af531c423bc4ddb86c58cdcb77fd408",
+          "date": 1594807200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -2783,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": -2783,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -2783,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -27830
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -27830
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1594634400000,
+        "transaction": {
+          "id": "9ab707bb0d094dcbb40cd8b39873cf6e",
+          "date": 1594634400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -13397,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -13397,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -13397,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -133970
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -133970
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1594029600000,
+        "transaction": {
+          "id": "35cf6e4ca18046908ba138ff68aeb394",
+          "date": 1594029600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -43396.7,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -43396.7,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -43396.7,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -433967
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -433967
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1594029600000,
+        "transaction": {
+          "id": "0369085b3c9340278590c36e31cde3dc",
+          "date": 1594029600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 100000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": 100000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 100000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1000000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1000000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1593079200000,
+        "transaction": {
+          "id": "e0d7ed934e07444398537d3144d03e19",
+          "date": 1593079200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -27297,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": -27297,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -27297,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -272970
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -272970
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1592820000000,
+        "transaction": {
+          "id": "36433b3194ef4ef4ad06b0f2123d01b8",
+          "date": 1592820000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1671384864428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1592215200000,
+        "transaction": {
+          "id": "860528ba767145558abe484dee2223de",
+          "date": 1592215200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -2569,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1668792864428,
+          "userModified": false,
+          "originalAmount": -2569,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -2569,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -25690
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -25690
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1592215200000,
+        "transaction": {
+          "id": "38a6df43738141f7b47c573f63692da5",
+          "date": 1592215200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 25000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": 25000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 25000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 250000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 250000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1591956000000,
+        "transaction": {
+          "id": "5ec49b3eddcd4a93a6882e7c02dfb3b1",
+          "date": 1591956000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -21295,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -21295,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -21295,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -212950
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -212950
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1591956000000,
+        "transaction": {
+          "id": "2b343b3b99d7441ab5f61ebc35c2755a",
+          "date": 1591956000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1591005600000,
+        "transaction": {
+          "id": "cf8c4431556f416cba48db26f7660237",
+          "date": 1591005600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3909,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": -3909,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3909,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -39090
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -39090
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1590400800000,
+        "transaction": {
+          "id": "a83fc48777924a2b9503c3bb19ac64f6",
+          "date": 1590400800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -35037,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1647624864428,
+          "userModified": false,
+          "originalAmount": -35037,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -35037,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1589968800000,
+        "transaction": {
+          "id": "ceb497d45eb649a1ab35ef47c01b6e3c",
+          "date": 1589968800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1589536800000,
+        "transaction": {
+          "id": "387e52ab0acd423ab7744d64f84fb288",
+          "date": 1589536800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3425,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": -3425,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3425,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -34250
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -34250
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1589277600000,
+        "transaction": {
+          "id": "ec46780982634c708428d9c40551d52b",
+          "date": 1589277600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1589277600000,
+        "transaction": {
+          "id": "95b18c8ad12a481284005decb4630107",
+          "date": 1589277600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -53982,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": -53982,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -53982,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -539820
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -539820
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1588672800000,
+        "transaction": {
+          "id": "f0bfa83b2d774a73b7973c1341e9166f",
+          "date": 1588672800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -8907.04,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -8907.04,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -8907.04,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -890704
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -890704
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1588586400000,
+        "transaction": {
+          "id": "6bf44edfa5f84815bf2deaf2abcf4c51",
+          "date": 1588586400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 87500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": 87500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 87500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 875000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1587722400000,
+        "transaction": {
+          "id": "f7e5751baf5b446bb14c55d46fc7946c",
+          "date": 1587722400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -35037,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -35037,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -35037,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1587376800000,
+        "transaction": {
+          "id": "03a3875b282c4c7c8ae2cfce49617803",
+          "date": 1587376800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1586944800000,
+        "transaction": {
+          "id": "99ffe4891f214b9aa098c9968c23a505",
+          "date": 1586944800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -2569,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1645205664428,
+          "userModified": false,
+          "originalAmount": -2569,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -2569,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -25690
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -25690
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1586858400000,
+        "transaction": {
+          "id": "ef93604b38f346209f4a6960ae39ede8",
+          "date": 1586858400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -26598,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -26598,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -26598,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -265980
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -265980
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1586080800000,
+        "transaction": {
+          "id": "1ee3ae93f1984e16b2435be30a0067b9",
+          "date": 1586080800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -43519.28,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Pers Utlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1666114464428,
+          "userModified": false,
+          "originalAmount": -43519.28,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -43519.28,
+          "userModifiedAmount": false,
+          "originalDescription": "Pers utlägg",
+          "formattedDescription": "Pers Utlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -4351928
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -4351928
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1585134000000,
+        "transaction": {
+          "id": "1757124da7b74651983775f7f887bff8",
+          "date": 1585134000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -35037,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1671384864428,
+          "userModified": false,
+          "originalAmount": -35037,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -35037,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1585047600000,
+        "transaction": {
+          "id": "a5f36d4bd0834cfdbec3f622d1c24967",
+          "date": 1585047600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -4540,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": -4540,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -4540,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -45400
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -45400
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1584961200000,
+        "transaction": {
+          "id": "1f5e749d491c48eeb1c4e35cfd1b80b8",
+          "date": 1584961200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 37500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1668792864428,
+          "userModified": false,
+          "originalAmount": 37500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 37500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 375000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 375000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1584442800000,
+        "transaction": {
+          "id": "05f142f3dec04fed89656f6811b4fffa",
+          "date": 1584442800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 50000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": 50000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 50000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 500000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 500000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1583924400000,
+        "transaction": {
+          "id": "cf07146ed4e74728a79010e662bf5c2d",
+          "date": 1583924400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -26598,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1671384864428,
+          "userModified": false,
+          "originalAmount": -26598,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -26598,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -265980
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -265980
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1583406000000,
+        "transaction": {
+          "id": "61cac54e13c643aeaa69f9407786e3e0",
+          "date": 1583406000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1671384864428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1583319600000,
+        "transaction": {
+          "id": "46435aa96abc4c6f80d5d74cd42f2478",
+          "date": 1583319600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -6171.98,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Persutlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1655573664428,
+          "userModified": false,
+          "originalAmount": -6171.98,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -6171.98,
+          "userModifiedAmount": false,
+          "originalDescription": "Persutlägg",
+          "formattedDescription": "Persutlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -617198
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -617198
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1582628400000,
+        "transaction": {
+          "id": "a71e085fb2b949cda3f8f24818d0b98a",
+          "date": 1582628400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -35037,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -35037,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -35037,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -350370
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1582196400000,
+        "transaction": {
+          "id": "4789e3e03c554402a14bb0e477d154ab",
+          "date": 1582196400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1674063264428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1581937200000,
+        "transaction": {
+          "id": "f3e7c3e84f954dddbe157587b20cb3f1",
+          "date": 1581937200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -3016,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": -3016,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -3016,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -30160
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -30160
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1581937200000,
+        "transaction": {
+          "id": "5f7cd508b7754524818799cfbc7e0011",
+          "date": 1581937200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 90000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1645205664428,
+          "userModified": false,
+          "originalAmount": 90000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 90000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 900000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 900000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1581332400000,
+        "transaction": {
+          "id": "ecdd845a313840b48c5836bcf48c096b",
+          "date": 1581332400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -125709,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1652895264428,
+          "userModified": false,
+          "originalAmount": -125709,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -125709,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -1257090
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -1257090
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1580727600000,
+        "transaction": {
+          "id": "de93ceec60c74bc9a417155fa4ba9a33",
+          "date": 1580727600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 50000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808351,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": 50000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 50000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 500000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 500000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1580554800000,
+        "transaction": {
+          "id": "794dd3574d3f453288537f25292bcffc",
+          "date": 1580554800000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -34787.99,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "0217989903af43c5b7b4e66c0515d0d5",
+          "merchantId": null,
+          "description": "Persutlägg",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": -34787.99,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -34787.99,
+          "userModifiedAmount": false,
+          "originalDescription": "Persutlägg",
+          "formattedDescription": "Persutlägg",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -3478799
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 2,
+            "currencyCode": "SEK",
+            "unscaledValue": -3478799
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1579863600000,
+        "transaction": {
+          "id": "d466ae74bae3463a859aca5e48f5ce5f",
+          "date": 1579863600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -34684,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "adb78e1f35b44f88b5da5ebbefafe25b",
+          "merchantId": null,
+          "description": "Lön",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": -34684,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -34684,
+          "userModifiedAmount": false,
+          "originalDescription": "Lön",
+          "formattedDescription": "Lön",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -346840
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -346840
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1579518000000,
+        "transaction": {
+          "id": "1117329ec6b44105a09e6af6a0094d82",
+          "date": 1579518000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -5000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e08d76c43e2b469e8333d4ae07793962",
+          "merchantId": null,
+          "description": "Hyra",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1663522464428,
+          "userModified": false,
+          "originalAmount": -5000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -5000,
+          "userModifiedAmount": false,
+          "originalDescription": "Hyra",
+          "formattedDescription": "Hyra",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -50000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1578999600000,
+        "transaction": {
+          "id": "c6fee36d5adf4284a9327844b80d3781",
+          "date": 1578999600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 37500,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1650303264428,
+          "userModified": false,
+          "originalAmount": 37500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 37500,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 375000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 375000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1578049200000,
+        "transaction": {
+          "id": "c96f91184a874a5799d4c602f041e115",
+          "date": 1578049200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": 125000,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "e6ada2dc635c48e586a3de69591995d7",
+          "merchantId": null,
+          "description": "Köpeskilling",
+          "categoryType": "INCOME",
+          "lastModified": 1610702808350,
+          "originalDate": 1647624864428,
+          "userModified": false,
+          "originalAmount": 125000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": 125000,
+          "userModifiedAmount": false,
+          "originalDescription": "KÖPESKILLING",
+          "formattedDescription": "Köpeskilling",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1250000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": 1250000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1578049200000,
+        "transaction": {
+          "id": "987e9da8077f44f1a93346d247ebb7fb",
+          "date": 1578049200000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -2141,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Internet Bet",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808351,
+          "originalDate": 1658165664428,
+          "userModified": false,
+          "originalAmount": -2141,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -2141,
+          "userModifiedAmount": false,
+          "originalDescription": "INTERNET BET",
+          "formattedDescription": "Internet Bet",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -21410
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -21410
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1577876400000,
+        "transaction": {
+          "id": "fac25a173935461491425b685829de9b",
+          "date": 1577876400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -1250,
+          "userId": "user-id-from-bank-db",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1610702807000,
+          "upcoming": false,
+          "accountId": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+          "timestamp": 1610702807861,
+          "categoryId": "f97ed636f1c54f1f91b5c648f9329155",
+          "merchantId": null,
+          "description": "Företagspaket",
+          "categoryType": "EXPENSES",
+          "lastModified": 1610702808350,
+          "originalDate": 1660844064428,
+          "userModified": false,
+          "originalAmount": -1250,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -1250,
+          "userModifiedAmount": false,
+          "originalDescription": "FÖRETAGSPAKET",
+          "formattedDescription": "Företagspaket",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -12500
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -12500
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598954400000,
+        "transaction": {
+          "id": "d98502c2fa434dd89580c6084206d047",
+          "date": 1598954400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -1000,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "049ff3909f4d46fc9cb63a4f9b048ece",
+          "merchantId": null,
+          "description": "Mariacasino Mariacasino",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961157,
+          "originalDate": 1652895264449,
+          "userModified": false,
+          "originalAmount": -1000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -1000,
+          "userModifiedAmount": false,
+          "originalDescription": "MARIACASINO            MARIACASINO",
+          "formattedDescription": "Mariacasino Mariacasino",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -10000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -10000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598954400000,
+        "transaction": {
+          "id": "bd18780538424fec827f0c1305fca0ba",
+          "date": 1598954400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -1000,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "049ff3909f4d46fc9cb63a4f9b048ece",
+          "merchantId": null,
+          "description": "Mariacasino London",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961156,
+          "originalDate": 1660844064449,
+          "userModified": false,
+          "originalAmount": -1000,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -1000,
+          "userModifiedAmount": false,
+          "originalDescription": "Mariacasino            London",
+          "formattedDescription": "Mariacasino London",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -10000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -10000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598954400000,
+        "transaction": {
+          "id": "0743be7b721a4fee9d60728dce038f80",
+          "date": 1598954400000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -600,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "049ff3909f4d46fc9cb63a4f9b048ece",
+          "merchantId": null,
+          "description": "Mariacasino London",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961155,
+          "originalDate": 1658165664449,
+          "userModified": false,
+          "originalAmount": -600,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -600,
+          "userModifiedAmount": false,
+          "originalDescription": "Mariacasino            London",
+          "formattedDescription": "Mariacasino London",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -6000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -6000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598868000000,
+        "transaction": {
+          "id": "b272791888534d3e929995321d3ff632",
+          "date": 1598868000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Paf.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961153,
+          "originalDate": 1663522464449,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Paf.Se",
+          "formattedDescription": "Paf.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598868000000,
+        "transaction": {
+          "id": "848240f6e7eb4f03b846c9775d5dcb80",
+          "date": 1598868000000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Paf.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961153,
+          "originalDate": 1668792864449,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Paf.Se",
+          "formattedDescription": "Paf.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598781600000,
+        "transaction": {
+          "id": "d90fdc1434854704b5f8fbefb10ca034",
+          "date": 1598781600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Verajohn.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961157,
+          "originalDate": 1658165664449,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Verajohn.Se",
+          "formattedDescription": "Verajohn.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598781600000,
+        "transaction": {
+          "id": "ba92f07779e54620a05805502454fed0",
+          "date": 1598781600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Verajohn.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961155,
+          "originalDate": 1645205664449,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Verajohn.Se",
+          "formattedDescription": "Verajohn.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598781600000,
+        "transaction": {
+          "id": "b1640725274045398ff12a867007784d",
+          "date": 1598781600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Verajohn.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961157,
+          "originalDate": 1650303264449,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Verajohn.Se",
+          "formattedDescription": "Verajohn.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598781600000,
+        "transaction": {
+          "id": "97b34974b356499189605b40b3d12967",
+          "date": 1598781600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Verajohn.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961159,
+          "originalDate": 1650303264449,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Verajohn.Se",
+          "formattedDescription": "Verajohn.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0,
+        "timestamp": 1598781600000,
+        "transaction": {
+          "id": "39fade901e8e4c899a93038243b77876",
+          "date": 1598781600000,
+          "type": "DEFAULT",
+          "notes": "",
+          "parts": [
+
+          ],
+          "amount": -500,
+          "userId": null,
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1599058957000,
+          "upcoming": false,
+          "accountId": null,
+          "timestamp": 1599058957272,
+          "categoryId": "b3963cfe6bf54c06b22eaa44e0a6cf3f",
+          "merchantId": null,
+          "description": "Verajohn.Se",
+          "categoryType": "EXPENSES",
+          "lastModified": 1599058961161,
+          "originalDate": 1658165664450,
+          "userModified": false,
+          "originalAmount": -500,
+          "partnerPayload": {
+          },
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": -500,
+          "userModifiedAmount": false,
+          "originalDescription": "Verajohn.Se",
+          "formattedDescription": "Verajohn.Se",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 1,
+            "currencyCode": "SEK",
+            "unscaledValue": -5000
+          }
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "account-id-1",
+        "iban": "iban - 1",
+        "name": "Kreditz Account 1",
+        "type": "CHECKING",
+        "closed": false,
+        "balance": 5000.0,
+        "holderName": "J D acc 1 holderName",
+        "currencyCode": "SEK",
+        "accountNumber": "1989 2804 0001"
+      },
+      {
+        "id": "account-id-2",
+        "iban": "iban - 2",
+        "name": "Kreditz Account 2",
+        "type": "CREDIT_CARD",
+        "closed": true,
+        "balance": -1456.0,
+        "holderName": "J D acc 2 holderName",
+        "currencyCode": "SEK",
+        "accountNumber": "1989 2804 0002"
+      },
+      {
+        "id": "72ad6a92cc2b4cf9af4a98cc3dbcb710",
+        "iban": null,
+        "name": "corporate user",
+        "type": "CHECKING",
+        "flags": "[\"PSD2_PAYMENT_ACCOUNT\"]",
+        "bankId": "323583008",
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/provider-images/demobank.png",
+          "banner": null
+        },
+        "userId": "user-id-from-bank-db",
+        "balance": 1454183.76,
+        "details": null,
+        "favored": true,
+        "payload": null,
+        "excluded": false,
+        "ownership": 1,
+        "refreshed": 1610702808000,
+        "holderName": null,
+        "certainDate": 1608116400000,
+        "identifiers": "",
+        "currencyCode": "SEK",
+        "accountNumber": 2018120832048,
+        "credentialsId": "1e5bccb30d3b4114be7c611a04aa8fc4",
+        "availableCredit": 0,
+        "accountExclusion": "NONE",
+        "userModifiedName": false,
+        "userModifiedType": false,
+        "transferDestinations": null,
+        "userModifiedExcluded": false,
+        "financialInstitutionId": null,
+        "currencyDenominatedBalance": {
+          "scale": 2,
+          "currencyCode": "SEK",
+          "unscaledValue": 145418376
+        }
+      }
+    ]
+  },
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "ssn": "199801022344",
+        "name": "Karl Kreditz",
+        "dateOfBirth": "1989-04-28",
+        "providerName": "Nordea"
+      }
+    ]
+  }
+}

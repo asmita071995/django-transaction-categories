@@ -1,0 +1,300 @@
+{
+  "user": {
+    "id": "7c76c61745647577552960c7957e5ec0",
+    "label": null,
+    "created": 1682930009,
+    "profile": {
+      "name": "Jayesh Dateer sbl_raw",
+      "birth": null,
+      "gender": null,
+      "locale": "sv_SE",
+      "market": "SE",
+      "currency": "SEK",
+      "periodSettings": {
+        "mode": "",
+        "adjustedPeriodDay": null
+      },
+      "cashbackEnabled": false
+    },
+    "services": [
+      {
+        "type": "TINK",
+        "state": "INACTIVE",
+        "externalId": "7c76c61745647577552960c7957e5ec0"
+      }
+    ],
+    "username": null,
+    "debugUntil": null,
+    "nationalId": null
+  },
+  "loan_type": null,
+  "transactions": {
+    "results": [
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1682930009,
+        "transaction": {
+          "id": "69670bf9930841e0b31f6aa4f6b72668",
+          "date": 1682930009,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": 60000.0,
+          "userId": "7c76c61745647577552960c7957e5ec0",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1682930009,
+          "upcoming": false,
+          "accountId": "1908-04-28",
+          "timestamp": 1682930009,
+          "categoryId": "546b07f52e7539d1833326d13194b8dd",
+          "merchantId": "",
+          "description": "salary",
+          "categoryType": null,
+          "lastModified": "2022-10-27T10:00:00.000+00:00",
+          "originalDate": "2022-10-27T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 60000.0,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "salary",
+          "formattedDescription": "salary",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1682930009,
+        "transaction": {
+          "id": "8eefc2ea124dcee8065d6c9632f55bec",
+          "date": 1682930009,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -209,
+          "userId": "7c76c61745647577552960c7957e5ec0",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1682930009,
+          "upcoming": false,
+          "accountId": "1908-04-28",
+          "timestamp": 1682930009,
+          "categoryId": "747b5388c9baaa5215d9c60caf970ed3",
+          "merchantId": "",
+          "description": "Domios Pizza",
+          "categoryType": null,
+          "lastModified": "2022-10-27T10:00:00.000+00:00",
+          "originalDate": "2022-10-27T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -209,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Domios Pizza",
+          "formattedDescription": "Domios Pizza",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1682930009,
+        "transaction": {
+          "id": "a38e71814e1e5808aca051c5c0ff08c6",
+          "date": 1682930009,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -30.12,
+          "userId": "7c76c61745647577552960c7957e5ec0",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1682930009,
+          "upcoming": false,
+          "accountId": "1908-04-28",
+          "timestamp": 1682930009,
+          "categoryId": "5dbd45d961b9df788a7b20d39c004b4f",
+          "merchantId": "",
+          "description": "Meghdoot park",
+          "categoryType": null,
+          "lastModified": "2023-04-30T10:00:00.000+00:00",
+          "originalDate": "2023-04-30T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -30.12,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Meghdoot park",
+          "formattedDescription": "Meghdoot park",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1682930009,
+        "transaction": {
+          "id": "a1face22d0b59129465eac293c3437c6",
+          "date": 1682930009,
+          "type": "DEFAULT",
+          "notes": null,
+          "parts": [
+
+          ],
+          "amount": -125,
+          "userId": "7c76c61745647577552960c7957e5ec0",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1682930009,
+          "upcoming": false,
+          "accountId": "1908-04-28",
+          "timestamp": 1682930009,
+          "categoryId": "c55ed6b3834ee79a5668b585337da284",
+          "merchantId": "",
+          "description": "Max Insurance",
+          "categoryType": null,
+          "lastModified": "2023-04-30T10:00:00.000+00:00",
+          "originalDate": "2023-04-30T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -125,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "userModifiedDate": false,
+          "dispensableAmount": null,
+          "userModifiedAmount": false,
+          "originalDescription": "Max Insurance",
+          "formattedDescription": "Max Insurance",
+          "userModifiedCategory": false,
+          "userModifiedLocation": false,
+          "userModifiedDescription": false,
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "1908-04-28",
+        "name": null,
+        "type": "CHECKING",
+        "flags": "[]",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sbi/tink.png",
+          "banner": null
+        },
+        "userId": "7c76c61745647577552960c7957e5ec0",
+        "balance": 20872.46,
+        "details": null,
+        "favored": true,
+        "payload": null,
+        "excluded": false,
+        "ownership": 0.0,
+        "refreshed": 1682930009,
+        "holderName": "Dateer, Jayesh",
+        "certainDate": 1682930009,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "1908-04-28",
+        "credentialsId": null,
+        "availableCredit": 0.0,
+        "accountExclusion": "NONE",
+        "userModifiedName": false,
+        "userModifiedType": false,
+        "transferDestinations": null,
+        "userModifiedExcluded": false,
+        "financialInstitutionId": null,
+        "currencyDenominatedBalance": {
+          "scale": 0,
+          "currencyCode": "SEK",
+          "unscaledValue": 0
+        }
+      }
+    ]
+  },
+  "previous_loans": [
+
+  ],
+  "upswitch_request": false,
+  "monthly_loan_cost": null,
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "ssn": null,
+        "name": null,
+        "dateOfBirth": null,
+        "providerName": "SBI"
+      }
+    ]
+  }
+}

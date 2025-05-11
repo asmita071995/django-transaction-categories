@@ -1,0 +1,4682 @@
+{
+  "bank": {
+    "bank_krn": "krn:openbanking:global:bank:106576f7-77bb-40dc-a9cc-f9eafbf70403",
+    "bank_code": "966",
+    "bank_name": "SVEA Bank",
+    "connection": "PSD2",
+    "country_code": "SE",
+    "integration_krn": "krn:openbanking:global:integration:e761193b-4b64-4432-9383-3bbd85169211",
+    "sub_integration_krn": "krn:openbanking:global:sub-integration:cadc0c09-e380-4b85-9638-20663b52e5ee"
+  },
+  "accounts": [
+    {
+      "id": "NzI1ZmZlNTAtY2ZkZi00ODgxLWI0NGUtMTEzYTNlNzg1ZWY4",
+      "alias": "Transaktionskonto",
+      "balance": 4518753,
+      "currency": "SEK",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "SE"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "SVEA96609959384"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2024-01-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 800000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Lön David",
+      "value_date": "2024-01-25",
+      "booking_date": "2024-01-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "730b93e2e0599fc613bc6b3fcf6deeb6",
+      "bank_references": {
+        "unstructured": "Lön David"
+      },
+      "bank_transaction_id": "ZWY0YmIwZmEtMTVhMi00ZjRmLTgyMjEtZGQyNjA4NTNkNjEx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1400000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "lön Kasper",
+      "value_date": "2024-01-25",
+      "booking_date": "2024-01-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3436725b2f7ae10ecfc1f3f26af5e5c1",
+      "bank_references": {
+        "unstructured": "lön Kasper"
+      },
+      "bank_transaction_id": "NzU2ZTcwMzUtMjgzZS00MTc1LTg0YzctYWFjZTdlYTQ2OWEz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 500000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Ränta David",
+      "value_date": "2024-01-25",
+      "booking_date": "2024-01-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d5d6fe863f75cd42ae99af49cd4631f2",
+      "bank_references": {
+        "unstructured": "Ränta David"
+      },
+      "bank_transaction_id": "YTA5Y2VkYWMtNDVmNC00ZDI0LTg4Y2EtNGE3N2Q1ZmUzZjRh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 35295,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BAUHAUS SICKLA",
+      "value_date": "2024-01-24",
+      "booking_date": "2024-01-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8189c0fef1d21732fd9413663c28632c",
+      "bank_references": {
+        "unstructured": "BAUHAUS SICKLA"
+      },
+      "bank_transaction_id": "M2U5ZDZjYzgtM2ZmYy00NDgxLWFjZTktOTkwNTVjZWVjNWM1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 90500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "LA Leif Arvidsson AB BG 198-7965",
+      "value_date": "2024-01-23",
+      "booking_date": "2024-01-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "a82f50e96e878374c4138e30efa2f1f4",
+      "bank_references": {
+        "unstructured": "LA Leif Arvidsson AB BG 198-7965"
+      },
+      "bank_transaction_id": "M2Y3NjFmMmUtYmYwOC00NTdjLWIwOTYtZjk3YjhhNzBmNWNj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 213100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKÖNABERG AB",
+      "value_date": "2024-01-23",
+      "booking_date": "2024-01-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "328bf7b6911a28893bce7fb1f5cda906",
+      "bank_references": {
+        "unstructured": "SKÖNABERG AB"
+      },
+      "bank_transaction_id": "NDJmMjM5ODctMDhkOS00YzNjLWI1YzgtYjBlNWZlMTUwZDZk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 189400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2024-01-23",
+      "booking_date": "2024-01-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "395fac7517a40e1b53a0a2625bb62104",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "MjRlNGZkMmUtZWY5NC00NTVhLWFjMTEtZDY3NGFkZTUwMWVk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 671700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SANTANDER CONSUMER BANK AS NORGE BG 5562-1734",
+      "value_date": "2024-01-23",
+      "booking_date": "2024-01-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1f7711a65161de0ba45a65e6f6be77e7",
+      "bank_references": {
+        "unstructured": "SANTANDER CONSUMER BANK AS NORGE BG 5562-1734"
+      },
+      "bank_transaction_id": "YjYzNDkxNGQtNzc3Yy00ZDk0LTliNmUtNTU2ZDkwNWExZjEx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 38962,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Fortnox Finans AB BG 5020-7042",
+      "value_date": "2024-01-23",
+      "booking_date": "2024-01-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "18fd8bddce706bbb87458bbf22467b9f",
+      "bank_references": {
+        "unstructured": "Fortnox Finans AB BG 5020-7042"
+      },
+      "bank_transaction_id": "OWY4OTRjZDYtY2M5YS00NDJkLWE1YTItZTg0YTM4NWJmYThj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 527800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2024-01-23",
+      "booking_date": "2024-01-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3f6aef40ed337369d076859ac50b0dcb",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "ZjIyMGRkZGMtZmI0Yy00ZmVhLTkwYWMtZjMwNDI0Y2I0MTFm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 201500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2024-01-18",
+      "booking_date": "2024-01-18",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1ffe035191171452c216343bc30191cf",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "MmQyYWFhNDMtOWMwNC00ZWI2LWFlMzYtMTFjNGUyNDg2ODBj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 89200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2024-01-18",
+      "booking_date": "2024-01-18",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4c789ce2cb70e66f578a1c2a3c223ed3",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "ZjQ5OTRiNjItYzcwZC00ZjdlLTg0ZTItYTlkMTUxNzA0ZmIz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-17",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 18414,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 89",
+      "value_date": "2024-01-16",
+      "booking_date": "2024-01-17",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c53f0664a5eea2b12d966aba5ff3eeb0",
+      "bank_references": {
+        "unstructured": "BEIJER 89"
+      },
+      "bank_transaction_id": "ZmQzODk5OWMtODZjOS00YjFkLWE2NjMtMTI2ODY5Mjk3MzYy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 442600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BJÖRKHEMS PLÅTSLAGERI PG 2106950-5",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e48d1933c8ec9b4bcfd477b914ef3d92",
+      "bank_references": {
+        "unstructured": "BJÖRKHEMS PLÅTSLAGERI PG 2106950-5"
+      },
+      "bank_transaction_id": "YmNhMzk4OTUtYTY4OC00MTVlLWIwNjUtMDI0NDkxZTcwZThm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 33800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "ASSISTANSKÅREN SWEDEN AB BG 733-1838",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "5851de559e48c6f99b4de40bc73ee8bf",
+      "bank_references": {
+        "unstructured": "ASSISTANSKÅREN SWEDEN AB BG 733-1838"
+      },
+      "bank_transaction_id": "MTNhYzkzY2EtYjkxNS00YjUxLWJhZTQtMjVkYzQ1ZTVhZmFj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 643700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Svea Bank AB",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "bedc5fd0cd8113c19cf5a1fc0778b5f8",
+      "bank_references": {
+        "unstructured": "Svea Bank AB"
+      },
+      "bank_transaction_id": "NTg1ZGFkNmEtZDJmMy00ZDgxLTg0YTUtNDQ2NzNlMGY2Y2Uw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 131900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e887eb0f56de329e2f26c908f36a9d44",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "NDExMDdiOTItNGViOS00NGZjLTliMDEtYjEzNWY0YjM5ODc1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 45090,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Srv Återvinning AB BG 5934-8185",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b2a99921ba3be9202f2cc4d427d0c6e3",
+      "bank_references": {
+        "unstructured": "Srv Återvinning AB BG 5934-8185"
+      },
+      "bank_transaction_id": "MjIwNzg2ZGYtMmI2NC00NWRlLTllYWMtZTM4NGU0ZGE4YTM1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 135800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "04a6cc7ef579e7c6ddd4af84c39a8784",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "NGJiZDhiNjktMDQ3OC00MjExLWI1MjItMGZmZjIxZmQ5Y2Nh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 54600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Srv Återvinning AB BG 5934-8185",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "069c7ad8a404bdef07b47c9b74dadcee",
+      "bank_references": {
+        "unstructured": "Srv Återvinning AB BG 5934-8185"
+      },
+      "bank_transaction_id": "OGY4ZGJkZjItNTliZC00NWFiLWExNTQtN2VlMmRkMGI5MzMw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 14900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Fortnox Finans AB BG 5020-7042",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "a03c42d6a047daed2e4fbd9e9bf3e719",
+      "bank_references": {
+        "unstructured": "Fortnox Finans AB BG 5020-7042"
+      },
+      "bank_transaction_id": "MmI1ZjA5Y2EtYWQ1NS00MzliLWE2ODMtNTkyZGY2NTJmMGJm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 10000000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "LÅN TILL AB",
+      "value_date": "2024-01-15",
+      "booking_date": "2024-01-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c95026361f2e37ad9ae27f50f1666119",
+      "bank_references": {
+        "unstructured": "LÅN TILL AB"
+      },
+      "bank_transaction_id": "MDE2OWExODktODEyNy00M2YwLWEyY2MtZTRiYjg4ZDcyMWY5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Swish Företag",
+      "value_date": "2023-12-31",
+      "booking_date": "2024-01-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "aa717e40f482ff66c8d825cd6cc5cb8b",
+      "bank_references": {
+        "unstructured": "Månadsavgift Swish Företag"
+      },
+      "bank_transaction_id": "ODkzYTVjZWItYzBlZC00MzhlLTg0ZGYtMjRiYWVlMGJmMWRk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2024-01-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-12-31",
+      "booking_date": "2024-01-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0a0a99007a8c1a5d503b4cf5037a6272",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "NTNmOGFmNzktOTRiYi00MmY3LWE1ODctN2VlZmQxZGZkNWIy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-30",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1743800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2023-12-30",
+      "booking_date": "2023-12-30",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c3f3685efcfea9846a0e73bd4d4bfacf",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "OTE2Nzg4MDUtMWU3MC00ZTI0LWFkNzctZmNmMmIyOTMzYTI2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 369700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "ce3fce81186ec91a2434f28d4450e1c4",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "NjJiYmY4YmItNTc5Ny00MzA5LWIzZmYtYmQ1NDQyMGZlM2Fm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3647500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NORDEA FINANS SVERIGE AB",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1b3b94548925a9850364e74b3cfd0877",
+      "bank_references": {
+        "unstructured": "NORDEA FINANS SVERIGE AB"
+      },
+      "bank_transaction_id": "MWMzZDgxMmEtNjMwZS00NjA3LWI5OGUtMzAyZGViM2JiODAw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 319100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3ef58c303044be51486840045e300405",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "OGMxN2QzODEtZjE0YS00MjQ4LWE2YTEtODhmNmZkNDJkYjIx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Infrastrukturavgift , Singel BG 250-5683",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b95dbe47c34f77a1212fc347da1e3e66",
+      "bank_references": {
+        "unstructured": "Infrastrukturavgift , Singel BG 250-5683"
+      },
+      "bank_transaction_id": "ZjlhNWNkZjAtNjA1Ni00NzhhLWFjMDgtZTA4NjI4YzA2NDYx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 643700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Svea Bank AB",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b9c0d824cdb115ac23210edfa193ebe2",
+      "bank_references": {
+        "unstructured": "Svea Bank AB"
+      },
+      "bank_transaction_id": "ZDllODYwZTQtNmU3MC00YTUwLThlYzgtYzMwZmIyMTE0YmRh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TRÄNGSELSKATT TRANSPORTSTYRELSEN BG 282-4647",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d62317b0a6b33e8782e7374806b2a2d4",
+      "bank_references": {
+        "unstructured": "TRÄNGSELSKATT TRANSPORTSTYRELSEN BG 282-4647"
+      },
+      "bank_transaction_id": "MGVhNzlhMzItMzhkMC00ZTMzLWFhZjYtMGQ5YzM5NmE1NzZm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 55500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "77805be9a016d2c909c857a92bf297c8",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "YWY0MmE0ODQtZGNiYS00YzE0LWE0YjItNmI5NmFmNDk1MzQy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 90000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA BANK AB PG 4154801-7",
+      "value_date": "2023-12-28",
+      "booking_date": "2023-12-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "dd7cd6dd939c0de32f133bbe0be42a9c",
+      "bank_references": {
+        "unstructured": "SVEA BANK AB PG 4154801-7"
+      },
+      "bank_transaction_id": "YzcxZWE2YzQtODk4Zi00MWE3LWEwMWItNzQwNjQ3ZTcwMzIw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1600000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Överföring till 6162-506603431",
+      "value_date": "2023-12-27",
+      "booking_date": "2023-12-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "090ed1d750bbff0808678f088663a428",
+      "bank_references": {
+        "unstructured": "Överföring till 6162-506603431"
+      },
+      "bank_transaction_id": "ZGZkNjBkZGQtNzM2NS00NTljLWFjODMtMGY1MmNkM2E2NzRi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1100000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Överföring till 6927-661360768",
+      "value_date": "2023-12-27",
+      "booking_date": "2023-12-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "055aca2599dab9019dd3d993bcb04f22",
+      "bank_references": {
+        "unstructured": "Överföring till 6927-661360768"
+      },
+      "bank_transaction_id": "ZjRlNmEyYTQtYTViYS00MWQ0LWEzMzctYmUyMWRlMzM4YjRh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2800000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKATTEVERKET",
+      "value_date": "2023-12-27",
+      "booking_date": "2023-12-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2860ce5060a3c43433fa82e2f67a923f",
+      "bank_references": {
+        "unstructured": "SKATTEVERKET"
+      },
+      "bank_transaction_id": "ZDNjM2Q4ZTMtMGU1Yi00ZTc0LTk1OWQtYTUyYjBiZDIwMjIw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 64520,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BILTEMA MORABERG 165",
+      "value_date": "2023-12-22",
+      "booking_date": "2023-12-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d49b3b859787b4367eecadcf7525272b",
+      "bank_references": {
+        "unstructured": "BILTEMA MORABERG 165"
+      },
+      "bank_transaction_id": "ZmI4YTRkZjAtNzk1NC00YjIzLWI2MDUtNTgwMjczOTE1ZDZh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 239600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BILTEMA MORABERG 165",
+      "value_date": "2023-12-22",
+      "booking_date": "2023-12-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c36bc75074b10d36424b38ffe44211e7",
+      "bank_references": {
+        "unstructured": "BILTEMA MORABERG 165"
+      },
+      "bank_transaction_id": "NTEzNTA3NzUtM2VlNi00MmYyLWI0YTUtMGNmM2U2NTkxOGM0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-22",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 12551300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-12-22",
+      "booking_date": "2023-12-22",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6612cf9b50676824ca00aeff0feca75b",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "OGEyZjU3NTMtZjk1Yy00MDJmLWExOWYtZmRiZTUxYWYzMTYz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-22",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1462100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "RIDDERMARK SLAG",
+      "value_date": "2023-12-21",
+      "booking_date": "2023-12-22",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3ffaf9030ef6fc5edecc704e40b2834d",
+      "bank_references": {
+        "unstructured": "RIDDERMARK SLAG"
+      },
+      "bank_transaction_id": "ZTVhMDdlZmEtYTIzYi00OTI5LWIwNTktNWUxZmE2YTIxYjEx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-21",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 669200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA*BYTHJUL.COM",
+      "value_date": "2023-12-21",
+      "booking_date": "2023-12-21",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "04dc5a8b8bf4f45d177c6e9249d7424b",
+      "bank_references": {
+        "unstructured": "SVEA*BYTHJUL.COM"
+      },
+      "bank_transaction_id": "ZjI1MjUxZTgtNjhhMy00ODNlLTgwOTUtOWFmYjkwMzhhNTFj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-21",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 257500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2023-12-21",
+      "booking_date": "2023-12-21",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "75514b2a6e648546560b558894ece90e",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "NDM4NGVhYzgtYTc2YS00MDQyLTkyMjktOTczY2I2YTkzMTZj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-20",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1260600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-12-20",
+      "booking_date": "2023-12-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "38070b6e4a7b85088114058caa3f9439",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "NzFlNDIyNjUtMWJmYS00NTcxLWEwM2ItMTE2NzFmZWIzYzVl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-20",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 5018000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Fortnox Finans AB BG 5020-7042",
+      "value_date": "2023-12-20",
+      "booking_date": "2023-12-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9e5b3918fd05d4338573d92c500e60c4",
+      "bank_references": {
+        "unstructured": "Fortnox Finans AB BG 5020-7042"
+      },
+      "bank_transaction_id": "MTdjNzUwMGMtZTY1MC00MGFiLWJmMmYtODA0ZmRmMDRhNDc2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-20",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 300000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "DIN BIL SLAGSTA",
+      "value_date": "2023-12-19",
+      "booking_date": "2023-12-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2e681eb5cd8c748092d0ce24a887712e",
+      "bank_references": {
+        "unstructured": "DIN BIL SLAGSTA"
+      },
+      "bank_transaction_id": "ZGU1YjQ1YmMtZGE5NC00ZjQ5LTg5ZDctNWFmNzY1Yzk4OGYz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-20",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2353800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "RIDDERMARK SLAG",
+      "value_date": "2023-12-18",
+      "booking_date": "2023-12-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0851ccb3332e4e357ca8dda6c428f48e",
+      "bank_references": {
+        "unstructured": "RIDDERMARK SLAG"
+      },
+      "bank_transaction_id": "MmZlZmIzZTAtMWQ5YS00ODRjLWFhYTgtYjU5YjhkNDNhZTI2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-18",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1775000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-12-18",
+      "booking_date": "2023-12-18",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e8d6f55fd1e7306944f4203bbe39ee84",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "N2RkNzE1MGQtYTM5Mi00OGM0LThmOTgtN2I4OWUwOGNjOTk4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-18",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 54400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2023-12-18",
+      "booking_date": "2023-12-18",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "bd64b1769e515956bfc4453c4fffff52",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "ZThlNmRlMDMtMjZmOS00YmIzLWIwNTYtNzk0YjQ2MDRlNTc5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-17",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 739400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2023-12-17",
+      "booking_date": "2023-12-17",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "005eaec333c91c9c2a7b0032a4fd1509",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "ZWMyMjEzMDUtNDYyYi00ZWNhLTg3OWEtNjc2NGNkYmIwYjQ3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-15",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 661500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-12-15",
+      "booking_date": "2023-12-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b387d4e82ecb36e74ba5bbe138536121",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "YTU4NmZkYzMtMjk3MS00NzQxLWIyYTctY2IwMmY5ZmM4NDRj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-14",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 322400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-12-14",
+      "booking_date": "2023-12-14",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9d8858cb77f4b9f567d8e59b9293a1f6",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "MzQ3ZGUzNjQtOWFkZS00MjQxLTk4ZmEtNDg0NDQzNmFmYzBi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-14",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 26784,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 148",
+      "value_date": "2023-12-13",
+      "booking_date": "2023-12-14",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "f4def149d123cb03ab4c32b2de52a09b",
+      "bank_references": {
+        "unstructured": "BEIJER 148"
+      },
+      "bank_transaction_id": "MmFmNDg3YTAtYWMzYi00NjdiLTkxMzUtZjRiMmYxNzNhZGE5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-14",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 24000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "KOVIK GUSTAVSBERG",
+      "value_date": "2023-12-13",
+      "booking_date": "2023-12-14",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0c631e7b5ed5a1c766945b1bc2eb9c2c",
+      "bank_references": {
+        "unstructured": "KOVIK GUSTAVSBERG"
+      },
+      "bank_transaction_id": "NzM0MGJiYzMtZThkMS00MzdiLTkyYWQtNTBiYjkwNDFjMTg5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-13",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 33400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB",
+      "value_date": "2023-12-13",
+      "booking_date": "2023-12-13",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7042a1bb09202866ac8040e6f7c1bf0b",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB"
+      },
+      "bank_transaction_id": "YzI3OWZjMmEtNGU0NS00ZTc0LWEyZTgtNDMwNDU4NmYzOTQ3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-13",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 37572,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 148",
+      "value_date": "2023-12-12",
+      "booking_date": "2023-12-13",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "fb014c6f9a642397ad58393718207c3a",
+      "bank_references": {
+        "unstructured": "BEIJER 148"
+      },
+      "bank_transaction_id": "NTY2MWQ2NWUtNmFiZC00NTkyLWIwMTctZjU4NWQ1MDBkNzNh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-13",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 15438,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 146",
+      "value_date": "2023-12-12",
+      "booking_date": "2023-12-13",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "54a653a85e16bf4f1c1209a0c601688a",
+      "bank_references": {
+        "unstructured": "BEIJER 146"
+      },
+      "bank_transaction_id": "Y2Q4NThkZGEtYTlmZS00NDE3LWFiNWUtNzE5MmE2ZTI5MDQy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-12",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 5018000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-12-12",
+      "booking_date": "2023-12-12",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1206a828c3d880cb5710b044b5d5b799",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "Yjc5NTg4OGEtMTM5My00OTJiLTkzY2ItOTQxZTc3NTQ3YWNj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-12",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 27048,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 148",
+      "value_date": "2023-12-11",
+      "booking_date": "2023-12-12",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b8266a85a4a64599a4c1daa80572f931",
+      "bank_references": {
+        "unstructured": "BEIJER 148"
+      },
+      "bank_transaction_id": "MzA4NzFkZDYtYTMxNC00MTFjLWEwYWMtYTZlMWI4Y2M5OTNl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-10",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1087000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BJÖRKHEMS PLÅTSLAGERI PG 2106950-5",
+      "value_date": "2023-12-10",
+      "booking_date": "2023-12-10",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2770c8f261e222731eb14d0a8bfd0d2f",
+      "bank_references": {
+        "unstructured": "BJÖRKHEMS PLÅTSLAGERI PG 2106950-5"
+      },
+      "bank_transaction_id": "NTc0MzhiZmEtMDVkNi00NGQwLWIxNDItMmU0MDAzY2Q3YTdk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-08",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 352665,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 148",
+      "value_date": "2023-12-07",
+      "booking_date": "2023-12-08",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e9aa7b01deb23f750e7011c6e704d1a8",
+      "bank_references": {
+        "unstructured": "BEIJER 148"
+      },
+      "bank_transaction_id": "ZGVmZTE5YTAtN2FmOS00MWM4LTk1YTctZmUxMjc3ZjA0ZGI0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 348500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Boomr AB BG 5628-0811",
+      "value_date": "2023-12-07",
+      "booking_date": "2023-12-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "dd2c17783753bfd3156903ec7329853c",
+      "bank_references": {
+        "unstructured": "Boomr AB BG 5628-0811"
+      },
+      "bank_transaction_id": "MDNkNGUzYWYtZjk5MC00YmY5LWEzZmEtODQ4OWJmNjdiZTAw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 414500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "friskvård",
+      "value_date": "2023-12-06",
+      "booking_date": "2023-12-06",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0d69659b6c05bdf9a3969b7bc3c63f4f",
+      "bank_references": {
+        "unstructured": "friskvård"
+      },
+      "bank_transaction_id": "OWVkZGIzOTctMTFhYy00OWIxLWI1OWItNjNkNjBhMGU3YTE0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-03",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 184600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-12-03",
+      "booking_date": "2023-12-03",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2e15a62a9065ed78d6819e9f508be087",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "NzJlNGUzZWEtZGI1Yy00ODA3LThkZDAtNTEzOTgzY2VkMzI3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-02",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 54600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Srv Återvinning AB BG 5934-8185",
+      "value_date": "2023-12-02",
+      "booking_date": "2023-12-02",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "bfb15a6da791452d6b7302dcb746569f",
+      "bank_references": {
+        "unstructured": "Srv Återvinning AB BG 5934-8185"
+      },
+      "bank_transaction_id": "YzA2MTA0NjQtY2JjNi00YTJjLThlOGYtZTA3OTU4MTczZGRi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-02",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 317700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Fortnox Finans AB BG 5020-7042",
+      "value_date": "2023-12-02",
+      "booking_date": "2023-12-02",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "fd99c21ed723fb4b74b1584c37ea2551",
+      "bank_references": {
+        "unstructured": "Fortnox Finans AB BG 5020-7042"
+      },
+      "bank_transaction_id": "YWZkNDEyMmItMzE1NS00NGQyLThmY2MtMzVmZDlkZmFhZDQ3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-12-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-11-30",
+      "booking_date": "2023-12-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d5fced42bfe7908e23d77966d6dc642d",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "ODBiNTU3YTctNWMwOC00NGRiLTllYjAtYjFhODA2MzI2NmQz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-30",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 840800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-30",
+      "booking_date": "2023-11-30",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c34dcc167b188e29b5d7693cce0748b5",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "YTdlMjFmYjUtZDUzMi00YzhkLTk0OWEtMjRiYTVkNjMyOTQx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-30",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 4858699,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-11-30",
+      "booking_date": "2023-11-30",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7e14dd8601269019a666e62b6c32638d",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "OWNiOWMxYTItNTBhOC00YTI2LTk1MzgtYTc4N2QyYmFhZmQ0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-29",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1800000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "skattekonto",
+      "value_date": "2023-11-29",
+      "booking_date": "2023-11-29",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2d2b895f09ecd303f479f280a1578835",
+      "bank_references": {
+        "unstructured": "skattekonto"
+      },
+      "bank_transaction_id": "MjI0YTRmNjAtZjMyNS00MjliLThiMmItOTNiZmQ2ZTQwNGNl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-28",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 622000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Dackskiftarna Vastberg",
+      "value_date": "2023-11-28",
+      "booking_date": "2023-11-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "117b0d71697e50af5165855279b89789",
+      "bank_references": {
+        "unstructured": "Dackskiftarna Vastberg"
+      },
+      "bank_transaction_id": "MGM4YjYxNTEtNzU3My00YzVhLWJkZGMtMjJiZGRjNTI2NmMz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-28",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 120000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Dackskiftarna Vastberg",
+      "value_date": "2023-11-28",
+      "booking_date": "2023-11-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "787d67b6271a002e9634074504687064",
+      "bank_references": {
+        "unstructured": "Dackskiftarna Vastberg"
+      },
+      "bank_transaction_id": "ZTU5NTNhMzctMDM2Ni00YTU2LWFjNmItN2E2NmFmYTFjMzYw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 654000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Dackskiftarna Vastberg",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8912835ab1c602bc30837d8f735bad7b",
+      "bank_references": {
+        "unstructured": "Dackskiftarna Vastberg"
+      },
+      "bank_transaction_id": "MDhiYjNiNWItMzM1NS00MWNkLTk4ZjQtZjdhYjQ2YjU4M2Mx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 85300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "K-Bygg Försäljning AB BG 5270-7213",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "59ff3f092e02629f721a92dd5b331171",
+      "bank_references": {
+        "unstructured": "K-Bygg Försäljning AB BG 5270-7213"
+      },
+      "bank_transaction_id": "ZmFkODYyNTktMjg0Zi00ZTYwLTljNjUtZmUxMTU0OGM4ZTM5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 211200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "K-Bygg Försäljning AB BG 5270-7213",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4e230088c2ec394af50ebe47c6741df9",
+      "bank_references": {
+        "unstructured": "K-Bygg Försäljning AB BG 5270-7213"
+      },
+      "bank_transaction_id": "NmQ5MzY2ODYtMTQ4ZS00ZTM1LWFkMGQtMThiZDQ2NmY4M2U4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 643700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Svea Bank AB",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3919b9b29dcb7b6f0e68309a99068534",
+      "bank_references": {
+        "unstructured": "Svea Bank AB"
+      },
+      "bank_transaction_id": "MTI0M2E3NTUtNTUwZC00YzRlLWI1ZmUtZTA2MzM5Y2Q5MDlh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 461200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NORDEA FINANS SVERIGE AB",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "cc512ac31436a97396c29549d13c1919",
+      "bank_references": {
+        "unstructured": "NORDEA FINANS SVERIGE AB"
+      },
+      "bank_transaction_id": "YzRkOTZiMDMtMTFmNi00YmZjLTg1OGYtMGUyZTJkMWU0ZjJl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 348100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "PS Betalningsservice BG 660-9010",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d25347d9086c79ca90f126f6813e9905",
+      "bank_references": {
+        "unstructured": "PS Betalningsservice BG 660-9010"
+      },
+      "bank_transaction_id": "NjNmODJlYjctOGMyZC00OTVhLWE0MWQtYzc2MDhmYTMyOTBm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 122800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e4c68901fc1a97b03d9fd933a4bf7e90",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "YTQ4YjdhYjQtNTMzNS00YjRmLTlkNGEtNGM3MzQ1ZjBiNmU0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 190500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "5fa920ec5634dc8c5784e0f53914d048",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "NTgyZDFmZmItOTJkOS00OTg4LWE1YWYtYWNhYzc4YmQwYjc0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 340000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "00660649b1b84f9dee664d7e7a80614f",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "NGY1YjU5OTMtY2Q3My00MDMzLWE4YTktYTFhZGQ0ZGVmMTRi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 307100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "5f63b9293699cfe71556d698bf836419",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "YjViMDM0OTYtOTA3NS00MGM0LThlNjQtNGI4NTBkNzViMDYw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2000000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Lön Kasper",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b9f9b0998fb940fa517a9478eb8e71ef",
+      "bank_references": {
+        "unstructured": "Lön Kasper"
+      },
+      "bank_transaction_id": "Yzg0Yjc4YmMtOWU3Mi00MzNjLTgxZDEtNDI1OWI2MTc1MmI4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2500000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Lön David",
+      "value_date": "2023-11-24",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3496881702176632fa5436a6e07a93ef",
+      "bank_references": {
+        "unstructured": "Lön David"
+      },
+      "bank_transaction_id": "ZDVjNTk4YjYtNjAzYi00ZGNiLWI4ZWMtMjNkNTcwNGIzMGQ3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 742000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Dackskiftarna Vastberg",
+      "value_date": "2023-11-23",
+      "booking_date": "2023-11-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "5bd0f327d3ce60f2b434b75c59dedb31",
+      "bank_references": {
+        "unstructured": "Dackskiftarna Vastberg"
+      },
+      "bank_transaction_id": "Yzg5YTgzNDItNTM2YS00OTYyLWI2YzMtZjY3MzhkMGFhNzlk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-22",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 600000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKATTEVERKET",
+      "value_date": "2023-11-22",
+      "booking_date": "2023-11-22",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "41a88ef7757b45c0a0391ede6e6fd58f",
+      "bank_references": {
+        "unstructured": "SKATTEVERKET"
+      },
+      "bank_transaction_id": "OTc3OWNhMmQtZjRkNi00ZWFhLWJiMjctNTc3MmJhZGU5NjQy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-22",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 669200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA*BYTHJUL.COM",
+      "value_date": "2023-11-16",
+      "booking_date": "2023-11-22",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9c918f0ade80b517006a248b650dea4a",
+      "bank_references": {
+        "unstructured": "SVEA*BYTHJUL.COM"
+      },
+      "bank_transaction_id": "ZjgyYjcxYTctYTdlZS00YTRlLThhNjktYzFiNmMxZmU3YmI3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-20",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 4628300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-11-20",
+      "booking_date": "2023-11-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7b535a5e99790a0b3ea6f8ca508c830c",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "OGI4YmU2ODgtZWQ0OC00MjBjLWI4MGItMTUyNmNkODIzYTE5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 49100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-19",
+      "booking_date": "2023-11-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4ab0cb027e77ae63fae324b0dbe821d9",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "MWVmOGQ4YjktZDVhOC00NGQ2LTlhMzktNmFiNmUxYjg4ODI4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-16",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 31800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-16",
+      "booking_date": "2023-11-16",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0970437382c81bad21d4db9093934851",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "ZjdjYjk2MmItYTk5NS00ZWVlLTg3MzItNmNjOTFkODFlMWNk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-14",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3267200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-11-14",
+      "booking_date": "2023-11-14",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "07d19547c895af39bb3900f0f4ced88e",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "NjEzYWQwYzYtZDY0OC00YmRhLTlmOTUtMjhmNjAxZGMyNzlj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-12",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 105400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-12",
+      "booking_date": "2023-11-12",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "ac9f9b3a9a9d5de0ee2b0e553b199369",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "YTEyNDEyOTktNmIwOS00YWVkLWJhMDctZThhY2E0MjM2ODcy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-10",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2298400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-11-10",
+      "booking_date": "2023-11-10",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "f150483ed2e79da24f78f61e67b93456",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "MjQ3YTgwMzAtZmYzNi00MmEyLWFlYTktZTA3NDA0OGNhNTYx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 28900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-11-09",
+      "booking_date": "2023-11-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "aef2ac058e1ced731e7437503e81bb55",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "MDQ1MGJlNDgtYjA3Ny00ODlhLTlmNWMtZmUxMGEwNzQyNTZj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 86500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-09",
+      "booking_date": "2023-11-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b4ac1982d1561cd97d80dba89e053482",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "MTI5NWFhYmMtNjQ2ZC00MTU4LWEyMDAtN2YwZDA0MDc2NWEz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 24900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "LA Leif Arvidsson AB BG 198-7965",
+      "value_date": "2023-11-07",
+      "booking_date": "2023-11-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "282c006680e473fb95641e3eef7545f1",
+      "bank_references": {
+        "unstructured": "LA Leif Arvidsson AB BG 198-7965"
+      },
+      "bank_transaction_id": "Yzg1YmU1ZTktMGRjMS00Y2I4LWJkZDgtMzBlMjc3YWI3Yjlk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 75000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA BANK AB PG 4154801-7",
+      "value_date": "2023-11-07",
+      "booking_date": "2023-11-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b0cff467ffd8eea41f6c70d52134bb82",
+      "bank_references": {
+        "unstructured": "SVEA BANK AB PG 4154801-7"
+      },
+      "bank_transaction_id": "ZWQxYzU2ZjktMDNlMC00ZjIwLWFkZTItNDcyZmM3MTQ0ZWIw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 15000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-11-07",
+      "booking_date": "2023-11-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0a43ba9fea2463ad86a1a424eed141c9",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "M2M0OTI4MDgtZjkxMC00M2M3LTljYzUtZDZlZTFjMzRmZWNi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-11-07",
+      "booking_date": "2023-11-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "60be4ec17de72b21e34ada09d3107969",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "OTc0MzQ0ZjctZDBkNS00Yjc1LTlkNjgtMjNmNmQ0ZTdiOTU1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 109300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Srv Återvinning AB BG 5934-8185",
+      "value_date": "2023-11-07",
+      "booking_date": "2023-11-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "464b0abfff49a90145626fc841377312",
+      "bank_references": {
+        "unstructured": "Srv Återvinning AB BG 5934-8185"
+      },
+      "bank_transaction_id": "YTJkZGRlOGYtY2M3Mi00OWE0LWE3ODctNjYzNjdkYjIzODQ3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 184500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-11-07",
+      "booking_date": "2023-11-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "998d859caf1c12ab65a12ecd375888ff",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "ZDk2NTQyNzQtODNhOC00ZmJmLTlmMjYtZmRjMTRkZTAyODAw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-05",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 858000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-05",
+      "booking_date": "2023-11-05",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4689df9f4a2671b3e0bc2dda05e9e673",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "MDhkZGUyN2QtMmMyNy00N2QyLWJjZGQtMjcxMzNjYmNlYTA1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 8900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-11-01",
+      "booking_date": "2023-11-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6bf77540f31789340d01c74f0a8fc317",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "ZDNjZmQ4M2EtNjE5Zi00OGI3LWJlNmQtYWYwMDI0ODY3YTEz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 25890,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BAUHAUS LENNA",
+      "value_date": "2023-10-31",
+      "booking_date": "2023-11-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1037e050fd1e0bf1c2039f5ac990c18f",
+      "bank_references": {
+        "unstructured": "BAUHAUS LENNA"
+      },
+      "bank_transaction_id": "NWExY2U4YzAtZTgxNy00ZTMxLThmMTQtNmExZjU1ZTZlZWQ2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-11-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-10-31",
+      "booking_date": "2023-11-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "5eeb04f913ac5d0a21f8e9137e3752eb",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "YjcwZTAxYzYtMDg5MC00YjAyLWE5NWMtMTg5NzAwZTgyNDky",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-31",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 69900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "LEBE BYGG",
+      "value_date": "2023-10-30",
+      "booking_date": "2023-10-31",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9f6f8414ed0f60dd8928644a916058f2",
+      "bank_references": {
+        "unstructured": "LEBE BYGG"
+      },
+      "bank_transaction_id": "NTU2NTJkNmMtMGQzNy00MTAzLTlkYzYtOTZkYjY4Y2VmNDk0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-29",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 203700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-10-29",
+      "booking_date": "2023-10-29",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "12d8a1bae60cb9afca7185ca3885ab23",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "OWNjZDJiNTItZmZlYS00ZDk2LWE2MjUtYWE0OGFlNzFkZDQ2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 57000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "LEBE BYGG",
+      "value_date": "2023-10-27",
+      "booking_date": "2023-10-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "611eb969d7e6ae702b72ad0478af974d",
+      "bank_references": {
+        "unstructured": "LEBE BYGG"
+      },
+      "bank_transaction_id": "YTU2ZjVjMmEtZWJjYi00NmRmLWE0ZGUtNmViNjY2NmUzZmYz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-26",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2000000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Lön Kasper",
+      "value_date": "2023-10-26",
+      "booking_date": "2023-10-26",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d7a561088edf4b7a7bb4cfdcde9c5b38",
+      "bank_references": {
+        "unstructured": "Lön Kasper"
+      },
+      "bank_transaction_id": "MTQ4MTNmN2YtODRhYy00Mjc5LWJkODctNDU4Y2E0ODE4M2Fh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-26",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 4181100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-10-26",
+      "booking_date": "2023-10-26",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "657489a3a61fbf4dc2ef6a894b0b82f1",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "N2U2ZWM5MWQtNjlmZC00Yjk4LWI0NGUtMjkyZjlhNmEyOGU4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-26",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2200000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "lön David",
+      "value_date": "2023-10-26",
+      "booking_date": "2023-10-26",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "94a380bd16a3c7b71567ebcafb70a4ac",
+      "bank_references": {
+        "unstructured": "lön David"
+      },
+      "bank_transaction_id": "YzQxZTRjNDktZTlkNC00OGYxLTk5Y2QtMGU4ZjAwNjNhYzI0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-25",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 101400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "ÅTER 231023",
+      "value_date": "2023-10-25",
+      "booking_date": "2023-10-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1d58e8338494d9080473faa1a836cfdf",
+      "bank_references": {
+        "unstructured": "ÅTER 231023"
+      },
+      "bank_transaction_id": "ZjViNjVmZjEtZWI5MS00NjZjLWIyZWMtZWY4NTQ5ZWZiZjhl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-25",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 12000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "ÅTER 231023",
+      "value_date": "2023-10-25",
+      "booking_date": "2023-10-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3a27b46517481c99b9870b17ebc24e7a",
+      "bank_references": {
+        "unstructured": "ÅTER 231023"
+      },
+      "bank_transaction_id": "ZWI1NzEzZDYtZGI3YS00OTJmLWE2MmMtYmZkMGM3YWUxYmE1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 88800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKATTEVERKET",
+      "value_date": "2023-10-25",
+      "booking_date": "2023-10-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6e60c2a3e930504264daaf8d0291a9f1",
+      "bank_references": {
+        "unstructured": "SKATTEVERKET"
+      },
+      "bank_transaction_id": "NGNmZmYzMzgtMmFhMi00NGVkLWExNWItMWY2MWQ5OGRmYTRh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 72900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Besikta STOCKHOLM - V",
+      "value_date": "2023-10-23",
+      "booking_date": "2023-10-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "dc4137bbdefae33d89821a6233a8467f",
+      "bank_references": {
+        "unstructured": "Besikta STOCKHOLM - V"
+      },
+      "bank_transaction_id": "MTkyOTI1ZWUtZjBiMi00M2ZmLWFiYTMtYjQwNDliNzJjZjA4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-24",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 96656,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-10-20",
+      "booking_date": "2023-10-24",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1a7a6b40911cbade83a3ec7f5a68d8a4",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "NTFiZDg2NzMtMzJmYy00MmY2LWFhNGQtZDA5MjhhNDM1YzU2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 461300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NORDEA FINANS SVERIGE AB",
+      "value_date": "2023-10-23",
+      "booking_date": "2023-10-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7ffab897fd11d29ab7a7f4e9ffbfb8d8",
+      "bank_references": {
+        "unstructured": "NORDEA FINANS SVERIGE AB"
+      },
+      "bank_transaction_id": "ZWI3YWE4ZTItMzY5Mi00ZTJmLWJlYWEtZmExOGVhYTNjZDU2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-23",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2158200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-10-23",
+      "booking_date": "2023-10-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "ca2b9f2d86dd344b24a131557b69f411",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "Y2ViM2E4OTktM2E4MC00NDVkLTlmYmUtYTU0NjY4MDFiZDVi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 7500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TRÄNGSELSKATT TRANSPORTSTYRELSEN BG 282-4647",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6ea936e9a2d295255769a5a1ca12d556",
+      "bank_references": {
+        "unstructured": "TRÄNGSELSKATT TRANSPORTSTYRELSEN BG 282-4647"
+      },
+      "bank_transaction_id": "ZTQyYzg1MmEtZGExYS00NDM2LThiOTAtNWE0NTdmNDVhNTg2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 252000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "FORDONSSKATT TRANSPORTSTYRELSEN BG 5051-6822",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9a5d759e16d217eb9febdfaa692cdfda",
+      "bank_references": {
+        "unstructured": "FORDONSSKATT TRANSPORTSTYRELSEN BG 5051-6822"
+      },
+      "bank_transaction_id": "NWQ4YzNjOGQtYjJlNy00MTEzLWI0YmUtYTZmYWUwMTk1MTg5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 109300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Srv Återvinning AB BG 5934-8185",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4d3a5b46288df22599c0e565f11df07c",
+      "bank_references": {
+        "unstructured": "Srv Återvinning AB BG 5934-8185"
+      },
+      "bank_transaction_id": "YjVkYjA4NjItYTgwYS00NzU0LWFmYzMtZTIxYWVmM2UwMDJj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 137800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d77aedd1a0195baa492f96dd84af4a54",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "NzdhMjUwODktNWZjYS00NDYyLTljNjQtODQ5ODJkYzdjMDYz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "80727d826437478553d0e6a113fed168",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "N2FlODU1ODgtM2E3Yi00MWEwLWJhY2QtZTdlYjI3Y2ZhNjAx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 117000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "fc53d92748f641cde326c776c3787fc4",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "NmUyMjY4NzAtNzQwMS00YTdkLTg2ZDUtNTNlMWZlMzNmMjcz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 123800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKÖNABERG AB",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "11d27b983fdecfcd4596d7b6ff4051e4",
+      "bank_references": {
+        "unstructured": "SKÖNABERG AB"
+      },
+      "bank_transaction_id": "NjNjZGVlNjEtOGRjZi00MDhhLWI4NGEtM2QzZjEyNzgyZTU2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 643700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Svea Bank AB",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e3857aa4a7c732a9edfe49537f34f8ad",
+      "bank_references": {
+        "unstructured": "Svea Bank AB"
+      },
+      "bank_transaction_id": "Njc2ZTIyZjQtMGQ0YS00ZjY5LTk1MGQtNDJiNTMxYTUzMzk4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 631600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-10-19",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0b732fcdd0af6fcf491ec15d28f4c0ff",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "Y2EyY2I5OTItOWE5NC00NDU4LTgyNTgtNzgwZmU1OTNjMTdj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 100512,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "JERNA TRE O BYGGVAROR",
+      "value_date": "2023-10-18",
+      "booking_date": "2023-10-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "bd3b570bcc633f360f0a5940c7f2dc24",
+      "bank_references": {
+        "unstructured": "JERNA TRE O BYGGVAROR"
+      },
+      "bank_transaction_id": "NjAzOWFlMzItZjA4MC00MTE5LWJjYmUtMDM0MGJkOTJlOWY0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-18",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 34000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL AB NACKA 114",
+      "value_date": "2023-10-17",
+      "booking_date": "2023-10-18",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9918a3a3817ca389a2e2af03ce6fea66",
+      "bank_references": {
+        "unstructured": "AHLSELL AB NACKA 114"
+      },
+      "bank_transaction_id": "OWM3ZWQ0ZTYtN2JmOS00NDJmLTk4NTAtNjlhNDBkOGYxYzQw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-17",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 13700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL AB NACKA 114",
+      "value_date": "2023-10-16",
+      "booking_date": "2023-10-17",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "f8fe1f8a7dd3f7b9c1b869236ac47318",
+      "bank_references": {
+        "unstructured": "AHLSELL AB NACKA 114"
+      },
+      "bank_transaction_id": "MGEwNzExMTUtNDVmYy00NTIxLThjMTQtZGYxMGE2NDM5ODhh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-15",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 381500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-10-15",
+      "booking_date": "2023-10-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6ebf00083858b1c6cf2626d27a2ff6d7",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "OTYzNzkxOGItMTQ1OC00OTVkLThhZWYtOGJiMTc3NWU3OGJk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-13",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3692000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-10-13",
+      "booking_date": "2023-10-13",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "865f803769f3137f3df570fd47a9c607",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "Y2EzYTdkMWItOTg0OS00ZThiLTgxOTMtODA0MTkxMGY4ZjU4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 186900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2023-10-09",
+      "booking_date": "2023-10-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "619446c34cdc00b1b56a8671b37c8ae2",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "NjAyMzg2NzctYTJhNy00MGJjLWJmNGUtMWMzNDczNmVkYTM2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 804900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Haninge Byggshop AB BG 818-6983",
+      "value_date": "2023-10-09",
+      "booking_date": "2023-10-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "03ed265ef452f59a1a069acef392b3bd",
+      "bank_references": {
+        "unstructured": "Haninge Byggshop AB BG 818-6983"
+      },
+      "bank_transaction_id": "ZDY1NTBjZmItOWNkZS00YmJlLWI4YjgtMmRlMTM2MWQwYjUw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 300000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA BANK AB PG 4154801-7",
+      "value_date": "2023-10-09",
+      "booking_date": "2023-10-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8fd62a236f31dd7ebaa9fcd61ec5b14a",
+      "bank_references": {
+        "unstructured": "SVEA BANK AB PG 4154801-7"
+      },
+      "bank_transaction_id": "NGEyNDc4MmUtZTI5ZC00MmYwLTgwMTUtYjc5NWNiYTc5YjA3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 108000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "HANDELS-& JURISTINKASSO, PG 945303-6",
+      "value_date": "2023-10-09",
+      "booking_date": "2023-10-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4c7ded040a4b711bc7bfa760789ac0ee",
+      "bank_references": {
+        "unstructured": "HANDELS-& JURISTINKASSO, PG 945303-6"
+      },
+      "bank_transaction_id": "YWNhNzI2ODEtMzQwMi00MzEzLWI2ZmMtMjZmYzNhZGYxOWI3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 18000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "HANDELS-& JURISTINKASSO, PG 945303-6",
+      "value_date": "2023-10-09",
+      "booking_date": "2023-10-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "a94b67d4f070948054a3372b9352a96e",
+      "bank_references": {
+        "unstructured": "HANDELS-& JURISTINKASSO, PG 945303-6"
+      },
+      "bank_transaction_id": "NWUxNjkwZjEtMTlhYS00NGZkLThkMzktYWZmOWQzN2ViODA2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 17000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "JERNA TRE O BYGGVAROR",
+      "value_date": "2023-10-06",
+      "booking_date": "2023-10-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2d48e642f31bea4471bddefdc0df7e82",
+      "bank_references": {
+        "unstructured": "JERNA TRE O BYGGVAROR"
+      },
+      "bank_transaction_id": "YzhlMDk4ODEtMjQ2Ni00MTFiLTkxYjktM2YxY2NmOGFkM2Jl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-10-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-09-30",
+      "booking_date": "2023-10-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4b6cc2206ab3f002d20802aa28eb6e17",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "MDI5ZGMwYmItMTZlOC00MzUyLTg4ZDctMDlkMmEwM2U5MDYx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 201200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-09-27",
+      "booking_date": "2023-09-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "392f9ea5b619292085ea1c94dd12bcd7",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "MTkxYzVhMjEtYTFkYy00MzIzLTk0MTMtY2JkZjRlM2MyOWU5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 460700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NORDEA FINANS SVERIGE AB",
+      "value_date": "2023-09-27",
+      "booking_date": "2023-09-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "59cd73093d4ddf477d54bb14b14b1f36",
+      "bank_references": {
+        "unstructured": "NORDEA FINANS SVERIGE AB"
+      },
+      "bank_transaction_id": "MjhmYjIxNGMtYjVkNi00OGYzLThhMGEtZDZhZTczMTc1YjUz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 90000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Aimo Park Sweden AB BG 202-7001",
+      "value_date": "2023-09-27",
+      "booking_date": "2023-09-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8754e22b90dd8107fcad896067282612",
+      "bank_references": {
+        "unstructured": "Aimo Park Sweden AB BG 202-7001"
+      },
+      "bank_transaction_id": "MjNkNTEwNDEtZmNlMC00MzUwLThmOWQtMjIwNGM2NTRmMmVi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 111500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2023-09-27",
+      "booking_date": "2023-09-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "84109b8d3b53e41966153a7ce2c22c7d",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "ZDcxZGEyODQtOGY2NC00YTIwLWFjMGMtODI2NmM3NWRkM2Ew",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-27",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 210900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-09-27",
+      "booking_date": "2023-09-27",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "08eddb54545834cbdec24b951c1d928b",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "NjMzMDg4MmYtOTkxZS00NDhjLThhNjItNjRkNmUzZTAxNDZl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1400000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Överföring till 6162-506603431",
+      "value_date": "2023-09-25",
+      "booking_date": "2023-09-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d97bcf060c1e05c4cc41ad78263ff89a",
+      "bank_references": {
+        "unstructured": "Överföring till 6162-506603431"
+      },
+      "bank_transaction_id": "ODAwNzZjZjgtZjU3Zi00NGZjLTk5MGEtOGVmZGI1YzczY2Qw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1400000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Överföring till 6927-661360768",
+      "value_date": "2023-09-25",
+      "booking_date": "2023-09-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7b8de0346dedb0118b3b1acba387382e",
+      "bank_references": {
+        "unstructured": "Överföring till 6927-661360768"
+      },
+      "bank_transaction_id": "MWFkMjIwYjEtMjYzNy00YzQ1LTllMjMtM2M3MTEyOTE3ODQz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-25",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 622300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-09-25",
+      "booking_date": "2023-09-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e69296c71741223164ef66c472adad00",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "ZWFiOWVmYTUtOWIxMy00NTBhLTgwZTgtNDkxNzdiODUyODAy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 132500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NORRKÖPINGS SKE",
+      "value_date": "2023-09-23",
+      "booking_date": "2023-09-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "cafacc5835a37d2281222b7b0830ff67",
+      "bank_references": {
+        "unstructured": "NORRKÖPINGS SKE"
+      },
+      "bank_transaction_id": "ZWNiNDUwYWQtMjFmNS00MTdlLWIxODMtYjQyODY1NzYwNmVh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 146941,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 89",
+      "value_date": "2023-09-22",
+      "booking_date": "2023-09-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3b2b499cc2b7361a92e75223c54f599b",
+      "bank_references": {
+        "unstructured": "BEIJER 89"
+      },
+      "bank_transaction_id": "MDFhNTQ5YTctMzcwNi00OWYyLTlmNjktNDNhNzJhZGMwNWU5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-23",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 68750,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Zettle_*SRV atervinnin",
+      "value_date": "2023-09-22",
+      "booking_date": "2023-09-23",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c0d7d360bd1160a58281629080d011bc",
+      "bank_references": {
+        "unstructured": "Zettle_*SRV atervinnin"
+      },
+      "bank_transaction_id": "Y2IzZGQzMzYtNDk2OC00NjRlLTg0M2YtNWNmY2UzYzAzZGMz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-22",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2805000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-09-22",
+      "booking_date": "2023-09-22",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7f70159e044b0387297106551a136dae",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "NzljNzZjOWQtOWIwMi00YmE5LTlkOWYtMmRkZjhmYzIyYzk3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-22",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 49958,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "HORNBACH BYGG- OCH TRE",
+      "value_date": "2023-09-21",
+      "booking_date": "2023-09-22",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "941884f9134ef3b6fd49f76f36baec2e",
+      "bank_references": {
+        "unstructured": "HORNBACH BYGG- OCH TRE"
+      },
+      "bank_transaction_id": "ZjU0YWMyM2UtOTZkMS00NjFiLTlmMTEtOTkyNTk0ODE2MWM3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-20",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 114948,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 89",
+      "value_date": "2023-09-19",
+      "booking_date": "2023-09-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "da8b3a03b1880b3436061d772442ea78",
+      "bank_references": {
+        "unstructured": "BEIJER 89"
+      },
+      "bank_transaction_id": "ZDc3MDUzMzctYTEwOC00MzYxLWE0YzItOTlmZDc2MzgzODcy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-20",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 68000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BYGGARNAS PARTNER SORU",
+      "value_date": "2023-09-19",
+      "booking_date": "2023-09-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "ce8968b9aff31e429a9535bcdbd3f9f9",
+      "bank_references": {
+        "unstructured": "BYGGARNAS PARTNER SORU"
+      },
+      "bank_transaction_id": "YmJmNGM0MDYtMGJiMC00NWY2LTg0MmQtYzhjOWFiNjQwYTZh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 692000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Svea Bank AB",
+      "value_date": "2023-09-19",
+      "booking_date": "2023-09-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c7d12ab3d7ce00f977c700534e710db2",
+      "bank_references": {
+        "unstructured": "Svea Bank AB"
+      },
+      "bank_transaction_id": "OTY4N2UzOWUtMzQ0Ny00MzBjLTlkNmUtODhjNDk0ZDNmMTUy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 337100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TRYGG-HANSA FÖRSÄKRING FI PG 4959102-7",
+      "value_date": "2023-09-19",
+      "booking_date": "2023-09-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "026afba2d299e3cf330e968dd2a7ba7e",
+      "bank_references": {
+        "unstructured": "TRYGG-HANSA FÖRSÄKRING FI PG 4959102-7"
+      },
+      "bank_transaction_id": "NzVmYjE5OGUtZmJiNy00YTA4LWEzNmUtMjAxN2I0ZDFmZDRh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 111100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2023-09-19",
+      "booking_date": "2023-09-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "eae1f20f82f6c07c1a8455ff3791d28b",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "OTRjMDEzMmEtNTliOC00MTFhLTliYmEtYTczYmYzNDIzMGMw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 155800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BYGGARNAS PARTNER SORU",
+      "value_date": "2023-09-18",
+      "booking_date": "2023-09-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1e92dc9641639320bd36b050548a2222",
+      "bank_references": {
+        "unstructured": "BYGGARNAS PARTNER SORU"
+      },
+      "bank_transaction_id": "MTcxOWFhYzUtNjIxNy00ZTFlLWFkODUtMDY5NWJmMDZmYWQ5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-16",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 319223,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BEIJER 89",
+      "value_date": "2023-09-15",
+      "booking_date": "2023-09-16",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9b08241b2578c1dd779e4d8795840c17",
+      "bank_references": {
+        "unstructured": "BEIJER 89"
+      },
+      "bank_transaction_id": "MzQyNjAxNjYtMzBkOS00OWE0LTgxMTMtMTBlYjU0ZThjZjQx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-16",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 15660,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BYGGMAX 1343 NY",
+      "value_date": "2023-09-15",
+      "booking_date": "2023-09-16",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "f18e3739c2a9ee86c0141d08482727f1",
+      "bank_references": {
+        "unstructured": "BYGGMAX 1343 NY"
+      },
+      "bank_transaction_id": "NDk0NmQ5ZTMtNzBiZC00ZjdjLWI1ZDktZDRkYTEzZjNhNzBi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-16",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 22895,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BYGGMAX 1343 NY",
+      "value_date": "2023-09-15",
+      "booking_date": "2023-09-16",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6ef55bc06b1325c587709197d7c5422e",
+      "bank_references": {
+        "unstructured": "BYGGMAX 1343 NY"
+      },
+      "bank_transaction_id": "Mzc2Njc1NzQtOGUzZS00MTIxLThkMjUtMWRkMDQ0YzE3ZmU1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-13",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2036000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Elgiganten Kungens Kur",
+      "value_date": "2023-09-12",
+      "booking_date": "2023-09-13",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "349a34c549f236fd14d35804a9737ab5",
+      "bank_references": {
+        "unstructured": "Elgiganten Kungens Kur"
+      },
+      "bank_transaction_id": "YjA3NTQ4MjYtOTVkYy00ZmExLWI3ZTQtNDcxNDQ2MTkyODFl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 152244,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-09-06",
+      "booking_date": "2023-09-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8e4b4c98fa729ea86982a353126225b9",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "NmM1YzBjYTEtNGMxMS00YmEwLThkZjEtZDI0MjMzNzJlNDQ4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Swish Företag",
+      "value_date": "2023-09-06",
+      "booking_date": "2023-09-06",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "f0c1b5535d87261070cddfef1c56be6c",
+      "bank_references": {
+        "unstructured": "Månadsavgift Swish Företag"
+      },
+      "bank_transaction_id": "MDNmMGQ4MmQtZTNjNi00ZDY3LTg2NzItZTE2NTc4YmRmMWZm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 15600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Fortnox Finans AB BG 5020-7042",
+      "value_date": "2023-09-06",
+      "booking_date": "2023-09-06",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "a28e4942c870671cb72433746b40a521",
+      "bank_references": {
+        "unstructured": "Fortnox Finans AB BG 5020-7042"
+      },
+      "bank_transaction_id": "YjFiYzlkMTItN2EzOS00ZDdmLWFkY2YtZTk1OTAzOGE1YzUz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1300000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "bil mekaniker",
+      "value_date": "2023-09-06",
+      "booking_date": "2023-09-06",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "2ec568fd38975419c8dc9c5c83cee880",
+      "bank_references": {
+        "unstructured": "bil mekaniker"
+      },
+      "bank_transaction_id": "ZGYxNjE1NmItYTNkNy00N2Q3LWJmYzgtZjU3OGQ1NmM3MGI1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-09-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-08-31",
+      "booking_date": "2023-09-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c6ac3d76a67bf1de3f9ae4de5ee8a89d",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "ZjkzNzQwNWUtZmU1NS00ODZlLTk4YzAtNzdiODNhMGU3MWVl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-31",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 221600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BYGGARNAS PARTNER SORU",
+      "value_date": "2023-08-30",
+      "booking_date": "2023-08-31",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8b4da939efcb41518027f1423a1a76fa",
+      "bank_references": {
+        "unstructured": "BYGGARNAS PARTNER SORU"
+      },
+      "bank_transaction_id": "NGQxMTAzMGQtMjRkMy00YjlhLTk0MTMtMzdlMWYxNzZhNWU5",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-29",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 432510,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "INTRUM SVERIGE AB BG 730-4124",
+      "value_date": "2023-08-29",
+      "booking_date": "2023-08-29",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "210c7d85fc515276971d7c79780dd74b",
+      "bank_references": {
+        "unstructured": "INTRUM SVERIGE AB BG 730-4124"
+      },
+      "bank_transaction_id": "YzgzODVhZWEtZTNlZC00NWQ5LThmM2QtYjk3ZmNjZDk0Mjgx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-29",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 575900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL AB KUNGENS KUR",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-29",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4555d5131f67c34c895930bb12d2dd8f",
+      "bank_references": {
+        "unstructured": "AHLSELL AB KUNGENS KUR"
+      },
+      "bank_transaction_id": "YzZiNzAwZjAtMjBkZS00MDhkLThkYmItMGNhYmM3OGE5Y2Qw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 25000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BOLAGSVERKET/Fakturor BG 5053-0989",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b117288bdaf4916bf6a7d3bcda05fcf6",
+      "bank_references": {
+        "unstructured": "BOLAGSVERKET/Fakturor BG 5053-0989"
+      },
+      "bank_transaction_id": "OWJjMmIzOGYtNjY3Yi00OGFmLThiNDMtMmZkMTYyZjdhOTRl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 626000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NORDEA FINANS SVERIGE AB",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8ec1a328ab4aa9dc1a3427f92320f013",
+      "bank_references": {
+        "unstructured": "NORDEA FINANS SVERIGE AB"
+      },
+      "bank_transaction_id": "YWI1Nzg0YzYtNDJhMC00OGVlLWE4NTQtOWUwMWZmY2I3ZTgw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 10000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "FORDONSSKATT TRANSPORTSTYRELSEN BG 5051-6822",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "11405f9cddf3dba9eaa6345ffbd87689",
+      "bank_references": {
+        "unstructured": "FORDONSSKATT TRANSPORTSTYRELSEN BG 5051-6822"
+      },
+      "bank_transaction_id": "NjYxYWVjZDgtOTQyYi00NWQzLTgwZTktNmM2ZWUyMmYzM2Rm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 136800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c47d90c33074b4d4dcce44f29e1c690f",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "YWYyYmM4ZTEtNWUyYi00OGM1LWIzYjEtODRhMGUzNjhkNGFj",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 148100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TFF BG 836-6031",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1dfa6795ebbd55403124998348bf4f75",
+      "bank_references": {
+        "unstructured": "TFF BG 836-6031"
+      },
+      "bank_transaction_id": "NDhjZDMwNWUtNGQ4Ni00NWMyLWE4MmMtYmZmMGEyMDhlMTMy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 500300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Trygg-Hansa Försäkring filial BG 5097-1282",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7a21bcf1be50a71ebc0ae36d08e183ef",
+      "bank_references": {
+        "unstructured": "Trygg-Hansa Försäkring filial BG 5097-1282"
+      },
+      "bank_transaction_id": "MWNiZTVhMjYtY2UzZC00Y2VkLWIxYjgtYzMxMTA2NzM0MDNm",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1200000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Lön",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "bda4bc3dfcaf1d3daa45c2307f477dbf",
+      "bank_references": {
+        "unstructured": "Lön"
+      },
+      "bank_transaction_id": "OGFjOGQzZDQtMDYxMi00ODMxLTk0MjktNTY4NTdhYTAyODM1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1200000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "lön",
+      "value_date": "2023-08-28",
+      "booking_date": "2023-08-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0a1c4a3921d04b7ebb2589076d05fe2f",
+      "bank_references": {
+        "unstructured": "lön"
+      },
+      "bank_transaction_id": "ODVjNjFjMTQtNzkwOS00NzYxLTk4ZDEtMTY4NzlmZjFiYmRl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 52900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "NA SVENSSON",
+      "value_date": "2023-08-24",
+      "booking_date": "2023-08-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9c33ed631f9c89c32fed89706cbad317",
+      "bank_references": {
+        "unstructured": "NA SVENSSON"
+      },
+      "bank_transaction_id": "NzU1YWVkYjctN2NmNC00Y2JlLTk4ZWMtZDI2YWEwOWJjZDll",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 156348,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-08-24",
+      "booking_date": "2023-08-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "0940ea92b35ad2b8894864d396d8a5da",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "OTljNjViOWYtNWQ3ZS00OTlhLTg2OTctMDE3MjY2NzJmYWQw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 27800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-08-24",
+      "booking_date": "2023-08-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c1c6c85631bbe87b4dbe7dcfb1c0fe9c",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "NjIwNzQ1MGUtNGNjMi00OWIyLWE2NGMtYzI1ZDk5M2IwOGJh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-18",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 5679400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL AB KUNGENS KUR",
+      "value_date": "2023-08-17",
+      "booking_date": "2023-08-18",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "434ff6d10a404064446985cc0f541eb8",
+      "bank_references": {
+        "unstructured": "AHLSELL AB KUNGENS KUR"
+      },
+      "bank_transaction_id": "YTdiZWM5ODAtMzUxNC00ZGE3LWI0YTAtODcyNmZlZTcwY2I3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-17",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 19890,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "JULA SVERIGE AB 406",
+      "value_date": "2023-08-17",
+      "booking_date": "2023-08-17",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4fca26c0d2665bf8347b0a12fbcc5b12",
+      "bank_references": {
+        "unstructured": "JULA SVERIGE AB 406"
+      },
+      "bank_transaction_id": "MWViNWE1ZjYtMWQ0MS00ZDk4LWI3MDMtNTE0YWZhMTI0MWIy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-17",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 124296,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-08-16",
+      "booking_date": "2023-08-17",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b19a817e11f85616d7fa70520bdaa3b0",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "MGIzNDliMjUtY2IzMC00MjUyLTk5MzAtODMzNTgxM2E4YTkw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-16",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 736100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL AB KUNGENS KUR",
+      "value_date": "2023-08-15",
+      "booking_date": "2023-08-16",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "95e1011e2c3eac219f220829fd2fbf3b",
+      "bank_references": {
+        "unstructured": "AHLSELL AB KUNGENS KUR"
+      },
+      "bank_transaction_id": "ZGMxOWVjZDctMDM3OS00Yjk1LWE2MDAtNzg3MTgxMTE0NTJk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-15",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 10000000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Utbetalning lån",
+      "value_date": "2023-08-15",
+      "booking_date": "2023-08-15",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e13e59d33454bf1c5044246458750e9f",
+      "bank_references": {
+        "unstructured": "Utbetalning lån"
+      },
+      "bank_transaction_id": "MTFhZDZlMzYtNzY5ZC00NzE4LThlNDItZWIyY2YzN2M5YjY3",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-11",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 134511,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-08-10",
+      "booking_date": "2023-08-11",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d228cbda6a89b61ba652b148c702f11c",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "MGZkYWMzYmQtM2MwMy00YWRkLWJlMDMtMDllM2MzNmVhMWM0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-10",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 269600,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "ok q8",
+      "value_date": "2023-08-10",
+      "booking_date": "2023-08-10",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "c9e54aba84451e020e154d58e63730b6",
+      "bank_references": {
+        "unstructured": "ok q8"
+      },
+      "bank_transaction_id": "MTRiYjc0OGMtYTc5NS00OTkxLThmNzMtNzk4YTNiYTU3Nzk1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 280800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB",
+      "value_date": "2023-08-09",
+      "booking_date": "2023-08-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b009f41d940f4d3306795640eb8ac402",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB"
+      },
+      "bank_transaction_id": "Yzk4MDA3Y2EtNTJlYS00MDVmLThjNDAtMTIzN2Q4NmY3YzRl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-09",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 135536,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OKQ8",
+      "value_date": "2023-08-05",
+      "booking_date": "2023-08-09",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "5e61817f8023880255a9174e8b4e4979",
+      "bank_references": {
+        "unstructured": "OKQ8"
+      },
+      "bank_transaction_id": "Zjk1YjU0N2MtMjY2My00ZWE5LWI1MWUtYzA5Zjc2ZTI5Mzlh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-07",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 6407100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-08-07",
+      "booking_date": "2023-08-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "abc4f03d4be9517d7648b022688a7d17",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "ZjUwZTRiMTAtNTQ0Zi00ZjgxLTk2MWYtYjA4ZTQwOTZhOGM1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 81900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "FORDONSSKATT TRANSPORTSTYRELSEN BG 5051-6822",
+      "value_date": "2023-08-07",
+      "booking_date": "2023-08-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "8d1bd080cc07c0ee9d77d55f54d4e5e9",
+      "bank_references": {
+        "unstructured": "FORDONSSKATT TRANSPORTSTYRELSEN BG 5051-6822"
+      },
+      "bank_transaction_id": "ODViZTNlZTctZjQ0NS00OGQwLThlMDQtNWNmNjIwM2IzYWMw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-08-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-07-31",
+      "booking_date": "2023-08-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "45bc9ae04fe64bc775c65dfc6ce35e84",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "MzI5OGJiMmYtMWRmZC00MjAxLWI2M2UtYjM4M2IyMGJmYTE2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-29",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 113400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "WOODY BYGGHANDE",
+      "value_date": "2023-07-28",
+      "booking_date": "2023-07-29",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "29236f632ee5ba9e9e526f805248c023",
+      "bank_references": {
+        "unstructured": "WOODY BYGGHANDE"
+      },
+      "bank_transaction_id": "MjU2NWY0MDAtMDg2OS00ZTM0LTk4ZWQtMWVkYmZmYmU0NjQz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-25",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 166800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB BG 5008-8707",
+      "value_date": "2023-07-25",
+      "booking_date": "2023-07-25",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "53ece15b02a0583836010f3c471f776a",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB BG 5008-8707"
+      },
+      "bank_transaction_id": "MDEzNDQxYTAtMGM2MC00OWU1LWE4N2QtNjAyMGE3ODMzMmVk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-21",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 630000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-07-21",
+      "booking_date": "2023-07-21",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b040f6f4915966a3de11d6e2658220b2",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "YjMwN2NiMmUtY2ZiOC00N2YxLTllYjQtOWM4ZWQ4ZWJhNTI0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-19",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 44500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TVETA ATERVINNINGSANLE",
+      "value_date": "2023-07-18",
+      "booking_date": "2023-07-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "3c76ee9bd3240d1c20c00b96495afd29",
+      "bank_references": {
+        "unstructured": "TVETA ATERVINNINGSANLE"
+      },
+      "bank_transaction_id": "ZWMzNGVjZTYtNDdmZS00MzBmLWJiNjctMGUxNGY1YjIwNGU2",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-14",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 17100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "KJELL & CO 102",
+      "value_date": "2023-07-13",
+      "booking_date": "2023-07-14",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "ab23d5929d5c4949604f51b85d552f59",
+      "bank_references": {
+        "unstructured": "KJELL & CO 102"
+      },
+      "bank_transaction_id": "MTZhMTNmYTQtZTA1MS00OTk3LTkzMjYtMDFiNWI2M2E2ODhl",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-12",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 12900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BYGMA TROLLBECKEN YRKE",
+      "value_date": "2023-07-11",
+      "booking_date": "2023-07-12",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "7ea85a75be60a7cd5eb5b5c46b77703f",
+      "bank_references": {
+        "unstructured": "BYGMA TROLLBECKEN YRKE"
+      },
+      "bank_transaction_id": "MDE0ZDlmNzUtZTNiNC00Y2JmLWFjNzYtOWVkODcyNmZiYTNk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-12",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 33890,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "BILTEMA MORABERG 165",
+      "value_date": "2023-07-11",
+      "booking_date": "2023-07-12",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "065b269cb457910e3c60c196696c4ce9",
+      "bank_references": {
+        "unstructured": "BILTEMA MORABERG 165"
+      },
+      "bank_transaction_id": "ODYxMWU0YmMtYWViOS00YzZlLWI5ZTUtMTFjNjI1MDY5NGE0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-11",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 873700,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-07-11",
+      "booking_date": "2023-07-11",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "28aef2155b7cfb1f6f88401531f13f6e",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "MWNmNzc0YjctMDQzZC00NzA1LWJlYTUtY2MzMWJjZjI0YmU0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-07",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 4500000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "RIDDERMARK SLAG",
+      "value_date": "2023-07-06",
+      "booking_date": "2023-07-07",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "12f8b72011e83914c5e39fb89d9b7230",
+      "bank_references": {
+        "unstructured": "RIDDERMARK SLAG"
+      },
+      "bank_transaction_id": "NDQ4ZWEyOWYtOWZhYS00NWVjLWJiY2YtMmZkY2I4MmVkYTIx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 21800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA BANK AB PG 4168101-6",
+      "value_date": "2023-07-06",
+      "booking_date": "2023-07-06",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "46b034a6621097f6bba4917b73e09588",
+      "bank_references": {
+        "unstructured": "SVEA BANK AB PG 4168101-6"
+      },
+      "bank_transaction_id": "NTg2NjBjNTctMzk2OC00Y2U3LWI5ODItNGY0NGQxYmQ3NTk4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 6200,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SVEA INKASSO AKTIEBOLAG PG 4866603-6",
+      "value_date": "2023-07-06",
+      "booking_date": "2023-07-06",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "239574cb9fba9dd94e52cd0a2f1a59a9",
+      "bank_references": {
+        "unstructured": "SVEA INKASSO AKTIEBOLAG PG 4866603-6"
+      },
+      "bank_transaction_id": "N2U1MGViMDAtYjk3Ni00MWU4LTlkMDQtYjg2YWIxYTRlZDIz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-03",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2109000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-07-03",
+      "booking_date": "2023-07-03",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1a3c1becda1d63c43db842ad308ec026",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "M2YwMWMxOWMtOGU2ZS00Zjg0LWJmNDUtYmJhYmIyOWViOTAw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-07-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-06-30",
+      "booking_date": "2023-07-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "4691c7c20e9d134daf7a230dc2f325ac",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "M2I2ZTExY2EtNGFlZi00NGViLTkyMWQtNjg0NzI2MDA0M2Uy",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-30",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 271300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "OK-Q8 BANK AB BG 5008-8707",
+      "value_date": "2023-06-30",
+      "booking_date": "2023-06-30",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b60ffb92985b399fa08f9f0c0042b2b8",
+      "bank_references": {
+        "unstructured": "OK-Q8 BANK AB BG 5008-8707"
+      },
+      "bank_transaction_id": "ZTgwY2IzM2YtNmE1My00ZTRiLTljZjctNzJjOWExZjljNThh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-30",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 44500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TVETA ATERVINNINGSANLE",
+      "value_date": "2023-06-29",
+      "booking_date": "2023-06-30",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "9af6544e2c02f3a4928dcb51f1546097",
+      "bank_references": {
+        "unstructured": "TVETA ATERVINNINGSANLE"
+      },
+      "bank_transaction_id": "NTIxZjlhYmEtNjg0ZC00YjE1LTgwMTQtNjBhN2RmZjJiMDI1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-30",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 22900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SHELL SÖDERTÄLJ",
+      "value_date": "2023-06-29",
+      "booking_date": "2023-06-30",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "87d3d108789c37a6d28221caa5aa36ea",
+      "bank_references": {
+        "unstructured": "SHELL SÖDERTÄLJ"
+      },
+      "bank_transaction_id": "OGU5YzJjNzktY2RhMC00MDYxLTgwNzQtODQ0OTkzNjBjMzIw",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 145000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKATTEVERKET",
+      "value_date": "2023-06-28",
+      "booking_date": "2023-06-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d8dadcda9696a2cde77accdcb648db4b",
+      "bank_references": {
+        "unstructured": "SKATTEVERKET"
+      },
+      "bank_transaction_id": "ZGJkNDA1ZWQtZDkzNS00MmEwLWJlZTEtODhmODJiM2NkNzZi",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 294400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AHLSELL SVERIGE AB",
+      "value_date": "2023-06-28",
+      "booking_date": "2023-06-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d096fc9a57caa81f50d5a88a27b80dda",
+      "bank_references": {
+        "unstructured": "AHLSELL SVERIGE AB"
+      },
+      "bank_transaction_id": "NzFiMWI1YTQtZWQ5OC00NDYyLWE2MzgtZmI1NjU3NTY5Mzgx",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 86900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Fortnox Lagerbolag AB BG 5657-0773",
+      "value_date": "2023-06-28",
+      "booking_date": "2023-06-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "b63c1858f82b05325bed39310c53009b",
+      "bank_references": {
+        "unstructured": "Fortnox Lagerbolag AB BG 5657-0773"
+      },
+      "bank_transaction_id": "MDQzYjRlMGQtYzQwNy00MThkLTlmMjItNWIzMWIxZGZkMmVk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 112300,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Beijer Byggmaterial AB, 097 BG 675-2943",
+      "value_date": "2023-06-28",
+      "booking_date": "2023-06-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e0c2481b4b4f7cd70cbab28077614fb4",
+      "bank_references": {
+        "unstructured": "Beijer Byggmaterial AB, 097 BG 675-2943"
+      },
+      "bank_transaction_id": "NmRjOTU2NWMtNmZiNy00OGE3LTlkZDktYTk3MTdhOGZiOWU0",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-28",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 41800,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Riverty Sweden AB BG 5022-6661",
+      "value_date": "2023-06-28",
+      "booking_date": "2023-06-28",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "611ce8be2277282a850dbb85262ee600",
+      "bank_references": {
+        "unstructured": "Riverty Sweden AB BG 5022-6661"
+      },
+      "bank_transaction_id": "MDI2MjQ5NGItYmE0OS00ODE3LWJhZjItZjZlMWU0MmVhYjNh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-20",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 900000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-06-20",
+      "booking_date": "2023-06-20",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "6fc96161e54b51b3a333ee30ec7aabfc",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "NDdlOTA5NzItNjJmMC00MzFjLTk5OGMtNWYyN2E3OWQwZGY1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-19",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 3216400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-06-19",
+      "booking_date": "2023-06-19",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "713d0a13210d9b24c4cdb30f7ff36ba7",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "OTA3NmM5OWYtMmNiOC00YTY0LWI2ZjgtNjEyYzU2YzViYzUz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-14",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 1200000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Insättning Bankgirot Transaktioner SEK",
+      "value_date": "2023-06-14",
+      "booking_date": "2023-06-14",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d711cf9f6ff1cac8c26deaa8f533b3c3",
+      "bank_references": {
+        "unstructured": "Insättning Bankgirot Transaktioner SEK"
+      },
+      "bank_transaction_id": "OWY2YzI3ZWEtMTg5OC00OGRlLTliOTctMDY0YjVjMjExNzlh",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-06-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-05-31",
+      "booking_date": "2023-06-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "81c25fed8ccdcad5cf3cd1b3e0b0daec",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "MGE4MTVmYzctOGU0Zi00M2QwLTlhYjctYWFlMzJiMzc1YTg4",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-05-10",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 709400,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Avgift fortnox faktura 26322",
+      "value_date": "2023-05-10",
+      "booking_date": "2023-05-10",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e67db280cf89d9b09278a4c787e25b5e",
+      "bank_references": {
+        "unstructured": "Avgift fortnox faktura 26322"
+      },
+      "bank_transaction_id": "N2E3YWMzNDAtNjY2OS00YTZhLWI2OGMtOTEwMmVmMjU3YWI1",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-05-10",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 150000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Avgift Bankintyg",
+      "value_date": "2023-05-10",
+      "booking_date": "2023-05-10",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "1b746098aa5bd9fbdc77577772456803",
+      "bank_references": {
+        "unstructured": "Avgift Bankintyg"
+      },
+      "bank_transaction_id": "MjhhMjY1ZTQtNWVjMi00M2ExLWFmZmQtMzA3N2ZmNTY2ZDUz",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-05-08",
+      "type": "CREDIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 2509500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "AKTIEKAPITAL",
+      "value_date": "2023-05-08",
+      "booking_date": "2023-05-08",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "e1ad7f81db64f8de4d986a87e36613a4",
+      "bank_references": {
+        "unstructured": "AKTIEKAPITAL"
+      },
+      "bank_transaction_id": "MDhkMjNmZmQtYzkwNC00ZmUyLTk4MTAtMDBiOTA0YTc5NGVk",
+      "bank_transaction_code": {
+      }
+    },
+    {
+      "date": "2023-05-01",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 9500,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "Månadsavgift Baspaket",
+      "value_date": "2023-04-30",
+      "booking_date": "2023-05-01",
+      "account_number": "SVEA96609959384",
+      "transaction_id": "d5c7fa626b8ef423c2da780118436d74",
+      "bank_references": {
+        "unstructured": "Månadsavgift Baspaket"
+      },
+      "bank_transaction_id": "M2QzOTMzZjYtYzdjNi00ODM5LTlhNTktYTA4ZWJkNzQwZjA3",
+      "bank_transaction_code": {
+      }
+    }
+  ]
+}

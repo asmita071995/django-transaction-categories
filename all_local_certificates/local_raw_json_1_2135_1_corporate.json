@@ -1,0 +1,124 @@
+{
+  "bank": {
+    "bank_code": "500",
+    "bank_name": "SEB",
+    "connection": "PSD2",
+    "country_code": "SE"
+  },
+  "accounts": [
+    {
+      "id": "klarna-account-1",
+      "bic": "ESSESESSXXX",
+      "iban": "SE9350000000052091039667",
+      "alias": "Företagskonto",
+      "balance": 25824118,
+      "currency": "SEK",
+      "bank_code": "5209",
+      "holder_name": "Karl Kreditz",
+      "account_type": "DEFAULT",
+      "bank_address": {
+        "country": "SE"
+      },
+      "capabilities": {
+        "balances": {
+          "available": true
+        },
+        "transfer": {
+          "available": true
+        },
+        "transactions": {
+          "available": true
+        },
+        "account_details": {
+          "available": true
+        }
+      },
+      "transfer_type": "FULL",
+      "account_number": "1039667"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2023-02-27",
+      "type": "CREDIT",
+      "state": "PENDING",
+      "amount": {
+        "amount": 19778900,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKATTEVERKET",
+      "value_date": "2023-02-27",
+      "counter_party": {
+        "holder_name": "SKATTEVERKET",
+        "account_number": "00050501055"
+      },
+      "account_number": "1039667",
+      "bank_references": {
+        "unstructured": "SKATTEVERKET"
+      }
+    },
+    {
+      "date": "2023-02-24",
+      "type": "CREDIT",
+      "state": "PENDING",
+      "amount": {
+        "amount": 36100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "TELENOR SVERIGE AB",
+      "value_date": "2023-02-24",
+      "counter_party": {
+        "holder_name": "TELENOR SVERIGE AB",
+        "account_number": "00053311338"
+      },
+      "account_number": "1039667",
+      "bank_references": {
+        "unstructured": "TELENOR SVERIGE AB"
+      }
+    },
+    {
+      "date": "2023-02-13",
+      "type": "CREDIT",
+      "state": "PENDING",
+      "amount": {
+        "amount": 2176100,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "SKATTEVERKET",
+      "value_date": "2023-02-13",
+      "counter_party": {
+        "holder_name": "SKATTEVERKET",
+        "account_number": "00050501055"
+      },
+      "account_number": "1039667",
+      "bank_references": {
+        "unstructured": "SKATTEVERKET"
+      }
+    },
+    {
+      "date": "2023-02-06",
+      "type": "DEBIT",
+      "state": "PROCESSED",
+      "amount": {
+        "amount": 108000,
+        "currency": "SEK"
+      },
+      "method": "UNKNOWN",
+      "reference": "PA INVEST AB",
+      "value_date": "2023-02-05",
+      "booking_date": "2023-02-06",
+      "account_number": "1039667",
+      "transaction_id": "58169f76ba7e7c80056fc9b4917a53ce",
+      "bank_references": {
+        "unstructured": "PA INVEST AB"
+      },
+      "bank_transaction_code": {
+        "code": "181",
+        "description": "Transfer"
+      }
+    }
+  ]
+}

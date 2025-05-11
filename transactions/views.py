@@ -1,15 +1,16 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
-from django.http import HttpResponse
-from .forms import SignUpForm
-from .models import UserProfile
 from django.contrib.auth.models import User
+from django.contrib import messages
+from .forms import SignUpForm, UserJsonUploadForm
+from .models import UserProfile
+
 
 def home(request):
     return render(request, 'transactions/home.html')
 
 
-
+# Login View
 def user_login(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -18,42 +19,35 @@ def user_login(request):
 
         if user is not None:
             login(request, user)
-            return redirect('home')  # replace with your actual home URL name
+            return redirect('upload')  # Ensure 'upload' is defined in urls.py
         else:
-            return render(request, 'transactions/login.html', {'error': 'Invalid credentials'})
+            messages.error(request, 'Invalid credentials')
+            return render(request, 'transactions/login.html')
 
     return render(request, 'transactions/login.html')
 
 
+# Signup View
 def signup(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
-            user = User.objects.create_user(
-                username=form.cleaned_data['username'],
-                email=form.cleaned_data['email'],
-                password=form.cleaned_data['password']
-            )
-            UserProfile.objects.create(
-                user=user,
-                mobile=form.cleaned_data['mobile'],
-                city=form.cleaned_data['city']
-            )
-            return redirect('login')  # or whatever your login URL name is
+            form.save()
+            messages.success(request, 'Successfully registered!')
+            form = SignUpForm()  # Clear form after success
     else:
-        form = SignUpForm()  # ✅ This line is essential
-
+        form = SignUpForm()
     return render(request, 'transactions/signup.html', {'form': form})
 
-    
-def signup_view(request):
+
+# Upload JSON Data View
+def upload_user_data(request):
     if request.method == 'POST':
-        form = YourSignUpForm(request.POST)
+        form = UserJsonUploadForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            messages.success(request, 'You have successfully registered!')
-            return redirect('login')  # or redirect back to the same page
+            messages.success(request, 'Data submitted successfully!')
+            return redirect('login')
     else:
-        form = YourSignUpForm()
-    return render(request, 'signup.html', {'form': form})
-
+        form = UserJsonUploadForm()
+    return render(request, 'transactions/upload_form.html', {'form': form})

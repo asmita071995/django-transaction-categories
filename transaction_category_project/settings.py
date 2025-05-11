@@ -59,6 +59,8 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                
+                'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -73,18 +75,33 @@ WSGI_APPLICATION = 'transaction_category_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-
 DATABASES = {
     'default': {
-       'ENGINE': 'mysql.connector.django',
-
+        'ENGINE': 'mysql.connector.django',
         'NAME': 'transaction_category',
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': 'localhost',  # or your DB host
-        'PORT': '3306',       # Default MySQL port
+        'HOST': 'localhost',
+        'PORT': '3306',
+    },
+    'second': {
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'certificet_db',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
+
+
+DATABASE_ROUTERS = ['transaction_category_project.db_router.CertificateRouter']
+
+
+
+
+
+
 
 
 

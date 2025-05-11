@@ -1,0 +1,2041 @@
+{
+  "age": 143,
+  "user": {
+    "id": "9aa27b8f3d8bd4baf34b8de8be67b137",
+    "created": 1708931548,
+    "profile": {
+      "name": "JESPER LINDSTRÖM",
+      "locale": "sv_SE",
+      "market": "SE",
+      "currency": "SEK"
+    }
+  },
+  "loan_type": null,
+  "transactions": {
+    "results": [
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "4fa0183de7f1b9c3bc637021479a5ad0",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1950,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "7de06c7507aabdb272c6eaf99f2a2ab5",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2023-08-25T10:00:00.000+00:00",
+          "originalDate": "2023-08-25T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1950,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "5034ab0473c5c54f6440e87530374113",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -2000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "16d4569e046565b19b0fa15179b9d61b",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2023-08-27T10:00:00.000+00:00",
+          "originalDate": "2023-08-27T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -2000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "6a93063c2acaf61a080d75953e013bdf",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "bef07bba1f4a0391dedeb752f8447bfe",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2023-09-27T10:00:00.000+00:00",
+          "originalDate": "2023-09-27T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "1e0a6cdb7f638909303e39f9a9bb8bb3",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1950,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "329c9e8688a6ce17335e32f7d240805c",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2023-09-27T10:00:00.000+00:00",
+          "originalDate": "2023-09-27T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1950,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "dfedc909b00bc5698e8b874558bbc05f",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "079c34b1b7aee263dc022f56d4abab03",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2023-10-25T10:00:00.000+00:00",
+          "originalDate": "2023-10-25T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "28d51fe53609bf545de088356696fbdb",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "d2c72da753b20c2941a9de9d4f2ae1e3",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2023-10-25T10:00:00.000+00:00",
+          "originalDate": "2023-10-25T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "1f47aa94754ca6cf00367337cd9eed96",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "058b13c3ae954b72ce177ab3f5c08098",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2023-11-27T11:00:00.000+00:00",
+          "originalDate": "2023-11-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "56a2450cbf994242c2f729aabf582dc1",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "02163b94ce41315ad25d1c8cabc77096",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2023-11-27T11:00:00.000+00:00",
+          "originalDate": "2023-11-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "562f3b63db0717834d6257abd54b626d",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "b5480c8c783c51fe03e63ddda0b627b6",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2023-12-22T11:00:00.000+00:00",
+          "originalDate": "2023-12-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "bfbc522ae449d37c059c72e6fde84bc9",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1950,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "a0d0daba3b469ee28248202ca224b735",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2023-12-27T11:00:00.000+00:00",
+          "originalDate": "2023-12-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1950,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "9296c0b3d9ce7be8f3232cdce1fa5338",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1950,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "a719cbcda85c18727b6b13753090745f",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2024-01-25T11:00:00.000+00:00",
+          "originalDate": "2024-01-25T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1950,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "cbf48ae3fbd6d541e05633a408d1a165",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "a3513c786464a14591bc06b4984c5859",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2024-01-26T11:00:00.000+00:00",
+          "originalDate": "2024-01-26T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "558d4417cf5803509989146128251fbe",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -50,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "849a1d4044cc355492ba09a71469d9f4",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-22T11:00:00.000+00:00",
+          "originalDate": "2024-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -50,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "5e306db6be401bb06993ed231afb0bd0",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "5613d673c583bf1d531ff35546f9aea9",
+          "merchantId": "",
+          "description": "84038334133899",
+          "categoryType": null,
+          "lastModified": "2024-02-25T11:00:00.000+00:00",
+          "originalDate": "2024-02-25T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334133899",
+          "formattedDescription": "84038334133899",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "f74acd1953f4c61e89ac19b25012337c",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 1950,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 413 812-0",
+          "timestamp": 1708931548,
+          "categoryId": "51a133e1616aa3a491ebb19e6af113c3",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2024-02-25T11:00:00.000+00:00",
+          "originalDate": "2024-02-25T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 1950,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "294c40974ecdb217b62a7b1d8d53370b",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -200,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "8a928b0dea3634cc65bcb5cb44ba9df8",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2023-08-24T10:00:00.000+00:00",
+          "originalDate": "2023-08-24T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "fb3e52487281213bea4e82a23d11be4f",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -300,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "92d27015ec35fe639f69b601e91fb839",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2023-08-24T10:00:00.000+00:00",
+          "originalDate": "2023-08-24T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -300,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "3d14285be7e4e939bcc8d52983587776",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -900,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "10e09df659270fe274c74cae89e6f987",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2023-09-17T10:00:00.000+00:00",
+          "originalDate": "2023-09-17T10:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -900,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "332524e2f329533858962697aeed0491",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 85.49,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "d451c342efd47e89c5deadb0b04c7cd8",
+          "merchantId": "",
+          "description": "Sparränta",
+          "categoryType": null,
+          "lastModified": "2023-12-31T11:00:00.000+00:00",
+          "originalDate": "2023-12-31T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 85.49,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Sparränta",
+          "formattedDescription": "Sparränta",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "7881cfa1789616f86cdac2fc4ef839a6",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -85,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "db2310b5c6232b04ab2b363aaae80382",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-01-23T11:00:00.000+00:00",
+          "originalDate": "2024-01-23T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -85,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "25257162ad4fb3dba344de0bb3c11645",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 9999.51,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "a3b7463ed9b2b87b844dbcafa96b22a2",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-01-26T11:00:00.000+00:00",
+          "originalDate": "2024-01-26T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 9999.51,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "b4719f9db092061ab332c361d91df66e",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "42ca669201b075ee4709bebba3fc95b1",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-03T11:00:00.000+00:00",
+          "originalDate": "2024-02-03T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "964ed36b3e93483dbe6ce9443dbe5d49",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -500,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "e1f7f77e1350de3be015fc8147277ff0",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-05T11:00:00.000+00:00",
+          "originalDate": "2024-02-05T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -500,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "c90d40a552d5729b36f93d2367f30a43",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "089ecd17340f6804d34f0a534f41a0cd",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-06T11:00:00.000+00:00",
+          "originalDate": "2024-02-06T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "a2246415193b307b57a5e8fc600f3d46",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -200,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "720ed1c6ae17b964b96187181781408a",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-13T11:00:00.000+00:00",
+          "originalDate": "2024-02-13T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "c7630a71bd4db2eb5267bdeb13bd168f",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -500,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "fe7b1743013b15475d3cba3f91fd1dd4",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-14T11:00:00.000+00:00",
+          "originalDate": "2024-02-14T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -500,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "4ff1168258a0778bed6d62e71d47da63",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -400,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "34c4800f374a388ecb3c84ed89bb4364",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-15T11:00:00.000+00:00",
+          "originalDate": "2024-02-15T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -400,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "1e1cc46d5037cbce68f7baf53d00b766",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -200,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "7900f87ae27417c5bee8f0e9458cd759",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-16T11:00:00.000+00:00",
+          "originalDate": "2024-02-16T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "2c872e7d25c3e420eb878e4052464070",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -100,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "a5e42948c804352d5c5ff9198bedb68f",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-16T11:00:00.000+00:00",
+          "originalDate": "2024-02-16T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "313a09e52afbf5318b558d1e949ec042",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -200,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "85dcf3482923f28b9d3ef4a0fd0c17ff",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-16T11:00:00.000+00:00",
+          "originalDate": "2024-02-16T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "f02292bf7e120c98786517cf53873db0",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1100,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "2ad3e158d25f9815c4c4ad0e3c4951ee",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-17T11:00:00.000+00:00",
+          "originalDate": "2024-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "c77b9361f12394f282818daa8edeaf0c",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -100,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "7fe4a96fe0ce20a77b4245b6ccae811b",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-17T11:00:00.000+00:00",
+          "originalDate": "2024-02-17T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -100,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "444b7867fca694c4a769086c05ff40dc",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -1000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "04d71b76db18a80a02c8fbd923807f38",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-18T11:00:00.000+00:00",
+          "originalDate": "2024-02-18T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -1000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "5520fb780436f3b73045bbecb43716e1",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -400,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "431c31783e57df62a777efc1dec17399",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-19T11:00:00.000+00:00",
+          "originalDate": "2024-02-19T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -400,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "4c5d1f730e0390f13013eb75408cb8cb",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -200,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "e476a9d1ba3939a4c59d5e46a3939573",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-21T11:00:00.000+00:00",
+          "originalDate": "2024-02-21T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "83e88d87033471256395dbd7dcdcf52a",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -200,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "19e3238b0d42bcef52298f9674a28907",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-22T11:00:00.000+00:00",
+          "originalDate": "2024-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -200,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "1485d4deb75495e9a89312c8876ee14e",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -754,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "ec32d184292106b6bb694045b1e0704c",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-22T11:00:00.000+00:00",
+          "originalDate": "2024-02-22T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -754,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "9f47eb7d2c948a9e57f51d140ab16f99",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -2146,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 389 574-6",
+          "timestamp": 1708931548,
+          "categoryId": "c75c47da9fef7cc35a10221bac783bcf",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-02-25T11:00:00.000+00:00",
+          "originalDate": "2024-02-25T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -2146,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "3d75122c8f5179c2c25e72495e60f6a2",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -6000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 386 268-8",
+          "timestamp": 1708931548,
+          "categoryId": "91a9235e56b26530008051fcd150b5f9",
+          "merchantId": "",
+          "description": "84038334033511",
+          "categoryType": null,
+          "lastModified": "2023-12-27T11:00:00.000+00:00",
+          "originalDate": "2023-12-27T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -6000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334033511",
+          "formattedDescription": "84038334033511",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "4570678f8d8ff46528778a2b7c80b79a",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 10.73,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 386 268-8",
+          "timestamp": 1708931548,
+          "categoryId": "d857290a7086d342f8327d3c6b1ba2ab",
+          "merchantId": "",
+          "description": "Sparränta",
+          "categoryType": null,
+          "lastModified": "2023-12-31T11:00:00.000+00:00",
+          "originalDate": "2023-12-31T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 10.73,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Sparränta",
+          "formattedDescription": "Sparränta",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "2d4908d7b80ca25d200e644178383b7f",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 3000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 386 268-8",
+          "timestamp": 1708931548,
+          "categoryId": "71067a19cc4ea144f00b934bf4811c74",
+          "merchantId": "",
+          "description": "84038333862670",
+          "categoryType": null,
+          "lastModified": "2024-01-25T11:00:00.000+00:00",
+          "originalDate": "2024-01-25T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 3000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038333862670",
+          "formattedDescription": "84038333862670",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "f108e66c59566a784c9e22bc0310b08c",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 3000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 386 268-8",
+          "timestamp": 1708931548,
+          "categoryId": "a0027f45be1e957a929896f48df5e201",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2024-01-25T11:00:00.000+00:00",
+          "originalDate": "2024-01-25T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 3000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "480c4929b6fa8534604c3382efcf312c",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": -6000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 386 268-8",
+          "timestamp": 1708931548,
+          "categoryId": "ae4856ca64c6deb70c8c6a2a6bc18183",
+          "merchantId": "",
+          "description": "84038334033511",
+          "categoryType": null,
+          "lastModified": "2024-01-26T11:00:00.000+00:00",
+          "originalDate": "2024-01-26T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": -6000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "84038334033511",
+          "formattedDescription": "84038334033511",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      },
+      {
+        "type": "TRANSACTION",
+        "score": 0.0,
+        "timestamp": 1708931548,
+        "transaction": {
+          "id": "4d81ecba5dd33b30bdf2ce0f5f065782",
+          "date": 1708931548,
+          "type": "DEFAULT",
+          "amount": 3000,
+          "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+          "payload": {
+          },
+          "pending": false,
+          "inserted": 1708931548,
+          "upcoming": false,
+          "accountId": "8403-8,33 386 268-8",
+          "timestamp": 1708931548,
+          "categoryId": "d0abf25ab4db4ade2b477e54065a0ce7",
+          "merchantId": "",
+          "description": "Överföring",
+          "categoryType": null,
+          "lastModified": "2024-02-23T11:00:00.000+00:00",
+          "originalDate": "2024-02-23T11:00:00.000+00:00",
+          "userModified": null,
+          "originalAmount": 3000,
+          "partnerPayload": null,
+          "internalPayload": {
+          },
+          "originalDescription": "Överföring",
+          "formattedDescription": "Överföring",
+          "currencyDenominatedAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          },
+          "currencyDenominatedOriginalAmount": {
+            "scale": 0,
+            "currencyCode": "SEK",
+            "unscaledValue": 0
+          }
+        }
+      }
+    ]
+  },
+  "accounts_list": {
+    "accounts": [
+      {
+        "id": "8403-8,33 421 791-6",
+        "name": null,
+        "type": "SAVINGS",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sparbankerna/tink.png",
+          "banner": null
+        },
+        "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+        "balance": 0,
+        "details": null,
+        "payload": null,
+        "refreshed": 1708931548,
+        "holderName": "Jesper Lindström",
+        "certainDate": 1708931548,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "8403-8,33 421 791-6",
+        "availableCredit": 0.0,
+        "financialInstitutionId": null
+      },
+      {
+        "id": "8403-8,33 413 812-0",
+        "name": null,
+        "type": "CHECKING",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sparbankerna/tink.png",
+          "banner": null
+        },
+        "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+        "balance": 50,
+        "details": null,
+        "payload": null,
+        "refreshed": 1708931548,
+        "holderName": "Jesper Lindström",
+        "certainDate": 1708931548,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "8403-8,33 413 812-0",
+        "availableCredit": 0.0,
+        "financialInstitutionId": null
+      },
+      {
+        "id": "8403-8,33 413 389-9",
+        "name": null,
+        "type": "CHECKING",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sparbankerna/tink.png",
+          "banner": null
+        },
+        "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+        "balance": 14229.38,
+        "details": null,
+        "payload": null,
+        "refreshed": 1708931548,
+        "holderName": "Jesper Lindström",
+        "certainDate": 1708931548,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "8403-8,33 413 389-9",
+        "availableCredit": 0.0,
+        "financialInstitutionId": null
+      },
+      {
+        "id": "8403-8,33 389 574-6",
+        "name": null,
+        "type": "SAVINGS",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sparbankerna/tink.png",
+          "banner": null
+        },
+        "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+        "balance": 0,
+        "details": null,
+        "payload": null,
+        "refreshed": 1708931548,
+        "holderName": "Jesper Lindström",
+        "certainDate": 1708931548,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "8403-8,33 389 574-6",
+        "availableCredit": 0.0,
+        "financialInstitutionId": null
+      },
+      {
+        "id": "8403-8,33 386 268-8",
+        "name": null,
+        "type": "SAVINGS",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sparbankerna/tink.png",
+          "banner": null
+        },
+        "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+        "balance": 3024.66,
+        "details": null,
+        "payload": null,
+        "refreshed": 1708931548,
+        "holderName": "Jesper Lindström",
+        "certainDate": 1708931548,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "8403-8,33 386 268-8",
+        "availableCredit": 0.0,
+        "financialInstitutionId": null
+      },
+      {
+        "id": "8403-8,33 386 267-0",
+        "name": null,
+        "type": "CHECKING",
+        "bankId": null,
+        "closed": false,
+        "images": {
+          "icon": "https://cdn.tink.se/sparbankerna/tink.png",
+          "banner": null
+        },
+        "userId": "9aa27b8f3d8bd4baf34b8de8be67b137",
+        "balance": 2058.36,
+        "details": null,
+        "payload": null,
+        "refreshed": 1708931548,
+        "holderName": "Jesper Lindström",
+        "certainDate": 1708931548,
+        "identifiers": "[]",
+        "currencyCode": "SEK",
+        "accountNumber": "8403-8,33 386 267-0",
+        "availableCredit": 0.0,
+        "financialInstitutionId": null
+      }
+    ]
+  },
+  "previous_loans": [
+    {
+      "amount": 22000,
+      "loanId": 137808,
+      "payments": [
+        {
+          "date": "2024-02-23",
+          "interest": 387.15,
+          "principal": 444,
+          "penaltyInterest": 0
+        },
+        {
+          "date": "2024-01-25",
+          "interest": 474.3,
+          "principal": 436,
+          "penaltyInterest": 0
+        }
+      ],
+      "replaced": false
+    }
+  ],
+  "upswitch_request": true,
+  "monthly_loan_cost": null,
+  "customer_identities": {
+    "availableIdentityData": [
+      {
+        "ssn": null,
+        "name": null,
+        "dateOfBirth": null,
+        "providerName": "Sparbankerna"
+      }
+    ]
+  }
+}
