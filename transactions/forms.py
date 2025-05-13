@@ -33,7 +33,7 @@ class UserJsonUploadForm(forms.ModelForm):
 
     class Meta:
         model = UserJsonUpload
-        fields = ['name', 'place', 'dob', 'country', 'mobile']
+        fields = ['name', 'place', 'date_of_birth', 'country', 'mobile']  # ✅ Don't add file_upload here
 
     def save(self, commit=True):
         instance = super().save(commit=False)
@@ -41,11 +41,12 @@ class UserJsonUploadForm(forms.ModelForm):
 
         if uploaded_file:
             try:
+                import json
                 data = json.load(uploaded_file)
                 instance.json_file = data
             except Exception as e:
                 raise forms.ValidationError("Invalid JSON file")
-        
+
         if commit:
             instance.save()
         return instance

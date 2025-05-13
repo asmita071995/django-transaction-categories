@@ -4,6 +4,12 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 from .forms import SignUpForm, UserJsonUploadForm
 from .models import UserProfile
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .serializers import UserJsonUploadSerializer
+from .models import UserJsonUpload
+
 
 
 def home(request):
@@ -50,4 +56,14 @@ def upload_user_data(request):
             return redirect('login')
     else:
         form = UserJsonUploadForm()
+
     return render(request, 'transactions/upload_form.html', {'form': form})
+
+
+class UserJsonUploadAPI(APIView):
+    def post(self, request):
+        serializer = UserJsonUploadSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({'message': 'Data uploaded successfully'}, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

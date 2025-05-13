@@ -18,8 +18,11 @@ class RawTransaction(models.Model):
 class UserJsonUpload(models.Model):
     name = models.CharField(max_length=100)
     place = models.CharField(max_length=100)
-    dob = models.DateField()
+    date_of_birth = models.DateField()
     country = models.CharField(max_length=100)
     mobile = models.CharField(max_length=15)
     uploaded_at = models.DateTimeField(auto_now_add=True)
     json_file = models.JSONField() 
+
+    def __str__(self):
+       return self.name

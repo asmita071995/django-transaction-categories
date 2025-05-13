@@ -8,10 +8,16 @@
 </head>
 <body>
     <h2>Submit Your Info</h2>
+    {% if messages %}
+        {% for message in messages %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+
     <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">Submit</button>
     </form>
 </body>
 </html>

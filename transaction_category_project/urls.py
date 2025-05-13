@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path , include
 from transactions import views
+from transactions.views import UserJsonUploadAPI
+
 
 
 
@@ -25,5 +27,7 @@ urlpatterns = [
     path('login/', views.user_login, name='login'),
     path('signup/', views.signup, name='signup'),
     path('upload/', views.upload_user_data, name='upload'),
+    path('api/upload/', UserJsonUploadAPI.as_view(), name='api_upload'),
+
 
 ]
