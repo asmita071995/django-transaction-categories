@@ -20,9 +20,9 @@ class UserJsonUpload(models.Model):
     place = models.CharField(max_length=100)
     date_of_birth = models.DateField()
     country = models.CharField(max_length=100)
-    mobile = models.CharField(max_length=15)
+    mobile_number = models.CharField(max_length=15)
     uploaded_at = models.DateTimeField(auto_now_add=True)
-    json_file = models.JSONField() 
+    json_data = models.TextField() 
 
     def __str__(self):
        return self.name
